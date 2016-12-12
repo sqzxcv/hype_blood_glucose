@@ -1,21 +1,20 @@
 
+var canvasVideo = false;
+var isIphone = true;
 
-
-function playVideo (hypeDocument) {
+function initPlantCanvas (hypeDocument) {
 	// body...
-
-	// $('#masker').hide();
-
-	var isIphone = navigator.userAgent.toLowerCase().indexOf('iphone') >= 0;
+	
+	isIphone = navigator.userAgent.toLowerCase().indexOf('iphone') >= 0;
 	var ld=vd=0;
 	if(isIphone) {
-		var canvasVideo = new CanvasVideoPlayer({
+		canvasVideo = new CanvasVideoPlayer({
 				videoSelector: '.js-video',
 				canvasSelector: '.js-canvas',
 				hideVideo: true,
 				audio: true,
+				resetOnLastFrame:false,
 			});
-		canvasVideo.play();
 	}else {
 
 		vd = 1;
@@ -25,8 +24,31 @@ function playVideo (hypeDocument) {
 		console.log(htmlcode);
 		$('.video-responsive').append(htmlcode);
 		$('#video').get(0).load();
-
-		$('#video').width(300).height(200).get(0).play();
 	}
+}
 
+function playPlantVideo (hypeDocument) {
+	// body...
+
+	// $('#masker').hide();
+	if (isIphone) {
+
+		canvasVideo.play();
+	}
+	else {
+
+		$('#video').width(375).height(300).get(0).play();
+	}
+}
+
+
+function pausePlantVideo (hypeDocument) {
+	// body...
+	if (isIphone)  {
+		canvasVideo.pause();
+	}
+	else {
+
+		$('#video').width(375).height(300).get(0).pause();
+	}
 }
