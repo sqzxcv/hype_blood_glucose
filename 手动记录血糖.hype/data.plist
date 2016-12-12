@@ -79,7 +79,7 @@
 	<string>
 	&lt;script type="text/javascript" src="${resourcesFolderName}/main.js"&gt;&lt;/script&gt;</string>
 	<key>lastCheckDate</key>
-	<date>2016-12-12T10:06:41Z</date>
+	<date>2016-12-12T10:08:28Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
@@ -162,7 +162,7 @@
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{136, 0}, {1242, 314}}</string>
+											<string>{{136, 0}, {1242, 318}}</string>
 											<key>identifier</key>
 											<string>container 13001</string>
 											<key>isCustomizableViewContainer</key>
@@ -175,7 +175,7 @@
 											<array>
 												<dict>
 													<key>frame</key>
-													<string>{{136, 0}, {1242, 314}}</string>
+													<string>{{136, 0}, {1242, 318}}</string>
 													<key>identifier</key>
 													<string>timelineCustomizableContainer</string>
 													<key>isCustomizableViewContainer</key>
@@ -185,7 +185,7 @@
 										</dict>
 										<dict>
 											<key>frame</key>
-											<string>{{136, 315}, {1242, 643}}</string>
+											<string>{{136, 319}, {1242, 639}}</string>
 											<key>identifier</key>
 											<string>container 3</string>
 											<key>isCustomizableViewContainer</key>
@@ -198,7 +198,7 @@
 											<array>
 												<dict>
 													<key>frame</key>
-													<string>{{136, 315}, {1242, 643}}</string>
+													<string>{{136, 319}, {1242, 639}}</string>
 													<key>identifier</key>
 													<string>sceneEditorCustomizableContainer</string>
 													<key>isCustomizableViewContainer</key>
@@ -373,7 +373,7 @@
 	<key>monotypeProjectID</key>
 	<string>070843ED-997B-4006-AE35-7FD1180D46A9-38806-0002A80BAAA172AC</string>
 	<key>oidCounter</key>
-	<integer>494</integer>
+	<integer>502</integer>
 	<key>resourcesInfo</key>
 	<dict>
 		<key>groups</key>
@@ -2308,7 +2308,7 @@
 							<key>463</key>
 							<real>5.4666666984558105</real>
 							<key>478</key>
-							<real>5.1666665077209473</real>
+							<real>6.5</real>
 							<key>kTimelineDefaultIdentifier</key>
 							<real>0.0</real>
 						</dict>
@@ -2544,7 +2544,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 			<string>47FF3333-ED61-4983-8146-4FF3DEA2C66F-32647-0001A925D3D4184C</string>
 			<key>selectedObjects</key>
 			<array>
-				<string>393</string>
+				<string>490</string>
 			</array>
 			<key>symbol</key>
 			<dict>
@@ -22780,7 +22780,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
 								<key>timingFunctionOid</key>
-								<string>c</string>
+								<string>b</string>
 								<key>type</key>
 								<integer>0</integer>
 								<key>uuid</key>
@@ -22816,7 +22816,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
 								<key>timingFunctionOid</key>
-								<string>c</string>
+								<string>b</string>
 								<key>type</key>
 								<integer>0</integer>
 								<key>uuid</key>
