@@ -79,7 +79,7 @@
 	<string>
 	&lt;script type="text/javascript" src="${resourcesFolderName}/main.js"&gt;&lt;/script&gt;</string>
 	<key>lastCheckDate</key>
-	<date>2016-12-12T10:20:22Z</date>
+	<date>2016-12-12T10:25:22Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
@@ -2341,7 +2341,7 @@
 					<key>rootSymbolControllerOid</key>
 					<string>91</string>
 					<key>scrollViewOffset</key>
-					<string>{3780, 726.3359375}</string>
+					<string>{3047, 901.3359375}</string>
 					<key>userGuides</key>
 					<array>
 						<dict>
@@ -2358,15 +2358,15 @@
 						</dict>
 						<dict>
 							<key>offset</key>
-							<real>275</real>
-							<key>orientation</key>
-							<string>horizontal</string>
-						</dict>
-						<dict>
-							<key>offset</key>
 							<real>188</real>
 							<key>orientation</key>
 							<string>vertical</string>
+						</dict>
+						<dict>
+							<key>offset</key>
+							<real>255</real>
+							<key>orientation</key>
+							<string>horizontal</string>
 						</dict>
 					</array>
 				</dict>
@@ -2538,11 +2538,13 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 	<key>symbols</key>
 	<array>
 		<dict>
+			<key>currentGroupElement</key>
+			<string>395</string>
 			<key>documentIdentifier</key>
 			<string>47FF3333-ED61-4983-8146-4FF3DEA2C66F-32647-0001A925D3D4184C</string>
 			<key>selectedObjects</key>
 			<array>
-				<string>331</string>
+				<string>354</string>
 			</array>
 			<key>symbol</key>
 			<dict>
@@ -8457,7 +8459,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>Top</string>
 							<key>objectValue</key>
-							<string>441.5px</string>
+							<string>451px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8493,7 +8495,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>Left</string>
 							<key>objectValue</key>
-							<string>147px</string>
+							<string>140px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8803,7 +8805,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>Top</string>
 							<key>objectValue</key>
-							<string>130px</string>
+							<string>110px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -24814,6 +24816,6 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 	<key>webAppCapable</key>
 	<integer>0</integer>
 	<key>zoomFactor</key>
-	<real>1.5</real>
+	<real>1.25</real>
 </dict>
 </plist>
