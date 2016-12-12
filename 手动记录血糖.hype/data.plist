@@ -79,7 +79,7 @@
 	<string>
 	&lt;script type="text/javascript" src="${resourcesFolderName}/main.js"&gt;&lt;/script&gt;</string>
 	<key>lastCheckDate</key>
-	<date>2016-12-12T10:08:28Z</date>
+	<date>2016-12-12T10:20:22Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
@@ -162,7 +162,7 @@
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{136, 0}, {1242, 318}}</string>
+											<string>{{136, 0}, {1242, 331.6640625}}</string>
 											<key>identifier</key>
 											<string>container 13001</string>
 											<key>isCustomizableViewContainer</key>
@@ -175,7 +175,7 @@
 											<array>
 												<dict>
 													<key>frame</key>
-													<string>{{136, 0}, {1242, 318}}</string>
+													<string>{{136, 0}, {1242, 331.6640625}}</string>
 													<key>identifier</key>
 													<string>timelineCustomizableContainer</string>
 													<key>isCustomizableViewContainer</key>
@@ -185,7 +185,7 @@
 										</dict>
 										<dict>
 											<key>frame</key>
-											<string>{{136, 319}, {1242, 639}}</string>
+											<string>{{136, 332.6640625}, {1242, 625.3359375}}</string>
 											<key>identifier</key>
 											<string>container 3</string>
 											<key>isCustomizableViewContainer</key>
@@ -198,7 +198,7 @@
 											<array>
 												<dict>
 													<key>frame</key>
-													<string>{{136, 319}, {1242, 639}}</string>
+													<string>{{136, 332.6640625}, {1242, 625.3359375}}</string>
 													<key>identifier</key>
 													<string>sceneEditorCustomizableContainer</string>
 													<key>isCustomizableViewContainer</key>
@@ -2308,7 +2308,7 @@
 							<key>463</key>
 							<real>5.4666666984558105</real>
 							<key>478</key>
-							<real>6.5</real>
+							<real>6</real>
 							<key>kTimelineDefaultIdentifier</key>
 							<real>0.0</real>
 						</dict>
@@ -2341,7 +2341,7 @@
 					<key>rootSymbolControllerOid</key>
 					<string>91</string>
 					<key>scrollViewOffset</key>
-					<string>{5263, 1122}</string>
+					<string>{3780, 726.3359375}</string>
 					<key>userGuides</key>
 					<array>
 						<dict>
@@ -2358,15 +2358,15 @@
 						</dict>
 						<dict>
 							<key>offset</key>
-							<real>195</real>
-							<key>orientation</key>
-							<string>vertical</string>
-						</dict>
-						<dict>
-							<key>offset</key>
 							<real>275</real>
 							<key>orientation</key>
 							<string>horizontal</string>
+						</dict>
+						<dict>
+							<key>offset</key>
+							<real>188</real>
+							<key>orientation</key>
+							<string>vertical</string>
 						</dict>
 					</array>
 				</dict>
@@ -2538,13 +2538,11 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 	<key>symbols</key>
 	<array>
 		<dict>
-			<key>currentGroupElement</key>
-			<string>391</string>
 			<key>documentIdentifier</key>
 			<string>47FF3333-ED61-4983-8146-4FF3DEA2C66F-32647-0001A925D3D4184C</string>
 			<key>selectedObjects</key>
 			<array>
-				<string>490</string>
+				<string>331</string>
 			</array>
 			<key>symbol</key>
 			<dict>
@@ -8318,7 +8316,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>Top</string>
 							<key>objectValue</key>
-							<string>105px</string>
+							<string>107px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8354,7 +8352,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>Left</string>
 							<key>objectValue</key>
-							<string>70px</string>
+							<string>67px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8602,7 +8600,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>Top</string>
 							<key>objectValue</key>
-							<string>-4px</string>
+							<string>-29px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8638,7 +8636,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>Left</string>
 							<key>objectValue</key>
-							<string>113px</string>
+							<string>114px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8650,7 +8648,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>TransformOriginYOffset</string>
 							<key>objectValue</key>
-							<string>237%</string>
+							<string>276%</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8686,7 +8684,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>TransformOriginXOffset</string>
 							<key>objectValue</key>
-							<string>51%</string>
+							<string>49%</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8753,7 +8751,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>Left</string>
 							<key>objectValue</key>
-							<string>50px</string>
+							<string>43px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8906,6 +8904,12 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
+							<string>SizeRatio</string>
+							<key>objectValue</key>
+							<string>1</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
 							<string>BorderColorBottom</string>
 							<key>objectValue</key>
 							<string>#D8DDE4</string>
@@ -8932,7 +8936,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>Height</string>
 							<key>objectValue</key>
-							<string>162px</string>
+							<string>188px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8956,7 +8960,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>Top</string>
 							<key>objectValue</key>
-							<string>65px</string>
+							<string>50px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8975,6 +8979,12 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 							<string>BorderStyleBottom</string>
 							<key>objectValue</key>
 							<string>Solid</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ConstrainProportions</string>
+							<key>objectValue</key>
+							<string>YES</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8998,7 +9008,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>Width</string>
 							<key>objectValue</key>
-							<string>162px</string>
+							<string>188px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -9016,7 +9026,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>Left</string>
 							<key>objectValue</key>
-							<string>64px</string>
+							<string>50px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -9109,7 +9119,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>Top</string>
 							<key>objectValue</key>
-							<string>0.5px</string>
+							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -9145,7 +9155,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>Left</string>
 							<key>objectValue</key>
-							<string>-0.5px</string>
+							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10509,7 +10519,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>Top</string>
 							<key>objectValue</key>
-							<string>23px</string>
+							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10533,7 +10543,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>Height</string>
 							<key>objectValue</key>
-							<string>247px</string>
+							<string>290px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10545,7 +10555,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>Left</string>
 							<key>objectValue</key>
-							<string>22px</string>
+							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10563,7 +10573,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>Width</string>
 							<key>objectValue</key>
-							<string>247px</string>
+							<string>290px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10791,7 +10801,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>Top</string>
 							<key>objectValue</key>
-							<string>201px</string>
+							<string>214px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10839,7 +10849,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>TransformOriginYOffset</string>
 							<key>objectValue</key>
-							<string>-317%</string>
+							<string>-383%</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -24804,6 +24814,6 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 	<key>webAppCapable</key>
 	<integer>0</integer>
 	<key>zoomFactor</key>
-	<real>2</real>
+	<real>1.5</real>
 </dict>
 </plist>
