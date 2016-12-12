@@ -78,7 +78,7 @@
 	<string>
 	&lt;script type="text/javascript" src="${resourcesFolderName}/main.js"&gt;&lt;/script&gt;</string>
 	<key>lastCheckDate</key>
-	<date>2016-12-12T07:12:24Z</date>
+	<date>2016-12-12T07:56:00Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
@@ -372,7 +372,7 @@
 	<key>monotypeProjectID</key>
 	<string>070843ED-997B-4006-AE35-7FD1180D46A9-38806-0002A80BAAA172AC</string>
 	<key>oidCounter</key>
-	<integer>486</integer>
+	<integer>488</integer>
 	<key>resourcesInfo</key>
 	<dict>
 		<key>groups</key>
@@ -562,32 +562,6 @@
 				<key>expanded</key>
 				<true/>
 				<key>name</key>
-				<string>Combined Shape</string>
-				<key>oid</key>
-				<string>388</string>
-				<key>resources</key>
-				<array>
-					<string>Combined Shape.png</string>
-					<string>Combined Shape@2x.png</string>
-				</array>
-			</dict>
-			<dict>
-				<key>expanded</key>
-				<true/>
-				<key>name</key>
-				<string>Group</string>
-				<key>oid</key>
-				<string>385</string>
-				<key>resources</key>
-				<array>
-					<string>Group.png</string>
-					<string>Group@2x.png</string>
-				</array>
-			</dict>
-			<dict>
-				<key>expanded</key>
-				<true/>
-				<key>name</key>
 				<string>提交</string>
 				<key>oid</key>
 				<string>353</string>
@@ -666,7 +640,6 @@
 				<key>resources</key>
 				<array>
 					<string>light.gif</string>
-					<string>touchMove.js</string>
 				</array>
 			</dict>
 			<dict>
@@ -740,6 +713,18 @@
 				<key>resources</key>
 				<array>
 					<string>plantVideo.mp4</string>
+				</array>
+			</dict>
+			<dict>
+				<key>expanded</key>
+				<true/>
+				<key>name</key>
+				<string>compassPanl</string>
+				<key>oid</key>
+				<string>487</string>
+				<key>resources</key>
+				<array>
+					<string>compassPanl@2x.png</string>
 				</array>
 			</dict>
 		</array>
@@ -1388,212 +1373,6 @@
 			</dict>
 			<dict>
 				<key>fileModificationDate</key>
-				<date>2016-12-01T04:08:28Z</date>
-				<key>fileSize</key>
-				<integer>4966</integer>
-				<key>md5</key>
-				<string>D8B041835F307E8517BD3ADF7C3E4751</string>
-				<key>notifyOnBookmarkChange</key>
-				<true/>
-				<key>originalPath</key>
-				<string>/Users/shengqiang/Desktop/TODO/手动输入血糖记录/Combined Shape.png</string>
-				<key>resourceName</key>
-				<string>Combined Shape.png</string>
-				<key>securityScopedBookmark</key>
-				<data>
-				Ym9vayADAAAAAAQQMAAAAGQtdNksrwU/Q5JLzy/1qBJy
-				1lXZK+Aeo8ywrlP6rvTIHAIAAAQAAAADAwAAAAkAKAUA
-				AAABAQAAVXNlcnMAAAAKAAAAAQEAAHNoZW5ncWlhbmcA
-				AAcAAAABAQAARGVza3RvcAAEAAAAAQEAAFRPRE8YAAAA
-				AQEAAOaJi+WKqOi+k+WFpeihgOezluiusOW9lRIAAAAB
-				AQAAQ29tYmluZWQgU2hhcGUucG5nAAAYAAAAAQYAABAA
-				AAAgAAAANAAAAEQAAABQAAAAcAAAAAgAAAAEAwAAhnoX
-				AAAAAAAIAAAABAMAAJZ6FwAAAAAACAAAAAQDAAChhxkA
-				AAAAAAgAAAAEAwAAfogZAAAAAAAIAAAABAMAALXjVwEA
-				AAAACAAAAAQDAADb22UBAAAAABgAAAABBgAArAAAALwA
-				AADMAAAA3AAAAOwAAAD8AAAACAAAAAAEAABBve/ZvAAA
-				ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAA
-				CAAAAAQDAAAEAAAAAAAAAAQAAAADAwAA9QEAAAgAAAAB
-				CQAAZmlsZTovLy8MAAAAAQEAAE1hY2ludG9zaCBIRAgA
-				AAAEAwAAAAAAMnQAAAAIAAAAAAQAAEG63ajMAAAAJAAA
-				AAEBAAA5N0Y1MzBBNy04QzZDLTMwNEMtQUY1Qi04QTNE
-				NzI5QURGODUYAAAAAQIAAIEAAAABAAAA7xMAAAEAAAAA
-				AAAAAAAAAAEAAAABAQAALwAAAAAAAAABBQAAzAAAAP7/
-				//8BAAAAAAAAABAAAAAEEAAAjAAAAAAAAAAFEAAADAEA
-				AAAAAAAQEAAAPAEAAAAAAABAEAAALAEAAAAAAAACIAAA
-				CAIAAAAAAAAFIAAAeAEAAAAAAAAQIAAAiAEAAAAAAAAR
-				IAAAvAEAAAAAAAASIAAAnAEAAAAAAAATIAAArAEAAAAA
-				AAAgIAAA6AEAAAAAAAAwIAAAFAIAAAAAAAABwAAAXAEA
-				AAAAAAARwAAAIAAAAAAAAAASwAAAbAEAAAAAAAAQ0AAA
-				BAAAAAAAAAA=
-				</data>
-				<key>shouldAutoResize</key>
-				<true/>
-				<key>shouldIncludeInDocumentHeadHTML</key>
-				<false/>
-				<key>shouldPreload</key>
-				<true/>
-				<key>shouldRemoveWhenNoLongerReferenced</key>
-				<true/>
-				<key>type</key>
-				<string>FileResource</string>
-			</dict>
-			<dict>
-				<key>fileModificationDate</key>
-				<date>2016-12-01T04:08:28Z</date>
-				<key>fileSize</key>
-				<integer>11220</integer>
-				<key>md5</key>
-				<string>E6A447292236A7D65818AFC0F5115B72</string>
-				<key>notifyOnBookmarkChange</key>
-				<true/>
-				<key>originalPath</key>
-				<string>/Users/shengqiang/Desktop/TODO/手动输入血糖记录/Combined Shape@2x.png</string>
-				<key>resourceName</key>
-				<string>Combined Shape@2x.png</string>
-				<key>securityScopedBookmark</key>
-				<data>
-				Ym9vayQDAAAAAAQQMAAAALrt08iLtJsgnGrPH4NFmJvx
-				0qhcwl+8D6BqP2pE1jZhIAIAAAQAAAADAwAAAAkAKAUA
-				AAABAQAAVXNlcnMAAAAKAAAAAQEAAHNoZW5ncWlhbmcA
-				AAcAAAABAQAARGVza3RvcAAEAAAAAQEAAFRPRE8YAAAA
-				AQEAAOaJi+WKqOi+k+WFpeihgOezluiusOW9lRUAAAAB
-				AQAAQ29tYmluZWQgU2hhcGVAMngucG5nAAAAGAAAAAEG
-				AAAQAAAAIAAAADQAAABEAAAAUAAAAHAAAAAIAAAABAMA
-				AIZ6FwAAAAAACAAAAAQDAACWehcAAAAAAAgAAAAEAwAA
-				oYcZAAAAAAAIAAAABAMAAH6IGQAAAAAACAAAAAQDAAC1
-				41cBAAAAAAgAAAAEAwAA3NtlAQAAAAAYAAAAAQYAALAA
-				AADAAAAA0AAAAOAAAADwAAAAAAEAAAgAAAAABAAAQb3v
-				2bwAAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAAAAAA
-				AAAAAAgAAAAEAwAABAAAAAAAAAAEAAAAAwMAAPUBAAAI
-				AAAAAQkAAGZpbGU6Ly8vDAAAAAEBAABNYWNpbnRvc2gg
-				SEQIAAAABAMAAAAAADJ0AAAACAAAAAAEAABBut2ozAAA
-				ACQAAAABAQAAOTdGNTMwQTctOEM2Qy0zMDRDLUFGNUIt
-				OEEzRDcyOUFERjg1GAAAAAECAACBAAAAAQAAAO8TAAAB
-				AAAAAAAAAAAAAAABAAAAAQEAAC8AAAAAAAAAAQUAAMwA
-				AAD+////AQAAAAAAAAAQAAAABBAAAJAAAAAAAAAABRAA
-				ABABAAAAAAAAEBAAAEABAAAAAAAAQBAAADABAAAAAAAA
-				AiAAAAwCAAAAAAAABSAAAHwBAAAAAAAAECAAAIwBAAAA
-				AAAAESAAAMABAAAAAAAAEiAAAKABAAAAAAAAEyAAALAB
-				AAAAAAAAICAAAOwBAAAAAAAAMCAAABgCAAAAAAAAAcAA
-				AGABAAAAAAAAEcAAACAAAAAAAAAAEsAAAHABAAAAAAAA
-				ENAAAAQAAAAAAAAA
-				</data>
-				<key>shouldAutoResize</key>
-				<true/>
-				<key>shouldIncludeInDocumentHeadHTML</key>
-				<false/>
-				<key>shouldPreload</key>
-				<true/>
-				<key>shouldRemoveWhenNoLongerReferenced</key>
-				<true/>
-				<key>type</key>
-				<string>FileResource</string>
-			</dict>
-			<dict>
-				<key>fileModificationDate</key>
-				<date>2016-12-01T04:08:04Z</date>
-				<key>fileSize</key>
-				<integer>16815</integer>
-				<key>md5</key>
-				<string>DAC83B28BBB56E90B61B8EFF573B8C74</string>
-				<key>notifyOnBookmarkChange</key>
-				<true/>
-				<key>originalPath</key>
-				<string>/Users/shengqiang/Desktop/TODO/手动输入血糖记录/Group.png</string>
-				<key>resourceName</key>
-				<string>Group.png</string>
-				<key>securityScopedBookmark</key>
-				<data>
-				Ym9vaxgDAAAAAAQQMAAAAFn9zjTvKM4BUDuZhbYhucSI
-				lBmjc2P5SFURKco0/0ORFAIAAAQAAAADAwAAAAkAKAUA
-				AAABAQAAVXNlcnMAAAAKAAAAAQEAAHNoZW5ncWlhbmcA
-				AAcAAAABAQAARGVza3RvcAAEAAAAAQEAAFRPRE8YAAAA
-				AQEAAOaJi+WKqOi+k+WFpeihgOezluiusOW9lQkAAAAB
-				AQAAR3JvdXAucG5nAAAAGAAAAAEGAAAQAAAAIAAAADQA
-				AABEAAAAUAAAAHAAAAAIAAAABAMAAIZ6FwAAAAAACAAA
-				AAQDAACWehcAAAAAAAgAAAAEAwAAoYcZAAAAAAAIAAAA
-				BAMAAH6IGQAAAAAACAAAAAQDAAC141cBAAAAAAgAAAAE
-				AwAAr9tlAQAAAAAYAAAAAQYAAKQAAAC0AAAAxAAAANQA
-				AADkAAAA9AAAAAgAAAAABAAAQb3v2aQAAAAYAAAAAQIA
-				AAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAgAAAAEAwAA
-				BAAAAAAAAAAEAAAAAwMAAPUBAAAIAAAAAQkAAGZpbGU6
-				Ly8vDAAAAAEBAABNYWNpbnRvc2ggSEQIAAAABAMAAAAA
-				ADJ0AAAACAAAAAAEAABBut2ozAAAACQAAAABAQAAOTdG
-				NTMwQTctOEM2Qy0zMDRDLUFGNUItOEEzRDcyOUFERjg1
-				GAAAAAECAACBAAAAAQAAAO8TAAABAAAAAAAAAAAAAAAB
-				AAAAAQEAAC8AAAAAAAAAAQUAAMwAAAD+////AQAAAAAA
-				AAAQAAAABBAAAIQAAAAAAAAABRAAAAQBAAAAAAAAEBAA
-				ADQBAAAAAAAAQBAAACQBAAAAAAAAAiAAAAACAAAAAAAA
-				BSAAAHABAAAAAAAAECAAAIABAAAAAAAAESAAALQBAAAA
-				AAAAEiAAAJQBAAAAAAAAEyAAAKQBAAAAAAAAICAAAOAB
-				AAAAAAAAMCAAAAwCAAAAAAAAAcAAAFQBAAAAAAAAEcAA
-				ACAAAAAAAAAAEsAAAGQBAAAAAAAAENAAAAQAAAAAAAAA
-				</data>
-				<key>shouldAutoResize</key>
-				<true/>
-				<key>shouldIncludeInDocumentHeadHTML</key>
-				<false/>
-				<key>shouldPreload</key>
-				<true/>
-				<key>shouldRemoveWhenNoLongerReferenced</key>
-				<true/>
-				<key>type</key>
-				<string>FileResource</string>
-			</dict>
-			<dict>
-				<key>fileModificationDate</key>
-				<date>2016-12-01T04:08:04Z</date>
-				<key>fileSize</key>
-				<integer>43138</integer>
-				<key>md5</key>
-				<string>90CDDD2325BC2BD9592291AA896FCD34</string>
-				<key>notifyOnBookmarkChange</key>
-				<true/>
-				<key>originalPath</key>
-				<string>/Users/shengqiang/Desktop/TODO/手动输入血糖记录/Group@2x.png</string>
-				<key>resourceName</key>
-				<string>Group@2x.png</string>
-				<key>securityScopedBookmark</key>
-				<data>
-				Ym9vaxgDAAAAAAQQMAAAAH9zC86LFq+bzXMmxVEwLcr5
-				Ezr//zpp+r4VPn9Lsl36FAIAAAQAAAADAwAAAAkAKAUA
-				AAABAQAAVXNlcnMAAAAKAAAAAQEAAHNoZW5ncWlhbmcA
-				AAcAAAABAQAARGVza3RvcAAEAAAAAQEAAFRPRE8YAAAA
-				AQEAAOaJi+WKqOi+k+WFpeihgOezluiusOW9lQwAAAAB
-				AQAAR3JvdXBAMngucG5nGAAAAAEGAAAQAAAAIAAAADQA
-				AABEAAAAUAAAAHAAAAAIAAAABAMAAIZ6FwAAAAAACAAA
-				AAQDAACWehcAAAAAAAgAAAAEAwAAoYcZAAAAAAAIAAAA
-				BAMAAH6IGQAAAAAACAAAAAQDAAC141cBAAAAAAgAAAAE
-				AwAArttlAQAAAAAYAAAAAQYAAKQAAAC0AAAAxAAAANQA
-				AADkAAAA9AAAAAgAAAAABAAAQb3v2aQAAAAYAAAAAQIA
-				AAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAgAAAAEAwAA
-				BAAAAAAAAAAEAAAAAwMAAPUBAAAIAAAAAQkAAGZpbGU6
-				Ly8vDAAAAAEBAABNYWNpbnRvc2ggSEQIAAAABAMAAAAA
-				ADJ0AAAACAAAAAAEAABBut2ozAAAACQAAAABAQAAOTdG
-				NTMwQTctOEM2Qy0zMDRDLUFGNUItOEEzRDcyOUFERjg1
-				GAAAAAECAACBAAAAAQAAAO8TAAABAAAAAAAAAAAAAAAB
-				AAAAAQEAAC8AAAAAAAAAAQUAAMwAAAD+////AQAAAAAA
-				AAAQAAAABBAAAIQAAAAAAAAABRAAAAQBAAAAAAAAEBAA
-				ADQBAAAAAAAAQBAAACQBAAAAAAAAAiAAAAACAAAAAAAA
-				BSAAAHABAAAAAAAAECAAAIABAAAAAAAAESAAALQBAAAA
-				AAAAEiAAAJQBAAAAAAAAEyAAAKQBAAAAAAAAICAAAOAB
-				AAAAAAAAMCAAAAwCAAAAAAAAAcAAAFQBAAAAAAAAEcAA
-				ACAAAAAAAAAAEsAAAGQBAAAAAAAAENAAAAQAAAAAAAAA
-				</data>
-				<key>shouldAutoResize</key>
-				<true/>
-				<key>shouldIncludeInDocumentHeadHTML</key>
-				<false/>
-				<key>shouldPreload</key>
-				<true/>
-				<key>shouldRemoveWhenNoLongerReferenced</key>
-				<true/>
-				<key>type</key>
-				<string>FileResource</string>
-			</dict>
-			<dict>
-				<key>fileModificationDate</key>
 				<date>2016-11-30T08:37:35Z</date>
 				<key>fileSize</key>
 				<integer>11485</integer>
@@ -2123,59 +1902,6 @@
 			</dict>
 			<dict>
 				<key>fileModificationDate</key>
-				<date>2016-12-06T05:13:50Z</date>
-				<key>fileSize</key>
-				<integer>1311</integer>
-				<key>md5</key>
-				<string>9E8FE7AC8662949588C83077750816D2</string>
-				<key>notifyOnBookmarkChange</key>
-				<true/>
-				<key>originalPath</key>
-				<string>/Users/shengqiang/Documents/Codes/hype_blood_glucose/javascript/touchMove.js</string>
-				<key>resourceName</key>
-				<string>touchMove.js</string>
-				<key>securityScopedBookmark</key>
-				<data>
-				Ym9va0gDAAAAAAQQMAAAAI3xsy3z9EWPy8DO1mv2Sbb7
-				AwcATn/h3PXj77lrfMq7RAIAAAQAAAADAwAAAAkAKAUA
-				AAABAQAAVXNlcnMAAAAKAAAAAQEAAHNoZW5ncWlhbmcA
-				AAkAAAABAQAARG9jdW1lbnRzAAAABQAAAAEBAABDb2Rl
-				cwAAABIAAAABAQAAaHlwZV9ibG9vZF9nbHVjb3NlAAAK
-				AAAAAQEAAGphdmFzY3JpcHQAAAwAAAABAQAAdG91Y2hN
-				b3ZlLmpzHAAAAAEGAAAQAAAAIAAAADQAAABIAAAAWAAA
-				AHQAAACIAAAACAAAAAQDAACGehcAAAAAAAgAAAAEAwAA
-				lnoXAAAAAAAIAAAABAMAAMeoGQAAAAAACAAAAAQDAAAY
-				rRkAAAAAAAgAAAAEAwAAZH9oAQAAAAAIAAAABAMAADrC
-				aAEAAAAACAAAAAQDAABRwmgBAAAAABwAAAABBgAAwAAA
-				ANAAAADgAAAA8AAAAAABAAAQAQAAIAEAAAgAAAAABAAA
-				Qb32cUAAAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAA
-				AAAAAAAAAAgAAAAEAwAABQAAAAAAAAAEAAAAAwMAAPUB
-				AAAIAAAAAQkAAGZpbGU6Ly8vDAAAAAEBAABNYWNpbnRv
-				c2ggSEQIAAAABAMAAAAAADJ0AAAACAAAAAAEAABBut2o
-				zAAAACQAAAABAQAAOTdGNTMwQTctOEM2Qy0zMDRDLUFG
-				NUItOEEzRDcyOUFERjg1GAAAAAECAACBAAAAAQAAAO8T
-				AAABAAAAAAAAAAAAAAABAAAAAQEAAC8AAAAAAAAAAQUA
-				AMwAAAD+////AQAAAAAAAAAQAAAABBAAAJwAAAAAAAAA
-				BRAAADABAAAAAAAAEBAAAGQBAAAAAAAAQBAAAFQBAAAA
-				AAAAAiAAADACAAAAAAAABSAAAKABAAAAAAAAECAAALAB
-				AAAAAAAAESAAAOQBAAAAAAAAEiAAAMQBAAAAAAAAEyAA
-				ANQBAAAAAAAAICAAABACAAAAAAAAMCAAADwCAAAAAAAA
-				AcAAAIQBAAAAAAAAEcAAACAAAAAAAAAAEsAAAJQBAAAA
-				AAAAENAAAAQAAAAAAAAA
-				</data>
-				<key>shouldAutoResize</key>
-				<true/>
-				<key>shouldIncludeInDocumentHeadHTML</key>
-				<true/>
-				<key>shouldPreload</key>
-				<true/>
-				<key>shouldRemoveWhenNoLongerReferenced</key>
-				<false/>
-				<key>type</key>
-				<string>FileResource</string>
-			</dict>
-			<dict>
-				<key>fileModificationDate</key>
 				<date>2016-12-06T07:06:42Z</date>
 				<key>fileSize</key>
 				<integer>2290</integer>
@@ -2590,6 +2316,111 @@
 				<key>type</key>
 				<string>FileResource</string>
 			</dict>
+			<dict>
+				<key>fileModificationDate</key>
+				<date>2016-12-12T07:48:15Z</date>
+				<key>fileSize</key>
+				<integer>58403</integer>
+				<key>md5</key>
+				<string>C1A0AB58754FB44A1CF4EF9069BF5B57</string>
+				<key>notifyOnBookmarkChange</key>
+				<true/>
+				<key>originalPath</key>
+				<string>/Users/shengqiang/Desktop/TODO/手动输入血糖记录/compassPanl@2x.png</string>
+				<key>resourceName</key>
+				<string>compassPanl@2x.png</string>
+				<key>securityScopedBookmark</key>
+				<data>
+				Ym9vayADAAAAAAQQMAAAALyIKQDqqNEQjdhCY8o/DvEV
+				Q/39ydy21lGgZ8w+EPY0HAIAAAQAAAADAwAAAAkAKAUA
+				AAABAQAAVXNlcnMAAAAKAAAAAQEAAHNoZW5ncWlhbmcA
+				AAcAAAABAQAARGVza3RvcAAEAAAAAQEAAFRPRE8YAAAA
+				AQEAAOaJi+WKqOi+k+WFpeihgOezluiusOW9lRIAAAAB
+				AQAAY29tcGFzc1BhbmxAMngucG5nAAAYAAAAAQYAABAA
+				AAAgAAAANAAAAEQAAABQAAAAcAAAAAgAAAAEAwAAhnoX
+				AAAAAAAIAAAABAMAAJZ6FwAAAAAACAAAAAQDAAChhxkA
+				AAAAAAgAAAAEAwAAfogZAAAAAAAIAAAABAMAALXjVwEA
+				AAAACAAAAAQDAABqQW4BAAAAABgAAAABBgAArAAAALwA
+				AADMAAAA3AAAAOwAAAD8AAAACAAAAAAEAABBvf6NvwAA
+				ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAA
+				CAAAAAQDAAAEAAAAAAAAAAQAAAADAwAA9QEAAAgAAAAB
+				CQAAZmlsZTovLy8MAAAAAQEAAE1hY2ludG9zaCBIRAgA
+				AAAEAwAAAAAAMnQAAAAIAAAAAAQAAEG63ajMAAAAJAAA
+				AAEBAAA5N0Y1MzBBNy04QzZDLTMwNEMtQUY1Qi04QTNE
+				NzI5QURGODUYAAAAAQIAAIEAAAABAAAA7xMAAAEAAAAA
+				AAAAAAAAAAEAAAABAQAALwAAAAAAAAABBQAAzAAAAP7/
+				//8BAAAAAAAAABAAAAAEEAAAjAAAAAAAAAAFEAAADAEA
+				AAAAAAAQEAAAPAEAAAAAAABAEAAALAEAAAAAAAACIAAA
+				CAIAAAAAAAAFIAAAeAEAAAAAAAAQIAAAiAEAAAAAAAAR
+				IAAAvAEAAAAAAAASIAAAnAEAAAAAAAATIAAArAEAAAAA
+				AAAgIAAA6AEAAAAAAAAwIAAAFAIAAAAAAAABwAAAXAEA
+				AAAAAAARwAAAIAAAAAAAAAASwAAAbAEAAAAAAAAQ0AAA
+				BAAAAAAAAAA=
+				</data>
+				<key>shouldAutoResize</key>
+				<true/>
+				<key>shouldIncludeInDocumentHeadHTML</key>
+				<false/>
+				<key>shouldPreload</key>
+				<true/>
+				<key>shouldRemoveWhenNoLongerReferenced</key>
+				<true/>
+				<key>type</key>
+				<string>FileResource</string>
+			</dict>
+			<dict>
+				<key>fileModificationDate</key>
+				<date>2016-12-12T07:54:07Z</date>
+				<key>fileSize</key>
+				<integer>1676</integer>
+				<key>md5</key>
+				<string>C9DA102A71459BEA6474162F103F3BA6</string>
+				<key>notifyOnBookmarkChange</key>
+				<true/>
+				<key>originalPath</key>
+				<string>/Users/shengqiang/Documents/Codes/hype_blood_glucose/javascript/touchMove.js</string>
+				<key>resourceName</key>
+				<string>touchMove.js</string>
+				<key>securityScopedBookmark</key>
+				<data>
+				Ym9va0gDAAAAAAQQMAAAAHZUrqEeBaWg8T4A0eZRV0qv
+				9MpNeXrXSOOJYgRrm/WpRAIAAAQAAAADAwAAAAkAKAUA
+				AAABAQAAVXNlcnMAAAAKAAAAAQEAAHNoZW5ncWlhbmcA
+				AAkAAAABAQAARG9jdW1lbnRzAAAABQAAAAEBAABDb2Rl
+				cwAAABIAAAABAQAAaHlwZV9ibG9vZF9nbHVjb3NlAAAK
+				AAAAAQEAAGphdmFzY3JpcHQAAAwAAAABAQAAdG91Y2hN
+				b3ZlLmpzHAAAAAEGAAAQAAAAIAAAADQAAABIAAAAWAAA
+				AHQAAACIAAAACAAAAAQDAACGehcAAAAAAAgAAAAEAwAA
+				lnoXAAAAAAAIAAAABAMAAMeoGQAAAAAACAAAAAQDAAAY
+				rRkAAAAAAAgAAAAEAwAAcDZtAQAAAAAIAAAABAMAACw4
+				bQEAAAAACAAAAAQDAADURW4BAAAAABwAAAABBgAAwAAA
+				ANAAAADgAAAA8AAAAAABAAAQAQAAIAEAAAgAAAAABAAA
+				Qb36rN4AAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAA
+				AAAAAAAAAAgAAAAEAwAABQAAAAAAAAAEAAAAAwMAAPUB
+				AAAIAAAAAQkAAGZpbGU6Ly8vDAAAAAEBAABNYWNpbnRv
+				c2ggSEQIAAAABAMAAAAAADJ0AAAACAAAAAAEAABBut2o
+				zAAAACQAAAABAQAAOTdGNTMwQTctOEM2Qy0zMDRDLUFG
+				NUItOEEzRDcyOUFERjg1GAAAAAECAACBAAAAAQAAAO8T
+				AAABAAAAAAAAAAAAAAABAAAAAQEAAC8AAAAAAAAAAQUA
+				AMwAAAD+////AQAAAAAAAAAQAAAABBAAAJwAAAAAAAAA
+				BRAAADABAAAAAAAAEBAAAGQBAAAAAAAAQBAAAFQBAAAA
+				AAAAAiAAADACAAAAAAAABSAAAKABAAAAAAAAECAAALAB
+				AAAAAAAAESAAAOQBAAAAAAAAEiAAAMQBAAAAAAAAEyAA
+				ANQBAAAAAAAAICAAABACAAAAAAAAMCAAADwCAAAAAAAA
+				AcAAAIQBAAAAAAAAEcAAACAAAAAAAAAAEsAAAJQBAAAA
+				AAAAENAAAAQAAAAAAAAA
+				</data>
+				<key>shouldAutoResize</key>
+				<true/>
+				<key>shouldIncludeInDocumentHeadHTML</key>
+				<true/>
+				<key>shouldPreload</key>
+				<true/>
+				<key>shouldRemoveWhenNoLongerReferenced</key>
+				<false/>
+				<key>type</key>
+				<string>FileResource</string>
+			</dict>
 		</array>
 	</dict>
 	<key>sceneContainers</key>
@@ -2608,7 +2439,9 @@
 					<dict>
 						<key>expandedItems</key>
 						<array>
+							<string>395</string>
 							<string>331</string>
+							<string>391</string>
 						</array>
 						<key>timeCursors</key>
 						<dict>
@@ -2619,7 +2452,7 @@
 							<key>263</key>
 							<real>0.0</real>
 							<key>269</key>
-							<real>0.30000001192092896</real>
+							<real>0.3333333432674408</real>
 							<key>396</key>
 							<real>0.0</real>
 							<key>440</key>
@@ -2639,7 +2472,7 @@
 						<integer>390</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{1107, 958}</string>
+					<string>{3486, 3041}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -2664,7 +2497,7 @@
 					<key>rootSymbolControllerOid</key>
 					<string>91</string>
 					<key>scrollViewOffset</key>
-					<string>{0, 307}</string>
+					<string>{2376, 505}</string>
 					<key>userGuides</key>
 					<array>
 						<dict>
@@ -4396,13 +4229,15 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 			<key>documentIdentifier</key>
 			<string>235F5E89-DFA6-47B7-8BCA-42AC25BA8BD9-27474-0001A4FF6C00C6F3</string>
 			<key>selectedObjects</key>
-			<array/>
+			<array>
+				<string>331</string>
+			</array>
 			<key>symbol</key>
 			<dict>
 				<key>addToNewSceneControllers</key>
 				<false/>
 				<key>currentTimelineIdentifier</key>
-				<string>462</string>
+				<string>269</string>
 				<key>customBehaviors</key>
 				<array/>
 				<key>elements</key>
@@ -10211,7 +10046,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>6</string>
+							<string>7</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10495,7 +10330,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>4</string>
+							<string>5</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10538,276 +10373,6 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 							<string>OriginalHeight</string>
 							<key>objectValue</key>
 							<string>62px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>TagName</string>
-							<key>objectValue</key>
-							<string>div</string>
-						</dict>
-					</array>
-					<key>387</key>
-					<array>
-						<dict>
-							<key>identifier</key>
-							<string>TagName</string>
-							<key>objectValue</key>
-							<string>div</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ExplicitDimensions</string>
-							<key>objectValue</key>
-							<string>YES</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ConstrainProportions</string>
-							<key>objectValue</key>
-							<string>YES</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Display</string>
-							<key>objectValue</key>
-							<string>inline</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ClassType</string>
-							<key>objectValue</key>
-							<string>Image</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Top</string>
-							<key>objectValue</key>
-							<string>23px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Parent</string>
-							<key>objectValue</key>
-							<string>391</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BackgroundRepeat</string>
-							<key>objectValue</key>
-							<string>no-repeat</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Position</string>
-							<key>objectValue</key>
-							<string>absolute</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Height</string>
-							<key>objectValue</key>
-							<string>247px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BackgroundImageResourceGroupOid</string>
-							<key>objectValue</key>
-							<string>385</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Left</string>
-							<key>objectValue</key>
-							<string>22px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>SizeRatio</string>
-							<key>objectValue</key>
-							<string>1</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>1</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>247px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BackgroundSize</string>
-							<key>objectValue</key>
-							<string>100% 100%</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Overflow</string>
-							<key>objectValue</key>
-							<string>visible</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>DisplayName</string>
-							<key>objectValue</key>
-							<string>Group</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>OriginalHeight</string>
-							<key>objectValue</key>
-							<string>256px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>OriginalWidth</string>
-							<key>objectValue</key>
-							<string>256px</string>
-						</dict>
-					</array>
-					<key>390</key>
-					<array>
-						<dict>
-							<key>identifier</key>
-							<string>OriginalWidth</string>
-							<key>objectValue</key>
-							<string>169px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ExplicitDimensions</string>
-							<key>objectValue</key>
-							<string>YES</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ConstrainProportions</string>
-							<key>objectValue</key>
-							<string>YES</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Display</string>
-							<key>objectValue</key>
-							<string>none</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ClassType</string>
-							<key>objectValue</key>
-							<string>Image</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Top</string>
-							<key>objectValue</key>
-							<string>64px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Parent</string>
-							<key>objectValue</key>
-							<string>391</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BoxShadowBlurRadius</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BackgroundRepeat</string>
-							<key>objectValue</key>
-							<string>no-repeat</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BoxShadowYOffset</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Position</string>
-							<key>objectValue</key>
-							<string>absolute</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Height</string>
-							<key>objectValue</key>
-							<string>171px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BackgroundImageResourceGroupOid</string>
-							<key>objectValue</key>
-							<string>388</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Left</string>
-							<key>objectValue</key>
-							<string>62px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>SizeRatio</string>
-							<key>objectValue</key>
-							<string>0.960227</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BoxShadowColor</string>
-							<key>objectValue</key>
-							<string>#000000</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>2</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>165px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BoxShadowXOffset</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BackgroundSize</string>
-							<key>objectValue</key>
-							<string>100% 100%</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Overflow</string>
-							<key>objectValue</key>
-							<string>visible</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>DisplayName</string>
-							<key>objectValue</key>
-							<string>Combined Shape</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>OriginalHeight</string>
-							<key>objectValue</key>
-							<string>176px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10991,6 +10556,12 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
+							<string>Display</string>
+							<key>objectValue</key>
+							<string>inline</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
 							<string>BorderWidthRight</string>
 							<key>objectValue</key>
 							<string>1px</string>
@@ -11053,13 +10624,13 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>3</string>
+							<string>4</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>Top</string>
 							<key>objectValue</key>
-							<string>69px</string>
+							<string>65px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -11107,7 +10678,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>Left</string>
 							<key>objectValue</key>
-							<string>62px</string>
+							<string>64px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -12556,6 +12127,129 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 							<string>TagName</string>
 							<key>objectValue</key>
 							<string>div</string>
+						</dict>
+					</array>
+					<key>488</key>
+					<array>
+						<dict>
+							<key>identifier</key>
+							<string>TagName</string>
+							<key>objectValue</key>
+							<string>div</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ExplicitDimensions</string>
+							<key>objectValue</key>
+							<string>YES</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ConstrainProportions</string>
+							<key>objectValue</key>
+							<string>YES</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Display</string>
+							<key>objectValue</key>
+							<string>inline</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ClassType</string>
+							<key>objectValue</key>
+							<string>Image</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Top</string>
+							<key>objectValue</key>
+							<string>23px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Parent</string>
+							<key>objectValue</key>
+							<string>391</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BackgroundRepeat</string>
+							<key>objectValue</key>
+							<string>no-repeat</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Position</string>
+							<key>objectValue</key>
+							<string>absolute</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Height</string>
+							<key>objectValue</key>
+							<string>247px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BackgroundImageResourceGroupOid</string>
+							<key>objectValue</key>
+							<string>487</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Left</string>
+							<key>objectValue</key>
+							<string>22px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>SizeRatio</string>
+							<key>objectValue</key>
+							<string>1</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>2</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>247px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BackgroundSize</string>
+							<key>objectValue</key>
+							<string>100% 100%</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Overflow</string>
+							<key>objectValue</key>
+							<string>visible</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>DisplayName</string>
+							<key>objectValue</key>
+							<string>compassPanl@2x</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>OriginalHeight</string>
+							<key>objectValue</key>
+							<string>512px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>OriginalWidth</string>
+							<key>objectValue</key>
+							<string>512px</string>
 						</dict>
 					</array>
 					<key>96</key>
