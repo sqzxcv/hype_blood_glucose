@@ -78,17 +78,17 @@
 	<string>
 	&lt;script type="text/javascript" src="${resourcesFolderName}/main.js"&gt;&lt;/script&gt;</string>
 	<key>lastCheckDate</key>
-	<date>2016-12-08T03:08:38Z</date>
+	<date>2016-12-12T02:13:32Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
-		<integer>1</integer>
+		<integer>2</integer>
 		<key>customizableLayout</key>
 		<dict>
 			<key>frame</key>
 			<string>{{0, 0}, {1920, 958}}</string>
 			<key>identifier</key>
-			<string>container 68</string>
+			<string>container 24</string>
 			<key>isCustomizableViewContainer</key>
 			<true/>
 			<key>isCustomizableViewWrapper</key>
@@ -101,7 +101,7 @@
 					<key>frame</key>
 					<string>{{0, 0}, {1649, 958}}</string>
 					<key>identifier</key>
-					<string>container 44</string>
+					<string>container 254</string>
 					<key>isCustomizableViewContainer</key>
 					<true/>
 					<key>isCustomizableViewWrapper</key>
@@ -114,7 +114,7 @@
 							<key>frame</key>
 							<string>{{0, 0}, {1378, 958}}</string>
 							<key>identifier</key>
-							<string>container 33</string>
+							<string>container 243</string>
 							<key>isCustomizableViewContainer</key>
 							<true/>
 							<key>isCustomizableViewWrapper</key>
@@ -127,7 +127,7 @@
 									<key>frame</key>
 									<string>{{0, 0}, {270, 958}}</string>
 									<key>identifier</key>
-									<string>container 23</string>
+									<string>container 233</string>
 									<key>isCustomizableViewContainer</key>
 									<true/>
 									<key>isCustomizableViewWrapper</key>
@@ -150,7 +150,7 @@
 									<key>frame</key>
 									<string>{{271, 0}, {1107, 958}}</string>
 									<key>identifier</key>
-									<string>container 24</string>
+									<string>container 234</string>
 									<key>isCustomizableViewContainer</key>
 									<true/>
 									<key>isCustomizableViewWrapper</key>
@@ -161,7 +161,7 @@
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{271, 0}, {1107, 424.57421875}}</string>
+											<string>{{271, 0}, {1107, 314}}</string>
 											<key>identifier</key>
 											<string>container 13001</string>
 											<key>isCustomizableViewContainer</key>
@@ -174,7 +174,7 @@
 											<array>
 												<dict>
 													<key>frame</key>
-													<string>{{271, 0}, {1107, 424.57421875}}</string>
+													<string>{{271, 0}, {1107, 314}}</string>
 													<key>identifier</key>
 													<string>timelineCustomizableContainer</string>
 													<key>isCustomizableViewContainer</key>
@@ -184,7 +184,7 @@
 										</dict>
 										<dict>
 											<key>frame</key>
-											<string>{{271, 425.57421875}, {1107, 532.42578125}}</string>
+											<string>{{271, 315}, {1107, 643}}</string>
 											<key>identifier</key>
 											<string>container 3</string>
 											<key>isCustomizableViewContainer</key>
@@ -197,7 +197,7 @@
 											<array>
 												<dict>
 													<key>frame</key>
-													<string>{{271, 425.57421875}, {1107, 532.42578125}}</string>
+													<string>{{271, 315}, {1107, 643}}</string>
 													<key>identifier</key>
 													<string>sceneEditorCustomizableContainer</string>
 													<key>isCustomizableViewContainer</key>
@@ -213,7 +213,7 @@
 							<key>frame</key>
 							<string>{{1379, 0}, {270, 958}}</string>
 							<key>identifier</key>
-							<string>container 32</string>
+							<string>container 242</string>
 							<key>isCustomizableViewContainer</key>
 							<true/>
 							<key>isCustomizableViewWrapper</key>
@@ -238,7 +238,7 @@
 					<key>frame</key>
 					<string>{{1650, 0}, {270, 958}}</string>
 					<key>identifier</key>
-					<string>container 43</string>
+					<string>container 253</string>
 					<key>isCustomizableViewContainer</key>
 					<true/>
 					<key>isCustomizableViewWrapper</key>
@@ -260,7 +260,7 @@
 			</array>
 		</dict>
 		<key>keyframeTimelineHeight</key>
-		<real>240</real>
+		<real>112</real>
 		<key>mainWindowFrame</key>
 		<string>910 855 1920 1002 910 800 1920 1057 </string>
 		<key>openTabs</key>
@@ -276,6 +276,12 @@
 				<string>HypeJavascript</string>
 				<key>oid</key>
 				<string>474</string>
+			</dict>
+			<dict>
+				<key>className</key>
+				<string>HypeJavascript</string>
+				<key>oid</key>
+				<string>484</string>
 			</dict>
 		</array>
 		<key>selectedTabIndex</key>
@@ -354,7 +360,7 @@
 	<key>monotypeProjectID</key>
 	<string>070843ED-997B-4006-AE35-7FD1180D46A9-38806-0002A80BAAA172AC</string>
 	<key>oidCounter</key>
-	<integer>481</integer>
+	<integer>484</integer>
 	<key>resourcesInfo</key>
 	<dict>
 		<key>groups</key>
@@ -703,18 +709,6 @@
 				<key>expanded</key>
 				<true/>
 				<key>name</key>
-				<string>未命名</string>
-				<key>oid</key>
-				<string>470</string>
-				<key>resources</key>
-				<array>
-					<string>未命名.mp4</string>
-				</array>
-			</dict>
-			<dict>
-				<key>expanded</key>
-				<true/>
-				<key>name</key>
 				<string>圆盘按钮</string>
 				<key>oid</key>
 				<string>382</string>
@@ -722,6 +716,18 @@
 				<array>
 					<string>圆盘按钮@2x.png</string>
 					<string>圆盘按钮.png</string>
+				</array>
+			</dict>
+			<dict>
+				<key>expanded</key>
+				<true/>
+				<key>name</key>
+				<string>plantVideo</string>
+				<key>oid</key>
+				<string>483</string>
+				<key>resources</key>
+				<array>
+					<string>plantVideo.mp4</string>
 				</array>
 			</dict>
 		</array>
@@ -2105,55 +2111,6 @@
 			</dict>
 			<dict>
 				<key>fileModificationDate</key>
-				<date>2016-12-06T02:21:38Z</date>
-				<key>fileSize</key>
-				<integer>11158</integer>
-				<key>md5</key>
-				<string>D05E9476466E7749E3011E8F2D61447D</string>
-				<key>notifyOnBookmarkChange</key>
-				<true/>
-				<key>originalPath</key>
-				<string>/Users/shengqiang/Downloads/未命名.mp4</string>
-				<key>resourceName</key>
-				<string>未命名.mp4</string>
-				<key>securityScopedBookmark</key>
-				<data>
-				Ym9va8QCAAAAAAQQMAAAAKM2H3ouL9t90LgaJxpUNCf2
-				0SDlqr9lduc8KONoB4lmwAEAAAQAAAADAwAAAAkAKAUA
-				AAABAQAAVXNlcnMAAAAKAAAAAQEAAHNoZW5ncWlhbmcA
-				AAkAAAABAQAARG93bmxvYWRzAAAADQAAAAEBAADmnKrl
-				kb3lkI0ubXA0AAAAEAAAAAEGAAAQAAAAIAAAADQAAABI
-				AAAACAAAAAQDAACGehcAAAAAAAgAAAAEAwAAlnoXAAAA
-				AAAIAAAABAMAAKXzHAAAAAAACAAAAAQDAACeYGgBAAAA
-				ABAAAAABBgAAeAAAAIgAAACYAAAAqAAAAAgAAAAABAAA
-				Qb32WC8AAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAA
-				AAAAAAAAAAgAAAAEAwAAAgAAAAAAAAAEAAAAAwMAAPUB
-				AAAIAAAAAQkAAGZpbGU6Ly8vDAAAAAEBAABNYWNpbnRv
-				c2ggSEQIAAAABAMAAAAAADJ0AAAACAAAAAAEAABBut2o
-				zAAAACQAAAABAQAAOTdGNTMwQTctOEM2Qy0zMDRDLUFG
-				NUItOEEzRDcyOUFERjg1GAAAAAECAACBAAAAAQAAAO8T
-				AAABAAAAAAAAAAAAAAABAAAAAQEAAC8AAAAAAAAAAQUA
-				AMwAAAD+////AQAAAAAAAAAQAAAABBAAAGAAAAAAAAAA
-				BRAAALgAAAAAAAAAEBAAAOAAAAAAAAAAQBAAANAAAAAA
-				AAAAAiAAAKwBAAAAAAAABSAAABwBAAAAAAAAECAAACwB
-				AAAAAAAAESAAAGABAAAAAAAAEiAAAEABAAAAAAAAEyAA
-				AFABAAAAAAAAICAAAIwBAAAAAAAAMCAAALgBAAAAAAAA
-				AcAAAAABAAAAAAAAEcAAACAAAAAAAAAAEsAAABABAAAA
-				AAAAENAAAAQAAAAAAAAA
-				</data>
-				<key>shouldAutoResize</key>
-				<true/>
-				<key>shouldIncludeInDocumentHeadHTML</key>
-				<false/>
-				<key>shouldPreload</key>
-				<true/>
-				<key>shouldRemoveWhenNoLongerReferenced</key>
-				<true/>
-				<key>type</key>
-				<string>FileResource</string>
-			</dict>
-			<dict>
-				<key>fileModificationDate</key>
 				<date>2016-12-06T05:13:50Z</date>
 				<key>fileSize</key>
 				<integer>1311</integer>
@@ -2414,6 +2371,213 @@
 				<key>type</key>
 				<string>FileResource</string>
 			</dict>
+			<dict>
+				<key>fileModificationDate</key>
+				<date>2016-12-09T11:15:49Z</date>
+				<key>fileSize</key>
+				<integer>743</integer>
+				<key>md5</key>
+				<string>CACF09F0FE48D97094B456A796E54D06</string>
+				<key>notifyOnBookmarkChange</key>
+				<true/>
+				<key>originalPath</key>
+				<string>/Users/shengqiang/Documents/Codes/hype_blood_glucose/javascript/plantVideo.js</string>
+				<key>resourceName</key>
+				<string>plantVideo.js</string>
+				<key>securityScopedBookmark</key>
+				<data>
+				Ym9va0wDAAAAAAQQMAAAAH9UyROwN4X0u6tmMM1KTv5G
+				IVe9EEEbLDYmgwHnc8toSAIAAAQAAAADAwAAAAkAKAUA
+				AAABAQAAVXNlcnMAAAAKAAAAAQEAAHNoZW5ncWlhbmcA
+				AAkAAAABAQAARG9jdW1lbnRzAAAABQAAAAEBAABDb2Rl
+				cwAAABIAAAABAQAAaHlwZV9ibG9vZF9nbHVjb3NlAAAK
+				AAAAAQEAAGphdmFzY3JpcHQAAA0AAAABAQAAcGxhbnRW
+				aWRlby5qcwAAABwAAAABBgAAEAAAACAAAAA0AAAASAAA
+				AFgAAAB0AAAAiAAAAAgAAAAEAwAAhnoXAAAAAAAIAAAA
+				BAMAAJZ6FwAAAAAACAAAAAQDAADHqBkAAAAAAAgAAAAE
+				AwAAGK0ZAAAAAAAIAAAABAMAAHA2bQEAAAAACAAAAAQD
+				AAAsOG0BAAAAAAgAAAAEAwAAPXNtAQAAAAAcAAAAAQYA
+				AMQAAADUAAAA5AAAAPQAAAAEAQAAFAEAACQBAAAIAAAA
+				AAQAAEG9+l/9AAAAGAAAAAECAAABAAAAAAAAAA8AAAAA
+				AAAAAAAAAAAAAAAIAAAABAMAAAUAAAAAAAAABAAAAAMD
+				AAD1AQAACAAAAAEJAABmaWxlOi8vLwwAAAABAQAATWFj
+				aW50b3NoIEhECAAAAAQDAAAAAAAydAAAAAgAAAAABAAA
+				QbrdqMwAAAAkAAAAAQEAADk3RjUzMEE3LThDNkMtMzA0
+				Qy1BRjVCLThBM0Q3MjlBREY4NRgAAAABAgAAgQAAAAEA
+				AADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAAAAAA
+				AAEFAADMAAAA/v///wEAAAAAAAAAEAAAAAQQAACgAAAA
+				AAAAAAUQAAA0AQAAAAAAABAQAABoAQAAAAAAAEAQAABY
+				AQAAAAAAAAIgAAA0AgAAAAAAAAUgAACkAQAAAAAAABAg
+				AAC0AQAAAAAAABEgAADoAQAAAAAAABIgAADIAQAAAAAA
+				ABMgAADYAQAAAAAAACAgAAAUAgAAAAAAADAgAABAAgAA
+				AAAAAAHAAACIAQAAAAAAABHAAAAgAAAAAAAAABLAAACY
+				AQAAAAAAABDQAAAEAAAAAAAAAA==
+				</data>
+				<key>shouldAutoResize</key>
+				<true/>
+				<key>shouldIncludeInDocumentHeadHTML</key>
+				<true/>
+				<key>shouldPreload</key>
+				<true/>
+				<key>shouldRemoveWhenNoLongerReferenced</key>
+				<false/>
+				<key>type</key>
+				<string>FileResource</string>
+			</dict>
+			<dict>
+				<key>fileModificationDate</key>
+				<date>2016-05-12T16:42:00Z</date>
+				<key>fileSize</key>
+				<integer>6945</integer>
+				<key>md5</key>
+				<string>F4334587C82289AC4E9225CD91551E97</string>
+				<key>notifyOnBookmarkChange</key>
+				<true/>
+				<key>originalPath</key>
+				<string>/Users/shengqiang/Documents/Codes/hype_blood_glucose/javascript/canvas-video-player.js</string>
+				<key>resourceName</key>
+				<string>canvas-video-player.js</string>
+				<key>securityScopedBookmark</key>
+				<data>
+				Ym9va1QDAAAAAAQQMAAAAOkpkNrW0bUNdsxYcrxlt1LT
+				71J1RYr86NdeWhJdGWpZUAIAAAQAAAADAwAAAAkAKAUA
+				AAABAQAAVXNlcnMAAAAKAAAAAQEAAHNoZW5ncWlhbmcA
+				AAkAAAABAQAARG9jdW1lbnRzAAAABQAAAAEBAABDb2Rl
+				cwAAABIAAAABAQAAaHlwZV9ibG9vZF9nbHVjb3NlAAAK
+				AAAAAQEAAGphdmFzY3JpcHQAABYAAAABAQAAY2FudmFz
+				LXZpZGVvLXBsYXllci5qcwAAHAAAAAEGAAAQAAAAIAAA
+				ADQAAABIAAAAWAAAAHQAAACIAAAACAAAAAQDAACGehcA
+				AAAAAAgAAAAEAwAAlnoXAAAAAAAIAAAABAMAAMeoGQAA
+				AAAACAAAAAQDAAAYrRkAAAAAAAgAAAAEAwAAcDZtAQAA
+				AAAIAAAABAMAACw4bQEAAAAACAAAAAQDAADAP20BAAAA
+				ABwAAAABBgAAzAAAANwAAADsAAAA/AAAAAwBAAAcAQAA
+				LAEAAAgAAAAABAAAQbzk6dgAAAAYAAAAAQIAAAEAAAAA
+				AAAADwAAAAAAAAAAAAAAAAAAAAgAAAAEAwAABQAAAAAA
+				AAAEAAAAAwMAAPUBAAAIAAAAAQkAAGZpbGU6Ly8vDAAA
+				AAEBAABNYWNpbnRvc2ggSEQIAAAABAMAAAAAADJ0AAAA
+				CAAAAAAEAABBut2ozAAAACQAAAABAQAAOTdGNTMwQTct
+				OEM2Qy0zMDRDLUFGNUItOEEzRDcyOUFERjg1GAAAAAEC
+				AACBAAAAAQAAAO8TAAABAAAAAAAAAAAAAAABAAAAAQEA
+				AC8AAAAAAAAAAQUAAMwAAAD+////AQAAAAAAAAAQAAAA
+				BBAAAKgAAAAAAAAABRAAADwBAAAAAAAAEBAAAHABAAAA
+				AAAAQBAAAGABAAAAAAAAAiAAADwCAAAAAAAABSAAAKwB
+				AAAAAAAAECAAALwBAAAAAAAAESAAAPABAAAAAAAAEiAA
+				ANABAAAAAAAAEyAAAOABAAAAAAAAICAAABwCAAAAAAAA
+				MCAAAEgCAAAAAAAAAcAAAJABAAAAAAAAEcAAACAAAAAA
+				AAAAEsAAAKABAAAAAAAAENAAAAQAAAAAAAAA
+				</data>
+				<key>shouldAutoResize</key>
+				<true/>
+				<key>shouldIncludeInDocumentHeadHTML</key>
+				<true/>
+				<key>shouldPreload</key>
+				<true/>
+				<key>shouldRemoveWhenNoLongerReferenced</key>
+				<false/>
+				<key>type</key>
+				<string>FileResource</string>
+			</dict>
+			<dict>
+				<key>fileModificationDate</key>
+				<date>2016-12-09T07:02:13Z</date>
+				<key>fileSize</key>
+				<integer>86709</integer>
+				<key>md5</key>
+				<string>E071ABDA8FE61194711CFC2AB99FE104</string>
+				<key>notifyOnBookmarkChange</key>
+				<true/>
+				<key>originalPath</key>
+				<string>/Users/shengqiang/Downloads/jquery-3.1.1.min.js</string>
+				<key>resourceName</key>
+				<string>jquery-3.1.1.min.js</string>
+				<key>securityScopedBookmark</key>
+				<data>
+				Ym9va8gCAAAAAAQQMAAAAKuBOtzZzHoM828/MDaxDHK+
+				RHqHnPxC5BBSGVa9nd+yxAEAAAQAAAADAwAAAAkAKAUA
+				AAABAQAAVXNlcnMAAAAKAAAAAQEAAHNoZW5ncWlhbmcA
+				AAkAAAABAQAARG93bmxvYWRzAAAAEwAAAAEBAABqcXVl
+				cnktMy4xLjEubWluLmpzABAAAAABBgAAEAAAACAAAAA0
+				AAAASAAAAAgAAAAEAwAAhnoXAAAAAAAIAAAABAMAAJZ6
+				FwAAAAAACAAAAAQDAACl8xwAAAAAAAgAAAAEAwAAhP1s
+				AQAAAAAQAAAAAQYAAHwAAACMAAAAnAAAAKwAAAAIAAAA
+				AAQAAEG9+o51AAAAGAAAAAECAAABAAAAAAAAAA8AAAAA
+				AAAAAAAAAAAAAAAIAAAABAMAAAIAAAAAAAAABAAAAAMD
+				AAD1AQAACAAAAAEJAABmaWxlOi8vLwwAAAABAQAATWFj
+				aW50b3NoIEhECAAAAAQDAAAAAAAydAAAAAgAAAAABAAA
+				QbrdqMwAAAAkAAAAAQEAADk3RjUzMEE3LThDNkMtMzA0
+				Qy1BRjVCLThBM0Q3MjlBREY4NRgAAAABAgAAgQAAAAEA
+				AADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAAAAAA
+				AAEFAADMAAAA/v///wEAAAAAAAAAEAAAAAQQAABkAAAA
+				AAAAAAUQAAC8AAAAAAAAABAQAADkAAAAAAAAAEAQAADU
+				AAAAAAAAAAIgAACwAQAAAAAAAAUgAAAgAQAAAAAAABAg
+				AAAwAQAAAAAAABEgAABkAQAAAAAAABIgAABEAQAAAAAA
+				ABMgAABUAQAAAAAAACAgAACQAQAAAAAAADAgAAC8AQAA
+				AAAAAAHAAAAEAQAAAAAAABHAAAAgAAAAAAAAABLAAAAU
+				AQAAAAAAABDQAAAEAAAAAAAAAA==
+				</data>
+				<key>shouldAutoResize</key>
+				<true/>
+				<key>shouldIncludeInDocumentHeadHTML</key>
+				<true/>
+				<key>shouldPreload</key>
+				<true/>
+				<key>shouldRemoveWhenNoLongerReferenced</key>
+				<false/>
+				<key>type</key>
+				<string>FileResource</string>
+			</dict>
+			<dict>
+				<key>fileModificationDate</key>
+				<date>2016-12-08T10:10:34Z</date>
+				<key>fileSize</key>
+				<integer>11158</integer>
+				<key>md5</key>
+				<string>D05E9476466E7749E3011E8F2D61447D</string>
+				<key>notifyOnBookmarkChange</key>
+				<true/>
+				<key>originalPath</key>
+				<string>/Users/shengqiang/Downloads/test.hype/Resources/plantVideo.mp4</string>
+				<key>resourceName</key>
+				<string>plantVideo.mp4</string>
+				<key>securityScopedBookmark</key>
+				<data>
+				Ym9vaxwDAAAAAAQQMAAAAKw9kW4onMNqWrhF3f8IK4nX
+				rHGrUvH958euNLRzdlnVGAIAAAQAAAADAwAAAAkAKAUA
+				AAABAQAAVXNlcnMAAAAKAAAAAQEAAHNoZW5ncWlhbmcA
+				AAkAAAABAQAARG93bmxvYWRzAAAACQAAAAEBAAB0ZXN0
+				Lmh5cGUAAAAJAAAAAQEAAFJlc291cmNlcwAAAA4AAAAB
+				AQAAcGxhbnRWaWRlby5tcDQAABgAAAABBgAAEAAAACAA
+				AAA0AAAASAAAAFwAAABwAAAACAAAAAQDAACGehcAAAAA
+				AAgAAAAEAwAAlnoXAAAAAAAIAAAABAMAAKXzHAAAAAAA
+				CAAAAAQDAAClcm0BAAAAAAgAAAAEAwAAqXJtAQAAAAAI
+				AAAABAMAAKpybQEAAAAAGAAAAAEGAACoAAAAuAAAAMgA
+				AADYAAAA6AAAAPgAAAAIAAAAAAQAAEG9+WkaAAAAGAAA
+				AAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAIAAAA
+				BAMAAAQAAAAAAAAABAAAAAMDAAD1AQAACAAAAAEJAABm
+				aWxlOi8vLwwAAAABAQAATWFjaW50b3NoIEhECAAAAAQD
+				AAAAAAAydAAAAAgAAAAABAAAQbrdqMwAAAAkAAAAAQEA
+				ADk3RjUzMEE3LThDNkMtMzA0Qy1BRjVCLThBM0Q3MjlB
+				REY4NRgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAA
+				AAAAAQAAAAEBAAAvAAAAAAAAAAEFAADMAAAA/v///wEA
+				AAAAAAAAEAAAAAQQAACIAAAAAAAAAAUQAAAIAQAAAAAA
+				ABAQAAA4AQAAAAAAAEAQAAAoAQAAAAAAAAIgAAAEAgAA
+				AAAAAAUgAAB0AQAAAAAAABAgAACEAQAAAAAAABEgAAC4
+				AQAAAAAAABIgAACYAQAAAAAAABMgAACoAQAAAAAAACAg
+				AADkAQAAAAAAADAgAAAQAgAAAAAAAAHAAABYAQAAAAAA
+				ABHAAAAgAAAAAAAAABLAAABoAQAAAAAAABDQAAAEAAAA
+				AAAAAA==
+				</data>
+				<key>shouldAutoResize</key>
+				<true/>
+				<key>shouldIncludeInDocumentHeadHTML</key>
+				<false/>
+				<key>shouldPreload</key>
+				<true/>
+				<key>shouldRemoveWhenNoLongerReferenced</key>
+				<false/>
+				<key>type</key>
+				<string>FileResource</string>
+			</dict>
 		</array>
 	</dict>
 	<key>sceneContainers</key>
@@ -2432,9 +2596,7 @@
 					<dict>
 						<key>expandedItems</key>
 						<array>
-							<string>395</string>
 							<string>331</string>
-							<string>391</string>
 						</array>
 						<key>timeCursors</key>
 						<dict>
@@ -2453,11 +2615,11 @@
 							<key>441</key>
 							<real>2.7999999523162842</real>
 							<key>462</key>
-							<real>0.0</real>
+							<real>1</real>
 							<key>463</key>
 							<real>5.4666666984558105</real>
 							<key>478</key>
-							<real>0.0</real>
+							<real>6.6666665077209473</real>
 							<key>kTimelineDefaultIdentifier</key>
 							<real>0.0</real>
 						</dict>
@@ -2465,7 +2627,7 @@
 						<integer>120</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{3477, 3041}</string>
+					<string>{738, 1249}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -2490,7 +2652,7 @@
 					<key>rootSymbolControllerOid</key>
 					<string>91</string>
 					<key>scrollViewOffset</key>
-					<string>{3855, 751.42578125}</string>
+					<string>{0, 861}</string>
 					<key>userGuides</key>
 					<array>
 						<dict>
@@ -2690,6 +2852,18 @@ function touchStart(hypeDocument, element, event) {
 }
 </string>
 		</dict>
+		<dict>
+			<key>oid</key>
+			<string>484</string>
+			<key>source</key>
+			<string>// element - DOMHTMLElement that triggered this function being called
+// event - event that triggered this function being called
+function genReport(hypeDocument, element, event) {
+	
+	playVideo(hypeDocument);
+}
+</string>
+		</dict>
 	</array>
 	<key>shouldApplySizeChangesToAllScenes</key>
 	<true/>
@@ -2707,7 +2881,7 @@ function touchStart(hypeDocument, element, event) {
 	<array>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>5C85EF2E-A8D8-4EE8-9334-E9823EC8A943-9362-00009AF9EE00164B</string>
+			<string>FF2000D7-1752-4744-A167-D9097A464AA0-27474-000192F17AB57E5D</string>
 			<key>selectedObjects</key>
 			<array/>
 			<key>symbol</key>
@@ -2946,9 +3120,9 @@ function touchStart(hypeDocument, element, event) {
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>61px</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -3096,30 +3270,30 @@ function touchStart(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>61px</string>
 						</dict>
 					</array>
 					<key>39</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthBottom</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorBottom</string>
-							<key>objectValue</key>
-							<string>#D8DDE4</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>ExplicitDimensions</string>
 							<key>objectValue</key>
 							<string>YES</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorBottom</string>
+							<key>objectValue</key>
+							<string>#D8DDE4</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -3237,15 +3411,15 @@ function touchStart(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthLeft</string>
+							<string>BorderWidthBottom</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>BorderWidthLeft</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>0px</string>
 						</dict>
 					</array>
 					<key>43</key>
@@ -3296,9 +3470,9 @@ function touchStart(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ClassType</string>
+							<string>RotationAngleZ</string>
 							<key>objectValue</key>
-							<string>Group</string>
+							<string>20deg</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -3374,9 +3548,9 @@ function touchStart(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>RotationAngleZ</string>
+							<string>ClassType</string>
 							<key>objectValue</key>
-							<string>20deg</string>
+							<string>Group</string>
 						</dict>
 					</array>
 					<key>53</key>
@@ -4183,19 +4357,19 @@ function touchStart(hypeDocument, element, event) {
 		</dict>
 		<dict>
 			<key>currentGroupElement</key>
-			<string>391</string>
+			<string>331</string>
 			<key>documentIdentifier</key>
-			<string>5C85EF2E-A8D8-4EE8-9334-E9823EC8A943-9362-00009AF9EE00164B</string>
+			<string>FF2000D7-1752-4744-A167-D9097A464AA0-27474-000192F17AB57E5D</string>
 			<key>selectedObjects</key>
 			<array>
-				<string>384</string>
+				<string>482</string>
 			</array>
 			<key>symbol</key>
 			<dict>
 				<key>addToNewSceneControllers</key>
 				<false/>
 				<key>currentTimelineIdentifier</key>
-				<string>478</string>
+				<string>462</string>
 				<key>customBehaviors</key>
 				<array/>
 				<key>elements</key>
@@ -4210,9 +4384,9 @@ function touchStart(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4294,9 +4468,9 @@ function touchStart(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>2</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4306,9 +4480,9 @@ function touchStart(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>2</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4330,9 +4504,9 @@ function touchStart(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 					</array>
 					<key>102</key>
@@ -5509,9 +5683,9 @@ function touchStart(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#082A39</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5593,9 +5767,9 @@ function touchStart(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>3</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5605,9 +5779,9 @@ function touchStart(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>3</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5629,9 +5803,9 @@ function touchStart(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#082A39</string>
 						</dict>
 					</array>
 					<key>127</key>
@@ -5644,9 +5818,9 @@ function touchStart(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#082A39</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5728,9 +5902,9 @@ function touchStart(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>4</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5740,9 +5914,9 @@ function touchStart(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>4</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5764,9 +5938,9 @@ function touchStart(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#082A39</string>
 						</dict>
 					</array>
 					<key>129</key>
@@ -6073,9 +6247,9 @@ function touchStart(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#082A39</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6157,9 +6331,9 @@ function touchStart(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>7</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6169,9 +6343,9 @@ function touchStart(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>7</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6193,9 +6367,9 @@ function touchStart(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#082A39</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>134</key>
@@ -6289,9 +6463,9 @@ function touchStart(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#082A39</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6373,9 +6547,9 @@ function touchStart(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>7</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6385,9 +6559,9 @@ function touchStart(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>7</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6409,9 +6583,9 @@ function touchStart(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#082A39</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>143</key>
@@ -6499,9 +6673,9 @@ function touchStart(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#082A39</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6583,9 +6757,9 @@ function touchStart(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>3</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6595,9 +6769,9 @@ function touchStart(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>3</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6619,9 +6793,9 @@ function touchStart(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#082A39</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>146</key>
@@ -6715,9 +6889,9 @@ function touchStart(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#082A39</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6799,9 +6973,9 @@ function touchStart(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>4</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6811,9 +6985,9 @@ function touchStart(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>4</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6835,9 +7009,9 @@ function touchStart(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#082A39</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>150</key>
@@ -7028,9 +7202,9 @@ function touchStart(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#082A39</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7112,9 +7286,9 @@ function touchStart(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>3</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7124,9 +7298,9 @@ function touchStart(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>3</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7148,9 +7322,9 @@ function touchStart(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#082A39</string>
 						</dict>
 					</array>
 					<key>154</key>
@@ -7244,9 +7418,9 @@ function touchStart(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#082A39</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7328,9 +7502,9 @@ function touchStart(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>5</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7340,9 +7514,9 @@ function touchStart(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>5</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7364,9 +7538,9 @@ function touchStart(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#082A39</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>158</key>
@@ -7460,9 +7634,9 @@ function touchStart(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#082A39</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7544,9 +7718,9 @@ function touchStart(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>5</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7556,9 +7730,9 @@ function touchStart(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>5</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7580,9 +7754,9 @@ function touchStart(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#082A39</string>
 						</dict>
 					</array>
 					<key>165</key>
@@ -8527,33 +8701,33 @@ function touchStart(hypeDocument, element, event) {
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>BorderRadiusBottomRight</string>
+							<string>DisplayName</string>
 							<key>objectValue</key>
-							<string>10px</string>
+							<string>圆角矩形</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthLeft</string>
+							<string>BorderWidthBottom</string>
 							<key>objectValue</key>
 							<string>1px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BackgroundColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#E8EBED</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ExplicitDimensions</string>
-							<key>objectValue</key>
-							<string>YES</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>BorderColorBottom</string>
 							<key>objectValue</key>
 							<string>#D8DDE4</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ExplicitDimensions</string>
+							<key>objectValue</key>
+							<string>YES</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8683,21 +8857,21 @@ function touchStart(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>DisplayName</string>
+							<string>BorderRadiusBottomRight</string>
 							<key>objectValue</key>
-							<string>圆角矩形</string>
+							<string>10px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthBottom</string>
+							<string>BorderWidthLeft</string>
 							<key>objectValue</key>
 							<string>1px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>BackgroundColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#E8EBED</string>
 						</dict>
 					</array>
 					<key>244</key>
@@ -9389,15 +9563,15 @@ function touchStart(hypeDocument, element, event) {
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthBottom</string>
+							<string>BorderWidthLeft</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>BackgroundColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>rgba(233, 236, 238, 0.000)</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -9431,9 +9605,9 @@ function touchStart(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Opacity</string>
+							<string>ClassType</string>
 							<key>objectValue</key>
-							<string>1</string>
+							<string>Rectangle</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -9452,6 +9626,12 @@ function touchStart(hypeDocument, element, event) {
 							<string>BorderWidthRight</string>
 							<key>objectValue</key>
 							<string>0px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Opacity</string>
+							<key>objectValue</key>
+							<string>1</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -9476,12 +9656,6 @@ function touchStart(hypeDocument, element, event) {
 							<string>BorderColorLeft</string>
 							<key>objectValue</key>
 							<string>rgba(240, 247, 255, 0.000)</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ClassType</string>
-							<key>objectValue</key>
-							<string>Rectangle</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -9571,28 +9745,7 @@ function touchStart(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthLeft</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BackgroundColor</string>
-							<key>objectValue</key>
-							<string>rgba(233, 236, 238, 0.000)</string>
-						</dict>
-					</array>
-					<key>331</key>
-					<array>
-						<dict>
-							<key>identifier</key>
-							<string>DisplayName</string>
-							<key>objectValue</key>
-							<string>分析血糖</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderRadiusBottomRight</string>
+							<string>BorderWidthBottom</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
@@ -9601,6 +9754,27 @@ function touchStart(hypeDocument, element, event) {
 							<string>TagName</string>
 							<key>objectValue</key>
 							<string>div</string>
+						</dict>
+					</array>
+					<key>331</key>
+					<array>
+						<dict>
+							<key>identifier</key>
+							<string>Overflow</string>
+							<key>objectValue</key>
+							<string>hidden</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderRadiusBottomLeft</string>
+							<key>objectValue</key>
+							<string>0px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BackgroundColor</string>
+							<key>objectValue</key>
+							<string>#082A39</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -9730,30 +9904,30 @@ function touchStart(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Overflow</string>
+							<string>DisplayName</string>
 							<key>objectValue</key>
-							<string>hidden</string>
+							<string>分析血糖</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderRadiusBottomLeft</string>
+							<string>BorderRadiusBottomRight</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BackgroundColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#082A39</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>333</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>112px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -9837,7 +10011,7 @@ function touchStart(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>9</string>
+							<string>10</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -9897,9 +10071,9 @@ function touchStart(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>112px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>341</key>
@@ -9912,9 +10086,9 @@ function touchStart(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10008,15 +10182,15 @@ function touchStart(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>80px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
 							<string>6</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>80px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10044,18 +10218,18 @@ function touchStart(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 					</array>
 					<key>354</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>122px</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10193,18 +10367,18 @@ function touchStart(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>122px</string>
 						</dict>
 					</array>
 					<key>384</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>62px</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10334,9 +10508,9 @@ function touchStart(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>62px</string>
 						</dict>
 					</array>
 					<key>387</key>
@@ -10466,9 +10640,9 @@ function touchStart(hypeDocument, element, event) {
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>169px</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10604,9 +10778,9 @@ function touchStart(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>169px</string>
 						</dict>
 					</array>
 					<key>391</key>
@@ -10647,9 +10821,9 @@ function touchStart(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ClassType</string>
+							<string>DomID</string>
 							<key>objectValue</key>
-							<string>Group</string>
+							<string>compass_panel</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10739,9 +10913,9 @@ function touchStart(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>DomID</string>
+							<string>ClassType</string>
 							<key>objectValue</key>
-							<string>compass_panel</string>
+							<string>Group</string>
 						</dict>
 					</array>
 					<key>393</key>
@@ -10949,9 +11123,9 @@ function touchStart(hypeDocument, element, event) {
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>BackgroundColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#082A39</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -11047,7 +11221,7 @@ function touchStart(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8</string>
+							<string>9</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -11081,18 +11255,18 @@ function touchStart(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>BackgroundColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#082A39</string>
 						</dict>
 					</array>
 					<key>398</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>448px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -11240,18 +11414,18 @@ function touchStart(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>448px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>400</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>50px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -11381,18 +11555,18 @@ function touchStart(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>50px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>404</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>298px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -11534,9 +11708,9 @@ function touchStart(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>298px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>405</key>
@@ -11615,7 +11789,7 @@ function touchStart(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>7</string>
+							<string>8</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -11656,9 +11830,9 @@ function touchStart(hypeDocument, element, event) {
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>256px</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -11794,18 +11968,18 @@ function touchStart(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>256px</string>
 						</dict>
 					</array>
 					<key>458</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>570px</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -11895,7 +12069,7 @@ function touchStart(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>6</string>
+							<string>7</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -11941,9 +12115,9 @@ function touchStart(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>570px</string>
 						</dict>
 					</array>
 					<key>460</key>
@@ -12171,7 +12345,7 @@ function touchStart(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>25</string>
+							<string>26</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -12180,73 +12354,85 @@ function touchStart(hypeDocument, element, event) {
 							<string>Image</string>
 						</dict>
 					</array>
-					<key>471</key>
+					<key>482</key>
 					<array>
 						<dict>
 							<key>identifier</key>
 							<string>TagName</string>
 							<key>objectValue</key>
-							<string>video</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>VideoResourceGroupOid</string>
+							<string>BorderWidthBottom</string>
 							<key>objectValue</key>
-							<string>470</string>
+							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Controls</string>
+							<string>BorderColorBottom</string>
 							<key>objectValue</key>
-							<string>0</string>
+							<string>#D8DDE4</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ConstrainProportions</string>
+							<string>ExplicitDimensions</string>
 							<key>objectValue</key>
 							<string>YES</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Cursor</string>
+							<string>BorderStyleRight</string>
 							<key>objectValue</key>
-							<string>pointer</string>
+							<string>None</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ScaleY</string>
+							<string>ClassType</string>
 							<key>objectValue</key>
-							<string>1</string>
+							<string>Rectangle</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Autoplay</string>
+							<string>BorderStyleBottom</string>
 							<key>objectValue</key>
-							<string>1</string>
+							<string>None</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>Top</string>
 							<key>objectValue</key>
-							<string>605.5px</string>
+							<string>617px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderWidthRight</string>
+							<key>objectValue</key>
+							<string>0px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderStyleLeft</string>
+							<key>objectValue</key>
+							<string>None</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorLeft</string>
+							<key>objectValue</key>
+							<string>#D8DDE4</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorTop</string>
+							<key>objectValue</key>
+							<string>#D8DDE4</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>Parent</string>
 							<key>objectValue</key>
 							<string>331</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Muted</string>
-							<key>objectValue</key>
-							<string>0</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ClassType</string>
-							<key>objectValue</key>
-							<string>Video</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -12258,43 +12444,43 @@ function touchStart(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>Height</string>
 							<key>objectValue</key>
-							<string>300px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>RotationAngleX</string>
-							<key>objectValue</key>
-							<string>0deg</string>
+							<string>296px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>Left</string>
 							<key>objectValue</key>
-							<string>22.5px</string>
+							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>SizeRatio</string>
+							<string>BorderColorRight</string>
 							<key>objectValue</key>
-							<string>1.25</string>
+							<string>#D8DDE4</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ScaleX</string>
+							<string>InnerHTML</string>
 							<key>objectValue</key>
-							<string>1</string>
+							<string>&lt;div class="video-wrapper js-video-wrapper"&gt;
+ 		&lt;div class="video-responsive" style="z-index: 43"&gt;
+			&lt;video class="video js-video" webkit-playsinline="" muted=""&gt;
+				&lt;source src="${resourcesFolderName}/plantVideo.mp4" type="video/mp4"&gt;
+			&lt;/video&gt;
+			&lt;canvas class="canvas js-canvas"&gt;&lt;/canvas&gt;
+			&lt;div class="video-timeline js-timeline"&gt;
+				&lt;div class="video-timeline-passed js-timeline-passed"&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+&lt;/div&gt;
+</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Loop</string>
+							<string>BorderStyleTop</string>
 							<key>objectValue</key>
-							<string>0</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>5</string>
+							<string>None</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -12304,23 +12490,15 @@ function touchStart(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>DisplayHiddenOverride</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>0</string>
+							<string>6</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ActionHandlerOnMouseClick</string>
+							<string>BorderWidthTop</string>
 							<key>objectValue</key>
-							<dict>
-								<key>actions</key>
-								<array>
-									<dict>
-										<key>type</key>
-										<integer>0</integer>
-									</dict>
-								</array>
-							</dict>
+							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -12332,28 +12510,28 @@ function touchStart(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>DisplayName</string>
 							<key>objectValue</key>
-							<string>植物</string>
+							<string>PlantVideo</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalHeight</string>
+							<string>BorderWidthLeft</string>
 							<key>objectValue</key>
-							<string>300px</string>
+							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>BackgroundColor</string>
 							<key>objectValue</key>
-							<string>375px</string>
+							<string>rgba(232, 235, 237, 0.000)</string>
 						</dict>
 					</array>
 					<key>96</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>640px</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -12477,9 +12655,9 @@ function touchStart(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>640px</string>
 						</dict>
 					</array>
 					<key>98</key>
@@ -12741,28 +12919,6 @@ function touchStart(hypeDocument, element, event) {
 								<integer>3</integer>
 								<key>uuid</key>
 								<string>80BDB902-0B98-43A9-A046-8701ACF071A5-50084-0004E7CD63ABADF9</string>
-								<key>zIndex</key>
-								<integer>1</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>1.0333333015441895</real>
-								<key>identifier</key>
-								<string>Video Track</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>471</string>
-								<key>startTime</key>
-								<real>0.0</real>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>a</string>
-								<key>type</key>
-								<integer>1</integer>
-								<key>uuid</key>
-								<string>7D4E6F8A-43F7-47E1-A50A-E1A7721F24B7-5823-00008ACAA253A335</string>
 								<key>zIndex</key>
 								<integer>1</integer>
 							</dict>
@@ -13879,7 +14035,7 @@ function touchStart(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>2C7B3387-E41A-4484-8422-609C750C1198-9362-00009AF9BC5C4975</string>
+									<string>7EDA9F43-AD73-4BBA-85F4-9B891B22B003-27474-000192F145F36C2D</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -14090,7 +14246,7 @@ function touchStart(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>2C7B3387-E41A-4484-8422-609C750C1198-9362-00009AF9BC5C4975</string>
+									<string>7EDA9F43-AD73-4BBA-85F4-9B891B22B003-27474-000192F145F36C2D</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -14157,7 +14313,7 @@ function touchStart(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>2C7B3387-E41A-4484-8422-609C750C1198-9362-00009AF9BC5C4975</string>
+									<string>7EDA9F43-AD73-4BBA-85F4-9B891B22B003-27474-000192F145F36C2D</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -14361,7 +14517,7 @@ function touchStart(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>ADC2124A-7853-4517-864C-32CFE2C58B41-9362-00009AF9BC5F8CE2</string>
+									<string>49B0EC7D-6F40-427B-97F5-B164A63CA8DF-27474-000192F145F92F3F</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -14595,7 +14751,7 @@ function touchStart(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>ADC2124A-7853-4517-864C-32CFE2C58B41-9362-00009AF9BC5F8CE2</string>
+									<string>49B0EC7D-6F40-427B-97F5-B164A63CA8DF-27474-000192F145F92F3F</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -14655,7 +14811,7 @@ function touchStart(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>ADC2124A-7853-4517-864C-32CFE2C58B41-9362-00009AF9BC5F8CE2</string>
+									<string>49B0EC7D-6F40-427B-97F5-B164A63CA8DF-27474-000192F145F92F3F</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -15034,7 +15190,7 @@ function touchStart(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>17DBFE84-059B-490A-B4AD-570032F17F10-9362-00009AF9BC639692</string>
+									<string>2B4E6C4A-9A80-44BA-BBF0-D360503E7651-27474-000192F145FEAB78</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -15094,7 +15250,7 @@ function touchStart(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>17DBFE84-059B-490A-B4AD-570032F17F10-9362-00009AF9BC639692</string>
+									<string>2B4E6C4A-9A80-44BA-BBF0-D360503E7651-27474-000192F145FEAB78</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -15154,7 +15310,7 @@ function touchStart(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>17DBFE84-059B-490A-B4AD-570032F17F10-9362-00009AF9BC639692</string>
+									<string>2B4E6C4A-9A80-44BA-BBF0-D360503E7651-27474-000192F145FEAB78</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -15462,7 +15618,7 @@ function touchStart(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>4FCAED81-9275-4CF7-A6B6-5C2684E824B3-9362-00009AF9BC67D286</string>
+									<string>87EFBAF7-A4F4-4932-9EDB-DB9B654AD27E-27474-000192F146041477</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -15673,7 +15829,7 @@ function touchStart(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>4FCAED81-9275-4CF7-A6B6-5C2684E824B3-9362-00009AF9BC67D286</string>
+									<string>87EFBAF7-A4F4-4932-9EDB-DB9B654AD27E-27474-000192F146041477</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -15740,7 +15896,7 @@ function touchStart(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>4FCAED81-9275-4CF7-A6B6-5C2684E824B3-9362-00009AF9BC67D286</string>
+									<string>87EFBAF7-A4F4-4932-9EDB-DB9B654AD27E-27474-000192F146041477</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -16031,7 +16187,7 @@ function touchStart(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>5B8BE427-E838-4F32-B25C-A80144C0A2F3-9362-00009AF9BC6B44E5</string>
+									<string>6CE97E2B-D4B8-4759-83BA-2EAC2018436F-27474-000192F1460DFC35</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -16207,7 +16363,7 @@ function touchStart(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>5B8BE427-E838-4F32-B25C-A80144C0A2F3-9362-00009AF9BC6B44E5</string>
+									<string>6CE97E2B-D4B8-4759-83BA-2EAC2018436F-27474-000192F1460DFC35</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -16267,7 +16423,7 @@ function touchStart(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>5B8BE427-E838-4F32-B25C-A80144C0A2F3-9362-00009AF9BC6B44E5</string>
+									<string>6CE97E2B-D4B8-4759-83BA-2EAC2018436F-27474-000192F1460DFC35</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -16518,7 +16674,7 @@ function touchStart(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>6DDD6AE4-28C6-4181-9C7D-4C3B9DEC3385-9362-00009AF9BC6F99AE</string>
+									<string>EDD40937-26F3-4BE4-803A-E4EAEA3E53FA-27474-000192F14613A125</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -16578,7 +16734,7 @@ function touchStart(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>6DDD6AE4-28C6-4181-9C7D-4C3B9DEC3385-9362-00009AF9BC6F99AE</string>
+									<string>EDD40937-26F3-4BE4-803A-E4EAEA3E53FA-27474-000192F14613A125</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -16638,7 +16794,7 @@ function touchStart(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>6DDD6AE4-28C6-4181-9C7D-4C3B9DEC3385-9362-00009AF9BC6F99AE</string>
+									<string>EDD40937-26F3-4BE4-803A-E4EAEA3E53FA-27474-000192F14613A125</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -16777,7 +16933,7 @@ function touchStart(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>0BA92AE9-F7EC-46F0-AEEE-518BC9EAE4EA-9362-00009AF9BC715ED3</string>
+									<string>11AEA3C9-23B0-47A8-B726-5BF5A2FE6962-27474-000192F14615D857</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -16916,7 +17072,7 @@ function touchStart(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>0BA92AE9-F7EC-46F0-AEEE-518BC9EAE4EA-9362-00009AF9BC715ED3</string>
+									<string>11AEA3C9-23B0-47A8-B726-5BF5A2FE6962-27474-000192F14615D857</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -16983,7 +17139,7 @@ function touchStart(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>0BA92AE9-F7EC-46F0-AEEE-518BC9EAE4EA-9362-00009AF9BC715ED3</string>
+									<string>11AEA3C9-23B0-47A8-B726-5BF5A2FE6962-27474-000192F14615D857</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -17469,7 +17625,7 @@ function touchStart(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>9B8CCA2D-814F-49CF-A044-6AD0E9ABF07D-9362-00009AF9BC757D58</string>
+									<string>29D7D782-CCC4-418A-AA68-8B870DEA3FC5-27474-000192F1461B3D59</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -17529,7 +17685,7 @@ function touchStart(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>9B8CCA2D-814F-49CF-A044-6AD0E9ABF07D-9362-00009AF9BC757D58</string>
+									<string>29D7D782-CCC4-418A-AA68-8B870DEA3FC5-27474-000192F1461B3D59</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -17734,7 +17890,7 @@ function touchStart(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>9B8CCA2D-814F-49CF-A044-6AD0E9ABF07D-9362-00009AF9BC757D58</string>
+									<string>29D7D782-CCC4-418A-AA68-8B870DEA3FC5-27474-000192F1461B3D59</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -17999,7 +18155,7 @@ function touchStart(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>13A9B346-A495-4363-9CF7-849104EC1597-9362-00009AF9BC7A0E47</string>
+									<string>54419A19-1050-4D41-8B0C-35DE924971B9-27474-000192F146216681</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -18184,7 +18340,7 @@ function touchStart(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>DCA08A83-3122-48A3-812B-6372C6E010FC-9362-00009AF9BC7B50A0</string>
+									<string>876F37BB-50BF-41CB-8F42-D754D3A893A2-27474-000192F14622FCC0</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -18244,7 +18400,7 @@ function touchStart(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>DCA08A83-3122-48A3-812B-6372C6E010FC-9362-00009AF9BC7B50A0</string>
+									<string>876F37BB-50BF-41CB-8F42-D754D3A893A2-27474-000192F14622FCC0</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -18362,7 +18518,7 @@ function touchStart(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>DCA08A83-3122-48A3-812B-6372C6E010FC-9362-00009AF9BC7B50A0</string>
+									<string>876F37BB-50BF-41CB-8F42-D754D3A893A2-27474-000192F14622FCC0</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -18422,7 +18578,7 @@ function touchStart(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>13A9B346-A495-4363-9CF7-849104EC1597-9362-00009AF9BC7A0E47</string>
+									<string>54419A19-1050-4D41-8B0C-35DE924971B9-27474-000192F146216681</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -18540,7 +18696,7 @@ function touchStart(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>13A9B346-A495-4363-9CF7-849104EC1597-9362-00009AF9BC7A0E47</string>
+									<string>54419A19-1050-4D41-8B0C-35DE924971B9-27474-000192F146216681</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -19542,7 +19698,7 @@ function touchStart(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>873700C3-2ACE-43F2-AB10-67E18CC173C5-9362-00009AF9BC837FF8</string>
+									<string>0931F76C-D0C7-4C9D-A4BC-736495895A29-27474-000192F1462F8883</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -19674,7 +19830,7 @@ function touchStart(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>873700C3-2ACE-43F2-AB10-67E18CC173C5-9362-00009AF9BC837FF8</string>
+									<string>0931F76C-D0C7-4C9D-A4BC-736495895A29-27474-000192F1462F8883</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -19741,7 +19897,7 @@ function touchStart(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>6DE65D32-04E6-4FB5-B1BC-B4F538CDD4D5-9362-00009AF9BC84B5C4</string>
+									<string>DC2F227F-4770-4835-B729-946F0800B9DC-27474-000192F146315056</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -19859,7 +20015,7 @@ function touchStart(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>873700C3-2ACE-43F2-AB10-67E18CC173C5-9362-00009AF9BC837FF8</string>
+									<string>0931F76C-D0C7-4C9D-A4BC-736495895A29-27474-000192F1462F8883</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -19926,7 +20082,7 @@ function touchStart(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>6DE65D32-04E6-4FB5-B1BC-B4F538CDD4D5-9362-00009AF9BC84B5C4</string>
+									<string>DC2F227F-4770-4835-B729-946F0800B9DC-27474-000192F146315056</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -20051,7 +20207,7 @@ function touchStart(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>6DE65D32-04E6-4FB5-B1BC-B4F538CDD4D5-9362-00009AF9BC84B5C4</string>
+									<string>DC2F227F-4770-4835-B729-946F0800B9DC-27474-000192F146315056</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -21264,7 +21420,7 @@ function touchStart(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>849B6F4B-2C92-4CCD-8AAF-BFE68D5EF8B9-9362-00009AF9BC8C06F7</string>
+									<string>2F62F557-36DA-4539-B1B2-2323D935CFF0-27474-000192F1463B4E85</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -21367,7 +21523,7 @@ function touchStart(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>849B6F4B-2C92-4CCD-8AAF-BFE68D5EF8B9-9362-00009AF9BC8C06F7</string>
+									<string>2F62F557-36DA-4539-B1B2-2323D935CFF0-27474-000192F1463B4E85</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -21506,7 +21662,7 @@ function touchStart(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>849B6F4B-2C92-4CCD-8AAF-BFE68D5EF8B9-9362-00009AF9BC8C06F7</string>
+									<string>2F62F557-36DA-4539-B1B2-2323D935CFF0-27474-000192F1463B4E85</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -21624,7 +21780,7 @@ function touchStart(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>48C6FEF3-5EF6-4B08-B9B0-67BC770B3D67-9362-00009AF9BC8DF9CF</string>
+									<string>4B6FADA7-8B36-47AA-81C8-473FE5E3FA00-27474-000192F1463E0ACA</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -21713,7 +21869,7 @@ function touchStart(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>48C6FEF3-5EF6-4B08-B9B0-67BC770B3D67-9362-00009AF9BC8DF9CF</string>
+									<string>4B6FADA7-8B36-47AA-81C8-473FE5E3FA00-27474-000192F1463E0ACA</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -21831,7 +21987,7 @@ function touchStart(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>48C6FEF3-5EF6-4B08-B9B0-67BC770B3D67-9362-00009AF9BC8DF9CF</string>
+									<string>4B6FADA7-8B36-47AA-81C8-473FE5E3FA00-27474-000192F1463E0ACA</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -22031,7 +22187,7 @@ function touchStart(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>07A0C1DB-6FAE-47CB-8D7C-4C867C500D92-9362-00009AF9BC929696</string>
+									<string>372E7F11-4DEB-42F0-8A11-D4DAA22E9F27-27474-000192F146434DA7</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -22138,10 +22294,7 @@ function touchStart(hypeDocument, element, event) {
 									<dict>
 										<key>actions</key>
 										<array>
-											<dict>
-												<key>type</key>
-												<integer>4</integer>
-											</dict>
+											<dict/>
 										</array>
 									</dict>
 								</dict>
@@ -22180,6 +22333,42 @@ function touchStart(hypeDocument, element, event) {
 								<integer>2</integer>
 								<key>uuid</key>
 								<string>151226B5-69C8-44A4-8F48-97B6E81166D0-5454-00007FEF9783BD40</string>
+								<key>zIndex</key>
+								<integer>1</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>1</real>
+								<key>endValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Top</string>
+									<key>objectValue</key>
+									<string>310px</string>
+								</dict>
+								<key>identifier</key>
+								<string>Top</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>482</string>
+								<key>startTime</key>
+								<real>0.0</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Top</string>
+									<key>objectValue</key>
+									<string>620px</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>781A8A07-5DA7-4FD1-9C25-071B244C99F8-27474-0001958CCA05E030</string>
 								<key>zIndex</key>
 								<integer>1</integer>
 							</dict>
@@ -22226,7 +22415,7 @@ function touchStart(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>ED5A6CCE-08D8-48A0-AE66-B212600F8899-9362-00009AF9BC93C99B</string>
+									<string>F058592C-82D4-42DB-9C6C-1B83BB27A103-27474-000192F14644E7FF</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -22293,7 +22482,7 @@ function touchStart(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>ED5A6CCE-08D8-48A0-AE66-B212600F8899-9362-00009AF9BC93C99B</string>
+									<string>F058592C-82D4-42DB-9C6C-1B83BB27A103-27474-000192F14644E7FF</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -22360,7 +22549,7 @@ function touchStart(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>ED5A6CCE-08D8-48A0-AE66-B212600F8899-9362-00009AF9BC93C99B</string>
+									<string>F058592C-82D4-42DB-9C6C-1B83BB27A103-27474-000192F14644E7FF</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -22514,7 +22703,7 @@ function touchStart(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>07A0C1DB-6FAE-47CB-8D7C-4C867C500D92-9362-00009AF9BC929696</string>
+									<string>372E7F11-4DEB-42F0-8A11-D4DAA22E9F27-27474-000192F146434DA7</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -22632,7 +22821,7 @@ function touchStart(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>07A0C1DB-6FAE-47CB-8D7C-4C867C500D92-9362-00009AF9BC929696</string>
+									<string>372E7F11-4DEB-42F0-8A11-D4DAA22E9F27-27474-000192F146434DA7</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -23019,64 +23208,6 @@ function touchStart(hypeDocument, element, event) {
 							</dict>
 							<dict>
 								<key>duration</key>
-								<real>0.0</real>
-								<key>identifier</key>
-								<string>Width</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>471</string>
-								<key>startTime</key>
-								<real>0.53333336114883423</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Width</string>
-									<key>objectValue</key>
-									<string>375px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>F72E886B-8EF9-489E-8E25-E3B230F40371-5823-00008AFD11326728</string>
-								<key>zIndex</key>
-								<integer>2</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.0</real>
-								<key>identifier</key>
-								<string>Height</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>471</string>
-								<key>startTime</key>
-								<real>0.53333336114883423</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Height</string>
-									<key>objectValue</key>
-									<string>300px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>2B69E724-F428-4D0E-A310-795C0086EED5-5823-00008AFD3F2688BC</string>
-								<key>zIndex</key>
-								<integer>2</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
 								<real>0.39999997615814209</real>
 								<key>endValue</key>
 								<dict>
@@ -23118,7 +23249,7 @@ function touchStart(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>09EE805A-BD21-489D-9635-14C545951E56-9362-00009AF9BC987826</string>
+									<string>58A4739D-4876-4642-B68E-3D2AF4F26E48-27474-000192F1464B31A4</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -23141,158 +23272,6 @@ function touchStart(hypeDocument, element, event) {
 								<string>EB5E1A20-788D-432A-91D4-639915049B63-4866-000076FC3AAEFB4C</string>
 								<key>zIndex</key>
 								<integer>3</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.39999997615814209</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>22.5px</string>
-								</dict>
-								<key>identifier</key>
-								<string>Left</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>471</string>
-								<key>startTime</key>
-								<real>0.53333336114883423</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>22.5px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>683E268A-864D-4A43-BAC3-EA7B493ABB48-5823-00008AFCD7B2C61F</string>
-								<key>zIndex</key>
-								<integer>4</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.0</real>
-								<key>identifier</key>
-								<string>ScaleX</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>471</string>
-								<key>startTime</key>
-								<real>0.53333336114883423</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>ScaleX</string>
-									<key>objectValue</key>
-									<string>1</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>2977341B-0FB8-46A3-9F26-E25018AA8FA7-5823-00008AFE201191C8</string>
-								<key>zIndex</key>
-								<integer>4</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.0</real>
-								<key>identifier</key>
-								<string>ScaleY</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>471</string>
-								<key>startTime</key>
-								<real>0.53333336114883423</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>ScaleY</string>
-									<key>objectValue</key>
-									<string>1</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>4DBC6597-9F93-41A9-AA4A-C1D1AFCC085B-5823-00008AFE4C1A484D</string>
-								<key>zIndex</key>
-								<integer>4</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.0</real>
-								<key>identifier</key>
-								<string>RotationAngleX</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>471</string>
-								<key>startTime</key>
-								<real>0.53333336114883423</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>RotationAngleX</string>
-									<key>objectValue</key>
-									<string>0deg</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>82C56C60-ABC0-41EC-875F-56D57FB18E48-5823-00008AFD6B9EF661</string>
-								<key>zIndex</key>
-								<integer>5</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.0</real>
-								<key>identifier</key>
-								<string>DisplayHiddenOverride</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>471</string>
-								<key>startTime</key>
-								<real>0.53333336114883423</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>DisplayHiddenOverride</string>
-									<key>objectValue</key>
-									<string>0</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>F4127051-EB27-4BD5-A8B5-A61698484B4B-5823-00008AFD9EF1E95B</string>
-								<key>zIndex</key>
-								<integer>5</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -23373,7 +23352,7 @@ function touchStart(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>09EE805A-BD21-489D-9635-14C545951E56-9362-00009AF9BC987826</string>
+									<string>58A4739D-4876-4642-B68E-3D2AF4F26E48-27474-000192F1464B31A4</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -23396,42 +23375,6 @@ function touchStart(hypeDocument, element, event) {
 								<string>9FA8A87C-D575-47CE-B27B-1C5FCDA8D650-4866-000076FC3A771DF0</string>
 								<key>zIndex</key>
 								<integer>6</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.39999997615814209</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Top</string>
-									<key>objectValue</key>
-									<string>299.5px</string>
-								</dict>
-								<key>identifier</key>
-								<string>Top</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>471</string>
-								<key>startTime</key>
-								<real>0.53333336114883423</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Top</string>
-									<key>objectValue</key>
-									<string>605.5px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>6039EBB1-D7E0-4CB2-ABCE-F037F775CAFE-5823-00008AFC7E063E6F</string>
-								<key>zIndex</key>
-								<integer>8</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -23512,7 +23455,7 @@ function touchStart(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>09EE805A-BD21-489D-9635-14C545951E56-9362-00009AF9BC987826</string>
+									<string>58A4739D-4876-4642-B68E-3D2AF4F26E48-27474-000192F1464B31A4</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -23666,7 +23609,7 @@ function touchStart(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>1A3A85C8-6A36-4E24-9108-5686570E3F2F-9362-00009AF9BC9B7CE0</string>
+									<string>1903BDF9-59EA-4F10-A3FE-35DAEC276917-27474-000192F1464F8D19</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -23689,35 +23632,6 @@ function touchStart(hypeDocument, element, event) {
 								<string>D0D72423-58B5-4D14-9039-93AD49585B06-4866-000076FF80D0CA78</string>
 								<key>zIndex</key>
 								<integer>4</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.0</real>
-								<key>identifier</key>
-								<string>Left</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>471</string>
-								<key>startTime</key>
-								<real>0.93333333730697632</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>22.5px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>78874DD8-ABBC-472F-8935-37A1E44B57A3-5823-00008B01B319538F</string>
-								<key>zIndex</key>
-								<integer>7</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -23784,7 +23698,7 @@ function touchStart(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>1A3A85C8-6A36-4E24-9108-5686570E3F2F-9362-00009AF9BC9B7CE0</string>
+									<string>1903BDF9-59EA-4F10-A3FE-35DAEC276917-27474-000192F1464F8D19</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -23807,35 +23721,6 @@ function touchStart(hypeDocument, element, event) {
 								<string>E917796D-1B67-4191-902A-A912FCDD4AF5-4866-000076FF809A6C37</string>
 								<key>zIndex</key>
 								<integer>9</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.0</real>
-								<key>identifier</key>
-								<string>Top</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>471</string>
-								<key>startTime</key>
-								<real>0.93333333730697632</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Top</string>
-									<key>objectValue</key>
-									<string>299.5px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>311F5F40-F7D4-490A-AE15-2C2A09E051E4-5823-00008B01B329EDE8</string>
-								<key>zIndex</key>
-								<integer>12</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -23902,7 +23787,7 @@ function touchStart(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>1A3A85C8-6A36-4E24-9108-5686570E3F2F-9362-00009AF9BC9B7CE0</string>
+									<string>1903BDF9-59EA-4F10-A3FE-35DAEC276917-27474-000192F1464F8D19</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -23958,18 +23843,35 @@ function touchStart(hypeDocument, element, event) {
 							<dict>
 								<key>duration</key>
 								<real>0.0</real>
-								<key>endValue</key>
+								<key>identifier</key>
+								<string>Top</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>482</string>
+								<key>startTime</key>
+								<real>1</real>
+								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
-									<string>ActionHandler</string>
+									<string>Top</string>
 									<key>objectValue</key>
-									<dict>
-										<key>actions</key>
-										<array>
-											<dict/>
-										</array>
-									</dict>
+									<string>310px</string>
 								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>6E5B71A9-EDED-4F65-8F21-1281B04F86A5-27474-00019598CBA80BC0</string>
+								<key>zIndex</key>
+								<integer>2</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>0.0</real>
 								<key>identifier</key>
 								<string>ActionHandler</string>
 								<key>isRelative</key>
@@ -23987,6 +23889,8 @@ function touchStart(hypeDocument, element, event) {
 										<key>actions</key>
 										<array>
 											<dict>
+												<key>javascriptOid</key>
+												<string>484</string>
 												<key>type</key>
 												<integer>4</integer>
 											</dict>
@@ -24000,89 +23904,9 @@ function touchStart(hypeDocument, element, event) {
 								<key>type</key>
 								<integer>2</integer>
 								<key>uuid</key>
-								<string>AD70A741-53F4-42AB-A818-BD2252880D04-5823-00008B16E31DB201</string>
+								<string>E82A3213-0BB6-4FEF-964C-5C4C3151DBE6-27474-00019346D896EF6D</string>
 								<key>zIndex</key>
 								<integer>2</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.0</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>ActionHandler</string>
-									<key>objectValue</key>
-									<dict>
-										<key>actions</key>
-										<array>
-											<dict/>
-										</array>
-									</dict>
-								</dict>
-								<key>identifier</key>
-								<string>ActionHandler</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>462</string>
-								<key>startTime</key>
-								<real>1.1666666269302368</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>ActionHandler</string>
-									<key>objectValue</key>
-									<dict>
-										<key>actions</key>
-										<array>
-											<dict/>
-										</array>
-									</dict>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>2</integer>
-								<key>uuid</key>
-								<string>00DE330F-C2FB-410C-A7E9-DE105CA8F3E7-5823-00008B2ED77E1122</string>
-								<key>zIndex</key>
-								<integer>3</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.0</real>
-								<key>identifier</key>
-								<string>ActionHandler</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>462</string>
-								<key>startTime</key>
-								<real>1.1666666269302368</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>ActionHandler</string>
-									<key>objectValue</key>
-									<dict>
-										<key>actions</key>
-										<array>
-											<dict/>
-										</array>
-									</dict>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>2</integer>
-								<key>uuid</key>
-								<string>A514B7FA-CBEC-4995-9DB8-FC8E91958F26-5823-00008B2F2EF58F69</string>
-								<key>zIndex</key>
-								<integer>4</integer>
 							</dict>
 						</array>
 						<key>firstKeyframeIsRelative</key>
@@ -24176,9 +24000,9 @@ function touchStart(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{188.5, 362.5}</string>
+												<string>{189, 363}</string>
 												<key>endPoint</key>
-												<string>{188.5, 362.5}</string>
+												<string>{189, 363}</string>
 												<key>startControlPoint</key>
 												<string>{188, 303}</string>
 												<key>startPoint</key>
@@ -24195,7 +24019,7 @@ function touchStart(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>42324C50-E8C1-43EA-83A4-24A700763417-9362-0000A2466025A4DB</string>
+									<string>7B70578D-B374-4C19-BE54-7CB0F737E9A7-27474-000192F14655830B</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -24236,9 +24060,9 @@ function touchStart(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{188.5, 362.5}</string>
+												<string>{189, 363}</string>
 												<key>endPoint</key>
-												<string>{188.5, 362.5}</string>
+												<string>{189, 363}</string>
 												<key>startControlPoint</key>
 												<string>{188, 303}</string>
 												<key>startPoint</key>
@@ -24255,7 +24079,7 @@ function touchStart(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>42324C50-E8C1-43EA-83A4-24A700763417-9362-0000A2466025A4DB</string>
+									<string>7B70578D-B374-4C19-BE54-7CB0F737E9A7-27474-000192F14655830B</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -24296,9 +24120,9 @@ function touchStart(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{188.5, 362.5}</string>
+												<string>{189, 363}</string>
 												<key>endPoint</key>
-												<string>{188.5, 362.5}</string>
+												<string>{189, 363}</string>
 												<key>startControlPoint</key>
 												<string>{188, 303}</string>
 												<key>startPoint</key>
@@ -24315,7 +24139,7 @@ function touchStart(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>42324C50-E8C1-43EA-83A4-24A700763417-9362-0000A2466025A4DB</string>
+									<string>7B70578D-B374-4C19-BE54-7CB0F737E9A7-27474-000192F14655830B</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -24423,7 +24247,7 @@ function touchStart(hypeDocument, element, event) {
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>5C85EF2E-A8D8-4EE8-9334-E9823EC8A943-9362-00009AF9EE00164B</string>
+			<string>FF2000D7-1752-4744-A167-D9097A464AA0-27474-000192F17AB57E5D</string>
 			<key>selectedObjects</key>
 			<array/>
 			<key>symbol</key>
@@ -26279,7 +26103,7 @@ function touchStart(hypeDocument, element, event) {
 		</dict>
 	</array>
 	<key>useCSSPositioning</key>
-	<false/>
+	<true/>
 	<key>useCSSReset</key>
 	<true/>
 	<key>useGraphicsAcceleration</key>
