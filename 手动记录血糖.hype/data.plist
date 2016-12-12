@@ -79,11 +79,11 @@
 	<string>
 	&lt;script type="text/javascript" src="${resourcesFolderName}/main.js"&gt;&lt;/script&gt;</string>
 	<key>lastCheckDate</key>
-	<date>2016-12-12T10:25:22Z</date>
+	<date>2016-12-12T10:37:34Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
-		<integer>2</integer>
+		<integer>3</integer>
 		<key>customizableLayout</key>
 		<dict>
 			<key>frame</key>
@@ -2108,58 +2108,6 @@
 			</dict>
 			<dict>
 				<key>fileModificationDate</key>
-				<date>2016-12-12T07:48:15Z</date>
-				<key>fileSize</key>
-				<integer>58403</integer>
-				<key>md5</key>
-				<string>C1A0AB58754FB44A1CF4EF9069BF5B57</string>
-				<key>notifyOnBookmarkChange</key>
-				<true/>
-				<key>originalPath</key>
-				<string>/Users/shengqiang/Desktop/TODO/手动输入血糖记录/compassPanl@2x.png</string>
-				<key>resourceName</key>
-				<string>compassPanl@2x.png</string>
-				<key>securityScopedBookmark</key>
-				<data>
-				Ym9vayADAAAAAAQQMAAAALyIKQDqqNEQjdhCY8o/DvEV
-				Q/39ydy21lGgZ8w+EPY0HAIAAAQAAAADAwAAAAkAKAUA
-				AAABAQAAVXNlcnMAAAAKAAAAAQEAAHNoZW5ncWlhbmcA
-				AAcAAAABAQAARGVza3RvcAAEAAAAAQEAAFRPRE8YAAAA
-				AQEAAOaJi+WKqOi+k+WFpeihgOezluiusOW9lRIAAAAB
-				AQAAY29tcGFzc1BhbmxAMngucG5nAAAYAAAAAQYAABAA
-				AAAgAAAANAAAAEQAAABQAAAAcAAAAAgAAAAEAwAAhnoX
-				AAAAAAAIAAAABAMAAJZ6FwAAAAAACAAAAAQDAAChhxkA
-				AAAAAAgAAAAEAwAAfogZAAAAAAAIAAAABAMAALXjVwEA
-				AAAACAAAAAQDAABqQW4BAAAAABgAAAABBgAArAAAALwA
-				AADMAAAA3AAAAOwAAAD8AAAACAAAAAAEAABBvf6NvwAA
-				ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAA
-				CAAAAAQDAAAEAAAAAAAAAAQAAAADAwAA9QEAAAgAAAAB
-				CQAAZmlsZTovLy8MAAAAAQEAAE1hY2ludG9zaCBIRAgA
-				AAAEAwAAAAAAMnQAAAAIAAAAAAQAAEG63ajMAAAAJAAA
-				AAEBAAA5N0Y1MzBBNy04QzZDLTMwNEMtQUY1Qi04QTNE
-				NzI5QURGODUYAAAAAQIAAIEAAAABAAAA7xMAAAEAAAAA
-				AAAAAAAAAAEAAAABAQAALwAAAAAAAAABBQAAzAAAAP7/
-				//8BAAAAAAAAABAAAAAEEAAAjAAAAAAAAAAFEAAADAEA
-				AAAAAAAQEAAAPAEAAAAAAABAEAAALAEAAAAAAAACIAAA
-				CAIAAAAAAAAFIAAAeAEAAAAAAAAQIAAAiAEAAAAAAAAR
-				IAAAvAEAAAAAAAASIAAAnAEAAAAAAAATIAAArAEAAAAA
-				AAAgIAAA6AEAAAAAAAAwIAAAFAIAAAAAAAABwAAAXAEA
-				AAAAAAARwAAAIAAAAAAAAAASwAAAbAEAAAAAAAAQ0AAA
-				BAAAAAAAAAA=
-				</data>
-				<key>shouldAutoResize</key>
-				<true/>
-				<key>shouldIncludeInDocumentHeadHTML</key>
-				<false/>
-				<key>shouldPreload</key>
-				<true/>
-				<key>shouldRemoveWhenNoLongerReferenced</key>
-				<true/>
-				<key>type</key>
-				<string>FileResource</string>
-			</dict>
-			<dict>
-				<key>fileModificationDate</key>
 				<date>2016-12-12T09:54:38Z</date>
 				<key>fileSize</key>
 				<integer>1676</integer>
@@ -2265,6 +2213,58 @@
 				<key>type</key>
 				<string>FileResource</string>
 			</dict>
+			<dict>
+				<key>fileModificationDate</key>
+				<date>2016-12-12T10:34:37Z</date>
+				<key>fileSize</key>
+				<integer>57634</integer>
+				<key>md5</key>
+				<string>960D2FA18DE1F441520FBD8900F3E4AE</string>
+				<key>notifyOnBookmarkChange</key>
+				<true/>
+				<key>originalPath</key>
+				<string>/Users/shengqiang/Desktop/TODO/手动输入血糖记录/compassPanl@2x.png</string>
+				<key>resourceName</key>
+				<string>compassPanl@2x.png</string>
+				<key>securityScopedBookmark</key>
+				<data>
+				Ym9vayADAAAAAAQQMAAAABnsxU1t57FRigK1WR2bekJo
+				sZYrM2/xWdQ/C4bvoFFaHAIAAAQAAAADAwAAAAkAKAUA
+				AAABAQAAVXNlcnMAAAAKAAAAAQEAAHNoZW5ncWlhbmcA
+				AAcAAAABAQAARGVza3RvcAAEAAAAAQEAAFRPRE8YAAAA
+				AQEAAOaJi+WKqOi+k+WFpeihgOezluiusOW9lRIAAAAB
+				AQAAY29tcGFzc1BhbmxAMngucG5nAAAYAAAAAQYAABAA
+				AAAgAAAANAAAAEQAAABQAAAAcAAAAAgAAAAEAwAAhnoX
+				AAAAAAAIAAAABAMAAJZ6FwAAAAAACAAAAAQDAAChhxkA
+				AAAAAAgAAAAEAwAAfogZAAAAAAAIAAAABAMAALXjVwEA
+				AAAACAAAAAQDAAAQrG4BAAAAABgAAAABBgAArAAAALwA
+				AADMAAAA3AAAAOwAAAD8AAAACAAAAAAEAABBvf60vQAA
+				ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAA
+				CAAAAAQDAAAEAAAAAAAAAAQAAAADAwAA9QEAAAgAAAAB
+				CQAAZmlsZTovLy8MAAAAAQEAAE1hY2ludG9zaCBIRAgA
+				AAAEAwAAAAAAMnQAAAAIAAAAAAQAAEG63ajMAAAAJAAA
+				AAEBAAA5N0Y1MzBBNy04QzZDLTMwNEMtQUY1Qi04QTNE
+				NzI5QURGODUYAAAAAQIAAIEAAAABAAAA7xMAAAEAAAAA
+				AAAAAAAAAAEAAAABAQAALwAAAAAAAAABBQAAzAAAAP7/
+				//8BAAAAAAAAABAAAAAEEAAAjAAAAAAAAAAFEAAADAEA
+				AAAAAAAQEAAAPAEAAAAAAABAEAAALAEAAAAAAAACIAAA
+				CAIAAAAAAAAFIAAAeAEAAAAAAAAQIAAAiAEAAAAAAAAR
+				IAAAvAEAAAAAAAASIAAAnAEAAAAAAAATIAAArAEAAAAA
+				AAAgIAAA6AEAAAAAAAAwIAAAFAIAAAAAAAABwAAAXAEA
+				AAAAAAARwAAAIAAAAAAAAAASwAAAbAEAAAAAAAAQ0AAA
+				BAAAAAAAAAA=
+				</data>
+				<key>shouldAutoResize</key>
+				<true/>
+				<key>shouldIncludeInDocumentHeadHTML</key>
+				<false/>
+				<key>shouldPreload</key>
+				<true/>
+				<key>shouldRemoveWhenNoLongerReferenced</key>
+				<true/>
+				<key>type</key>
+				<string>FileResource</string>
+			</dict>
 		</array>
 	</dict>
 	<key>sceneContainers</key>
@@ -2341,7 +2341,7 @@
 					<key>rootSymbolControllerOid</key>
 					<string>91</string>
 					<key>scrollViewOffset</key>
-					<string>{3047, 901.3359375}</string>
+					<string>{3048, 501.3359375}</string>
 					<key>userGuides</key>
 					<array>
 						<dict>
@@ -2538,13 +2538,11 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 	<key>symbols</key>
 	<array>
 		<dict>
-			<key>currentGroupElement</key>
-			<string>395</string>
 			<key>documentIdentifier</key>
 			<string>47FF3333-ED61-4983-8146-4FF3DEA2C66F-32647-0001A925D3D4184C</string>
 			<key>selectedObjects</key>
 			<array>
-				<string>354</string>
+				<string>331</string>
 			</array>
 			<key>symbol</key>
 			<dict>
@@ -9076,7 +9074,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>BoxShadowBlurRadius</string>
 							<key>objectValue</key>
-							<string>9px</string>
+							<string>5px</string>
 						</dict>
 					</array>
 					<key>395</key>
