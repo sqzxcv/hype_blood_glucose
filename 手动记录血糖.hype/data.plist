@@ -79,7 +79,7 @@
 	<string>
 	&lt;script type="text/javascript" src="${resourcesFolderName}/main.js"&gt;&lt;/script&gt;</string>
 	<key>lastCheckDate</key>
-	<date>2016-12-13T03:15:06Z</date>
+	<date>2016-12-13T03:20:24Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
@@ -569,18 +569,6 @@
 				<key>resources</key>
 				<array>
 					<string>light.gif</string>
-				</array>
-			</dict>
-			<dict>
-				<key>expanded</key>
-				<true/>
-				<key>name</key>
-				<string>打印机-5秒</string>
-				<key>oid</key>
-				<string>461</string>
-				<key>resources</key>
-				<array>
-					<string>打印机-5秒.mp3</string>
 				</array>
 			</dict>
 			<dict>
@@ -1532,55 +1520,6 @@
 				<true/>
 				<key>shouldRemoveWhenNoLongerReferenced</key>
 				<true/>
-				<key>type</key>
-				<string>FileResource</string>
-			</dict>
-			<dict>
-				<key>fileModificationDate</key>
-				<date>2016-12-02T09:40:23Z</date>
-				<key>fileSize</key>
-				<integer>78608</integer>
-				<key>md5</key>
-				<string>46B1BF6447623ADDC1D6D12F41C73148</string>
-				<key>notifyOnBookmarkChange</key>
-				<true/>
-				<key>originalPath</key>
-				<string>/Users/shengqiang/Downloads/打印机-5秒.mp3</string>
-				<key>resourceName</key>
-				<string>打印机-5秒.mp3</string>
-				<key>securityScopedBookmark</key>
-				<data>
-				Ym9va8gCAAAAAAQQMAAAAD2czMg7LE8Ob5EKc6YcZ/qr
-				yKcVXt7crJkswzGgwj3XxAEAAAQAAAADAwAAAAkAKAUA
-				AAABAQAAVXNlcnMAAAAKAAAAAQEAAHNoZW5ncWlhbmcA
-				AAkAAAABAQAARG93bmxvYWRzAAAAEgAAAAEBAADmiZPl
-				jbDmnLotNeenki5tcDMAABAAAAABBgAAEAAAACAAAAA0
-				AAAASAAAAAgAAAAEAwAAhnoXAAAAAAAIAAAABAMAAJZ6
-				FwAAAAAACAAAAAQDAACl8xwAAAAAAAgAAAAEAwAAY8dn
-				AQAAAAAQAAAAAQYAAHwAAACMAAAAnAAAAKwAAAAIAAAA
-				AAQAAEG98XkHAAAAGAAAAAECAAABAAAAAAAAAA8AAAAA
-				AAAAAAAAAAAAAAAIAAAABAMAAAIAAAAAAAAABAAAAAMD
-				AAD1AQAACAAAAAEJAABmaWxlOi8vLwwAAAABAQAATWFj
-				aW50b3NoIEhECAAAAAQDAAAAAAAydAAAAAgAAAAABAAA
-				QbrdqMwAAAAkAAAAAQEAADk3RjUzMEE3LThDNkMtMzA0
-				Qy1BRjVCLThBM0Q3MjlBREY4NRgAAAABAgAAgQAAAAEA
-				AADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAAAAAA
-				AAEFAADMAAAA/v///wEAAAAAAAAAEAAAAAQQAABkAAAA
-				AAAAAAUQAAC8AAAAAAAAABAQAADkAAAAAAAAAEAQAADU
-				AAAAAAAAAAIgAACwAQAAAAAAAAUgAAAgAQAAAAAAABAg
-				AAAwAQAAAAAAABEgAABkAQAAAAAAABIgAABEAQAAAAAA
-				ABMgAABUAQAAAAAAACAgAACQAQAAAAAAADAgAAC8AQAA
-				AAAAAAHAAAAEAQAAAAAAABHAAAAgAAAAAAAAABLAAAAU
-				AQAAAAAAABDQAAAEAAAAAAAAAA==
-				</data>
-				<key>shouldAutoResize</key>
-				<true/>
-				<key>shouldIncludeInDocumentHeadHTML</key>
-				<false/>
-				<key>shouldPreload</key>
-				<true/>
-				<key>shouldRemoveWhenNoLongerReferenced</key>
-				<false/>
 				<key>type</key>
 				<string>FileResource</string>
 			</dict>
@@ -2621,7 +2560,9 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 			<key>documentIdentifier</key>
 			<string>47FF3333-ED61-4983-8146-4FF3DEA2C66F-32647-0001A925D3D4184C</string>
 			<key>selectedObjects</key>
-			<array/>
+			<array>
+				<string>331</string>
+			</array>
 			<key>symbol</key>
 			<dict>
 				<key>addToNewSceneControllers</key>
