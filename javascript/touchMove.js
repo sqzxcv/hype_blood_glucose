@@ -1,3 +1,11 @@
+
+function touchEnd (hypeDocument, element, event) {
+	// body...
+	var audio = $("#compassPanlAudio").get(0);
+	audio.pause();
+	console.log("结束播放");
+}
+
 function touchMove (hypeDocument, element, event) {
 	// body...
 
@@ -35,7 +43,7 @@ function touchMove (hypeDocument, element, event) {
 	//转换成角度
 	angle = angle * 180/ 3.14;
 	angle = Number(angle).toFixed(0);
-	console.log("角度：" + angle);
+	//console.log("角度：" + angle);
 	var time = 6*angle/360;
 	hypeDocument.goToTimeInTimelineNamed(time, 'RuleTimeline');
 
@@ -46,10 +54,22 @@ function touchMove (hypeDocument, element, event) {
 	var green = caculateColorChannel(angle,'g');
 	var blue = caculateColorChannel(angle,'b');
 
-	console.log('rgba('+red+','+green+','+blue+',1)');
+	//console.log('rgba('+red+','+green+','+blue+',1)');
 	$(".CompassValuePanel").css('box-shadow', '0px 3px 5px 1px rgba('+red+','+green+','+blue+',1)');
 	//$(".CompassValuePanel").css('background', 'rgba('+red+','+green+','+blue+',1)');
 	$(".compass_pointerBK").css('background','rgba('+red+','+green+','+blue+',1)');
+	playAudio();
+}
+
+function playAudio () {
+	// body...
+
+	 var audio = $("#compassPanlAudio").get(0);
+	 if (audio.paused == true || audio.ended == true) {
+
+	 	console.log("begin play audio");
+	 	audio.play();
+	 }
 }
 
 function convertGluose_moring (angle) {
