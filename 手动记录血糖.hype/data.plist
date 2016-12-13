@@ -79,7 +79,7 @@
 	<string>
 	&lt;script type="text/javascript" src="${resourcesFolderName}/main.js"&gt;&lt;/script&gt;</string>
 	<key>lastCheckDate</key>
-	<date>2016-12-13T08:01:20Z</date>
+	<date>2016-12-13T08:12:44Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
@@ -1180,57 +1180,6 @@
 				<true/>
 				<key>shouldRemoveWhenNoLongerReferenced</key>
 				<false/>
-				<key>type</key>
-				<string>FileResource</string>
-			</dict>
-			<dict>
-				<key>fileModificationDate</key>
-				<date>2016-11-30T08:37:35Z</date>
-				<key>fileSize</key>
-				<integer>11485</integer>
-				<key>md5</key>
-				<string>F44DCC1D281D64A520DD2543F32D5782</string>
-				<key>notifyOnBookmarkChange</key>
-				<true/>
-				<key>originalPath</key>
-				<string>/Users/shengqiang/Desktop/TODO/手动输入血糖记录/提交.png</string>
-				<key>resourceName</key>
-				<string>提交.png</string>
-				<key>securityScopedBookmark</key>
-				<data>
-				Ym9vaxgDAAAAAAQQMAAAACunCHkhRSr/ukQXvCYFsLQp
-				nbOyjVWacH6MMl6DZbwOFAIAAAQAAAADAwAAAAkAKAUA
-				AAABAQAAVXNlcnMAAAAKAAAAAQEAAHNoZW5ncWlhbmcA
-				AAcAAAABAQAARGVza3RvcAAEAAAAAQEAAFRPRE8YAAAA
-				AQEAAOaJi+WKqOi+k+WFpeihgOezluiusOW9lQoAAAAB
-				AQAA5o+Q5LqkLnBuZwAAGAAAAAEGAAAQAAAAIAAAADQA
-				AABEAAAAUAAAAHAAAAAIAAAABAMAAIZ6FwAAAAAACAAA
-				AAQDAACWehcAAAAAAAgAAAAEAwAAoYcZAAAAAAAIAAAA
-				BAMAAH6IGQAAAAAACAAAAAQDAAC141cBAAAAAAgAAAAE
-				AwAAHOlkAQAAAAAYAAAAAQYAAKQAAAC0AAAAxAAAANQA
-				AADkAAAA9AAAAAgAAAAABAAAQb3ux08AAAAYAAAAAQIA
-				AAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAgAAAAEAwAA
-				BAAAAAAAAAAEAAAAAwMAAPUBAAAIAAAAAQkAAGZpbGU6
-				Ly8vDAAAAAEBAABNYWNpbnRvc2ggSEQIAAAABAMAAAAA
-				ADJ0AAAACAAAAAAEAABBut2ozAAAACQAAAABAQAAOTdG
-				NTMwQTctOEM2Qy0zMDRDLUFGNUItOEEzRDcyOUFERjg1
-				GAAAAAECAACBAAAAAQAAAO8TAAABAAAAAAAAAAAAAAAB
-				AAAAAQEAAC8AAAAAAAAAAQUAAMwAAAD+////AQAAAAAA
-				AAAQAAAABBAAAIQAAAAAAAAABRAAAAQBAAAAAAAAEBAA
-				ADQBAAAAAAAAQBAAACQBAAAAAAAAAiAAAAACAAAAAAAA
-				BSAAAHABAAAAAAAAECAAAIABAAAAAAAAESAAALQBAAAA
-				AAAAEiAAAJQBAAAAAAAAEyAAAKQBAAAAAAAAICAAAOAB
-				AAAAAAAAMCAAAAwCAAAAAAAAAcAAAFQBAAAAAAAAEcAA
-				ACAAAAAAAAAAEsAAAGQBAAAAAAAAENAAAAQAAAAAAAAA
-				</data>
-				<key>shouldAutoResize</key>
-				<true/>
-				<key>shouldIncludeInDocumentHeadHTML</key>
-				<false/>
-				<key>shouldPreload</key>
-				<true/>
-				<key>shouldRemoveWhenNoLongerReferenced</key>
-				<true/>
 				<key>type</key>
 				<string>FileResource</string>
 			</dict>
@@ -2369,6 +2318,57 @@
 				<key>type</key>
 				<string>FileResource</string>
 			</dict>
+			<dict>
+				<key>fileModificationDate</key>
+				<date>2016-12-13T08:09:51Z</date>
+				<key>fileSize</key>
+				<integer>12131</integer>
+				<key>md5</key>
+				<string>52CDBDC5F0F1DCA9F299348AFC5809B3</string>
+				<key>notifyOnBookmarkChange</key>
+				<true/>
+				<key>originalPath</key>
+				<string>/Users/shengqiang/Desktop/TODO/手动输入血糖记录/提交.png</string>
+				<key>resourceName</key>
+				<string>提交.png</string>
+				<key>securityScopedBookmark</key>
+				<data>
+				Ym9vaxgDAAAAAAQQMAAAAEe4qkM/AU2V50bPmdqpHzF3
+				dDpL+ojANDy3t79izly3FAIAAAQAAAADAwAAAAkAKAUA
+				AAABAQAAVXNlcnMAAAAKAAAAAQEAAHNoZW5ncWlhbmcA
+				AAcAAAABAQAARGVza3RvcAAEAAAAAQEAAFRPRE8YAAAA
+				AQEAAOaJi+WKqOi+k+WFpeihgOezluiusOW9lQoAAAAB
+				AQAA5o+Q5LqkLnBuZwAAGAAAAAEGAAAQAAAAIAAAADQA
+				AABEAAAAUAAAAHAAAAAIAAAABAMAAIZ6FwAAAAAACAAA
+				AAQDAACWehcAAAAAAAgAAAAEAwAAoYcZAAAAAAAIAAAA
+				BAMAAH6IGQAAAAAACAAAAAQDAAC141cBAAAAAAgAAAAE
+				AwAAWx5wAQAAAAAYAAAAAQYAAKQAAAC0AAAAxAAAANQA
+				AADkAAAA9AAAAAgAAAAABAAAQb3/5E8AAAAYAAAAAQIA
+				AAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAgAAAAEAwAA
+				BAAAAAAAAAAEAAAAAwMAAPUBAAAIAAAAAQkAAGZpbGU6
+				Ly8vDAAAAAEBAABNYWNpbnRvc2ggSEQIAAAABAMAAAAA
+				ADJ0AAAACAAAAAAEAABBut2ozAAAACQAAAABAQAAOTdG
+				NTMwQTctOEM2Qy0zMDRDLUFGNUItOEEzRDcyOUFERjg1
+				GAAAAAECAACBAAAAAQAAAO8TAAABAAAAAAAAAAAAAAAB
+				AAAAAQEAAC8AAAAAAAAAAQUAAMwAAAD+////AQAAAAAA
+				AAAQAAAABBAAAIQAAAAAAAAABRAAAAQBAAAAAAAAEBAA
+				ADQBAAAAAAAAQBAAACQBAAAAAAAAAiAAAAACAAAAAAAA
+				BSAAAHABAAAAAAAAECAAAIABAAAAAAAAESAAALQBAAAA
+				AAAAEiAAAJQBAAAAAAAAEyAAAKQBAAAAAAAAICAAAOAB
+				AAAAAAAAMCAAAAwCAAAAAAAAAcAAAFQBAAAAAAAAEcAA
+				ACAAAAAAAAAAEsAAAGQBAAAAAAAAENAAAAQAAAAAAAAA
+				</data>
+				<key>shouldAutoResize</key>
+				<true/>
+				<key>shouldIncludeInDocumentHeadHTML</key>
+				<false/>
+				<key>shouldPreload</key>
+				<true/>
+				<key>shouldRemoveWhenNoLongerReferenced</key>
+				<true/>
+				<key>type</key>
+				<string>FileResource</string>
+			</dict>
 		</array>
 	</dict>
 	<key>sceneContainers</key>
@@ -2445,7 +2445,7 @@
 					<key>rootSymbolControllerOid</key>
 					<string>91</string>
 					<key>scrollViewOffset</key>
-					<string>{3780, 679}</string>
+					<string>{3780, 864}</string>
 					<key>userGuides</key>
 					<array>
 						<dict>
@@ -8606,7 +8606,7 @@ function touchEnded(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>Top</string>
 							<key>objectValue</key>
-							<string>451px</string>
+							<string>452px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8642,7 +8642,7 @@ function touchEnded(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>Left</string>
 							<key>objectValue</key>
-							<string>140px</string>
+							<string>139px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -11117,7 +11117,7 @@ function touchEnded(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>Top</string>
 							<key>objectValue</key>
-							<string>173px</string>
+							<string>179px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
