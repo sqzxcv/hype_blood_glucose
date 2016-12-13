@@ -77,13 +77,24 @@
 	<false/>
 	<key>headHtml</key>
 	<string>
-	&lt;script type="text/javascript" src="${resourcesFolderName}/main.js"&gt;&lt;/script&gt;</string>
+	&lt;script type="text/javascript" src="${resourcesFolderName}/main.js"&gt;&lt;/script&gt;
+	&lt;style type="text/css"&gt;
+	body {
+		
+		font-family: PingFangSC-Thin, sans-serif;
+	}
+	.compassViewTitleDiv {
+		
+		font-family: PingFangSC-Thin, sans-serif;
+		color:#C7D8E0;
+	}
+	&lt;/style&gt;</string>
 	<key>lastCheckDate</key>
-	<date>2016-12-13T10:07:08Z</date>
+	<date>2016-12-13T10:28:12Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
-		<integer>5</integer>
+		<integer>7</integer>
 		<key>customizableLayout</key>
 		<dict>
 			<key>frame</key>
@@ -268,71 +279,11 @@
 		<array>
 			<dict>
 				<key>className</key>
-				<string>HypeJavascript</string>
-				<key>oid</key>
-				<string>477</string>
-			</dict>
-			<dict>
-				<key>className</key>
 				<string>HeadHTMLEditor</string>
-			</dict>
-			<dict>
-				<key>className</key>
-				<string>HypeJavascript</string>
-				<key>oid</key>
-				<string>528</string>
-			</dict>
-			<dict>
-				<key>className</key>
-				<string>HypeJavascript</string>
-				<key>oid</key>
-				<string>530</string>
-			</dict>
-			<dict>
-				<key>className</key>
-				<string>HypeJavascript</string>
-				<key>oid</key>
-				<string>531</string>
-			</dict>
-			<dict>
-				<key>className</key>
-				<string>HypeJavascript</string>
-				<key>oid</key>
-				<string>532</string>
-			</dict>
-			<dict>
-				<key>className</key>
-				<string>HypeJavascript</string>
-				<key>oid</key>
-				<string>533</string>
-			</dict>
-			<dict>
-				<key>className</key>
-				<string>HypeJavascript</string>
-				<key>oid</key>
-				<string>534</string>
-			</dict>
-			<dict>
-				<key>className</key>
-				<string>HypeJavascript</string>
-				<key>oid</key>
-				<string>535</string>
-			</dict>
-			<dict>
-				<key>className</key>
-				<string>HypeJavascript</string>
-				<key>oid</key>
-				<string>536</string>
-			</dict>
-			<dict>
-				<key>className</key>
-				<string>HypeJavascript</string>
-				<key>oid</key>
-				<string>537</string>
 			</dict>
 		</array>
 		<key>selectedTabIndex</key>
-		<integer>0</integer>
+		<integer>1</integer>
 		<key>showInspectorView</key>
 		<true/>
 		<key>showResourcesView</key>
@@ -2777,7 +2728,7 @@
 					<key>rootSymbolControllerOid</key>
 					<string>91</string>
 					<key>scrollViewOffset</key>
-					<string>{3756, 1377}</string>
+					<string>{3779, 361}</string>
 					<key>userGuides</key>
 					<array>
 						<dict>
@@ -3070,12 +3021,12 @@ function midnight_3action(hypeDocument, element, event) {
 	<array>
 		<dict>
 			<key>currentGroupElement</key>
-			<string>150</string>
+			<string>395</string>
 			<key>documentIdentifier</key>
 			<string>C0A97AB3-144B-4425-AF4F-ADCFD6BC4E00-40988-0001F8B37F2063F4</string>
 			<key>selectedObjects</key>
 			<array>
-				<string>158</string>
+				<string>521</string>
 			</array>
 			<key>symbol</key>
 			<dict>
