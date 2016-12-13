@@ -79,17 +79,17 @@
 	<string>
 	&lt;script type="text/javascript" src="${resourcesFolderName}/main.js"&gt;&lt;/script&gt;</string>
 	<key>lastCheckDate</key>
-	<date>2016-12-13T03:20:24Z</date>
+	<date>2016-12-13T06:13:36Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
-		<integer>2</integer>
+		<integer>3</integer>
 		<key>customizableLayout</key>
 		<dict>
 			<key>frame</key>
 			<string>{{0, 0}, {1920, 958}}</string>
 			<key>identifier</key>
-			<string>container 24</string>
+			<string>container 33</string>
 			<key>isCustomizableViewContainer</key>
 			<true/>
 			<key>isCustomizableViewWrapper</key>
@@ -102,7 +102,7 @@
 					<key>frame</key>
 					<string>{{0, 0}, {1649, 958}}</string>
 					<key>identifier</key>
-					<string>container 53</string>
+					<string>container 338</string>
 					<key>isCustomizableViewContainer</key>
 					<true/>
 					<key>isCustomizableViewWrapper</key>
@@ -115,7 +115,7 @@
 							<key>frame</key>
 							<string>{{0, 0}, {1378, 958}}</string>
 							<key>identifier</key>
-							<string>container 42</string>
+							<string>container 327</string>
 							<key>isCustomizableViewContainer</key>
 							<true/>
 							<key>isCustomizableViewWrapper</key>
@@ -128,7 +128,7 @@
 									<key>frame</key>
 									<string>{{0, 0}, {135, 958}}</string>
 									<key>identifier</key>
-									<string>container 32</string>
+									<string>container 317</string>
 									<key>isCustomizableViewContainer</key>
 									<true/>
 									<key>isCustomizableViewWrapper</key>
@@ -151,7 +151,7 @@
 									<key>frame</key>
 									<string>{{136, 0}, {1242, 958}}</string>
 									<key>identifier</key>
-									<string>container 33</string>
+									<string>container 318</string>
 									<key>isCustomizableViewContainer</key>
 									<true/>
 									<key>isCustomizableViewWrapper</key>
@@ -162,7 +162,7 @@
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{136, 0}, {1242, 330.8359375}}</string>
+											<string>{{136, 0}, {1242, 314}}</string>
 											<key>identifier</key>
 											<string>container 13001</string>
 											<key>isCustomizableViewContainer</key>
@@ -175,7 +175,7 @@
 											<array>
 												<dict>
 													<key>frame</key>
-													<string>{{136, 0}, {1242, 330.8359375}}</string>
+													<string>{{136, 0}, {1242, 314}}</string>
 													<key>identifier</key>
 													<string>timelineCustomizableContainer</string>
 													<key>isCustomizableViewContainer</key>
@@ -185,7 +185,7 @@
 										</dict>
 										<dict>
 											<key>frame</key>
-											<string>{{136, 331.8359375}, {1242, 626.1640625}}</string>
+											<string>{{136, 315}, {1242, 643}}</string>
 											<key>identifier</key>
 											<string>container 3</string>
 											<key>isCustomizableViewContainer</key>
@@ -198,7 +198,7 @@
 											<array>
 												<dict>
 													<key>frame</key>
-													<string>{{136, 331.8359375}, {1242, 626.1640625}}</string>
+													<string>{{136, 315}, {1242, 643}}</string>
 													<key>identifier</key>
 													<string>sceneEditorCustomizableContainer</string>
 													<key>isCustomizableViewContainer</key>
@@ -214,7 +214,7 @@
 							<key>frame</key>
 							<string>{{1379, 0}, {270, 958}}</string>
 							<key>identifier</key>
-							<string>container 41</string>
+							<string>container 326</string>
 							<key>isCustomizableViewContainer</key>
 							<true/>
 							<key>isCustomizableViewWrapper</key>
@@ -239,7 +239,7 @@
 					<key>frame</key>
 					<string>{{1650, 0}, {270, 958}}</string>
 					<key>identifier</key>
-					<string>container 52</string>
+					<string>container 337</string>
 					<key>isCustomizableViewContainer</key>
 					<true/>
 					<key>isCustomizableViewWrapper</key>
@@ -373,7 +373,7 @@
 	<key>monotypeProjectID</key>
 	<string>070843ED-997B-4006-AE35-7FD1180D46A9-38806-0002A80BAAA172AC</string>
 	<key>oidCounter</key>
-	<integer>509</integer>
+	<integer>510</integer>
 	<key>resourcesInfo</key>
 	<dict>
 		<key>groups</key>
@@ -599,18 +599,6 @@
 				<key>expanded</key>
 				<true/>
 				<key>name</key>
-				<string>Pasted-3</string>
-				<key>oid</key>
-				<string>466</string>
-				<key>resources</key>
-				<array>
-					<string>Pasted-3.png</string>
-				</array>
-			</dict>
-			<dict>
-				<key>expanded</key>
-				<true/>
-				<key>name</key>
 				<string>圆盘按钮</string>
 				<key>oid</key>
 				<string>382</string>
@@ -666,6 +654,18 @@
 				<key>resources</key>
 				<array>
 					<string>mmolL@2X.png</string>
+				</array>
+			</dict>
+			<dict>
+				<key>expanded</key>
+				<true/>
+				<key>name</key>
+				<string>bk</string>
+				<key>oid</key>
+				<string>510</string>
+				<key>resources</key>
+				<array>
+					<string>bk@2x.jpg</string>
 				</array>
 			</dict>
 		</array>
@@ -1622,26 +1622,6 @@
 				<string>FileResource</string>
 			</dict>
 			<dict>
-				<key>fileSize</key>
-				<integer>8965</integer>
-				<key>md5</key>
-				<string>E41E26CF233A60ACA6CCE70F904BCE54</string>
-				<key>notifyOnBookmarkChange</key>
-				<true/>
-				<key>resourceName</key>
-				<string>Pasted-3.png</string>
-				<key>shouldAutoResize</key>
-				<true/>
-				<key>shouldIncludeInDocumentHeadHTML</key>
-				<false/>
-				<key>shouldPreload</key>
-				<true/>
-				<key>shouldRemoveWhenNoLongerReferenced</key>
-				<true/>
-				<key>type</key>
-				<string>FileResource</string>
-			</dict>
-			<dict>
 				<key>fileModificationDate</key>
 				<date>2016-12-06T07:06:42Z</date>
 				<key>fileSize</key>
@@ -2165,59 +2145,6 @@
 			</dict>
 			<dict>
 				<key>fileModificationDate</key>
-				<date>2016-12-13T02:17:59Z</date>
-				<key>fileSize</key>
-				<integer>6014</integer>
-				<key>md5</key>
-				<string>7A0D3ABBCF424BE2D3EBF21695604CDE</string>
-				<key>notifyOnBookmarkChange</key>
-				<true/>
-				<key>originalPath</key>
-				<string>/Users/shengqiang/Documents/Codes/hype_blood_glucose/javascript/touchMove.js</string>
-				<key>resourceName</key>
-				<string>touchMove.js</string>
-				<key>securityScopedBookmark</key>
-				<data>
-				Ym9va0gDAAAAAAQQMAAAAC0ANq81NNPnKKPOMrRq5qqc
-				7/zceLYGbmLckhuzaj0fRAIAAAQAAAADAwAAAAkAKAUA
-				AAABAQAAVXNlcnMAAAAKAAAAAQEAAHNoZW5ncWlhbmcA
-				AAkAAAABAQAARG9jdW1lbnRzAAAABQAAAAEBAABDb2Rl
-				cwAAABIAAAABAQAAaHlwZV9ibG9vZF9nbHVjb3NlAAAK
-				AAAAAQEAAGphdmFzY3JpcHQAAAwAAAABAQAAdG91Y2hN
-				b3ZlLmpzHAAAAAEGAAAQAAAAIAAAADQAAABIAAAAWAAA
-				AHQAAACIAAAACAAAAAQDAACGehcAAAAAAAgAAAAEAwAA
-				lnoXAAAAAAAIAAAABAMAAMeoGQAAAAAACAAAAAQDAAAY
-				rRkAAAAAAAgAAAAEAwAAcDZtAQAAAAAIAAAABAMAACw4
-				bQEAAAAACAAAAAQDAACWim4BAAAAABwAAAABBgAAwAAA
-				ANAAAADgAAAA8AAAAAABAAAQAQAAIAEAAAgAAAAABAAA
-				Qb3+j90AAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAA
-				AAAAAAAAAAgAAAAEAwAABQAAAAAAAAAEAAAAAwMAAPUB
-				AAAIAAAAAQkAAGZpbGU6Ly8vDAAAAAEBAABNYWNpbnRv
-				c2ggSEQIAAAABAMAAAAAADJ0AAAACAAAAAAEAABBut2o
-				zAAAACQAAAABAQAAOTdGNTMwQTctOEM2Qy0zMDRDLUFG
-				NUItOEEzRDcyOUFERjg1GAAAAAECAACBAAAAAQAAAO8T
-				AAABAAAAAAAAAAAAAAABAAAAAQEAAC8AAAAAAAAAAQUA
-				AMwAAAD+////AQAAAAAAAAAQAAAABBAAAJwAAAAAAAAA
-				BRAAADABAAAAAAAAEBAAAGQBAAAAAAAAQBAAAFQBAAAA
-				AAAAAiAAADACAAAAAAAABSAAAKABAAAAAAAAECAAALAB
-				AAAAAAAAESAAAOQBAAAAAAAAEiAAAMQBAAAAAAAAEyAA
-				ANQBAAAAAAAAICAAABACAAAAAAAAMCAAADwCAAAAAAAA
-				AcAAAIQBAAAAAAAAEcAAACAAAAAAAAAAEsAAAJQBAAAA
-				AAAAENAAAAQAAAAAAAAA
-				</data>
-				<key>shouldAutoResize</key>
-				<true/>
-				<key>shouldIncludeInDocumentHeadHTML</key>
-				<true/>
-				<key>shouldPreload</key>
-				<true/>
-				<key>shouldRemoveWhenNoLongerReferenced</key>
-				<false/>
-				<key>type</key>
-				<string>FileResource</string>
-			</dict>
-			<dict>
-				<key>fileModificationDate</key>
 				<date>2016-12-13T02:38:27Z</date>
 				<key>fileSize</key>
 				<integer>3708</integer>
@@ -2265,6 +2192,110 @@
 				<key>type</key>
 				<string>FileResource</string>
 			</dict>
+			<dict>
+				<key>fileModificationDate</key>
+				<date>2016-12-13T06:11:01Z</date>
+				<key>fileSize</key>
+				<integer>6014</integer>
+				<key>md5</key>
+				<string>7A0D3ABBCF424BE2D3EBF21695604CDE</string>
+				<key>notifyOnBookmarkChange</key>
+				<true/>
+				<key>originalPath</key>
+				<string>/Users/shengqiang/Documents/Codes/hype_blood_glucose/javascript/touchMove.js</string>
+				<key>resourceName</key>
+				<string>touchMove.js</string>
+				<key>securityScopedBookmark</key>
+				<data>
+				Ym9va0gDAAAAAAQQMAAAAJW5Tiv9sO7NxU22SeTkmjqE
+				a6Py+rw07f/zW6es9ionRAIAAAQAAAADAwAAAAkAKAUA
+				AAABAQAAVXNlcnMAAAAKAAAAAQEAAHNoZW5ncWlhbmcA
+				AAkAAAABAQAARG9jdW1lbnRzAAAABQAAAAEBAABDb2Rl
+				cwAAABIAAAABAQAAaHlwZV9ibG9vZF9nbHVjb3NlAAAK
+				AAAAAQEAAGphdmFzY3JpcHQAAAwAAAABAQAAdG91Y2hN
+				b3ZlLmpzHAAAAAEGAAAQAAAAIAAAADQAAABIAAAAWAAA
+				AHQAAACIAAAACAAAAAQDAACGehcAAAAAAAgAAAAEAwAA
+				lnoXAAAAAAAIAAAABAMAAMeoGQAAAAAACAAAAAQDAAAY
+				rRkAAAAAAAgAAAAEAwAAcDZtAQAAAAAIAAAABAMAACw4
+				bQEAAAAACAAAAAQDAACrym8BAAAAABwAAAABBgAAwAAA
+				ANAAAADgAAAA8AAAAAABAAAQAQAAIAEAAAgAAAAABAAA
+				Qb3/yHUAAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAA
+				AAAAAAAAAAgAAAAEAwAABQAAAAAAAAAEAAAAAwMAAPUB
+				AAAIAAAAAQkAAGZpbGU6Ly8vDAAAAAEBAABNYWNpbnRv
+				c2ggSEQIAAAABAMAAAAAADJ0AAAACAAAAAAEAABBut2o
+				zAAAACQAAAABAQAAOTdGNTMwQTctOEM2Qy0zMDRDLUFG
+				NUItOEEzRDcyOUFERjg1GAAAAAECAACBAAAAAQAAAO8T
+				AAABAAAAAAAAAAAAAAABAAAAAQEAAC8AAAAAAAAAAQUA
+				AMwAAAD+////AQAAAAAAAAAQAAAABBAAAJwAAAAAAAAA
+				BRAAADABAAAAAAAAEBAAAGQBAAAAAAAAQBAAAFQBAAAA
+				AAAAAiAAADACAAAAAAAABSAAAKABAAAAAAAAECAAALAB
+				AAAAAAAAESAAAOQBAAAAAAAAEiAAAMQBAAAAAAAAEyAA
+				ANQBAAAAAAAAICAAABACAAAAAAAAMCAAADwCAAAAAAAA
+				AcAAAIQBAAAAAAAAEcAAACAAAAAAAAAAEsAAAJQBAAAA
+				AAAAENAAAAQAAAAAAAAA
+				</data>
+				<key>shouldAutoResize</key>
+				<true/>
+				<key>shouldIncludeInDocumentHeadHTML</key>
+				<true/>
+				<key>shouldPreload</key>
+				<true/>
+				<key>shouldRemoveWhenNoLongerReferenced</key>
+				<false/>
+				<key>type</key>
+				<string>FileResource</string>
+			</dict>
+			<dict>
+				<key>fileModificationDate</key>
+				<date>2016-12-13T03:23:47Z</date>
+				<key>fileSize</key>
+				<integer>1045</integer>
+				<key>md5</key>
+				<string>71A3C7FD14C715FC3C6606E9851D0E09</string>
+				<key>notifyOnBookmarkChange</key>
+				<true/>
+				<key>originalPath</key>
+				<string>/Users/shengqiang/Desktop/TODO/手动输入血糖记录/bk@2x.jpg</string>
+				<key>resourceName</key>
+				<string>bk@2x.jpg</string>
+				<key>securityScopedBookmark</key>
+				<data>
+				Ym9vaxgDAAAAAAQQMAAAAG2UfBuKe0U5bzUzcYysaOr7
+				c5N1dfK7RTtg8K3ZsmHlFAIAAAQAAAADAwAAAAkAKAUA
+				AAABAQAAVXNlcnMAAAAKAAAAAQEAAHNoZW5ncWlhbmcA
+				AAcAAAABAQAARGVza3RvcAAEAAAAAQEAAFRPRE8YAAAA
+				AQEAAOaJi+WKqOi+k+WFpeihgOezluiusOW9lQkAAAAB
+				AQAAYmtAMnguanBnAAAAGAAAAAEGAAAQAAAAIAAAADQA
+				AABEAAAAUAAAAHAAAAAIAAAABAMAAIZ6FwAAAAAACAAA
+				AAQDAACWehcAAAAAAAgAAAAEAwAAoYcZAAAAAAAIAAAA
+				BAMAAH6IGQAAAAAACAAAAAQDAAC141cBAAAAAAgAAAAE
+				AwAApmxvAQAAAAAYAAAAAQYAAKQAAAC0AAAAxAAAANQA
+				AADkAAAA9AAAAAgAAAAABAAAQb3/oUMAAAAYAAAAAQIA
+				AAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAgAAAAEAwAA
+				BAAAAAAAAAAEAAAAAwMAAPUBAAAIAAAAAQkAAGZpbGU6
+				Ly8vDAAAAAEBAABNYWNpbnRvc2ggSEQIAAAABAMAAAAA
+				ADJ0AAAACAAAAAAEAABBut2ozAAAACQAAAABAQAAOTdG
+				NTMwQTctOEM2Qy0zMDRDLUFGNUItOEEzRDcyOUFERjg1
+				GAAAAAECAACBAAAAAQAAAO8TAAABAAAAAAAAAAAAAAAB
+				AAAAAQEAAC8AAAAAAAAAAQUAAMwAAAD+////AQAAAAAA
+				AAAQAAAABBAAAIQAAAAAAAAABRAAAAQBAAAAAAAAEBAA
+				ADQBAAAAAAAAQBAAACQBAAAAAAAAAiAAAAACAAAAAAAA
+				BSAAAHABAAAAAAAAECAAAIABAAAAAAAAESAAALQBAAAA
+				AAAAEiAAAJQBAAAAAAAAEyAAAKQBAAAAAAAAICAAAOAB
+				AAAAAAAAMCAAAAwCAAAAAAAAAcAAAFQBAAAAAAAAEcAA
+				ACAAAAAAAAAAEsAAAGQBAAAAAAAAENAAAAQAAAAAAAAA
+				</data>
+				<key>shouldAutoResize</key>
+				<true/>
+				<key>shouldIncludeInDocumentHeadHTML</key>
+				<false/>
+				<key>shouldPreload</key>
+				<true/>
+				<key>shouldRemoveWhenNoLongerReferenced</key>
+				<true/>
+				<key>type</key>
+				<string>FileResource</string>
+			</dict>
 		</array>
 	</dict>
 	<key>sceneContainers</key>
@@ -2284,9 +2315,8 @@
 						<key>expandedItems</key>
 						<array>
 							<string>395</string>
-							<string>504</string>
 							<string>331</string>
-							<string>391</string>
+							<string>405</string>
 						</array>
 						<key>timeCursors</key>
 						<dict>
@@ -2309,7 +2339,7 @@
 							<key>463</key>
 							<real>5.4666666984558105</real>
 							<key>478</key>
-							<real>8.6999998092651367</real>
+							<real>0.0</real>
 							<key>kTimelineDefaultIdentifier</key>
 							<real>0.0</real>
 						</dict>
@@ -2317,7 +2347,7 @@
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{3613, 3041}</string>
+					<string>{3554, 3041}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -2342,7 +2372,7 @@
 					<key>rootSymbolControllerOid</key>
 					<string>91</string>
 					<key>scrollViewOffset</key>
-					<string>{2371, 400.1640625}</string>
+					<string>{2273, 314}</string>
 					<key>userGuides</key>
 					<array>
 						<dict>
@@ -2395,7 +2425,6 @@
 	<key>sceneControllerOidsThatHaveBeenAutomaticallyAdded</key>
 	<array>
 		<string>92</string>
-		<string>3</string>
 	</array>
 	<key>sceneExportSlicesBySceneContainerOid</key>
 	<dict>
@@ -2557,12 +2586,12 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 	<key>symbols</key>
 	<array>
 		<dict>
+			<key>currentGroupElement</key>
+			<string>405</string>
 			<key>documentIdentifier</key>
-			<string>47FF3333-ED61-4983-8146-4FF3DEA2C66F-32647-0001A925D3D4184C</string>
+			<string>0A59F872-DC42-435A-B750-2FEE31CC0855-32647-0001F1302E9CCECB</string>
 			<key>selectedObjects</key>
-			<array>
-				<string>331</string>
-			</array>
+			<array/>
 			<key>symbol</key>
 			<dict>
 				<key>addToNewSceneControllers</key>
@@ -2583,9 +2612,9 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -2667,9 +2696,9 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>2</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -2679,9 +2708,9 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>2</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -2703,9 +2732,9 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 					</array>
 					<key>102</key>
@@ -3882,9 +3911,9 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#082A39</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -3966,9 +3995,9 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>3</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -3978,9 +4007,9 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>3</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4002,9 +4031,9 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#082A39</string>
 						</dict>
 					</array>
 					<key>127</key>
@@ -4017,9 +4046,9 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#082A39</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4101,9 +4130,9 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>4</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4113,9 +4142,9 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>4</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4137,9 +4166,9 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#082A39</string>
 						</dict>
 					</array>
 					<key>129</key>
@@ -4446,9 +4475,9 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#082A39</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4530,9 +4559,9 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>7</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4542,9 +4571,9 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>7</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4566,9 +4595,9 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#082A39</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>134</key>
@@ -4662,9 +4691,9 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#082A39</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4746,9 +4775,9 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>7</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4758,9 +4787,9 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>7</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4782,9 +4811,9 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#082A39</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>143</key>
@@ -4872,9 +4901,9 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#082A39</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4956,9 +4985,9 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>3</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4968,9 +4997,9 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>3</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4992,9 +5021,9 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#082A39</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>146</key>
@@ -5088,9 +5117,9 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#082A39</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5172,9 +5201,9 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>4</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5184,9 +5213,9 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>4</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5208,9 +5237,9 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#082A39</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>150</key>
@@ -5401,9 +5430,9 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#082A39</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5485,9 +5514,9 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>3</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5497,9 +5526,9 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>3</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5521,9 +5550,9 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#082A39</string>
 						</dict>
 					</array>
 					<key>154</key>
@@ -5617,9 +5646,9 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#082A39</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5701,9 +5730,9 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>5</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5713,9 +5742,9 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>5</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5737,9 +5766,9 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#082A39</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>158</key>
@@ -5833,9 +5862,9 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#082A39</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5917,9 +5946,9 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>5</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5929,9 +5958,9 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>5</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5953,9 +5982,9 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#082A39</string>
 						</dict>
 					</array>
 					<key>165</key>
@@ -6900,33 +6929,33 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>BorderRadiusBottomRight</string>
+							<string>DisplayName</string>
 							<key>objectValue</key>
-							<string>10px</string>
+							<string>圆角矩形</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthLeft</string>
+							<string>BorderWidthBottom</string>
 							<key>objectValue</key>
 							<string>1px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BackgroundColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#E8EBED</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ExplicitDimensions</string>
-							<key>objectValue</key>
-							<string>YES</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>BorderColorBottom</string>
 							<key>objectValue</key>
 							<string>#D8DDE4</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ExplicitDimensions</string>
+							<key>objectValue</key>
+							<string>YES</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7056,21 +7085,21 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>DisplayName</string>
+							<string>BorderRadiusBottomRight</string>
 							<key>objectValue</key>
-							<string>圆角矩形</string>
+							<string>10px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthBottom</string>
+							<string>BorderWidthLeft</string>
 							<key>objectValue</key>
 							<string>1px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>BackgroundColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#E8EBED</string>
 						</dict>
 					</array>
 					<key>244</key>
@@ -7762,15 +7791,15 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthBottom</string>
+							<string>BorderWidthLeft</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>BackgroundColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>rgba(233, 236, 238, 0.000)</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7804,9 +7833,9 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Opacity</string>
+							<string>ClassType</string>
 							<key>objectValue</key>
-							<string>1</string>
+							<string>Rectangle</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7825,6 +7854,12 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 							<string>BorderWidthRight</string>
 							<key>objectValue</key>
 							<string>0px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Opacity</string>
+							<key>objectValue</key>
+							<string>1</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7849,12 +7884,6 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 							<string>BorderColorLeft</string>
 							<key>objectValue</key>
 							<string>rgba(240, 247, 255, 0.000)</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ClassType</string>
-							<key>objectValue</key>
-							<string>Rectangle</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7944,28 +7973,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthLeft</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BackgroundColor</string>
-							<key>objectValue</key>
-							<string>rgba(233, 236, 238, 0.000)</string>
-						</dict>
-					</array>
-					<key>331</key>
-					<array>
-						<dict>
-							<key>identifier</key>
-							<string>DisplayName</string>
-							<key>objectValue</key>
-							<string>分析血糖</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderRadiusBottomRight</string>
+							<string>BorderWidthBottom</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
@@ -7975,11 +7983,42 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 							<key>objectValue</key>
 							<string>div</string>
 						</dict>
+					</array>
+					<key>331</key>
+					<array>
+						<dict>
+							<key>identifier</key>
+							<string>Overflow</string>
+							<key>objectValue</key>
+							<string>hidden</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Locked</string>
+							<key>objectValue</key>
+							<string>0</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>OriginalWidth</string>
+							<key>objectValue</key>
+							<string>122px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>OriginalHeight</string>
+							<key>objectValue</key>
+							<string>106px</string>
+						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>ExplicitDimensions</string>
 							<key>objectValue</key>
 							<string>YES</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BackgroundSize</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8019,6 +8058,12 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
+							<string>BackgroundRepeat</string>
+							<key>objectValue</key>
+							<string>repeat</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
 							<string>UsingMotionPaths</string>
 							<key>objectValue</key>
 							<string>1</string>
@@ -8037,6 +8082,12 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
+							<string>BackgroundImageResourceGroupOid</string>
+							<key>objectValue</key>
+							<string>510</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
 							<string>Left</string>
 							<key>objectValue</key>
 							<string>1px</string>
@@ -8052,6 +8103,12 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 							<string>ScaleX</string>
 							<key>objectValue</key>
 							<string>0</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>SizeRatio</string>
+							<key>objectValue</key>
+							<string>1.15094</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8103,30 +8160,30 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Overflow</string>
+							<string>DisplayName</string>
 							<key>objectValue</key>
-							<string>hidden</string>
+							<string>分析血糖</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Locked</string>
+							<string>BorderRadiusBottomRight</string>
 							<key>objectValue</key>
-							<string>0</string>
+							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BackgroundColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#082A39</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>333</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>112px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8270,9 +8327,9 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>112px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>341</key>
@@ -8285,9 +8342,9 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#082939</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8429,18 +8486,18 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#082939</string>
 						</dict>
 					</array>
 					<key>354</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>122px</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8578,18 +8635,18 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>122px</string>
 						</dict>
 					</array>
 					<key>384</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>62px</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8719,9 +8776,9 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>62px</string>
 						</dict>
 					</array>
 					<key>391</key>
@@ -8762,9 +8819,9 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ClassType</string>
+							<string>DomID</string>
 							<key>objectValue</key>
-							<string>Group</string>
+							<string>compass_panel</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8854,9 +8911,9 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>DomID</string>
+							<string>ClassType</string>
 							<key>objectValue</key>
-							<string>compass_panel</string>
+							<string>Group</string>
 						</dict>
 					</array>
 					<key>393</key>
@@ -8911,9 +8968,9 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthTop</string>
+							<string>SizeRatio</string>
 							<key>objectValue</key>
-							<string>1px</string>
+							<string>1</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8923,9 +8980,9 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>SizeRatio</string>
+							<string>BorderWidthTop</string>
 							<key>objectValue</key>
-							<string>1</string>
+							<string>1px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8971,9 +9028,9 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>DomID</string>
 							<key>objectValue</key>
-							<string>4</string>
+							<string>CompassValuePanel</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8983,9 +9040,9 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>DomID</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>CompassValuePanel</string>
+							<string>4</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -9100,9 +9157,13 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>BackgroundColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#082A39</string>
+							<string>div</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BackgroundSize</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -9148,6 +9209,12 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
+							<string>BackgroundRepeat</string>
+							<key>objectValue</key>
+							<string>repeat</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
 							<string>UsingMotionPaths</string>
 							<key>objectValue</key>
 							<string>1</string>
@@ -9187,6 +9254,18 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 							<string>ScaleX</string>
 							<key>objectValue</key>
 							<string>1</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BackgroundImageResourceGroupOid</string>
+							<key>objectValue</key>
+							<string>510</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>SizeRatio</string>
+							<key>objectValue</key>
+							<string>1.15094</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -9232,18 +9311,24 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalHeight</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>106px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>OriginalWidth</string>
+							<key>objectValue</key>
+							<string>122px</string>
 						</dict>
 					</array>
 					<key>398</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>448px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -9391,18 +9476,18 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>448px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>400</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>50px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -9532,18 +9617,18 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>50px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>404</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>298px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -9685,9 +9770,9 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>298px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>405</key>
@@ -9807,9 +9892,9 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>256px</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -9945,18 +10030,18 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>256px</string>
 						</dict>
 					</array>
 					<key>458</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>570px</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10092,9 +10177,9 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>570px</string>
 						</dict>
 					</array>
 					<key>460</key>
@@ -10220,97 +10305,13 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 							<string>0px</string>
 						</dict>
 					</array>
-					<key>467</key>
+					<key>482</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>DisplayName</string>
+							<string>BorderWidthBottom</string>
 							<key>objectValue</key>
-							<string>Pasted-3</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Position</string>
-							<key>objectValue</key>
-							<string>absolute</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>OriginalWidth</string>
-							<key>objectValue</key>
-							<string>112px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>SizeRatio</string>
-							<key>objectValue</key>
-							<string>0.543689</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Left</string>
-							<key>objectValue</key>
-							<string>138px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>OriginalHeight</string>
-							<key>objectValue</key>
-							<string>206px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Display</string>
-							<key>objectValue</key>
-							<string>none</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ConstrainProportions</string>
-							<key>objectValue</key>
-							<string>YES</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Height</string>
-							<key>objectValue</key>
-							<string>206px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Overflow</string>
-							<key>objectValue</key>
-							<string>visible</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>112px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Top</string>
-							<key>objectValue</key>
-							<string>370px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BackgroundImageResourceGroupOid</string>
-							<key>objectValue</key>
-							<string>466</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BackgroundSize</string>
-							<key>objectValue</key>
-							<string>100% 100%</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BackgroundRepeat</string>
-							<key>objectValue</key>
-							<string>no-repeat</string>
+							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10320,42 +10321,15 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>BorderColorBottom</string>
 							<key>objectValue</key>
-							<string>26</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ClassType</string>
-							<key>objectValue</key>
-							<string>Image</string>
-						</dict>
-					</array>
-					<key>482</key>
-					<array>
-						<dict>
-							<key>identifier</key>
-							<string>BorderWidthLeft</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BackgroundColor</string>
-							<key>objectValue</key>
-							<string>rgba(232, 235, 237, 0.000)</string>
+							<string>#D8DDE4</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>ExplicitDimensions</string>
 							<key>objectValue</key>
 							<string>YES</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorBottom</string>
-							<key>objectValue</key>
-							<string>#D8DDE4</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10491,15 +10465,15 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthBottom</string>
+							<string>BorderWidthLeft</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>BackgroundColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>rgba(232, 235, 237, 0.000)</string>
 						</dict>
 					</array>
 					<key>488</key>
@@ -10635,15 +10609,15 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
-							<key>objectValue</key>
-							<string>div</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>FontWeight</string>
 							<key>objectValue</key>
 							<string>normal</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>TextColor</string>
+							<key>objectValue</key>
+							<string>#082939</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10779,30 +10753,30 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#082939</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>503</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>DisplayName</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>background</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthBottom</string>
+							<string>BorderWidthLeft</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderRadiusBottomRight</string>
+							<string>BackgroundColor</string>
 							<key>objectValue</key>
-							<string>3px</string>
+							<string>#E8EBED</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10818,15 +10792,15 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderStyleRight</string>
-							<key>objectValue</key>
-							<string>None</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>Display</string>
 							<key>objectValue</key>
 							<string>inline</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderStyleRight</string>
+							<key>objectValue</key>
+							<string>None</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10842,15 +10816,27 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Top</string>
+							<string>Parent</string>
 							<key>objectValue</key>
-							<string>156px</string>
+							<string>504</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>BorderWidthRight</string>
 							<key>objectValue</key>
 							<string>0px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Top</string>
+							<key>objectValue</key>
+							<string>156px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorTop</string>
+							<key>objectValue</key>
+							<string>#D8DDE4</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10863,18 +10849,6 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 							<string>BorderColorLeft</string>
 							<key>objectValue</key>
 							<string>#D8DDE4</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorTop</string>
-							<key>objectValue</key>
-							<string>#D8DDE4</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Parent</string>
-							<key>objectValue</key>
-							<string>504</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10956,21 +10930,21 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>DisplayName</string>
+							<string>BorderRadiusBottomRight</string>
 							<key>objectValue</key>
-							<string>background</string>
+							<string>3px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthLeft</string>
+							<string>BorderWidthBottom</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BackgroundColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#E8EBED</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>504</key>
@@ -10995,9 +10969,9 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>RotationAngleZ</string>
+							<string>ClassType</string>
 							<key>objectValue</key>
-							<string>0deg</string>
+							<string>Group</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -11049,24 +11023,24 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ExplicitDimensions</string>
+							<string>RotationAngleZ</string>
 							<key>objectValue</key>
-							<string>YES</string>
+							<string>0deg</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ClassType</string>
+							<string>ExplicitDimensions</string>
 							<key>objectValue</key>
-							<string>Group</string>
+							<string>YES</string>
 						</dict>
 					</array>
 					<key>505</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>12px</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -11196,9 +11170,9 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>12px</string>
 						</dict>
 					</array>
 					<key>509</key>
@@ -11328,9 +11302,9 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>640px</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -11454,9 +11428,9 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>640px</string>
 						</dict>
 					</array>
 					<key>98</key>
@@ -12689,42 +12663,6 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 								<key>endValue</key>
 								<dict>
 									<key>identifier</key>
-									<string>BackgroundColor</string>
-									<key>objectValue</key>
-									<string>#082A39</string>
-								</dict>
-								<key>identifier</key>
-								<string>BackgroundColor</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>331</string>
-								<key>startTime</key>
-								<real>0.0</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>BackgroundColor</string>
-									<key>objectValue</key>
-									<string>#C7D8E0</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>90DAF362-FCCE-4481-8E0A-901A6734BC5C-7316-000078E5A802FEA5</string>
-								<key>zIndex</key>
-								<integer>1</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.3333333432674408</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
 									<string>DisplayHiddenOverride</string>
 									<key>objectValue</key>
 									<string>0</string>
@@ -12834,7 +12772,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>0CF82E66-E40F-4781-9F9A-50C35333085A-32647-0001A9259D88966E</string>
+									<string>B0656576-6251-4AA4-B1E0-A5276A93962C-32647-0001F12FFEFB3CA6</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -13045,7 +12983,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>0CF82E66-E40F-4781-9F9A-50C35333085A-32647-0001A9259D88966E</string>
+									<string>B0656576-6251-4AA4-B1E0-A5276A93962C-32647-0001F12FFEFB3CA6</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -13112,7 +13050,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>0CF82E66-E40F-4781-9F9A-50C35333085A-32647-0001A9259D88966E</string>
+									<string>B0656576-6251-4AA4-B1E0-A5276A93962C-32647-0001F12FFEFB3CA6</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -13316,7 +13254,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>1A8F8068-C5B1-4F39-A774-906400309E5E-32647-0001A9259D8BC4A8</string>
+									<string>CCF7B7A6-9028-47C2-B5C7-2A86F8918DF5-32647-0001F12FFEFF141C</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -13550,7 +13488,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>1A8F8068-C5B1-4F39-A774-906400309E5E-32647-0001A9259D8BC4A8</string>
+									<string>CCF7B7A6-9028-47C2-B5C7-2A86F8918DF5-32647-0001F12FFEFF141C</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -13610,7 +13548,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>1A8F8068-C5B1-4F39-A774-906400309E5E-32647-0001A9259D8BC4A8</string>
+									<string>CCF7B7A6-9028-47C2-B5C7-2A86F8918DF5-32647-0001F12FFEFF141C</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -13785,35 +13723,6 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 								<string>B47C9790-3BD2-4790-90BA-E4CE4E64488E-27474-000199E4D1EA93D9</string>
 								<key>zIndex</key>
 								<integer>4</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.0</real>
-								<key>identifier</key>
-								<string>BackgroundColor</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>331</string>
-								<key>startTime</key>
-								<real>0.3333333432674408</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>BackgroundColor</string>
-									<key>objectValue</key>
-									<string>#082A39</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>E018A3B5-AC1E-473D-8806-0ED486DE06A5-7316-000078E5A814EB1A</string>
-								<key>zIndex</key>
-								<integer>2</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -14025,7 +13934,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>D21C1BC4-77A5-4BF4-9552-F56C64B54F22-32647-0001A9259D8FF8C0</string>
+									<string>755ADE76-7237-40C8-A44B-36DFED78FF41-32647-0001F12FFF04C950</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -14085,7 +13994,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>D21C1BC4-77A5-4BF4-9552-F56C64B54F22-32647-0001A9259D8FF8C0</string>
+									<string>755ADE76-7237-40C8-A44B-36DFED78FF41-32647-0001F12FFF04C950</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -14290,7 +14199,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>D21C1BC4-77A5-4BF4-9552-F56C64B54F22-32647-0001A9259D8FF8C0</string>
+									<string>755ADE76-7237-40C8-A44B-36DFED78FF41-32647-0001F12FFF04C950</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -14331,42 +14240,6 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 					<dict>
 						<key>animations</key>
 						<array>
-							<dict>
-								<key>duration</key>
-								<real>0.3333333432674408</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>BackgroundColor</string>
-									<key>objectValue</key>
-									<string>#082A39</string>
-								</dict>
-								<key>identifier</key>
-								<string>BackgroundColor</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>331</string>
-								<key>startTime</key>
-								<real>0.0</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>BackgroundColor</string>
-									<key>objectValue</key>
-									<string>#C7D8E0</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>90DAF362-FCCE-4481-8E0A-901A6734BC5C-7316-000078E5A802FEA5</string>
-								<key>zIndex</key>
-								<integer>1</integer>
-							</dict>
 							<dict>
 								<key>duration</key>
 								<real>0.3333333432674408</real>
@@ -14482,7 +14355,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>3C1F2B6C-14AC-424D-B37B-1D9AFE72AE74-32647-0001A9259D9496F8</string>
+									<string>D12AC619-A805-4DC1-B57A-907446C03C8D-32647-0001F12FFF0B43A4</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -14693,7 +14566,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>3C1F2B6C-14AC-424D-B37B-1D9AFE72AE74-32647-0001A9259D9496F8</string>
+									<string>D12AC619-A805-4DC1-B57A-907446C03C8D-32647-0001F12FFF0B43A4</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -14760,7 +14633,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>3C1F2B6C-14AC-424D-B37B-1D9AFE72AE74-32647-0001A9259D9496F8</string>
+									<string>D12AC619-A805-4DC1-B57A-907446C03C8D-32647-0001F12FFF0B43A4</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -14932,35 +14805,6 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 								<key>duration</key>
 								<real>0.0</real>
 								<key>identifier</key>
-								<string>BackgroundColor</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>331</string>
-								<key>startTime</key>
-								<real>0.3333333432674408</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>BackgroundColor</string>
-									<key>objectValue</key>
-									<string>#082A39</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>E018A3B5-AC1E-473D-8806-0ED486DE06A5-7316-000078E5A814EB1A</string>
-								<key>zIndex</key>
-								<integer>2</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.0</real>
-								<key>identifier</key>
 								<string>DisplayHiddenOverride</string>
 								<key>isRelative</key>
 								<false/>
@@ -15051,7 +14895,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>AF0A1258-2DA5-4B39-8806-57CB17E5955A-32647-0001A9259D98D86D</string>
+									<string>848AF891-FB6C-414F-9A8C-A05126951F9A-32647-0001F12FFF131CD4</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -15227,7 +15071,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>AF0A1258-2DA5-4B39-8806-57CB17E5955A-32647-0001A9259D98D86D</string>
+									<string>848AF891-FB6C-414F-9A8C-A05126951F9A-32647-0001F12FFF131CD4</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -15287,7 +15131,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>AF0A1258-2DA5-4B39-8806-57CB17E5955A-32647-0001A9259D98D86D</string>
+									<string>848AF891-FB6C-414F-9A8C-A05126951F9A-32647-0001F12FFF131CD4</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -15538,7 +15382,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>F602D86B-AF84-44C7-88C2-16B4DA71A949-32647-0001A9259D9D49C3</string>
+									<string>EDB41186-5398-41E1-8744-6BAE666BB703-32647-0001F12FFF1D90E9</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -15598,7 +15442,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>F602D86B-AF84-44C7-88C2-16B4DA71A949-32647-0001A9259D9D49C3</string>
+									<string>EDB41186-5398-41E1-8744-6BAE666BB703-32647-0001F12FFF1D90E9</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -15658,7 +15502,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>F602D86B-AF84-44C7-88C2-16B4DA71A949-32647-0001A9259D9D49C3</string>
+									<string>EDB41186-5398-41E1-8744-6BAE666BB703-32647-0001F12FFF1D90E9</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -15679,42 +15523,6 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 								<integer>0</integer>
 								<key>uuid</key>
 								<string>51F4F431-97F9-4411-9AA6-B89D8312CD40-537-0000568AD3B7162B</string>
-								<key>zIndex</key>
-								<integer>1</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.5</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>BackgroundColor</string>
-									<key>objectValue</key>
-									<string>#082A39</string>
-								</dict>
-								<key>identifier</key>
-								<string>BackgroundColor</string>
-								<key>isRelative</key>
-								<true/>
-								<key>referenceOid</key>
-								<string>395</string>
-								<key>startTime</key>
-								<real>0.0</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>BackgroundColor</string>
-									<key>objectValue</key>
-									<string>#082A39</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>EE3A3065-7F34-4325-BCBF-B18BF519C699-5823-0000808842C340A4</string>
 								<key>zIndex</key>
 								<integer>1</integer>
 							</dict>
@@ -15797,7 +15605,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>717E20D1-A502-4C64-808D-86E5B2532FB2-32647-0001A9259D9F1682</string>
+									<string>32CBEB77-8D02-4C93-867D-2BB8E5C72E48-32647-0001F12FFF202239</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -15936,7 +15744,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>717E20D1-A502-4C64-808D-86E5B2532FB2-32647-0001A9259D9F1682</string>
+									<string>32CBEB77-8D02-4C93-867D-2BB8E5C72E48-32647-0001F12FFF202239</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -16003,7 +15811,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>717E20D1-A502-4C64-808D-86E5B2532FB2-32647-0001A9259D9F1682</string>
+									<string>32CBEB77-8D02-4C93-867D-2BB8E5C72E48-32647-0001F12FFF202239</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -16428,35 +16236,6 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 								<key>duration</key>
 								<real>0.0</real>
 								<key>identifier</key>
-								<string>BackgroundColor</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>395</string>
-								<key>startTime</key>
-								<real>0.5</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>BackgroundColor</string>
-									<key>objectValue</key>
-									<string>#082A39</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>09472348-D078-4DFC-B3D6-F82E0DA32BC3-5823-0000808842CB5800</string>
-								<key>zIndex</key>
-								<integer>2</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.0</real>
-								<key>identifier</key>
 								<string>MotionPathRotation</string>
 								<key>isRelative</key>
 								<false/>
@@ -16489,7 +16268,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>6015BC31-738A-45CE-ABAE-EB0D219ED35F-32647-0001A9259DA31723</string>
+									<string>B586BFDB-511E-43BB-B306-B837422A5B24-32647-0001F12FFF260474</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -16549,7 +16328,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>6015BC31-738A-45CE-ABAE-EB0D219ED35F-32647-0001A9259DA31723</string>
+									<string>B586BFDB-511E-43BB-B306-B837422A5B24-32647-0001F12FFF260474</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -16754,7 +16533,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>6015BC31-738A-45CE-ABAE-EB0D219ED35F-32647-0001A9259DA31723</string>
+									<string>B586BFDB-511E-43BB-B306-B837422A5B24-32647-0001F12FFF260474</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -17019,7 +16798,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>2DE024F6-2847-4641-AD45-0B24014F0237-32647-0001A9259DAF7857</string>
+									<string>CB983164-83C3-4593-A7AD-33EB91BAF6CA-32647-0001F12FFF2B46C5</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -17204,7 +16983,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>F18F32C8-EF30-44CE-95FD-7347CEEF26AE-32647-0001A9259DB0EC58</string>
+									<string>EC604FB5-8BC2-4A0A-8E0F-5030374985CB-32647-0001F12FFF2CF462</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -17264,7 +17043,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>F18F32C8-EF30-44CE-95FD-7347CEEF26AE-32647-0001A9259DB0EC58</string>
+									<string>EC604FB5-8BC2-4A0A-8E0F-5030374985CB-32647-0001F12FFF2CF462</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -17382,7 +17161,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>F18F32C8-EF30-44CE-95FD-7347CEEF26AE-32647-0001A9259DB0EC58</string>
+									<string>EC604FB5-8BC2-4A0A-8E0F-5030374985CB-32647-0001F12FFF2CF462</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -17442,7 +17221,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>2DE024F6-2847-4641-AD45-0B24014F0237-32647-0001A9259DAF7857</string>
+									<string>CB983164-83C3-4593-A7AD-33EB91BAF6CA-32647-0001F12FFF2B46C5</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -17560,7 +17339,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>2DE024F6-2847-4641-AD45-0B24014F0237-32647-0001A9259DAF7857</string>
+									<string>CB983164-83C3-4593-A7AD-33EB91BAF6CA-32647-0001F12FFF2B46C5</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -18562,7 +18341,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>4E4A82E6-EA10-443F-91F8-4C755A1128EE-32647-0001A9259DBDD812</string>
+									<string>8D747C67-08D6-4289-8713-97B768A97B55-32647-0001F12FFF41DE50</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -18694,7 +18473,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>4E4A82E6-EA10-443F-91F8-4C755A1128EE-32647-0001A9259DBDD812</string>
+									<string>8D747C67-08D6-4289-8713-97B768A97B55-32647-0001F12FFF41DE50</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -18761,7 +18540,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>DE9ADE8E-70CA-40A4-937B-B7B33705A6AC-32647-0001A9259DBF4BF4</string>
+									<string>3572D767-B23E-4BE3-8BBB-08E3C889B15F-32647-0001F12FFF4361F8</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -18879,7 +18658,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>4E4A82E6-EA10-443F-91F8-4C755A1128EE-32647-0001A9259DBDD812</string>
+									<string>8D747C67-08D6-4289-8713-97B768A97B55-32647-0001F12FFF41DE50</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -18946,7 +18725,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>DE9ADE8E-70CA-40A4-937B-B7B33705A6AC-32647-0001A9259DBF4BF4</string>
+									<string>3572D767-B23E-4BE3-8BBB-08E3C889B15F-32647-0001F12FFF4361F8</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -19071,7 +18850,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>DE9ADE8E-70CA-40A4-937B-B7B33705A6AC-32647-0001A9259DBF4BF4</string>
+									<string>3572D767-B23E-4BE3-8BBB-08E3C889B15F-32647-0001F12FFF4361F8</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -20284,7 +20063,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>21B770E4-93C2-4BB0-9E79-FEDD245E30A7-32647-0001A9259DC788AC</string>
+									<string>5E218930-75B9-4464-A346-4B18EC1DB910-32647-0001F12FFF4DF99A</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -20387,7 +20166,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>21B770E4-93C2-4BB0-9E79-FEDD245E30A7-32647-0001A9259DC788AC</string>
+									<string>5E218930-75B9-4464-A346-4B18EC1DB910-32647-0001F12FFF4DF99A</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -20526,7 +20305,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>21B770E4-93C2-4BB0-9E79-FEDD245E30A7-32647-0001A9259DC788AC</string>
+									<string>5E218930-75B9-4464-A346-4B18EC1DB910-32647-0001F12FFF4DF99A</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -20644,7 +20423,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>4FF1E9F8-500E-4411-A7EA-6B6E1E78A86E-32647-0001A9259DC997FF</string>
+									<string>03F233F6-8FFB-4FEE-9DE5-7E190E991DCD-32647-0001F12FFF508719</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -20733,7 +20512,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>4FF1E9F8-500E-4411-A7EA-6B6E1E78A86E-32647-0001A9259DC997FF</string>
+									<string>03F233F6-8FFB-4FEE-9DE5-7E190E991DCD-32647-0001F12FFF508719</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -20851,7 +20630,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>4FF1E9F8-500E-4411-A7EA-6B6E1E78A86E-32647-0001A9259DC997FF</string>
+									<string>03F233F6-8FFB-4FEE-9DE5-7E190E991DCD-32647-0001F12FFF508719</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -21051,7 +20830,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>DECCA110-9D98-4053-8822-27F32CD47BF5-32647-0001A9259DCE6846</string>
+									<string>CC265B7E-721E-4588-A1D9-E708146E0504-32647-0001F12FFF54DF21</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -21248,7 +21027,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>9669AFC8-5372-40C3-8283-D20A09D4B32B-32647-0001A9259DCFB076</string>
+									<string>C0C9F3C6-BDCD-42B7-AF0D-8F7858C342DF-32647-0001F12FFF5677FA</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -21315,7 +21094,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>9669AFC8-5372-40C3-8283-D20A09D4B32B-32647-0001A9259DCFB076</string>
+									<string>C0C9F3C6-BDCD-42B7-AF0D-8F7858C342DF-32647-0001F12FFF5677FA</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -21382,7 +21161,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>9669AFC8-5372-40C3-8283-D20A09D4B32B-32647-0001A9259DCFB076</string>
+									<string>C0C9F3C6-BDCD-42B7-AF0D-8F7858C342DF-32647-0001F12FFF5677FA</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -21536,7 +21315,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>DECCA110-9D98-4053-8822-27F32CD47BF5-32647-0001A9259DCE6846</string>
+									<string>CC265B7E-721E-4588-A1D9-E708146E0504-32647-0001F12FFF54DF21</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -21654,7 +21433,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>DECCA110-9D98-4053-8822-27F32CD47BF5-32647-0001A9259DCE6846</string>
+									<string>CC265B7E-721E-4588-A1D9-E708146E0504-32647-0001F12FFF54DF21</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -22138,7 +21917,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>92A83C45-DE05-4A48-94D2-8415F7F2EC07-32647-0001A9259DD4B2FD</string>
+									<string>24D370BF-F9B2-4F8A-A1E2-81B8A553CA10-32647-0001F12FFF5CD4AE</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -22297,7 +22076,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>92A83C45-DE05-4A48-94D2-8415F7F2EC07-32647-0001A9259DD4B2FD</string>
+									<string>24D370BF-F9B2-4F8A-A1E2-81B8A553CA10-32647-0001F12FFF5CD4AE</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -22436,7 +22215,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>92A83C45-DE05-4A48-94D2-8415F7F2EC07-32647-0001A9259DD4B2FD</string>
+									<string>24D370BF-F9B2-4F8A-A1E2-81B8A553CA10-32647-0001F12FFF5CD4AE</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -22590,7 +22369,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>2EB8DAE9-3614-430D-9258-60B125810DC7-32647-0001A9259DD73C12</string>
+									<string>2F53BAB5-23E2-43AC-801D-D0D7E6820EAA-32647-0001F12FFF602F21</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -22679,7 +22458,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>2EB8DAE9-3614-430D-9258-60B125810DC7-32647-0001A9259DD73C12</string>
+									<string>2F53BAB5-23E2-43AC-801D-D0D7E6820EAA-32647-0001F12FFF602F21</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -22768,7 +22547,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>2EB8DAE9-3614-430D-9258-60B125810DC7-32647-0001A9259DD73C12</string>
+									<string>2F53BAB5-23E2-43AC-801D-D0D7E6820EAA-32647-0001F12FFF602F21</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -23000,7 +22779,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>CB6E64BD-DE6E-49B3-8675-BFEB90EEB7F1-32647-0001A9259DDB3E55</string>
+									<string>56C803F0-7608-4394-A255-B89406C3D9F8-32647-0001F12FFF647223</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -23060,7 +22839,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>CB6E64BD-DE6E-49B3-8675-BFEB90EEB7F1-32647-0001A9259DDB3E55</string>
+									<string>56C803F0-7608-4394-A255-B89406C3D9F8-32647-0001F12FFF647223</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -23120,7 +22899,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>CB6E64BD-DE6E-49B3-8675-BFEB90EEB7F1-32647-0001A9259DDB3E55</string>
+									<string>56C803F0-7608-4394-A255-B89406C3D9F8-32647-0001F12FFF647223</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -23214,7 +22993,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>D8FA3786-66AE-444D-812C-466032BA975F-32647-0001AEC345E97B18</string>
 								<key>zIndex</key>
-								<integer>1</integer>
+								<integer>2</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -23250,7 +23029,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>760943EF-488D-4CED-93E0-F724A1CAF16A-32647-0001E28FFFDF6704</string>
 								<key>zIndex</key>
-								<integer>1</integer>
+								<integer>3</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -23279,7 +23058,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>4E16D5F0-CE00-4F8D-8866-6B83F3B003D1-9362-0000A274AE1B3187</string>
 								<key>zIndex</key>
-								<integer>2</integer>
+								<integer>4</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -23308,7 +23087,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>9BF8C08F-4132-4D84-A39F-BB662A9F52E6-32647-0001AECAE85834DE</string>
 								<key>zIndex</key>
-								<integer>2</integer>
+								<integer>5</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -23337,7 +23116,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>09C769B3-555B-4595-9F88-6A312F8A0EA8-32647-0001E28FFFE0F440</string>
 								<key>zIndex</key>
-								<integer>2</integer>
+								<integer>6</integer>
 							</dict>
 						</array>
 						<key>firstKeyframeIsRelative</key>
@@ -23358,7 +23137,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>47FF3333-ED61-4983-8146-4FF3DEA2C66F-32647-0001A925D3D4184C</string>
+			<string>0A59F872-DC42-435A-B750-2FEE31CC0855-32647-0001F1302E9CCECB</string>
 			<key>selectedObjects</key>
 			<array/>
 			<key>symbol</key>
