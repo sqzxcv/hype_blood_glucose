@@ -49,6 +49,7 @@ function touchMove (hypeDocument, element, event) {
 	console.log('rgba('+red+','+green+','+blue+',1)');
 	$(".CompassValuePanel").css('box-shadow', '0px 3px 5px 1px rgba('+red+','+green+','+blue+',1)');
 	//$(".CompassValuePanel").css('background', 'rgba('+red+','+green+','+blue+',1)');
+	$(".compass_pointerBK").css('background','rgba('+red+','+green+','+blue+',1)');
 }
 
 function convertGluose_moring (angle) {
