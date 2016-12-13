@@ -42,7 +42,13 @@ function touchMove (hypeDocument, element, event) {
 	var textElement = hypeDocument.getElementById('glucose_value');
 
 	textElement.innerHTML = convertGluose_moring(angle);
+	var red = caculateColorChannel(angle,'r');
+	var green = caculateColorChannel(angle,'g');
+	var blue = caculateColorChannel(angle,'b');
 
+	console.log('rgba('+red+','+green+','+blue+',1)');
+	$(".CompassValuePanel").css('box-shadow', '0px 3px 5px 1px rgba('+red+','+green+','+blue+',1)');
+	//$(".CompassValuePanel").css('background', 'rgba('+red+','+green+','+blue+',1)');
 }
 
 function convertGluose_moring (angle) {
@@ -64,4 +70,159 @@ function convertGluose_moring (angle) {
 		
 	};
 	return Number(glucoseValue).toFixed(1);
+}
+
+
+function caculateColorChannel (angle, colorChannel) {
+	// body...
+
+	//计算阴影的颜色
+
+	var channel = 0;
+	var startColorChannel = 0;
+	var endColorChannel = 0;
+	if (angle <=22.5  && angle>= 0) {
+
+		    switch(colorChannel){ 
+			    case 'r':    
+			    	startColorChannel = 244;
+			    	endColorChannel = 255;
+			      break; 
+			    case 'g': 
+			    	startColorChannel = 40;
+			    	endColorChannel = 130;
+			      break; 
+			      case 'b':
+			      	startColorChannel = 27;
+			      	endColorChannel = 6;
+		    } 
+		channel = startColorChannel + angle * (endColorChannel- startColorChannel)/22.5;
+
+	} else if (angle > 22.5 && angle <= 67.5) {
+
+		    switch(colorChannel){ 
+			    case 'r':    
+			    	startColorChannel = 255;
+			    	endColorChannel = 166;
+			      break; 
+			    case 'g': 
+			    	startColorChannel = 130;
+			    	endColorChannel = 251;
+			      break; 
+			      case 'b':
+			      	startColorChannel = 6;
+			      	endColorChannel = 6;
+		    } 
+		channel =startColorChannel + (angle - 22.5) * (endColorChannel- startColorChannel)/(67.5-22.5);
+
+	} else if (angle > 67.5 && angle <= 135) {
+
+		    switch(colorChannel){ 
+			    case 'r':    
+			    	startColorChannel = 166;
+			    	endColorChannel = 11;
+			      break; 
+			    case 'g': 
+			    	startColorChannel = 251;
+			    	endColorChannel = 255;
+			      break; 
+			      case 'b':
+			      	startColorChannel = 6;
+			      	endColorChannel = 0;
+		    } 
+		channel =startColorChannel + (angle -67.5)  *(endColorChannel- startColorChannel)/(135 - 67.5);
+
+	} else if (angle > 135 && angle <=202.5) {
+
+
+		    switch(colorChannel){ 
+			    case 'r':    
+			    	startColorChannel = 11;
+			    	endColorChannel = 166;
+			      break; 
+			    case 'g': 
+			    	startColorChannel = 255;
+			    	endColorChannel = 251;
+			      break; 
+			      case 'b':
+			      	startColorChannel = 0;
+			      	endColorChannel = 6;
+		    } 
+
+		channel =startColorChannel + (angle - 135)  * (endColorChannel- startColorChannel)/(202.5-135);
+
+	} else if (angle > 202.5 && angle <= 247.5){
+
+		    switch(colorChannel){ 
+			    case 'r':    
+			    	startColorChannel = 166;
+			    	endColorChannel = 255;
+			      break; 
+			    case 'g': 
+			    	startColorChannel = 251;
+			    	endColorChannel = 130;
+			      break; 
+			      case 'b':
+			      	startColorChannel = 6;
+			      	endColorChannel = 6;
+		    } 
+
+		channel =startColorChannel + (angle - 202.5)  *(endColorChannel- startColorChannel)/ (247.5-202.5);
+		
+	} else if (angle > 247.5 && angle <= 270) {
+
+
+		    switch(colorChannel){ 
+			    case 'r':    
+			    	startColorChannel = 255;
+			    	endColorChannel = 244;
+			      break; 
+			    case 'g': 
+			    	startColorChannel = 130;
+			    	endColorChannel = 40;
+			      break; 
+			      case 'b':
+			      	startColorChannel = 6;
+			      	endColorChannel = 27;
+		    } 
+
+		channel =startColorChannel + (angle - 247.5)  *(endColorChannel- startColorChannel)/(270-247.5);
+	} else if (angle >270 && angle <= 315) {
+
+
+		    switch(colorChannel){ 
+			    case 'r':    
+			    	startColorChannel = 244;
+			    	endColorChannel = 177;
+			      break; 
+			    case 'g': 
+			    	startColorChannel = 40;
+			    	endColorChannel = 15;
+			      break; 
+			      case 'b':
+			      	startColorChannel = 27;
+			      	endColorChannel = 15;
+		    } 
+
+		channel =startColorChannel + (angle - 270)  *(endColorChannel- startColorChannel)/(315 - 270);
+	} else {
+
+
+		    switch(colorChannel){ 
+			    case 'r':    
+			    	startColorChannel = 177;
+			    	endColorChannel = 240;
+			      break; 
+			    case 'g': 
+			    	startColorChannel = 15;
+			    	endColorChannel = 40;
+			      break; 
+			      case 'b':
+			      	startColorChannel = 15;
+			      	endColorChannel = 27;
+		    } 
+
+		channel =startColorChannel + (angle - 315)  * (endColorChannel- startColorChannel)/(360-315);
+	};
+	return Number(channel).toFixed(0);
 }

@@ -79,7 +79,7 @@
 	<string>
 	&lt;script type="text/javascript" src="${resourcesFolderName}/main.js"&gt;&lt;/script&gt;</string>
 	<key>lastCheckDate</key>
-	<date>2016-12-12T10:41:22Z</date>
+	<date>2016-12-13T01:40:49Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
@@ -373,7 +373,7 @@
 	<key>monotypeProjectID</key>
 	<string>070843ED-997B-4006-AE35-7FD1180D46A9-38806-0002A80BAAA172AC</string>
 	<key>oidCounter</key>
-	<integer>502</integer>
+	<integer>504</integer>
 	<key>resourcesInfo</key>
 	<dict>
 		<key>groups</key>
@@ -2108,59 +2108,6 @@
 			</dict>
 			<dict>
 				<key>fileModificationDate</key>
-				<date>2016-12-12T09:54:38Z</date>
-				<key>fileSize</key>
-				<integer>1676</integer>
-				<key>md5</key>
-				<string>C9DA102A71459BEA6474162F103F3BA6</string>
-				<key>notifyOnBookmarkChange</key>
-				<true/>
-				<key>originalPath</key>
-				<string>/Users/shengqiang/Documents/Codes/hype_blood_glucose/javascript/touchMove.js</string>
-				<key>resourceName</key>
-				<string>touchMove.js</string>
-				<key>securityScopedBookmark</key>
-				<data>
-				Ym9va0gDAAAAAAQQMAAAAC0ANq81NNPnKKPOMrRq5qqc
-				7/zceLYGbmLckhuzaj0fRAIAAAQAAAADAwAAAAkAKAUA
-				AAABAQAAVXNlcnMAAAAKAAAAAQEAAHNoZW5ncWlhbmcA
-				AAkAAAABAQAARG9jdW1lbnRzAAAABQAAAAEBAABDb2Rl
-				cwAAABIAAAABAQAAaHlwZV9ibG9vZF9nbHVjb3NlAAAK
-				AAAAAQEAAGphdmFzY3JpcHQAAAwAAAABAQAAdG91Y2hN
-				b3ZlLmpzHAAAAAEGAAAQAAAAIAAAADQAAABIAAAAWAAA
-				AHQAAACIAAAACAAAAAQDAACGehcAAAAAAAgAAAAEAwAA
-				lnoXAAAAAAAIAAAABAMAAMeoGQAAAAAACAAAAAQDAAAY
-				rRkAAAAAAAgAAAAEAwAAcDZtAQAAAAAIAAAABAMAACw4
-				bQEAAAAACAAAAAQDAACWim4BAAAAABwAAAABBgAAwAAA
-				ANAAAADgAAAA8AAAAAABAAAQAQAAIAEAAAgAAAAABAAA
-				Qb3+j90AAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAA
-				AAAAAAAAAAgAAAAEAwAABQAAAAAAAAAEAAAAAwMAAPUB
-				AAAIAAAAAQkAAGZpbGU6Ly8vDAAAAAEBAABNYWNpbnRv
-				c2ggSEQIAAAABAMAAAAAADJ0AAAACAAAAAAEAABBut2o
-				zAAAACQAAAABAQAAOTdGNTMwQTctOEM2Qy0zMDRDLUFG
-				NUItOEEzRDcyOUFERjg1GAAAAAECAACBAAAAAQAAAO8T
-				AAABAAAAAAAAAAAAAAABAAAAAQEAAC8AAAAAAAAAAQUA
-				AMwAAAD+////AQAAAAAAAAAQAAAABBAAAJwAAAAAAAAA
-				BRAAADABAAAAAAAAEBAAAGQBAAAAAAAAQBAAAFQBAAAA
-				AAAAAiAAADACAAAAAAAABSAAAKABAAAAAAAAECAAALAB
-				AAAAAAAAESAAAOQBAAAAAAAAEiAAAMQBAAAAAAAAEyAA
-				ANQBAAAAAAAAICAAABACAAAAAAAAMCAAADwCAAAAAAAA
-				AcAAAIQBAAAAAAAAEcAAACAAAAAAAAAAEsAAAJQBAAAA
-				AAAAENAAAAQAAAAAAAAA
-				</data>
-				<key>shouldAutoResize</key>
-				<true/>
-				<key>shouldIncludeInDocumentHeadHTML</key>
-				<true/>
-				<key>shouldPreload</key>
-				<true/>
-				<key>shouldRemoveWhenNoLongerReferenced</key>
-				<false/>
-				<key>type</key>
-				<string>FileResource</string>
-			</dict>
-			<dict>
-				<key>fileModificationDate</key>
 				<date>2016-12-12T10:02:23Z</date>
 				<key>fileSize</key>
 				<integer>1097</integer>
@@ -2265,6 +2212,59 @@
 				<key>type</key>
 				<string>FileResource</string>
 			</dict>
+			<dict>
+				<key>fileModificationDate</key>
+				<date>2016-12-13T01:40:47Z</date>
+				<key>fileSize</key>
+				<integer>5933</integer>
+				<key>md5</key>
+				<string>C4F910E5B7B0242D54C0DFF223A4A472</string>
+				<key>notifyOnBookmarkChange</key>
+				<true/>
+				<key>originalPath</key>
+				<string>/Users/shengqiang/Documents/Codes/hype_blood_glucose/javascript/touchMove.js</string>
+				<key>resourceName</key>
+				<string>touchMove.js</string>
+				<key>securityScopedBookmark</key>
+				<data>
+				Ym9va0gDAAAAAAQQMAAAAC0ANq81NNPnKKPOMrRq5qqc
+				7/zceLYGbmLckhuzaj0fRAIAAAQAAAADAwAAAAkAKAUA
+				AAABAQAAVXNlcnMAAAAKAAAAAQEAAHNoZW5ncWlhbmcA
+				AAkAAAABAQAARG9jdW1lbnRzAAAABQAAAAEBAABDb2Rl
+				cwAAABIAAAABAQAAaHlwZV9ibG9vZF9nbHVjb3NlAAAK
+				AAAAAQEAAGphdmFzY3JpcHQAAAwAAAABAQAAdG91Y2hN
+				b3ZlLmpzHAAAAAEGAAAQAAAAIAAAADQAAABIAAAAWAAA
+				AHQAAACIAAAACAAAAAQDAACGehcAAAAAAAgAAAAEAwAA
+				lnoXAAAAAAAIAAAABAMAAMeoGQAAAAAACAAAAAQDAAAY
+				rRkAAAAAAAgAAAAEAwAAcDZtAQAAAAAIAAAABAMAACw4
+				bQEAAAAACAAAAAQDAACWim4BAAAAABwAAAABBgAAwAAA
+				ANAAAADgAAAA8AAAAAABAAAQAQAAIAEAAAgAAAAABAAA
+				Qb3+j90AAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAA
+				AAAAAAAAAAgAAAAEAwAABQAAAAAAAAAEAAAAAwMAAPUB
+				AAAIAAAAAQkAAGZpbGU6Ly8vDAAAAAEBAABNYWNpbnRv
+				c2ggSEQIAAAABAMAAAAAADJ0AAAACAAAAAAEAABBut2o
+				zAAAACQAAAABAQAAOTdGNTMwQTctOEM2Qy0zMDRDLUFG
+				NUItOEEzRDcyOUFERjg1GAAAAAECAACBAAAAAQAAAO8T
+				AAABAAAAAAAAAAAAAAABAAAAAQEAAC8AAAAAAAAAAQUA
+				AMwAAAD+////AQAAAAAAAAAQAAAABBAAAJwAAAAAAAAA
+				BRAAADABAAAAAAAAEBAAAGQBAAAAAAAAQBAAAFQBAAAA
+				AAAAAiAAADACAAAAAAAABSAAAKABAAAAAAAAECAAALAB
+				AAAAAAAAESAAAOQBAAAAAAAAEiAAAMQBAAAAAAAAEyAA
+				ANQBAAAAAAAAICAAABACAAAAAAAAMCAAADwCAAAAAAAA
+				AcAAAIQBAAAAAAAAEcAAACAAAAAAAAAAEsAAAJQBAAAA
+				AAAAENAAAAQAAAAAAAAA
+				</data>
+				<key>shouldAutoResize</key>
+				<true/>
+				<key>shouldIncludeInDocumentHeadHTML</key>
+				<true/>
+				<key>shouldPreload</key>
+				<true/>
+				<key>shouldRemoveWhenNoLongerReferenced</key>
+				<false/>
+				<key>type</key>
+				<string>FileResource</string>
+			</dict>
 		</array>
 	</dict>
 	<key>sceneContainers</key>
@@ -2284,6 +2284,7 @@
 						<key>expandedItems</key>
 						<array>
 							<string>395</string>
+							<string>504</string>
 							<string>331</string>
 							<string>391</string>
 						</array>
@@ -2308,7 +2309,7 @@
 							<key>463</key>
 							<real>5.4666666984558105</real>
 							<key>478</key>
-							<real>6</real>
+							<real>8.4666662216186523</real>
 							<key>kTimelineDefaultIdentifier</key>
 							<real>0.0</real>
 						</dict>
@@ -2316,7 +2317,7 @@
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{3477, 3041}</string>
+					<string>{3554, 3041}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -2341,7 +2342,7 @@
 					<key>rootSymbolControllerOid</key>
 					<string>91</string>
 					<key>scrollViewOffset</key>
-					<string>{3048, 501.3359375}</string>
+					<string>{2247, 221.3359375}</string>
 					<key>userGuides</key>
 					<array>
 						<dict>
@@ -8376,7 +8377,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8</string>
+							<string>10</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8654,7 +8655,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>6</string>
+							<string>8</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10732,7 +10733,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>9</string>
+							<string>11</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10855,7 +10856,7 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>5</string>
+							<string>7</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10904,6 +10905,234 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 							<string>OriginalWidth</string>
 							<key>objectValue</key>
 							<string>12px</string>
+						</dict>
+					</array>
+					<key>503</key>
+					<array>
+						<dict>
+							<key>identifier</key>
+							<string>TagName</string>
+							<key>objectValue</key>
+							<string>div</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderWidthBottom</string>
+							<key>objectValue</key>
+							<string>1px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorBottom</string>
+							<key>objectValue</key>
+							<string>#D8DDE4</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderStyleRight</string>
+							<key>objectValue</key>
+							<string>Solid</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Display</string>
+							<key>objectValue</key>
+							<string>none</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ClassType</string>
+							<key>objectValue</key>
+							<string>Rectangle</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderStyleBottom</string>
+							<key>objectValue</key>
+							<string>Solid</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Top</string>
+							<key>objectValue</key>
+							<string>0px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderWidthRight</string>
+							<key>objectValue</key>
+							<string>1px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderStyleLeft</string>
+							<key>objectValue</key>
+							<string>Solid</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorLeft</string>
+							<key>objectValue</key>
+							<string>#D8DDE4</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorTop</string>
+							<key>objectValue</key>
+							<string>#D8DDE4</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Parent</string>
+							<key>objectValue</key>
+							<string>504</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Position</string>
+							<key>objectValue</key>
+							<string>absolute</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Height</string>
+							<key>objectValue</key>
+							<string>100px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Left</string>
+							<key>objectValue</key>
+							<string>0px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorRight</string>
+							<key>objectValue</key>
+							<string>#D8DDE4</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderStyleTop</string>
+							<key>objectValue</key>
+							<string>Solid</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>100px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>1</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderWidthTop</string>
+							<key>objectValue</key>
+							<string>1px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Overflow</string>
+							<key>objectValue</key>
+							<string>visible</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>DisplayName</string>
+							<key>objectValue</key>
+							<string>矩形</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderWidthLeft</string>
+							<key>objectValue</key>
+							<string>1px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BackgroundColor</string>
+							<key>objectValue</key>
+							<string>#E8EBED</string>
+						</dict>
+					</array>
+					<key>504</key>
+					<array>
+						<dict>
+							<key>identifier</key>
+							<string>DisplayName</string>
+							<key>objectValue</key>
+							<string>compass_pointer</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Position</string>
+							<key>objectValue</key>
+							<string>absolute</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Parent</string>
+							<key>objectValue</key>
+							<string>391</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Left</string>
+							<key>objectValue</key>
+							<string>94px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Display</string>
+							<key>objectValue</key>
+							<string>none</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Height</string>
+							<key>objectValue</key>
+							<string>102px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Overflow</string>
+							<key>objectValue</key>
+							<string>visible</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>102px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>5</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Top</string>
+							<key>objectValue</key>
+							<string>94px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>TagName</string>
+							<key>objectValue</key>
+							<string>div</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ClassType</string>
+							<key>objectValue</key>
+							<string>Group</string>
 						</dict>
 					</array>
 					<key>96</key>
@@ -24814,6 +25043,6 @@ function initAndPlayPlantVideo(hypeDocument, element, event) {
 	<key>webAppCapable</key>
 	<integer>0</integer>
 	<key>zoomFactor</key>
-	<real>1.25</real>
+	<real>1</real>
 </dict>
 </plist>
