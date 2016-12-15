@@ -90,7 +90,7 @@
 	}
 	&lt;/style&gt;</string>
 	<key>lastCheckDate</key>
-	<date>2016-12-15T07:40:41Z</date>
+	<date>2016-12-15T09:13:45Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
@@ -358,7 +358,7 @@
 	<key>monotypeProjectID</key>
 	<string>070843ED-997B-4006-AE35-7FD1180D46A9-38806-0002A80BAAA172AC</string>
 	<key>oidCounter</key>
-	<integer>537</integer>
+	<integer>539</integer>
 	<key>resourcesInfo</key>
 	<dict>
 		<key>groups</key>
@@ -597,18 +597,6 @@
 				<key>expanded</key>
 				<true/>
 				<key>name</key>
-				<string>plantVideo</string>
-				<key>oid</key>
-				<string>483</string>
-				<key>resources</key>
-				<array>
-					<string>plantVideo.mp4</string>
-				</array>
-			</dict>
-			<dict>
-				<key>expanded</key>
-				<true/>
-				<key>name</key>
 				<string>compassPanl</string>
 				<key>oid</key>
 				<string>487</string>
@@ -711,6 +699,18 @@
 				<key>resources</key>
 				<array>
 					<string>midnight@2x.png</string>
+				</array>
+			</dict>
+			<dict>
+				<key>expanded</key>
+				<true/>
+				<key>name</key>
+				<string>plantVideo</string>
+				<key>oid</key>
+				<string>539</string>
+				<key>resources</key>
+				<array>
+					<string>plantVideo.mp4</string>
 				</array>
 			</dict>
 		</array>
@@ -1928,58 +1928,6 @@
 			</dict>
 			<dict>
 				<key>fileModificationDate</key>
-				<date>2016-12-08T10:10:34Z</date>
-				<key>fileSize</key>
-				<integer>11158</integer>
-				<key>md5</key>
-				<string>D05E9476466E7749E3011E8F2D61447D</string>
-				<key>notifyOnBookmarkChange</key>
-				<true/>
-				<key>originalPath</key>
-				<string>/Users/shengqiang/Downloads/test.hype/Resources/plantVideo.mp4</string>
-				<key>resourceName</key>
-				<string>plantVideo.mp4</string>
-				<key>securityScopedBookmark</key>
-				<data>
-				Ym9vaxwDAAAAAAQQMAAAAKw9kW4onMNqWrhF3f8IK4nX
-				rHGrUvH958euNLRzdlnVGAIAAAQAAAADAwAAAAkAKAUA
-				AAABAQAAVXNlcnMAAAAKAAAAAQEAAHNoZW5ncWlhbmcA
-				AAkAAAABAQAARG93bmxvYWRzAAAACQAAAAEBAAB0ZXN0
-				Lmh5cGUAAAAJAAAAAQEAAFJlc291cmNlcwAAAA4AAAAB
-				AQAAcGxhbnRWaWRlby5tcDQAABgAAAABBgAAEAAAACAA
-				AAA0AAAASAAAAFwAAABwAAAACAAAAAQDAACGehcAAAAA
-				AAgAAAAEAwAAlnoXAAAAAAAIAAAABAMAAKXzHAAAAAAA
-				CAAAAAQDAAClcm0BAAAAAAgAAAAEAwAAqXJtAQAAAAAI
-				AAAABAMAAKpybQEAAAAAGAAAAAEGAACoAAAAuAAAAMgA
-				AADYAAAA6AAAAPgAAAAIAAAAAAQAAEG9+WkaAAAAGAAA
-				AAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAIAAAA
-				BAMAAAQAAAAAAAAABAAAAAMDAAD1AQAACAAAAAEJAABm
-				aWxlOi8vLwwAAAABAQAATWFjaW50b3NoIEhECAAAAAQD
-				AAAAAAAydAAAAAgAAAAABAAAQbrdqMwAAAAkAAAAAQEA
-				ADk3RjUzMEE3LThDNkMtMzA0Qy1BRjVCLThBM0Q3MjlB
-				REY4NRgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAA
-				AAAAAQAAAAEBAAAvAAAAAAAAAAEFAADMAAAA/v///wEA
-				AAAAAAAAEAAAAAQQAACIAAAAAAAAAAUQAAAIAQAAAAAA
-				ABAQAAA4AQAAAAAAAEAQAAAoAQAAAAAAAAIgAAAEAgAA
-				AAAAAAUgAAB0AQAAAAAAABAgAACEAQAAAAAAABEgAAC4
-				AQAAAAAAABIgAACYAQAAAAAAABMgAACoAQAAAAAAACAg
-				AADkAQAAAAAAADAgAAAQAgAAAAAAAAHAAABYAQAAAAAA
-				ABHAAAAgAAAAAAAAABLAAABoAQAAAAAAABDQAAAEAAAA
-				AAAAAA==
-				</data>
-				<key>shouldAutoResize</key>
-				<true/>
-				<key>shouldIncludeInDocumentHeadHTML</key>
-				<false/>
-				<key>shouldPreload</key>
-				<true/>
-				<key>shouldRemoveWhenNoLongerReferenced</key>
-				<false/>
-				<key>type</key>
-				<string>FileResource</string>
-			</dict>
-			<dict>
-				<key>fileModificationDate</key>
 				<date>2016-12-12T07:12:21Z</date>
 				<key>fileSize</key>
 				<integer>1069</integer>
@@ -2651,6 +2599,59 @@
 				<key>type</key>
 				<string>FileResource</string>
 			</dict>
+			<dict>
+				<key>fileModificationDate</key>
+				<date>2016-12-15T09:07:56Z</date>
+				<key>fileSize</key>
+				<integer>42356</integer>
+				<key>md5</key>
+				<string>B43E3A609455070043848E767D10AF84</string>
+				<key>notifyOnBookmarkChange</key>
+				<true/>
+				<key>originalPath</key>
+				<string>/Users/shengqiang/Documents/Codes/hype_blood_glucose/video/plantVideo.mp4</string>
+				<key>resourceName</key>
+				<string>plantVideo.mp4</string>
+				<key>securityScopedBookmark</key>
+				<data>
+				Ym9va0gDAAAAAAQQMAAAADz7iQg6dP1GmWVc3JgEAJBh
+				UiSrwQKi7g/xXrXHVPunRAIAAAQAAAADAwAAAAkAKAUA
+				AAABAQAAVXNlcnMAAAAKAAAAAQEAAHNoZW5ncWlhbmcA
+				AAkAAAABAQAARG9jdW1lbnRzAAAABQAAAAEBAABDb2Rl
+				cwAAABIAAAABAQAAaHlwZV9ibG9vZF9nbHVjb3NlAAAF
+				AAAAAQEAAHZpZGVvAAAADgAAAAEBAABwbGFudFZpZGVv
+				Lm1wNAAAHAAAAAEGAAAQAAAAIAAAADQAAABIAAAAWAAA
+				AHQAAACEAAAACAAAAAQDAACGehcAAAAAAAgAAAAEAwAA
+				lnoXAAAAAAAIAAAABAMAAMeoGQAAAAAACAAAAAQDAAAY
+				rRkAAAAAAAgAAAAEAwAAcDZtAQAAAAAIAAAABAMAAHJW
+				cgEAAAAACAAAAAQDAAAjV3IBAAAAABwAAAABBgAAwAAA
+				ANAAAADgAAAA8AAAAAABAAAQAQAAIAEAAAgAAAAABAAA
+				Qb4ClOYAAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAA
+				AAAAAAAAAAgAAAAEAwAABQAAAAAAAAAEAAAAAwMAAPUB
+				AAAIAAAAAQkAAGZpbGU6Ly8vDAAAAAEBAABNYWNpbnRv
+				c2ggSEQIAAAABAMAAAAAADJ0AAAACAAAAAAEAABBut2o
+				zAAAACQAAAABAQAAOTdGNTMwQTctOEM2Qy0zMDRDLUFG
+				NUItOEEzRDcyOUFERjg1GAAAAAECAACBAAAAAQAAAO8T
+				AAABAAAAAAAAAAAAAAABAAAAAQEAAC8AAAAAAAAAAQUA
+				AMwAAAD+////AQAAAAAAAAAQAAAABBAAAJwAAAAAAAAA
+				BRAAADABAAAAAAAAEBAAAGQBAAAAAAAAQBAAAFQBAAAA
+				AAAAAiAAADACAAAAAAAABSAAAKABAAAAAAAAECAAALAB
+				AAAAAAAAESAAAOQBAAAAAAAAEiAAAMQBAAAAAAAAEyAA
+				ANQBAAAAAAAAICAAABACAAAAAAAAMCAAADwCAAAAAAAA
+				AcAAAIQBAAAAAAAAEcAAACAAAAAAAAAAEsAAAJQBAAAA
+				AAAAENAAAAQAAAAAAAAA
+				</data>
+				<key>shouldAutoResize</key>
+				<true/>
+				<key>shouldIncludeInDocumentHeadHTML</key>
+				<false/>
+				<key>shouldPreload</key>
+				<true/>
+				<key>shouldRemoveWhenNoLongerReferenced</key>
+				<false/>
+				<key>type</key>
+				<string>FileResource</string>
+			</dict>
 		</array>
 	</dict>
 	<key>sceneContainers</key>
@@ -2671,6 +2672,7 @@
 						<array>
 							<string>395</string>
 							<string>165</string>
+							<string>504</string>
 							<string>331</string>
 							<string>150</string>
 							<string>391</string>
@@ -2704,7 +2706,7 @@
 						<integer>210</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{3476, 3041}</string>
+					<string>{828, 1249}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -2729,7 +2731,7 @@
 					<key>rootSymbolControllerOid</key>
 					<string>91</string>
 					<key>scrollViewOffset</key>
-					<string>{3780, 465}</string>
+					<string>{0, 312}</string>
 					<key>userGuides</key>
 					<array>
 						<dict>
@@ -3033,20 +3035,18 @@ function midnight_3action(hypeDocument, element, event) {
 	<key>symbols</key>
 	<array>
 		<dict>
-			<key>currentGroupElement</key>
-			<string>395</string>
 			<key>documentIdentifier</key>
 			<string>1657295E-84AD-4ED5-A0A4-B65B8D82314D-44603-000206761B71C54D</string>
 			<key>selectedObjects</key>
 			<array>
-				<string>521</string>
+				<string>331</string>
 			</array>
 			<key>symbol</key>
 			<dict>
 				<key>addToNewSceneControllers</key>
 				<false/>
 				<key>currentTimelineIdentifier</key>
-				<string>269</string>
+				<string>462</string>
 				<key>customBehaviors</key>
 				<array/>
 				<key>elements</key>
@@ -8662,39 +8662,15 @@ function midnight_3action(hypeDocument, element, event) {
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>BorderRadiusTopRight</string>
+							<string>Display</string>
 							<key>objectValue</key>
-							<string>0px</string>
+							<string>inline</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TransformOriginXOffset</string>
+							<string>ConstrainScaleRatio</string>
 							<key>objectValue</key>
-							<string>50%</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>DisplayName</string>
-							<key>objectValue</key>
-							<string>分析血糖</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderRadiusBottomRight</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ExplicitDimensions</string>
-							<key>objectValue</key>
-							<string>YES</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>TagName</string>
-							<key>objectValue</key>
-							<string>div</string>
+							<string>0</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8704,31 +8680,13 @@ function midnight_3action(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Display</string>
+							<string>UsingMotionPaths</string>
 							<key>objectValue</key>
-							<string>inline</string>
+							<string>1</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ScaleY</string>
-							<key>objectValue</key>
-							<string>0</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ClassType</string>
-							<key>objectValue</key>
-							<string>Group</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Top</string>
-							<key>objectValue</key>
-							<string>60px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ConstrainScaleRatio</string>
+							<string>Locked</string>
 							<key>objectValue</key>
 							<string>0</string>
 						</dict>
@@ -8740,15 +8698,37 @@ function midnight_3action(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>UsingMotionPaths</string>
-							<key>objectValue</key>
-							<string>1</string>
+							<string>BackgroundSize</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Position</string>
+							<string>SizeRatio</string>
 							<key>objectValue</key>
-							<string>absolute</string>
+							<string>1.15094</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderRadiusTopRight</string>
+							<key>objectValue</key>
+							<string>0px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>DisplayName</string>
+							<key>objectValue</key>
+							<string>分析血糖</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>TransformOriginYOffset</string>
+							<key>objectValue</key>
+							<string>50%</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>MotionPathRotation</string>
+							<key>objectValue</key>
+							<string>434deg</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8764,33 +8744,21 @@ function midnight_3action(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Left</string>
+							<string>ExplicitDimensions</string>
 							<key>objectValue</key>
-							<string>1px</string>
+							<string>YES</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TransformOriginYOffset</string>
+							<string>TransformOriginXOffset</string>
 							<key>objectValue</key>
 							<string>50%</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ScaleX</string>
+							<string>Top</string>
 							<key>objectValue</key>
-							<string>0</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>SizeRatio</string>
-							<key>objectValue</key>
-							<string>1.15094</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>MotionPathRotation</string>
-							<key>objectValue</key>
-							<string>434deg</string>
+							<string>60px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8800,9 +8768,33 @@ function midnight_3action(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>DisplayHiddenOverride</string>
+							<string>OriginalHeight</string>
+							<key>objectValue</key>
+							<string>106px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>TagName</string>
+							<key>objectValue</key>
+							<string>div</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ScaleY</string>
 							<key>objectValue</key>
 							<string>0</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ConstrainProportions</string>
+							<key>objectValue</key>
+							<string>NO</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Position</string>
+							<key>objectValue</key>
+							<string>absolute</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8812,21 +8804,33 @@ function midnight_3action(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderRadiusTopLeft</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Locked</string>
+							<string>ScaleX</string>
 							<key>objectValue</key>
 							<string>0</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Overflow</string>
+							<string>ClassType</string>
 							<key>objectValue</key>
-							<string>hidden</string>
+							<string>Group</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderRadiusBottomRight</string>
+							<key>objectValue</key>
+							<string>0px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Left</string>
+							<key>objectValue</key>
+							<string>1px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>DisplayHiddenOverride</string>
+							<key>objectValue</key>
+							<string>0</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8836,13 +8840,15 @@ function midnight_3action(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BackgroundSize</string>
+							<string>BorderRadiusTopLeft</string>
+							<key>objectValue</key>
+							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalHeight</string>
+							<string>Overflow</string>
 							<key>objectValue</key>
-							<string>106px</string>
+							<string>hidden</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -13457,7 +13463,7 @@ function midnight_3action(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>0px</string>
+									<string>1px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Left</string>
@@ -13473,13 +13479,13 @@ function midnight_3action(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{188, 302}</string>
+												<string>{189, 303}</string>
 												<key>endPoint</key>
-												<string>{188, 302}</string>
+												<string>{189, 303}</string>
 												<key>startControlPoint</key>
-												<string>{179, 326}</string>
+												<string>{180, 327}</string>
 												<key>startPoint</key>
-												<string>{179, 326}</string>
+												<string>{180, 327}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -13503,7 +13509,7 @@ function midnight_3action(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>-8.5px</string>
+									<string>-7.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -13668,7 +13674,7 @@ function midnight_3action(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>-2px</string>
+									<string>-1px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Top</string>
@@ -13684,13 +13690,13 @@ function midnight_3action(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{188, 302}</string>
+												<string>{189, 303}</string>
 												<key>endPoint</key>
-												<string>{188, 302}</string>
+												<string>{189, 303}</string>
 												<key>startControlPoint</key>
-												<string>{179, 326}</string>
+												<string>{180, 327}</string>
 												<key>startPoint</key>
-												<string>{179, 326}</string>
+												<string>{180, 327}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -13714,7 +13720,7 @@ function midnight_3action(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>23.5px</string>
+									<string>24.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -13751,13 +13757,13 @@ function midnight_3action(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{188, 302}</string>
+												<string>{189, 303}</string>
 												<key>endPoint</key>
-												<string>{188, 302}</string>
+												<string>{189, 303}</string>
 												<key>startControlPoint</key>
-												<string>{179, 326}</string>
+												<string>{180, 327}</string>
 												<key>startPoint</key>
-												<string>{179, 326}</string>
+												<string>{180, 327}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -14635,13 +14641,13 @@ function midnight_3action(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{189, 301}</string>
+												<string>{190, 302}</string>
 												<key>endPoint</key>
-												<string>{189, 301}</string>
+												<string>{190, 302}</string>
 												<key>startControlPoint</key>
-												<string>{188, 302}</string>
+												<string>{189, 303}</string>
 												<key>startPoint</key>
-												<string>{188, 302}</string>
+												<string>{189, 303}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -14695,13 +14701,13 @@ function midnight_3action(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{189, 301}</string>
+												<string>{190, 302}</string>
 												<key>endPoint</key>
-												<string>{189, 301}</string>
+												<string>{190, 302}</string>
 												<key>startControlPoint</key>
-												<string>{188, 302}</string>
+												<string>{189, 303}</string>
 												<key>startPoint</key>
-												<string>{188, 302}</string>
+												<string>{189, 303}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -14725,7 +14731,7 @@ function midnight_3action(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>0px</string>
+									<string>1px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -14900,13 +14906,13 @@ function midnight_3action(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{189, 301}</string>
+												<string>{190, 302}</string>
 												<key>endPoint</key>
-												<string>{189, 301}</string>
+												<string>{190, 302}</string>
 												<key>startControlPoint</key>
-												<string>{188, 302}</string>
+												<string>{189, 303}</string>
 												<key>startPoint</key>
-												<string>{188, 302}</string>
+												<string>{189, 303}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -14930,7 +14936,7 @@ function midnight_3action(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>-2px</string>
+									<string>-1px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -15040,7 +15046,7 @@ function midnight_3action(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>0px</string>
+									<string>1px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Left</string>
@@ -15056,13 +15062,13 @@ function midnight_3action(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{188, 302}</string>
+												<string>{189, 303}</string>
 												<key>endPoint</key>
-												<string>{188, 302}</string>
+												<string>{189, 303}</string>
 												<key>startControlPoint</key>
-												<string>{179, 326}</string>
+												<string>{180, 327}</string>
 												<key>startPoint</key>
-												<string>{179, 326}</string>
+												<string>{180, 327}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -15086,7 +15092,7 @@ function midnight_3action(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>-8.5px</string>
+									<string>-7.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -15251,7 +15257,7 @@ function midnight_3action(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>-2px</string>
+									<string>-1px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Top</string>
@@ -15267,13 +15273,13 @@ function midnight_3action(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{188, 302}</string>
+												<string>{189, 303}</string>
 												<key>endPoint</key>
-												<string>{188, 302}</string>
+												<string>{189, 303}</string>
 												<key>startControlPoint</key>
-												<string>{179, 326}</string>
+												<string>{180, 327}</string>
 												<key>startPoint</key>
-												<string>{179, 326}</string>
+												<string>{180, 327}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -15297,7 +15303,7 @@ function midnight_3action(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>23.5px</string>
+									<string>24.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -15334,13 +15340,13 @@ function midnight_3action(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{188, 302}</string>
+												<string>{189, 303}</string>
 												<key>endPoint</key>
-												<string>{188, 302}</string>
+												<string>{189, 303}</string>
 												<key>startControlPoint</key>
-												<string>{179, 326}</string>
+												<string>{180, 327}</string>
 												<key>startPoint</key>
-												<string>{179, 326}</string>
+												<string>{180, 327}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -15596,13 +15602,13 @@ function midnight_3action(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{189, 301}</string>
+												<string>{190, 302}</string>
 												<key>endPoint</key>
-												<string>{189, 301}</string>
+												<string>{190, 302}</string>
 												<key>startControlPoint</key>
-												<string>{188, 302}</string>
+												<string>{189, 303}</string>
 												<key>startPoint</key>
-												<string>{188, 302}</string>
+												<string>{189, 303}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -15772,13 +15778,13 @@ function midnight_3action(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{189, 301}</string>
+												<string>{190, 302}</string>
 												<key>endPoint</key>
-												<string>{189, 301}</string>
+												<string>{190, 302}</string>
 												<key>startControlPoint</key>
-												<string>{188, 302}</string>
+												<string>{189, 303}</string>
 												<key>startPoint</key>
-												<string>{188, 302}</string>
+												<string>{189, 303}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -15802,7 +15808,7 @@ function midnight_3action(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>0px</string>
+									<string>1px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -15832,13 +15838,13 @@ function midnight_3action(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{189, 301}</string>
+												<string>{190, 302}</string>
 												<key>endPoint</key>
-												<string>{189, 301}</string>
+												<string>{190, 302}</string>
 												<key>startControlPoint</key>
-												<string>{188, 302}</string>
+												<string>{189, 303}</string>
 												<key>startPoint</key>
-												<string>{188, 302}</string>
+												<string>{189, 303}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -15862,7 +15868,7 @@ function midnight_3action(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>-2px</string>
+									<string>-1px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -16083,13 +16089,13 @@ function midnight_3action(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{189, 363}</string>
+												<string>{190, 364}</string>
 												<key>endPoint</key>
-												<string>{189, 363}</string>
+												<string>{190, 364}</string>
 												<key>startControlPoint</key>
-												<string>{188, 301}</string>
+												<string>{189, 302}</string>
 												<key>startPoint</key>
-												<string>{188, 301}</string>
+												<string>{189, 302}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -16113,7 +16119,7 @@ function midnight_3action(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>-1.5px</string>
+									<string>-0.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -16143,13 +16149,13 @@ function midnight_3action(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{189, 363}</string>
+												<string>{190, 364}</string>
 												<key>endPoint</key>
-												<string>{189, 363}</string>
+												<string>{190, 364}</string>
 												<key>startControlPoint</key>
-												<string>{188, 301}</string>
+												<string>{189, 302}</string>
 												<key>startPoint</key>
-												<string>{188, 301}</string>
+												<string>{189, 302}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -16203,13 +16209,13 @@ function midnight_3action(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{189, 363}</string>
+												<string>{190, 364}</string>
 												<key>endPoint</key>
-												<string>{189, 363}</string>
+												<string>{190, 364}</string>
 												<key>startControlPoint</key>
-												<string>{188, 301}</string>
+												<string>{189, 302}</string>
 												<key>startPoint</key>
-												<string>{188, 301}</string>
+												<string>{189, 302}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -16233,7 +16239,7 @@ function midnight_3action(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>0.5px</string>
+									<string>1.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -17499,13 +17505,13 @@ function midnight_3action(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{187, 302}</string>
+												<string>{188, 303}</string>
 												<key>endPoint</key>
-												<string>{187, 302}</string>
+												<string>{188, 303}</string>
 												<key>startControlPoint</key>
-												<string>{187, 302}</string>
+												<string>{188, 303}</string>
 												<key>startPoint</key>
-												<string>{187, 302}</string>
+												<string>{188, 303}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -17922,13 +17928,13 @@ function midnight_3action(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{187, 302}</string>
+												<string>{188, 303}</string>
 												<key>endPoint</key>
-												<string>{187, 302}</string>
+												<string>{188, 303}</string>
 												<key>startControlPoint</key>
-												<string>{187, 302}</string>
+												<string>{188, 303}</string>
 												<key>startPoint</key>
-												<string>{187, 302}</string>
+												<string>{188, 303}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -17952,7 +17958,7 @@ function midnight_3action(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>-0.5px</string>
+									<string>0.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -18040,13 +18046,13 @@ function midnight_3action(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{187, 302}</string>
+												<string>{188, 303}</string>
 												<key>endPoint</key>
-												<string>{187, 302}</string>
+												<string>{188, 303}</string>
 												<key>startControlPoint</key>
-												<string>{187, 302}</string>
+												<string>{188, 303}</string>
 												<key>startPoint</key>
-												<string>{187, 302}</string>
+												<string>{188, 303}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -18070,7 +18076,7 @@ function midnight_3action(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>-0.5px</string>
+									<string>0.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -19042,13 +19048,13 @@ function midnight_3action(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{187, 302}</string>
+												<string>{188, 303}</string>
 												<key>endPoint</key>
-												<string>{187, 302}</string>
+												<string>{188, 303}</string>
 												<key>startControlPoint</key>
-												<string>{187, 302}</string>
+												<string>{188, 303}</string>
 												<key>startPoint</key>
-												<string>{187, 302}</string>
+												<string>{188, 303}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -19174,13 +19180,13 @@ function midnight_3action(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{187, 302}</string>
+												<string>{188, 303}</string>
 												<key>endPoint</key>
-												<string>{187, 302}</string>
+												<string>{188, 303}</string>
 												<key>startControlPoint</key>
-												<string>{187, 302}</string>
+												<string>{188, 303}</string>
 												<key>startPoint</key>
-												<string>{187, 302}</string>
+												<string>{188, 303}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -19204,7 +19210,7 @@ function midnight_3action(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>-0.5px</string>
+									<string>0.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -19359,13 +19365,13 @@ function midnight_3action(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{187, 302}</string>
+												<string>{188, 303}</string>
 												<key>endPoint</key>
-												<string>{187, 302}</string>
+												<string>{188, 303}</string>
 												<key>startControlPoint</key>
-												<string>{187, 302}</string>
+												<string>{188, 303}</string>
 												<key>startPoint</key>
-												<string>{187, 302}</string>
+												<string>{188, 303}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -19389,7 +19395,7 @@ function midnight_3action(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>-0.5px</string>
+									<string>0.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -21531,13 +21537,13 @@ function midnight_3action(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{187, 302}</string>
+												<string>{188, 303}</string>
 												<key>endPoint</key>
-												<string>{187, 302}</string>
+												<string>{188, 303}</string>
 												<key>startControlPoint</key>
-												<string>{187, 302}</string>
+												<string>{188, 303}</string>
 												<key>startPoint</key>
-												<string>{187, 302}</string>
+												<string>{188, 303}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -22016,13 +22022,13 @@ function midnight_3action(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{187, 302}</string>
+												<string>{188, 303}</string>
 												<key>endPoint</key>
-												<string>{187, 302}</string>
+												<string>{188, 303}</string>
 												<key>startControlPoint</key>
-												<string>{187, 302}</string>
+												<string>{188, 303}</string>
 												<key>startPoint</key>
-												<string>{187, 302}</string>
+												<string>{188, 303}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -22046,7 +22052,7 @@ function midnight_3action(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>-0.5px</string>
+									<string>0.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -22134,13 +22140,13 @@ function midnight_3action(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{187, 302}</string>
+												<string>{188, 303}</string>
 												<key>endPoint</key>
-												<string>{187, 302}</string>
+												<string>{188, 303}</string>
 												<key>startControlPoint</key>
-												<string>{187, 302}</string>
+												<string>{188, 303}</string>
 												<key>startPoint</key>
-												<string>{187, 302}</string>
+												<string>{188, 303}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -22164,7 +22170,7 @@ function midnight_3action(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>-0.5px</string>
+									<string>0.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -23480,13 +23486,13 @@ function midnight_3action(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{189, 363}</string>
+												<string>{190, 364}</string>
 												<key>endPoint</key>
-												<string>{189, 363}</string>
+												<string>{190, 364}</string>
 												<key>startControlPoint</key>
-												<string>{188, 303}</string>
+												<string>{189, 304}</string>
 												<key>startPoint</key>
-												<string>{188, 303}</string>
+												<string>{189, 304}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -23510,7 +23516,7 @@ function midnight_3action(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>0.5px</string>
+									<string>1.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -23540,13 +23546,13 @@ function midnight_3action(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{189, 363}</string>
+												<string>{190, 364}</string>
 												<key>endPoint</key>
-												<string>{189, 363}</string>
+												<string>{190, 364}</string>
 												<key>startControlPoint</key>
-												<string>{188, 303}</string>
+												<string>{189, 304}</string>
 												<key>startPoint</key>
-												<string>{188, 303}</string>
+												<string>{189, 304}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -23600,13 +23606,13 @@ function midnight_3action(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{189, 363}</string>
+												<string>{190, 364}</string>
 												<key>endPoint</key>
-												<string>{189, 363}</string>
+												<string>{190, 364}</string>
 												<key>startControlPoint</key>
-												<string>{188, 303}</string>
+												<string>{189, 304}</string>
 												<key>startPoint</key>
-												<string>{188, 303}</string>
+												<string>{189, 304}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -23630,7 +23636,7 @@ function midnight_3action(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>0.5px</string>
+									<string>1.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
