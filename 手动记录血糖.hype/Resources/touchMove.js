@@ -49,7 +49,8 @@ function touchMove (hypeDocument, element, event) {
 
 	var textElement = hypeDocument.getElementById('glucose_value');
 
-	textElement.innerHTML = convertGluose_moring(angle);
+	textElement.innerHTML = '<font  style="font-family:PingFangSC-Thin, sans-serif">' + convertGluose_moring(angle) + '</font>';
+
 	var red = caculateColorChannel(angle,'r');
 	var green = caculateColorChannel(angle,'g');
 	var blue = caculateColorChannel(angle,'b');
