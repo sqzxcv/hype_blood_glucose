@@ -90,11 +90,11 @@
 	}
 	&lt;/style&gt;</string>
 	<key>lastCheckDate</key>
-	<date>2016-12-15T09:13:45Z</date>
+	<date>2016-12-20T08:56:34Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
-		<integer>3</integer>
+		<integer>5</integer>
 		<key>customizableLayout</key>
 		<dict>
 			<key>frame</key>
@@ -173,7 +173,7 @@
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{136, 0}, {1242, 314}}</string>
+											<string>{{136, 0}, {1242, 458.0078125}}</string>
 											<key>identifier</key>
 											<string>container 13001</string>
 											<key>isCustomizableViewContainer</key>
@@ -186,7 +186,7 @@
 											<array>
 												<dict>
 													<key>frame</key>
-													<string>{{136, 0}, {1242, 314}}</string>
+													<string>{{136, 0}, {1242, 458.0078125}}</string>
 													<key>identifier</key>
 													<string>timelineCustomizableContainer</string>
 													<key>isCustomizableViewContainer</key>
@@ -196,7 +196,7 @@
 										</dict>
 										<dict>
 											<key>frame</key>
-											<string>{{136, 315}, {1242, 643}}</string>
+											<string>{{136, 459.0078125}, {1242, 498.9921875}}</string>
 											<key>identifier</key>
 											<string>container 3</string>
 											<key>isCustomizableViewContainer</key>
@@ -209,7 +209,7 @@
 											<array>
 												<dict>
 													<key>frame</key>
-													<string>{{136, 315}, {1242, 643}}</string>
+													<string>{{136, 459.0078125}, {1242, 498.9921875}}</string>
 													<key>identifier</key>
 													<string>sceneEditorCustomizableContainer</string>
 													<key>isCustomizableViewContainer</key>
@@ -272,14 +272,20 @@
 			</array>
 		</dict>
 		<key>keyframeTimelineHeight</key>
-		<real>59</real>
+		<real>220</real>
 		<key>mainWindowFrame</key>
-		<string>910 855 1920 1002 910 800 1920 1057 </string>
+		<string>909 855 1920 1002 910 800 1920 1057 </string>
 		<key>openTabs</key>
 		<array>
 			<dict>
 				<key>className</key>
 				<string>HeadHTMLEditor</string>
+			</dict>
+			<dict>
+				<key>className</key>
+				<string>HypeJavascript</string>
+				<key>oid</key>
+				<string>541</string>
 			</dict>
 		</array>
 		<key>selectedTabIndex</key>
@@ -358,7 +364,7 @@
 	<key>monotypeProjectID</key>
 	<string>070843ED-997B-4006-AE35-7FD1180D46A9-38806-0002A80BAAA172AC</string>
 	<key>oidCounter</key>
-	<integer>539</integer>
+	<integer>541</integer>
 	<key>resourcesInfo</key>
 	<dict>
 		<key>groups</key>
@@ -397,7 +403,6 @@
 				<key>resources</key>
 				<array>
 					<string>dateIcon@2x.png</string>
-					<string>PingFang.ttc</string>
 				</array>
 			</dict>
 			<dict>
@@ -1179,30 +1184,6 @@
 				<true/>
 				<key>shouldRemoveWhenNoLongerReferenced</key>
 				<true/>
-				<key>type</key>
-				<string>FileResource</string>
-			</dict>
-			<dict>
-				<key>fileModificationDate</key>
-				<date>2016-08-01T03:18:44Z</date>
-				<key>fileSize</key>
-				<integer>80376964</integer>
-				<key>md5</key>
-				<string>55C91FC1271CEADD1CC1EEA226D6AC26</string>
-				<key>notifyOnBookmarkChange</key>
-				<true/>
-				<key>originalPath</key>
-				<string>/System/Library/Fonts/PingFang.ttc</string>
-				<key>resourceName</key>
-				<string>PingFang.ttc</string>
-				<key>shouldAutoResize</key>
-				<true/>
-				<key>shouldIncludeInDocumentHeadHTML</key>
-				<false/>
-				<key>shouldPreload</key>
-				<true/>
-				<key>shouldRemoveWhenNoLongerReferenced</key>
-				<false/>
 				<key>type</key>
 				<string>FileResource</string>
 			</dict>
@@ -2652,6 +2633,59 @@
 				<key>type</key>
 				<string>FileResource</string>
 			</dict>
+			<dict>
+				<key>fileModificationDate</key>
+				<date>2016-12-20T08:56:24Z</date>
+				<key>fileSize</key>
+				<integer>155</integer>
+				<key>md5</key>
+				<string>2035182DDBAE1F15BAFEACE112401770</string>
+				<key>notifyOnBookmarkChange</key>
+				<true/>
+				<key>originalPath</key>
+				<string>/Users/shengqiang/Documents/Codes/hype_blood_glucose/javascript/submit_glucose.js</string>
+				<key>resourceName</key>
+				<string>submit_glucose.js</string>
+				<key>securityScopedBookmark</key>
+				<data>
+				Ym9va1ADAAAAAAQQMAAAADRjkt/f2eP6aBw5GlTR4+2P
+				+48GyhiYZs4CGynOZ9XgTAIAAAQAAAADAwAAAAkAKAUA
+				AAABAQAAVXNlcnMAAAAKAAAAAQEAAHNoZW5ncWlhbmcA
+				AAkAAAABAQAARG9jdW1lbnRzAAAABQAAAAEBAABDb2Rl
+				cwAAABIAAAABAQAAaHlwZV9ibG9vZF9nbHVjb3NlAAAK
+				AAAAAQEAAGphdmFzY3JpcHQAABEAAAABAQAAc3VibWl0
+				X2dsdWNvc2UuanMAAAAcAAAAAQYAABAAAAAgAAAANAAA
+				AEgAAABYAAAAdAAAAIgAAAAIAAAABAMAAIZ6FwAAAAAA
+				CAAAAAQDAACWehcAAAAAAAgAAAAEAwAAx6gZAAAAAAAI
+				AAAABAMAABitGQAAAAAACAAAAAQDAABwNm0BAAAAAAgA
+				AAAEAwAALDhtAQAAAAAIAAAABAMAAAJsdQEAAAAAHAAA
+				AAEGAADIAAAA2AAAAOgAAAD4AAAACAEAABgBAAAoAQAA
+				CAAAAAAEAABBvgko1gAAABgAAAABAgAAAQAAAAAAAAAP
+				AAAAAAAAAAAAAAAAAAAACAAAAAQDAAAFAAAAAAAAAAQA
+				AAADAwAA9QEAAAgAAAABCQAAZmlsZTovLy8MAAAAAQEA
+				AE1hY2ludG9zaCBIRAgAAAAEAwAAAAAAMnQAAAAIAAAA
+				AAQAAEG63ajMAAAAJAAAAAEBAAA5N0Y1MzBBNy04QzZD
+				LTMwNEMtQUY1Qi04QTNENzI5QURGODUYAAAAAQIAAIEA
+				AAABAAAA7xMAAAEAAAAAAAAAAAAAAAEAAAABAQAALwAA
+				AAAAAAABBQAAzAAAAP7///8BAAAAAAAAABAAAAAEEAAA
+				pAAAAAAAAAAFEAAAOAEAAAAAAAAQEAAAbAEAAAAAAABA
+				EAAAXAEAAAAAAAACIAAAOAIAAAAAAAAFIAAAqAEAAAAA
+				AAAQIAAAuAEAAAAAAAARIAAA7AEAAAAAAAASIAAAzAEA
+				AAAAAAATIAAA3AEAAAAAAAAgIAAAGAIAAAAAAAAwIAAA
+				RAIAAAAAAAABwAAAjAEAAAAAAAARwAAAIAAAAAAAAAAS
+				wAAAnAEAAAAAAAAQ0AAABAAAAAAAAAA=
+				</data>
+				<key>shouldAutoResize</key>
+				<true/>
+				<key>shouldIncludeInDocumentHeadHTML</key>
+				<true/>
+				<key>shouldPreload</key>
+				<true/>
+				<key>shouldRemoveWhenNoLongerReferenced</key>
+				<false/>
+				<key>type</key>
+				<string>FileResource</string>
+			</dict>
 		</array>
 	</dict>
 	<key>sceneContainers</key>
@@ -2670,12 +2704,7 @@
 					<dict>
 						<key>expandedItems</key>
 						<array>
-							<string>395</string>
-							<string>165</string>
-							<string>504</string>
 							<string>331</string>
-							<string>150</string>
-							<string>391</string>
 						</array>
 						<key>timeCursors</key>
 						<dict>
@@ -2694,10 +2723,12 @@
 							<key>441</key>
 							<real>3.5</real>
 							<key>462</key>
-							<real>1.1666666269302368</real>
+							<real>0.53333336114883423</real>
 							<key>463</key>
 							<real>5.4666666984558105</real>
 							<key>478</key>
+							<real>0.0</real>
+							<key>540</key>
 							<real>0.0</real>
 							<key>kTimelineDefaultIdentifier</key>
 							<real>0.0</real>
@@ -2706,7 +2737,7 @@
 						<integer>210</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{828, 1249}</string>
+					<string>{3477, 3041}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -2731,7 +2762,7 @@
 					<key>rootSymbolControllerOid</key>
 					<string>91</string>
 					<key>scrollViewOffset</key>
-					<string>{0, 312}</string>
+					<string>{3780, 128.0078125}</string>
 					<key>userGuides</key>
 					<array>
 						<dict>
@@ -3019,6 +3050,18 @@ function midnight_3action(hypeDocument, element, event) {
 }
 </string>
 		</dict>
+		<dict>
+			<key>oid</key>
+			<string>541</string>
+			<key>source</key>
+			<string>// element - DOMHTMLElement that triggered this function being called
+// event - event that triggered this function being called
+function submitData(hypeDocument, element, event) {
+	
+	
+}
+</string>
+		</dict>
 	</array>
 	<key>shouldApplySizeChangesToAllScenes</key>
 	<true/>
@@ -3036,7 +3079,7 @@ function midnight_3action(hypeDocument, element, event) {
 	<array>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>1657295E-84AD-4ED5-A0A4-B65B8D82314D-44603-000206761B71C54D</string>
+			<string>5C52B1EC-2E41-4A2D-A154-65A303457318-52058-00026832BF4CB5C6</string>
 			<key>selectedObjects</key>
 			<array>
 				<string>331</string>
@@ -3046,7 +3089,7 @@ function midnight_3action(hypeDocument, element, event) {
 				<key>addToNewSceneControllers</key>
 				<false/>
 				<key>currentTimelineIdentifier</key>
-				<string>462</string>
+				<string>396</string>
 				<key>customBehaviors</key>
 				<array/>
 				<key>elements</key>
@@ -4660,15 +4703,15 @@ function midnight_3action(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Overflow</string>
-							<key>objectValue</key>
-							<string>visible</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>Cursor</string>
 							<key>objectValue</key>
 							<string>pointer</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Overflow</string>
+							<key>objectValue</key>
+							<string>visible</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5122,15 +5165,15 @@ function midnight_3action(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Overflow</string>
-							<key>objectValue</key>
-							<string>visible</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>Cursor</string>
 							<key>objectValue</key>
 							<string>pointer</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Overflow</string>
+							<key>objectValue</key>
+							<string>visible</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5364,15 +5407,15 @@ function midnight_3action(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Overflow</string>
-							<key>objectValue</key>
-							<string>visible</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>Cursor</string>
 							<key>objectValue</key>
 							<string>pointer</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Overflow</string>
+							<key>objectValue</key>
+							<string>visible</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5612,15 +5655,15 @@ function midnight_3action(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Overflow</string>
-							<key>objectValue</key>
-							<string>visible</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>Cursor</string>
 							<key>objectValue</key>
 							<string>pointer</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Overflow</string>
+							<key>objectValue</key>
+							<string>visible</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5957,15 +6000,15 @@ function midnight_3action(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Overflow</string>
-							<key>objectValue</key>
-							<string>visible</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>Cursor</string>
 							<key>objectValue</key>
 							<string>pointer</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Overflow</string>
+							<key>objectValue</key>
+							<string>visible</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6205,15 +6248,15 @@ function midnight_3action(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Overflow</string>
-							<key>objectValue</key>
-							<string>visible</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>Cursor</string>
 							<key>objectValue</key>
 							<string>pointer</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Overflow</string>
+							<key>objectValue</key>
+							<string>visible</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6453,15 +6496,15 @@ function midnight_3action(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Overflow</string>
-							<key>objectValue</key>
-							<string>visible</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>Cursor</string>
 							<key>objectValue</key>
 							<string>pointer</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Overflow</string>
+							<key>objectValue</key>
+							<string>visible</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8714,12 +8757,6 @@ function midnight_3action(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>DisplayName</string>
-							<key>objectValue</key>
-							<string>分析血糖</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>TransformOriginYOffset</string>
 							<key>objectValue</key>
 							<string>50%</string>
@@ -8729,6 +8766,12 @@ function midnight_3action(hypeDocument, element, event) {
 							<string>MotionPathRotation</string>
 							<key>objectValue</key>
 							<string>434deg</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>DisplayName</string>
+							<key>objectValue</key>
+							<string>分析血糖</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8750,9 +8793,9 @@ function midnight_3action(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TransformOriginXOffset</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>50%</string>
+							<string>24</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8762,15 +8805,15 @@ function midnight_3action(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>24</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>OriginalHeight</string>
 							<key>objectValue</key>
 							<string>106px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>TransformOriginXOffset</string>
+							<key>objectValue</key>
+							<string>50%</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8824,7 +8867,7 @@ function midnight_3action(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>Left</string>
 							<key>objectValue</key>
-							<string>1px</string>
+							<string>-1px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -9124,15 +9167,15 @@ function midnight_3action(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>12</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>PaddingLeft</string>
 							<key>objectValue</key>
 							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>12</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -9285,6 +9328,12 @@ function midnight_3action(hypeDocument, element, event) {
 										<string>396</string>
 										<key>type</key>
 										<integer>3</integer>
+									</dict>
+									<dict>
+										<key>javascriptOid</key>
+										<string>541</string>
+										<key>type</key>
+										<integer>4</integer>
 									</dict>
 								</array>
 							</dict>
@@ -9569,15 +9618,15 @@ function midnight_3action(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>DomID</string>
-							<key>objectValue</key>
-							<string>compass_panel</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>ExplicitDimensions</string>
 							<key>objectValue</key>
 							<string>YES</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>DomID</string>
+							<key>objectValue</key>
+							<string>compass_panel</string>
 						</dict>
 					</array>
 					<key>393</key>
@@ -9710,15 +9759,15 @@ function midnight_3action(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>5</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>TextAlign</string>
 							<key>objectValue</key>
 							<string>center</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>5</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -9981,15 +10030,15 @@ function midnight_3action(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Overflow</string>
-							<key>objectValue</key>
-							<string>visible</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>DisplayName</string>
 							<key>objectValue</key>
 							<string>罗盘界面</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Overflow</string>
+							<key>objectValue</key>
+							<string>visible</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10823,6 +10872,28 @@ function midnight_3action(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
+							<string>ActionHandlerOnDrag</string>
+							<key>objectValue</key>
+							<dict>
+								<key>actions</key>
+								<array>
+									<dict>
+										<key>continuePlayingAfterDrag</key>
+										<true/>
+										<key>dragSpeed</key>
+										<real>1</real>
+										<key>gestureControlAxis</key>
+										<integer>1</integer>
+										<key>gestureControlDirection</key>
+										<integer>0</integer>
+										<key>type</key>
+										<integer>10</integer>
+									</dict>
+								</array>
+							</dict>
+						</dict>
+						<dict>
+							<key>identifier</key>
 							<string>BackgroundSize</string>
 							<key>objectValue</key>
 							<string>100% 100%</string>
@@ -11006,6 +11077,12 @@ function midnight_3action(hypeDocument, element, event) {
 							<string>BorderColorBottom</string>
 							<key>objectValue</key>
 							<string>#D8DDE4</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Display</string>
+							<key>objectValue</key>
+							<string>none</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -11494,9 +11571,9 @@ function midnight_3action(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ExplicitDimensions</string>
+							<string>RotationAngleZ</string>
 							<key>objectValue</key>
-							<string>YES</string>
+							<string>0deg</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -11548,9 +11625,9 @@ function midnight_3action(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>RotationAngleZ</string>
+							<string>ExplicitDimensions</string>
 							<key>objectValue</key>
-							<string>0deg</string>
+							<string>YES</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -13463,7 +13540,7 @@ function midnight_3action(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>1px</string>
+									<string>-1px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Left</string>
@@ -13479,13 +13556,13 @@ function midnight_3action(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{189, 303}</string>
+												<string>{187, 303}</string>
 												<key>endPoint</key>
-												<string>{189, 303}</string>
+												<string>{187, 303}</string>
 												<key>startControlPoint</key>
-												<string>{180, 327}</string>
+												<string>{178, 327}</string>
 												<key>startPoint</key>
-												<string>{180, 327}</string>
+												<string>{178, 327}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -13498,7 +13575,7 @@ function midnight_3action(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>6FDDD65E-4A4D-4C81-8244-AD091E6B4A87-44603-00020675ED0EFD47</string>
+									<string>6BE15DD6-F225-4D7D-9AC6-471C1E89DEC7-52058-0002A99F5EEA1417</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -13509,7 +13586,7 @@ function midnight_3action(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>-7.5px</string>
+									<string>-9.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -13690,13 +13767,13 @@ function midnight_3action(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{189, 303}</string>
+												<string>{187, 303}</string>
 												<key>endPoint</key>
-												<string>{189, 303}</string>
+												<string>{187, 303}</string>
 												<key>startControlPoint</key>
-												<string>{180, 327}</string>
+												<string>{178, 327}</string>
 												<key>startPoint</key>
-												<string>{180, 327}</string>
+												<string>{178, 327}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -13709,7 +13786,7 @@ function midnight_3action(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>6FDDD65E-4A4D-4C81-8244-AD091E6B4A87-44603-00020675ED0EFD47</string>
+									<string>6BE15DD6-F225-4D7D-9AC6-471C1E89DEC7-52058-0002A99F5EEA1417</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -13757,13 +13834,13 @@ function midnight_3action(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{189, 303}</string>
+												<string>{187, 303}</string>
 												<key>endPoint</key>
-												<string>{189, 303}</string>
+												<string>{187, 303}</string>
 												<key>startControlPoint</key>
-												<string>{180, 327}</string>
+												<string>{178, 327}</string>
 												<key>startPoint</key>
-												<string>{180, 327}</string>
+												<string>{178, 327}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -13776,7 +13853,7 @@ function midnight_3action(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>6FDDD65E-4A4D-4C81-8244-AD091E6B4A87-44603-00020675ED0EFD47</string>
+									<string>6BE15DD6-F225-4D7D-9AC6-471C1E89DEC7-52058-0002A99F5EEA1417</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -13980,7 +14057,7 @@ function midnight_3action(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>20C9705A-87D3-4D65-AD02-487F150FE097-44603-00020675ED124117</string>
+									<string>1A4D3F98-1EB1-4BD6-8B6B-14B9FAC3866C-52058-0002A99F5EEE6136</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -14214,7 +14291,7 @@ function midnight_3action(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>20C9705A-87D3-4D65-AD02-487F150FE097-44603-00020675ED124117</string>
+									<string>1A4D3F98-1EB1-4BD6-8B6B-14B9FAC3866C-52058-0002A99F5EEE6136</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -14274,7 +14351,7 @@ function midnight_3action(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>20C9705A-87D3-4D65-AD02-487F150FE097-44603-00020675ED124117</string>
+									<string>1A4D3F98-1EB1-4BD6-8B6B-14B9FAC3866C-52058-0002A99F5EEE6136</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -14641,13 +14718,13 @@ function midnight_3action(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{190, 302}</string>
+												<string>{188, 302}</string>
 												<key>endPoint</key>
-												<string>{190, 302}</string>
+												<string>{188, 302}</string>
 												<key>startControlPoint</key>
-												<string>{189, 303}</string>
+												<string>{187, 303}</string>
 												<key>startPoint</key>
-												<string>{189, 303}</string>
+												<string>{187, 303}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -14660,7 +14737,7 @@ function midnight_3action(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>CFC19E48-8A15-407F-B914-A8D58F25D2B9-44603-00020675ED1611F9</string>
+									<string>9AE6C6A1-25C5-4C23-8BD5-63B3097A26F2-52058-0002A99F5EF3C510</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -14701,13 +14778,13 @@ function midnight_3action(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{190, 302}</string>
+												<string>{188, 302}</string>
 												<key>endPoint</key>
-												<string>{190, 302}</string>
+												<string>{188, 302}</string>
 												<key>startControlPoint</key>
-												<string>{189, 303}</string>
+												<string>{187, 303}</string>
 												<key>startPoint</key>
-												<string>{189, 303}</string>
+												<string>{187, 303}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -14720,7 +14797,7 @@ function midnight_3action(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>CFC19E48-8A15-407F-B914-A8D58F25D2B9-44603-00020675ED1611F9</string>
+									<string>9AE6C6A1-25C5-4C23-8BD5-63B3097A26F2-52058-0002A99F5EF3C510</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -14731,7 +14808,7 @@ function midnight_3action(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>1px</string>
+									<string>-1px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -14906,13 +14983,13 @@ function midnight_3action(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{190, 302}</string>
+												<string>{188, 302}</string>
 												<key>endPoint</key>
-												<string>{190, 302}</string>
+												<string>{188, 302}</string>
 												<key>startControlPoint</key>
-												<string>{189, 303}</string>
+												<string>{187, 303}</string>
 												<key>startPoint</key>
-												<string>{189, 303}</string>
+												<string>{187, 303}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -14925,7 +15002,7 @@ function midnight_3action(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>CFC19E48-8A15-407F-B914-A8D58F25D2B9-44603-00020675ED1611F9</string>
+									<string>9AE6C6A1-25C5-4C23-8BD5-63B3097A26F2-52058-0002A99F5EF3C510</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -15046,7 +15123,7 @@ function midnight_3action(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>1px</string>
+									<string>-1px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Left</string>
@@ -15062,13 +15139,13 @@ function midnight_3action(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{189, 303}</string>
+												<string>{187, 303}</string>
 												<key>endPoint</key>
-												<string>{189, 303}</string>
+												<string>{187, 303}</string>
 												<key>startControlPoint</key>
-												<string>{180, 327}</string>
+												<string>{178, 327}</string>
 												<key>startPoint</key>
-												<string>{180, 327}</string>
+												<string>{178, 327}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -15081,7 +15158,7 @@ function midnight_3action(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>68B726C2-BDE8-4240-9780-860B626BB1D4-44603-00020675ED192AAB</string>
+									<string>53D2DCA1-BD2E-4571-9F6B-A3E68DD816AA-52058-0002A99F5EF8370B</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -15092,7 +15169,7 @@ function midnight_3action(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>-7.5px</string>
+									<string>-9.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -15273,13 +15350,13 @@ function midnight_3action(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{189, 303}</string>
+												<string>{187, 303}</string>
 												<key>endPoint</key>
-												<string>{189, 303}</string>
+												<string>{187, 303}</string>
 												<key>startControlPoint</key>
-												<string>{180, 327}</string>
+												<string>{178, 327}</string>
 												<key>startPoint</key>
-												<string>{180, 327}</string>
+												<string>{178, 327}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -15292,7 +15369,7 @@ function midnight_3action(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>68B726C2-BDE8-4240-9780-860B626BB1D4-44603-00020675ED192AAB</string>
+									<string>53D2DCA1-BD2E-4571-9F6B-A3E68DD816AA-52058-0002A99F5EF8370B</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -15340,13 +15417,13 @@ function midnight_3action(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{189, 303}</string>
+												<string>{187, 303}</string>
 												<key>endPoint</key>
-												<string>{189, 303}</string>
+												<string>{187, 303}</string>
 												<key>startControlPoint</key>
-												<string>{180, 327}</string>
+												<string>{178, 327}</string>
 												<key>startPoint</key>
-												<string>{180, 327}</string>
+												<string>{178, 327}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -15359,7 +15436,7 @@ function midnight_3action(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>68B726C2-BDE8-4240-9780-860B626BB1D4-44603-00020675ED192AAB</string>
+									<string>53D2DCA1-BD2E-4571-9F6B-A3E68DD816AA-52058-0002A99F5EF8370B</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -15602,13 +15679,13 @@ function midnight_3action(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{190, 302}</string>
+												<string>{188, 302}</string>
 												<key>endPoint</key>
-												<string>{190, 302}</string>
+												<string>{188, 302}</string>
 												<key>startControlPoint</key>
-												<string>{189, 303}</string>
+												<string>{187, 303}</string>
 												<key>startPoint</key>
-												<string>{189, 303}</string>
+												<string>{187, 303}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -15621,7 +15698,7 @@ function midnight_3action(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>2D40D534-72B0-41EB-9A5C-D64810D01DCA-44603-00020675ED1DD516</string>
+									<string>3B8FE982-1A2E-4DE9-B3E5-5CA832DE145D-52058-0002A99F5EFCEB66</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -15778,13 +15855,13 @@ function midnight_3action(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{190, 302}</string>
+												<string>{188, 302}</string>
 												<key>endPoint</key>
-												<string>{190, 302}</string>
+												<string>{188, 302}</string>
 												<key>startControlPoint</key>
-												<string>{189, 303}</string>
+												<string>{187, 303}</string>
 												<key>startPoint</key>
-												<string>{189, 303}</string>
+												<string>{187, 303}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -15797,7 +15874,7 @@ function midnight_3action(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>2D40D534-72B0-41EB-9A5C-D64810D01DCA-44603-00020675ED1DD516</string>
+									<string>3B8FE982-1A2E-4DE9-B3E5-5CA832DE145D-52058-0002A99F5EFCEB66</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -15808,7 +15885,7 @@ function midnight_3action(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>1px</string>
+									<string>-1px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -15838,13 +15915,13 @@ function midnight_3action(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{190, 302}</string>
+												<string>{188, 302}</string>
 												<key>endPoint</key>
-												<string>{190, 302}</string>
+												<string>{188, 302}</string>
 												<key>startControlPoint</key>
-												<string>{189, 303}</string>
+												<string>{187, 303}</string>
 												<key>startPoint</key>
-												<string>{189, 303}</string>
+												<string>{187, 303}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -15857,7 +15934,7 @@ function midnight_3action(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>2D40D534-72B0-41EB-9A5C-D64810D01DCA-44603-00020675ED1DD516</string>
+									<string>3B8FE982-1A2E-4DE9-B3E5-5CA832DE145D-52058-0002A99F5EFCEB66</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -16089,13 +16166,13 @@ function midnight_3action(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{190, 364}</string>
+												<string>{188, 364}</string>
 												<key>endPoint</key>
-												<string>{190, 364}</string>
+												<string>{188, 364}</string>
 												<key>startControlPoint</key>
-												<string>{189, 302}</string>
+												<string>{187, 302}</string>
 												<key>startPoint</key>
-												<string>{189, 302}</string>
+												<string>{187, 302}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -16108,7 +16185,7 @@ function midnight_3action(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>C2E51977-2079-476D-904A-415C9A4ACE79-44603-00020675ED23A611</string>
+									<string>632B1A37-B4C0-4BFB-925C-EF6420CEF8BB-52058-0002A99F5F031F2E</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -16149,13 +16226,13 @@ function midnight_3action(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{190, 364}</string>
+												<string>{188, 364}</string>
 												<key>endPoint</key>
-												<string>{190, 364}</string>
+												<string>{188, 364}</string>
 												<key>startControlPoint</key>
-												<string>{189, 302}</string>
+												<string>{187, 302}</string>
 												<key>startPoint</key>
-												<string>{189, 302}</string>
+												<string>{187, 302}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -16168,7 +16245,7 @@ function midnight_3action(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>C2E51977-2079-476D-904A-415C9A4ACE79-44603-00020675ED23A611</string>
+									<string>632B1A37-B4C0-4BFB-925C-EF6420CEF8BB-52058-0002A99F5F031F2E</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -16209,13 +16286,13 @@ function midnight_3action(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{190, 364}</string>
+												<string>{188, 364}</string>
 												<key>endPoint</key>
-												<string>{190, 364}</string>
+												<string>{188, 364}</string>
 												<key>startControlPoint</key>
-												<string>{189, 302}</string>
+												<string>{187, 302}</string>
 												<key>startPoint</key>
-												<string>{189, 302}</string>
+												<string>{187, 302}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -16228,7 +16305,7 @@ function midnight_3action(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>C2E51977-2079-476D-904A-415C9A4ACE79-44603-00020675ED23A611</string>
+									<string>632B1A37-B4C0-4BFB-925C-EF6420CEF8BB-52058-0002A99F5F031F2E</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -16239,7 +16316,7 @@ function midnight_3action(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>1.5px</string>
+									<string>-0.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -16331,7 +16408,7 @@ function midnight_3action(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>5DBE8DE6-4C7A-4ED3-B41B-AF736BA3175B-44603-00020675ED25B311</string>
+									<string>6E018902-B5A4-4336-9406-1467D5576E8B-52058-0002A99F5F04A333</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -16470,7 +16547,7 @@ function midnight_3action(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>5DBE8DE6-4C7A-4ED3-B41B-AF736BA3175B-44603-00020675ED25B311</string>
+									<string>6E018902-B5A4-4336-9406-1467D5576E8B-52058-0002A99F5F04A333</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -16537,7 +16614,7 @@ function midnight_3action(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>5DBE8DE6-4C7A-4ED3-B41B-AF736BA3175B-44603-00020675ED25B311</string>
+									<string>6E018902-B5A4-4336-9406-1467D5576E8B-52058-0002A99F5F04A333</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -16994,7 +17071,7 @@ function midnight_3action(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>029E9C61-8285-471B-8C4B-CE77A70119B1-44603-00020675ED2B7843</string>
+									<string>C2D6AD5E-9E76-446C-93D8-8DC69767A5EC-52058-0002A99F5F093407</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -17054,7 +17131,7 @@ function midnight_3action(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>029E9C61-8285-471B-8C4B-CE77A70119B1-44603-00020675ED2B7843</string>
+									<string>C2D6AD5E-9E76-446C-93D8-8DC69767A5EC-52058-0002A99F5F093407</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -17259,7 +17336,7 @@ function midnight_3action(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>029E9C61-8285-471B-8C4B-CE77A70119B1-44603-00020675ED2B7843</string>
+									<string>C2D6AD5E-9E76-446C-93D8-8DC69767A5EC-52058-0002A99F5F093407</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -17505,13 +17582,13 @@ function midnight_3action(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{188, 303}</string>
+												<string>{186, 303}</string>
 												<key>endPoint</key>
-												<string>{188, 303}</string>
+												<string>{186, 303}</string>
 												<key>startControlPoint</key>
-												<string>{188, 303}</string>
+												<string>{186, 303}</string>
 												<key>startPoint</key>
-												<string>{188, 303}</string>
+												<string>{186, 303}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -17524,7 +17601,7 @@ function midnight_3action(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>45C45371-6651-4B83-B91E-EF3E0A4F6A3E-44603-00020675ED30D4B6</string>
+									<string>16CF3A02-FB69-4D1E-9A84-1E24F3BBA1C8-52058-0002A99F5F0E6841</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -17709,7 +17786,7 @@ function midnight_3action(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>B950EBDB-1423-462B-B31E-04709CAC8DBA-44603-00020675ED3324A4</string>
+									<string>8E8C3218-E3F2-4B66-8FE0-D6EDE9BFD6CF-52058-0002A99F5F104B10</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -17769,7 +17846,7 @@ function midnight_3action(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>B950EBDB-1423-462B-B31E-04709CAC8DBA-44603-00020675ED3324A4</string>
+									<string>8E8C3218-E3F2-4B66-8FE0-D6EDE9BFD6CF-52058-0002A99F5F104B10</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -17887,7 +17964,7 @@ function midnight_3action(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>B950EBDB-1423-462B-B31E-04709CAC8DBA-44603-00020675ED3324A4</string>
+									<string>8E8C3218-E3F2-4B66-8FE0-D6EDE9BFD6CF-52058-0002A99F5F104B10</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -17928,13 +18005,13 @@ function midnight_3action(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{188, 303}</string>
+												<string>{186, 303}</string>
 												<key>endPoint</key>
-												<string>{188, 303}</string>
+												<string>{186, 303}</string>
 												<key>startControlPoint</key>
-												<string>{188, 303}</string>
+												<string>{186, 303}</string>
 												<key>startPoint</key>
-												<string>{188, 303}</string>
+												<string>{186, 303}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -17947,7 +18024,7 @@ function midnight_3action(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>45C45371-6651-4B83-B91E-EF3E0A4F6A3E-44603-00020675ED30D4B6</string>
+									<string>16CF3A02-FB69-4D1E-9A84-1E24F3BBA1C8-52058-0002A99F5F0E6841</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -18046,13 +18123,13 @@ function midnight_3action(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{188, 303}</string>
+												<string>{186, 303}</string>
 												<key>endPoint</key>
-												<string>{188, 303}</string>
+												<string>{186, 303}</string>
 												<key>startControlPoint</key>
-												<string>{188, 303}</string>
+												<string>{186, 303}</string>
 												<key>startPoint</key>
-												<string>{188, 303}</string>
+												<string>{186, 303}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -18065,7 +18142,7 @@ function midnight_3action(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>45C45371-6651-4B83-B91E-EF3E0A4F6A3E-44603-00020675ED30D4B6</string>
+									<string>16CF3A02-FB69-4D1E-9A84-1E24F3BBA1C8-52058-0002A99F5F0E6841</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -18076,7 +18153,7 @@ function midnight_3action(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>0.5px</string>
+									<string>-1.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -19048,13 +19125,13 @@ function midnight_3action(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{188, 303}</string>
+												<string>{186, 303}</string>
 												<key>endPoint</key>
-												<string>{188, 303}</string>
+												<string>{186, 303}</string>
 												<key>startControlPoint</key>
-												<string>{188, 303}</string>
+												<string>{186, 303}</string>
 												<key>startPoint</key>
-												<string>{188, 303}</string>
+												<string>{186, 303}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -19067,7 +19144,7 @@ function midnight_3action(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>D309D3E8-4879-44A2-B122-BA7B9A038C74-44603-00020675ED3D4700</string>
+									<string>6EECC5B9-7122-424F-AF50-9BB07486839A-52058-0002A99F5F1A6F02</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -19180,13 +19257,13 @@ function midnight_3action(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{188, 303}</string>
+												<string>{186, 303}</string>
 												<key>endPoint</key>
-												<string>{188, 303}</string>
+												<string>{186, 303}</string>
 												<key>startControlPoint</key>
-												<string>{188, 303}</string>
+												<string>{186, 303}</string>
 												<key>startPoint</key>
-												<string>{188, 303}</string>
+												<string>{186, 303}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -19199,7 +19276,7 @@ function midnight_3action(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>D309D3E8-4879-44A2-B122-BA7B9A038C74-44603-00020675ED3D4700</string>
+									<string>6EECC5B9-7122-424F-AF50-9BB07486839A-52058-0002A99F5F1A6F02</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -19266,7 +19343,7 @@ function midnight_3action(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>C96C904E-E297-4CEE-83CC-CDB07CD03B31-44603-00020675ED4052EF</string>
+									<string>CB45554F-51D7-4C70-A983-0F71CC3CA70B-52058-0002A99F5F1C32A4</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -19365,13 +19442,13 @@ function midnight_3action(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{188, 303}</string>
+												<string>{186, 303}</string>
 												<key>endPoint</key>
-												<string>{188, 303}</string>
+												<string>{186, 303}</string>
 												<key>startControlPoint</key>
-												<string>{188, 303}</string>
+												<string>{186, 303}</string>
 												<key>startPoint</key>
-												<string>{188, 303}</string>
+												<string>{186, 303}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -19384,7 +19461,7 @@ function midnight_3action(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>D309D3E8-4879-44A2-B122-BA7B9A038C74-44603-00020675ED3D4700</string>
+									<string>6EECC5B9-7122-424F-AF50-9BB07486839A-52058-0002A99F5F1A6F02</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -19395,7 +19472,7 @@ function midnight_3action(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>0.5px</string>
+									<string>-1.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -19451,7 +19528,7 @@ function midnight_3action(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>C96C904E-E297-4CEE-83CC-CDB07CD03B31-44603-00020675ED4052EF</string>
+									<string>CB45554F-51D7-4C70-A983-0F71CC3CA70B-52058-0002A99F5F1C32A4</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -19576,7 +19653,7 @@ function midnight_3action(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>C96C904E-E297-4CEE-83CC-CDB07CD03B31-44603-00020675ED4052EF</string>
+									<string>CB45554F-51D7-4C70-A983-0F71CC3CA70B-52058-0002A99F5F1C32A4</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -20789,7 +20866,7 @@ function midnight_3action(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>69F14C04-1FE9-46F0-B352-E50990818968-44603-00020675ED4D1543</string>
+									<string>8BE1BBB9-039B-4025-A422-4C78C6A7C3BF-52058-0002A99F5F26DD18</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -20892,7 +20969,7 @@ function midnight_3action(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>69F14C04-1FE9-46F0-B352-E50990818968-44603-00020675ED4D1543</string>
+									<string>8BE1BBB9-039B-4025-A422-4C78C6A7C3BF-52058-0002A99F5F26DD18</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -21031,7 +21108,7 @@ function midnight_3action(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>69F14C04-1FE9-46F0-B352-E50990818968-44603-00020675ED4D1543</string>
+									<string>8BE1BBB9-039B-4025-A422-4C78C6A7C3BF-52058-0002A99F5F26DD18</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -21149,7 +21226,7 @@ function midnight_3action(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>B7B2CAF2-1996-4F7E-AE79-6387A8B65AB6-44603-00020675ED4FDD8F</string>
+									<string>DCEB89F2-0736-4D1D-82AD-27A45FF28BC7-52058-0002A99F5F2A1AE3</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -21238,7 +21315,7 @@ function midnight_3action(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>B7B2CAF2-1996-4F7E-AE79-6387A8B65AB6-44603-00020675ED4FDD8F</string>
+									<string>DCEB89F2-0736-4D1D-82AD-27A45FF28BC7-52058-0002A99F5F2A1AE3</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -21356,7 +21433,7 @@ function midnight_3action(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>B7B2CAF2-1996-4F7E-AE79-6387A8B65AB6-44603-00020675ED4FDD8F</string>
+									<string>DCEB89F2-0736-4D1D-82AD-27A45FF28BC7-52058-0002A99F5F2A1AE3</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -21537,13 +21614,13 @@ function midnight_3action(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{188, 303}</string>
+												<string>{186, 303}</string>
 												<key>endPoint</key>
-												<string>{188, 303}</string>
+												<string>{186, 303}</string>
 												<key>startControlPoint</key>
-												<string>{188, 303}</string>
+												<string>{186, 303}</string>
 												<key>startPoint</key>
-												<string>{188, 303}</string>
+												<string>{186, 303}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -21556,7 +21633,7 @@ function midnight_3action(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>F4D287B5-5927-491E-AB14-428C4BE1346E-44603-00020675ED53F146</string>
+									<string>A27C6EB6-F03B-4F08-842C-161B62772FA7-52058-0002A99F5F2ED14B</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -21753,7 +21830,7 @@ function midnight_3action(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>609E27DB-2FFB-4C98-A140-F00AC6FB72FE-44603-00020675ED5557A6</string>
+									<string>19D7CD25-74D3-4E4C-B108-E7D0E815AFA2-52058-0002A99F5F3096BF</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -21820,7 +21897,7 @@ function midnight_3action(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>609E27DB-2FFB-4C98-A140-F00AC6FB72FE-44603-00020675ED5557A6</string>
+									<string>19D7CD25-74D3-4E4C-B108-E7D0E815AFA2-52058-0002A99F5F3096BF</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -21887,7 +21964,7 @@ function midnight_3action(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>609E27DB-2FFB-4C98-A140-F00AC6FB72FE-44603-00020675ED5557A6</string>
+									<string>19D7CD25-74D3-4E4C-B108-E7D0E815AFA2-52058-0002A99F5F3096BF</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -22022,13 +22099,13 @@ function midnight_3action(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{188, 303}</string>
+												<string>{186, 303}</string>
 												<key>endPoint</key>
-												<string>{188, 303}</string>
+												<string>{186, 303}</string>
 												<key>startControlPoint</key>
-												<string>{188, 303}</string>
+												<string>{186, 303}</string>
 												<key>startPoint</key>
-												<string>{188, 303}</string>
+												<string>{186, 303}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -22041,7 +22118,7 @@ function midnight_3action(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>F4D287B5-5927-491E-AB14-428C4BE1346E-44603-00020675ED53F146</string>
+									<string>A27C6EB6-F03B-4F08-842C-161B62772FA7-52058-0002A99F5F2ED14B</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -22052,7 +22129,7 @@ function midnight_3action(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>0.5px</string>
+									<string>-1.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -22140,13 +22217,13 @@ function midnight_3action(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{188, 303}</string>
+												<string>{186, 303}</string>
 												<key>endPoint</key>
-												<string>{188, 303}</string>
+												<string>{186, 303}</string>
 												<key>startControlPoint</key>
-												<string>{188, 303}</string>
+												<string>{186, 303}</string>
 												<key>startPoint</key>
-												<string>{188, 303}</string>
+												<string>{186, 303}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -22159,7 +22236,7 @@ function midnight_3action(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>F4D287B5-5927-491E-AB14-428C4BE1346E-44603-00020675ED53F146</string>
+									<string>A27C6EB6-F03B-4F08-842C-161B62772FA7-52058-0002A99F5F2ED14B</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -22380,7 +22457,7 @@ function midnight_3action(hypeDocument, element, event) {
 							</dict>
 							<dict>
 								<key>duration</key>
-								<real>0.26666668057441711</real>
+								<real>0.29999998211860657</real>
 								<key>endValue</key>
 								<dict>
 									<key>identifier</key>
@@ -22643,7 +22720,7 @@ function midnight_3action(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>C39312B4-3D34-4700-9982-86C0807B36CB-44603-00020675ED5AAED0</string>
+									<string>26922B44-7AA4-4C0C-ACFF-CF6DFABBC0DC-52058-0002A99F5F374A2F</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -22664,62 +22741,6 @@ function midnight_3action(hypeDocument, element, event) {
 								<integer>0</integer>
 								<key>uuid</key>
 								<string>EB5E1A20-788D-432A-91D4-639915049B63-4866-000076FC3AAEFB4C</string>
-								<key>zIndex</key>
-								<integer>3</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.63333326578140259</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>ActionHandler</string>
-									<key>objectValue</key>
-									<dict>
-										<key>actions</key>
-										<array>
-											<dict>
-												<key>javascriptOid</key>
-												<string>484</string>
-												<key>type</key>
-												<integer>4</integer>
-											</dict>
-										</array>
-									</dict>
-								</dict>
-								<key>identifier</key>
-								<string>ActionHandler</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>462</string>
-								<key>startTime</key>
-								<real>0.53333336114883423</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>ActionHandler</string>
-									<key>objectValue</key>
-									<dict>
-										<key>actions</key>
-										<array>
-											<dict>
-												<key>javascriptOid</key>
-												<string>485</string>
-												<key>type</key>
-												<integer>4</integer>
-											</dict>
-										</array>
-									</dict>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>2</integer>
-								<key>uuid</key>
-								<string>30905004-5FDC-4E49-AD6A-FF2D9A35DB7B-27474-0001A56E15AD8FE4</string>
 								<key>zIndex</key>
 								<integer>3</integer>
 							</dict>
@@ -22802,7 +22823,7 @@ function midnight_3action(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>C39312B4-3D34-4700-9982-86C0807B36CB-44603-00020675ED5AAED0</string>
+									<string>26922B44-7AA4-4C0C-ACFF-CF6DFABBC0DC-52058-0002A99F5F374A2F</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -22941,7 +22962,7 @@ function midnight_3action(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>C39312B4-3D34-4700-9982-86C0807B36CB-44603-00020675ED5AAED0</string>
+									<string>26922B44-7AA4-4C0C-ACFF-CF6DFABBC0DC-52058-0002A99F5F374A2F</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -23000,6 +23021,62 @@ function midnight_3action(hypeDocument, element, event) {
 								<string>CB824A10-3833-4A23-BF64-7224C763D95D-5454-00007FE7D250A426</string>
 								<key>zIndex</key>
 								<integer>11</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>0.59999996423721313</real>
+								<key>endValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>ActionHandler</string>
+									<key>objectValue</key>
+									<dict>
+										<key>actions</key>
+										<array>
+											<dict>
+												<key>javascriptOid</key>
+												<string>484</string>
+												<key>type</key>
+												<integer>4</integer>
+											</dict>
+										</array>
+									</dict>
+								</dict>
+								<key>identifier</key>
+								<string>ActionHandler</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>462</string>
+								<key>startTime</key>
+								<real>0.56666666269302368</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>ActionHandler</string>
+									<key>objectValue</key>
+									<dict>
+										<key>actions</key>
+										<array>
+											<dict>
+												<key>javascriptOid</key>
+												<string>485</string>
+												<key>type</key>
+												<integer>4</integer>
+											</dict>
+										</array>
+									</dict>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>2</integer>
+								<key>uuid</key>
+								<string>30905004-5FDC-4E49-AD6A-FF2D9A35DB7B-27474-0001A56E15AD8FE4</string>
+								<key>zIndex</key>
+								<integer>3</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -23095,7 +23172,7 @@ function midnight_3action(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>FEF043EB-3DE2-4F89-ACFE-114B2A8EEF14-44603-00020675ED5D5F61</string>
+									<string>B27647E0-83F2-400B-ACD7-DB3DF41A5290-52058-0002A99F5F3A6A08</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -23184,7 +23261,7 @@ function midnight_3action(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>FEF043EB-3DE2-4F89-ACFE-114B2A8EEF14-44603-00020675ED5D5F61</string>
+									<string>B27647E0-83F2-400B-ACD7-DB3DF41A5290-52058-0002A99F5F3A6A08</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -23273,7 +23350,7 @@ function midnight_3action(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>FEF043EB-3DE2-4F89-ACFE-114B2A8EEF14-44603-00020675ED5D5F61</string>
+									<string>B27647E0-83F2-400B-ACD7-DB3DF41A5290-52058-0002A99F5F3A6A08</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -23486,13 +23563,13 @@ function midnight_3action(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{190, 364}</string>
+												<string>{188, 364}</string>
 												<key>endPoint</key>
-												<string>{190, 364}</string>
+												<string>{188, 364}</string>
 												<key>startControlPoint</key>
-												<string>{189, 304}</string>
+												<string>{187, 304}</string>
 												<key>startPoint</key>
-												<string>{189, 304}</string>
+												<string>{187, 304}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -23505,7 +23582,7 @@ function midnight_3action(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>F8821573-8707-4AA5-9E78-593EB47AE639-44603-00020675ED60ED0D</string>
+									<string>C4B355D2-B8B7-4DEE-BF47-8AFF6EC7D6BA-52058-0002A99F5F405042</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -23546,13 +23623,13 @@ function midnight_3action(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{190, 364}</string>
+												<string>{188, 364}</string>
 												<key>endPoint</key>
-												<string>{190, 364}</string>
+												<string>{188, 364}</string>
 												<key>startControlPoint</key>
-												<string>{189, 304}</string>
+												<string>{187, 304}</string>
 												<key>startPoint</key>
-												<string>{189, 304}</string>
+												<string>{187, 304}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -23565,7 +23642,7 @@ function midnight_3action(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>F8821573-8707-4AA5-9E78-593EB47AE639-44603-00020675ED60ED0D</string>
+									<string>C4B355D2-B8B7-4DEE-BF47-8AFF6EC7D6BA-52058-0002A99F5F405042</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -23606,13 +23683,13 @@ function midnight_3action(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{190, 364}</string>
+												<string>{188, 364}</string>
 												<key>endPoint</key>
-												<string>{190, 364}</string>
+												<string>{188, 364}</string>
 												<key>startControlPoint</key>
-												<string>{189, 304}</string>
+												<string>{187, 304}</string>
 												<key>startPoint</key>
-												<string>{189, 304}</string>
+												<string>{187, 304}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -23625,7 +23702,7 @@ function midnight_3action(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>F8821573-8707-4AA5-9E78-593EB47AE639-44603-00020675ED60ED0D</string>
+									<string>C4B355D2-B8B7-4DEE-BF47-8AFF6EC7D6BA-52058-0002A99F5F405042</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -23636,7 +23713,7 @@ function midnight_3action(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>1.5px</string>
+									<string>-0.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -23858,12 +23935,592 @@ function midnight_3action(hypeDocument, element, event) {
 						<key>userDefinedDuration</key>
 						<real>6</real>
 					</dict>
+					<dict>
+						<key>animations</key>
+						<array>
+							<dict>
+								<key>duration</key>
+								<real>0.0</real>
+								<key>identifier</key>
+								<string>MotionPathRotation</string>
+								<key>isRelative</key>
+								<false/>
+								<key>motionPath</key>
+								<dict>
+									<key>bezierPath</key>
+									<dict>
+										<key>allowEndPointModification</key>
+										<true/>
+										<key>bezierCurves</key>
+										<array>
+											<dict>
+												<key>endControlPoint</key>
+												<string>{186, 303}</string>
+												<key>endPoint</key>
+												<string>{186, 303}</string>
+												<key>startControlPoint</key>
+												<string>{186, 303}</string>
+												<key>startPoint</key>
+												<string>{186, 303}</string>
+											</dict>
+										</array>
+										<key>interpolationPointCount</key>
+										<real>100</real>
+										<key>showAllControlPoints</key>
+										<false/>
+										<key>useIntegerValues</key>
+										<true/>
+										<key>useSmallStyle</key>
+										<false/>
+									</dict>
+									<key>oid</key>
+									<string>BC71D89D-565F-44CA-AC69-E029A1FA5FAD-52058-0002A9E30910E018</string>
+								</dict>
+								<key>referenceOid</key>
+								<string>331</string>
+								<key>startTime</key>
+								<real>0.0</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>MotionPathRotation</string>
+									<key>objectValue</key>
+									<string>0deg</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>a</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>89913032-149E-4552-B4AD-41E9B5DC30CF-52058-0002A9E30912BD26</string>
+								<key>zIndex</key>
+								<integer>1</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>0.0</real>
+								<key>identifier</key>
+								<string>ScaleX</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>331</string>
+								<key>startTime</key>
+								<real>0.0</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>ScaleX</string>
+									<key>objectValue</key>
+									<string>1</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>a</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>7E651D27-9060-4CE9-A66B-415025EB3D79-52058-0002A9E3091477C1</string>
+								<key>zIndex</key>
+								<integer>1</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>0.0</real>
+								<key>identifier</key>
+								<string>Left</string>
+								<key>isRelative</key>
+								<false/>
+								<key>motionPath</key>
+								<dict>
+									<key>bezierPath</key>
+									<dict>
+										<key>allowEndPointModification</key>
+										<true/>
+										<key>bezierCurves</key>
+										<array>
+											<dict>
+												<key>endControlPoint</key>
+												<string>{186, 303}</string>
+												<key>endPoint</key>
+												<string>{186, 303}</string>
+												<key>startControlPoint</key>
+												<string>{186, 303}</string>
+												<key>startPoint</key>
+												<string>{186, 303}</string>
+											</dict>
+										</array>
+										<key>interpolationPointCount</key>
+										<real>100</real>
+										<key>showAllControlPoints</key>
+										<false/>
+										<key>useIntegerValues</key>
+										<true/>
+										<key>useSmallStyle</key>
+										<false/>
+									</dict>
+									<key>oid</key>
+									<string>BC71D89D-565F-44CA-AC69-E029A1FA5FAD-52058-0002A9E30910E018</string>
+								</dict>
+								<key>referenceOid</key>
+								<string>331</string>
+								<key>startTime</key>
+								<real>0.0</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Left</string>
+									<key>objectValue</key>
+									<string>-1.5px</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>a</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>346F2841-6643-4885-A000-65BBC9310A69-52058-0002A9E3091693A0</string>
+								<key>zIndex</key>
+								<integer>1</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>0.0</real>
+								<key>identifier</key>
+								<string>ScaleY</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>331</string>
+								<key>startTime</key>
+								<real>0.0</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>ScaleY</string>
+									<key>objectValue</key>
+									<string>1</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>a</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>4ED8A843-4EB9-4D8C-8B41-A016A366DF3E-52058-0002A9E3091795AC</string>
+								<key>zIndex</key>
+								<integer>1</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>0.0</real>
+								<key>identifier</key>
+								<string>Top</string>
+								<key>isRelative</key>
+								<false/>
+								<key>motionPath</key>
+								<dict>
+									<key>bezierPath</key>
+									<dict>
+										<key>allowEndPointModification</key>
+										<true/>
+										<key>bezierCurves</key>
+										<array>
+											<dict>
+												<key>endControlPoint</key>
+												<string>{186, 303}</string>
+												<key>endPoint</key>
+												<string>{186, 303}</string>
+												<key>startControlPoint</key>
+												<string>{186, 303}</string>
+												<key>startPoint</key>
+												<string>{186, 303}</string>
+											</dict>
+										</array>
+										<key>interpolationPointCount</key>
+										<real>100</real>
+										<key>showAllControlPoints</key>
+										<false/>
+										<key>useIntegerValues</key>
+										<true/>
+										<key>useSmallStyle</key>
+										<false/>
+									</dict>
+									<key>oid</key>
+									<string>BC71D89D-565F-44CA-AC69-E029A1FA5FAD-52058-0002A9E30910E018</string>
+								</dict>
+								<key>referenceOid</key>
+								<string>331</string>
+								<key>startTime</key>
+								<real>0.0</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Top</string>
+									<key>objectValue</key>
+									<string>0.5px</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>a</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>8845C5E0-E0FC-4D64-924C-321B118FF789-52058-0002A9E309190B84</string>
+								<key>zIndex</key>
+								<integer>1</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>0.0</real>
+								<key>identifier</key>
+								<string>Width</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>458</string>
+								<key>startTime</key>
+								<real>0.0</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Width</string>
+									<key>objectValue</key>
+									<string>300px</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>3DD32699-3384-4EAD-A04F-F15C3023711A-52058-0002AA086EA0FD4C</string>
+								<key>zIndex</key>
+								<integer>1</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>0.0</real>
+								<key>identifier</key>
+								<string>Height</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>458</string>
+								<key>startTime</key>
+								<real>0.0</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Height</string>
+									<key>objectValue</key>
+									<string>208px</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>05A9A0AC-C44E-43B6-B7E6-066FB4F1A646-52058-0002AA086EA0630B</string>
+								<key>zIndex</key>
+								<integer>1</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>0.0</real>
+								<key>identifier</key>
+								<string>Left</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>458</string>
+								<key>startTime</key>
+								<real>0.0</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Left</string>
+									<key>objectValue</key>
+									<string>46px</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>17404281-96CD-49C0-A611-49AE71D10FA2-52058-0002AA086EA192E9</string>
+								<key>zIndex</key>
+								<integer>1</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>0.0</real>
+								<key>identifier</key>
+								<string>Top</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>458</string>
+								<key>startTime</key>
+								<real>0.0</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Top</string>
+									<key>objectValue</key>
+									<string>94px</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>23CDFA70-460F-429D-8F17-61055EEBFD27-52058-0002AA086EA2268A</string>
+								<key>zIndex</key>
+								<integer>1</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>0.0</real>
+								<key>identifier</key>
+								<string>Top</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>405</string>
+								<key>startTime</key>
+								<real>0.0</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Top</string>
+									<key>objectValue</key>
+									<string>-300px</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>7FF35D5D-310D-48BF-8464-BEAAD05DD452-52058-0002AA1CFB04B07C</string>
+								<key>zIndex</key>
+								<integer>1</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>0.0</real>
+								<key>identifier</key>
+								<string>Left</string>
+								<key>isRelative</key>
+								<false/>
+								<key>motionPath</key>
+								<dict>
+									<key>bezierPath</key>
+									<dict>
+										<key>allowEndPointModification</key>
+										<true/>
+										<key>bezierCurves</key>
+										<array>
+											<dict>
+												<key>endControlPoint</key>
+												<string>{295, 143}</string>
+												<key>endPoint</key>
+												<string>{295, 143}</string>
+												<key>startControlPoint</key>
+												<string>{295, -157}</string>
+												<key>startPoint</key>
+												<string>{295, -157}</string>
+											</dict>
+										</array>
+										<key>interpolationPointCount</key>
+										<real>100</real>
+										<key>showAllControlPoints</key>
+										<false/>
+										<key>useIntegerValues</key>
+										<true/>
+										<key>useSmallStyle</key>
+										<false/>
+									</dict>
+									<key>oid</key>
+									<string>728EE5BC-52EB-46F3-A32F-EB6211213B6D-52058-0002AA207A5848BB</string>
+								</dict>
+								<key>referenceOid</key>
+								<string>395</string>
+								<key>startTime</key>
+								<real>0.0</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Left</string>
+									<key>objectValue</key>
+									<string>107.5px</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>5491C4EE-7D5F-4588-837E-4F2220683C1E-52058-0002AA207A5AFE66</string>
+								<key>zIndex</key>
+								<integer>1</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>0.0</real>
+								<key>identifier</key>
+								<string>Top</string>
+								<key>isRelative</key>
+								<false/>
+								<key>motionPath</key>
+								<dict>
+									<key>bezierPath</key>
+									<dict>
+										<key>allowEndPointModification</key>
+										<true/>
+										<key>bezierCurves</key>
+										<array>
+											<dict>
+												<key>endControlPoint</key>
+												<string>{295, 143}</string>
+												<key>endPoint</key>
+												<string>{295, 143}</string>
+												<key>startControlPoint</key>
+												<string>{295, -157}</string>
+												<key>startPoint</key>
+												<string>{295, -157}</string>
+											</dict>
+										</array>
+										<key>interpolationPointCount</key>
+										<real>100</real>
+										<key>showAllControlPoints</key>
+										<false/>
+										<key>useIntegerValues</key>
+										<true/>
+										<key>useSmallStyle</key>
+										<false/>
+									</dict>
+									<key>oid</key>
+									<string>728EE5BC-52EB-46F3-A32F-EB6211213B6D-52058-0002AA207A5848BB</string>
+								</dict>
+								<key>referenceOid</key>
+								<string>395</string>
+								<key>startTime</key>
+								<real>0.0</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Top</string>
+									<key>objectValue</key>
+									<string>-459.5px</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>2B526586-A72D-4B69-8FE6-9C978796972B-52058-0002AA207A5C3C28</string>
+								<key>zIndex</key>
+								<integer>1</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>0.0</real>
+								<key>identifier</key>
+								<string>MotionPathRotation</string>
+								<key>isRelative</key>
+								<false/>
+								<key>motionPath</key>
+								<dict>
+									<key>bezierPath</key>
+									<dict>
+										<key>allowEndPointModification</key>
+										<true/>
+										<key>bezierCurves</key>
+										<array>
+											<dict>
+												<key>endControlPoint</key>
+												<string>{295, 143}</string>
+												<key>endPoint</key>
+												<string>{295, 143}</string>
+												<key>startControlPoint</key>
+												<string>{295, -157}</string>
+												<key>startPoint</key>
+												<string>{295, -157}</string>
+											</dict>
+										</array>
+										<key>interpolationPointCount</key>
+										<real>100</real>
+										<key>showAllControlPoints</key>
+										<false/>
+										<key>useIntegerValues</key>
+										<true/>
+										<key>useSmallStyle</key>
+										<false/>
+									</dict>
+									<key>oid</key>
+									<string>728EE5BC-52EB-46F3-A32F-EB6211213B6D-52058-0002AA207A5848BB</string>
+								</dict>
+								<key>referenceOid</key>
+								<string>395</string>
+								<key>startTime</key>
+								<real>0.0</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>MotionPathRotation</string>
+									<key>objectValue</key>
+									<string>270deg</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>3DCEAD78-6340-480B-B890-F955A79DAA21-52058-0002AA207A595E99</string>
+								<key>zIndex</key>
+								<integer>1</integer>
+							</dict>
+						</array>
+						<key>firstKeyframeIsRelative</key>
+						<false/>
+						<key>framesPerSecond</key>
+						<integer>30</integer>
+						<key>hidden</key>
+						<false/>
+						<key>identifier</key>
+						<string>540</string>
+						<key>name</key>
+						<string>报告消失</string>
+						<key>userDefinedDuration</key>
+						<real>0.0</real>
+					</dict>
 				</array>
 			</dict>
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>1657295E-84AD-4ED5-A0A4-B65B8D82314D-44603-000206761B71C54D</string>
+			<string>5C52B1EC-2E41-4A2D-A154-65A303457318-52058-00026832BF4CB5C6</string>
 			<key>selectedObjects</key>
 			<array/>
 			<key>symbol</key>
