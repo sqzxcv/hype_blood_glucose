@@ -90,7 +90,7 @@
 	}
 	&lt;/style&gt;</string>
 	<key>lastCheckDate</key>
-	<date>2016-12-20T08:56:34Z</date>
+	<date>2016-12-23T02:54:58Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
@@ -100,7 +100,7 @@
 			<key>frame</key>
 			<string>{{0, 0}, {1920, 958}}</string>
 			<key>identifier</key>
-			<string>container 174</string>
+			<string>container 33</string>
 			<key>isCustomizableViewContainer</key>
 			<true/>
 			<key>isCustomizableViewWrapper</key>
@@ -173,7 +173,7 @@
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{136, 0}, {1242, 458.0078125}}</string>
+											<string>{{136, 0}, {1242, 314}}</string>
 											<key>identifier</key>
 											<string>container 13001</string>
 											<key>isCustomizableViewContainer</key>
@@ -186,7 +186,7 @@
 											<array>
 												<dict>
 													<key>frame</key>
-													<string>{{136, 0}, {1242, 458.0078125}}</string>
+													<string>{{136, 0}, {1242, 314}}</string>
 													<key>identifier</key>
 													<string>timelineCustomizableContainer</string>
 													<key>isCustomizableViewContainer</key>
@@ -196,7 +196,7 @@
 										</dict>
 										<dict>
 											<key>frame</key>
-											<string>{{136, 459.0078125}, {1242, 498.9921875}}</string>
+											<string>{{136, 315}, {1242, 643}}</string>
 											<key>identifier</key>
 											<string>container 3</string>
 											<key>isCustomizableViewContainer</key>
@@ -209,7 +209,7 @@
 											<array>
 												<dict>
 													<key>frame</key>
-													<string>{{136, 459.0078125}, {1242, 498.9921875}}</string>
+													<string>{{136, 315}, {1242, 643}}</string>
 													<key>identifier</key>
 													<string>sceneEditorCustomizableContainer</string>
 													<key>isCustomizableViewContainer</key>
@@ -274,7 +274,7 @@
 		<key>keyframeTimelineHeight</key>
 		<real>220</real>
 		<key>mainWindowFrame</key>
-		<string>909 855 1920 1002 910 800 1920 1057 </string>
+		<string>910 855 1920 1002 910 800 1920 1057 </string>
 		<key>openTabs</key>
 		<array>
 			<dict>
@@ -286,6 +286,36 @@
 				<string>HypeJavascript</string>
 				<key>oid</key>
 				<string>541</string>
+			</dict>
+			<dict>
+				<key>className</key>
+				<string>HypeJavascript</string>
+				<key>oid</key>
+				<string>535</string>
+			</dict>
+			<dict>
+				<key>className</key>
+				<string>HypeJavascript</string>
+				<key>oid</key>
+				<string>519</string>
+			</dict>
+			<dict>
+				<key>className</key>
+				<string>HypeJavascript</string>
+				<key>oid</key>
+				<string>486</string>
+			</dict>
+			<dict>
+				<key>className</key>
+				<string>HypeJavascript</string>
+				<key>oid</key>
+				<string>485</string>
+			</dict>
+			<dict>
+				<key>className</key>
+				<string>HypeJavascript</string>
+				<key>oid</key>
+				<string>484</string>
 			</dict>
 		</array>
 		<key>selectedTabIndex</key>
@@ -2704,6 +2734,7 @@
 					<dict>
 						<key>expandedItems</key>
 						<array>
+							<string>395</string>
 							<string>331</string>
 						</array>
 						<key>timeCursors</key>
@@ -2715,7 +2746,7 @@
 							<key>263</key>
 							<real>0.0</real>
 							<key>269</key>
-							<real>0.53333336114883423</real>
+							<real>1.0333333015441895</real>
 							<key>396</key>
 							<real>0.0</real>
 							<key>440</key>
@@ -2723,7 +2754,7 @@
 							<key>441</key>
 							<real>3.5</real>
 							<key>462</key>
-							<real>0.53333336114883423</real>
+							<real>1.1666666269302368</real>
 							<key>463</key>
 							<real>5.4666666984558105</real>
 							<key>478</key>
@@ -2737,7 +2768,7 @@
 						<integer>210</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{3477, 3041}</string>
+					<string>{828, 1246}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -2762,7 +2793,7 @@
 					<key>rootSymbolControllerOid</key>
 					<string>91</string>
 					<key>scrollViewOffset</key>
-					<string>{3780, 128.0078125}</string>
+					<string>{0, 296}</string>
 					<key>userGuides</key>
 					<array>
 						<dict>
@@ -3079,17 +3110,15 @@ function submitData(hypeDocument, element, event) {
 	<array>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>5C52B1EC-2E41-4A2D-A154-65A303457318-52058-00026832BF4CB5C6</string>
+			<string>789D2A8E-5E00-453F-B28B-5E7781F19602-3326-000011526EA96D78</string>
 			<key>selectedObjects</key>
-			<array>
-				<string>331</string>
-			</array>
+			<array/>
 			<key>symbol</key>
 			<dict>
 				<key>addToNewSceneControllers</key>
 				<false/>
 				<key>currentTimelineIdentifier</key>
-				<string>396</string>
+				<string>462</string>
 				<key>customBehaviors</key>
 				<array/>
 				<key>elements</key>
@@ -8777,7 +8806,7 @@ function submitData(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>Height</string>
 							<key>objectValue</key>
-							<string>605px</string>
+							<string>606px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8801,7 +8830,7 @@ function submitData(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>Top</string>
 							<key>objectValue</key>
-							<string>60px</string>
+							<string>58px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8843,7 +8872,7 @@ function submitData(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>Width</string>
 							<key>objectValue</key>
-							<string>375px</string>
+							<string>377px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8867,7 +8896,7 @@ function submitData(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>Left</string>
 							<key>objectValue</key>
-							<string>-1px</string>
+							<string>-7px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8942,7 +8971,7 @@ function submitData(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>Top</string>
 							<key>objectValue</key>
-							<string>24.8681px</string>
+							<string>325.868px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8978,7 +9007,7 @@ function submitData(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>Left</string>
 							<key>objectValue</key>
-							<string>26.0845px</string>
+							<string>25.0845px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -9167,15 +9196,15 @@ function submitData(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
-							<key>objectValue</key>
-							<string>8px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
 							<string>12</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>PaddingLeft</string>
+							<key>objectValue</key>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -9618,15 +9647,15 @@ function submitData(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ExplicitDimensions</string>
-							<key>objectValue</key>
-							<string>YES</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>DomID</string>
 							<key>objectValue</key>
 							<string>compass_panel</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ExplicitDimensions</string>
+							<key>objectValue</key>
+							<string>YES</string>
 						</dict>
 					</array>
 					<key>393</key>
@@ -9926,7 +9955,7 @@ function submitData(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>Top</string>
 							<key>objectValue</key>
-							<string>0px</string>
+							<string>300px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -9968,7 +9997,7 @@ function submitData(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>Left</string>
 							<key>objectValue</key>
-							<string>0px</string>
+							<string>5px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10018,6 +10047,12 @@ function submitData(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
+							<string>Overflow</string>
+							<key>objectValue</key>
+							<string>visible</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
 							<string>Locked</string>
 							<key>objectValue</key>
 							<string>0</string>
@@ -10033,12 +10068,6 @@ function submitData(hypeDocument, element, event) {
 							<string>DisplayName</string>
 							<key>objectValue</key>
 							<string>罗盘界面</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Overflow</string>
-							<key>objectValue</key>
-							<string>visible</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10534,7 +10563,7 @@ function submitData(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>Left</string>
 							<key>objectValue</key>
-							<string>-1149px</string>
+							<string>-1156px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10582,7 +10611,7 @@ function submitData(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>Top</string>
 							<key>objectValue</key>
-							<string>785.5px</string>
+							<string>1087px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10802,7 +10831,7 @@ function submitData(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>Top</string>
 							<key>objectValue</key>
-							<string>320px</string>
+							<string>620px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10838,7 +10867,7 @@ function submitData(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>Left</string>
 							<key>objectValue</key>
-							<string>113px</string>
+							<string>106px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -11118,7 +11147,7 @@ function submitData(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>Top</string>
 							<key>objectValue</key>
-							<string>617px</string>
+							<string>917px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -11154,7 +11183,7 @@ function submitData(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>Left</string>
 							<key>objectValue</key>
-							<string>0px</string>
+							<string>-1px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -11571,9 +11600,9 @@ function submitData(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>RotationAngleZ</string>
+							<string>ExplicitDimensions</string>
 							<key>objectValue</key>
-							<string>0deg</string>
+							<string>YES</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -11625,9 +11654,9 @@ function submitData(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ExplicitDimensions</string>
+							<string>RotationAngleZ</string>
 							<key>objectValue</key>
-							<string>YES</string>
+							<string>0deg</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -13540,7 +13569,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>-1px</string>
+									<string>-2px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Left</string>
@@ -13575,7 +13604,7 @@ function submitData(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>6BE15DD6-F225-4D7D-9AC6-471C1E89DEC7-52058-0002A99F5EEA1417</string>
+									<string>3DF6317D-E704-41C1-866B-973DD82E787F-3326-00001152311C4D3D</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -13586,7 +13615,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>-9.5px</string>
+									<string>-10.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -13643,7 +13672,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Height</string>
 									<key>objectValue</key>
-									<string>608px</string>
+									<string>609px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Height</string>
@@ -13658,7 +13687,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Height</string>
 									<key>objectValue</key>
-									<string>605px</string>
+									<string>606px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -13751,7 +13780,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>-1px</string>
+									<string>-1.5px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Top</string>
@@ -13786,7 +13815,7 @@ function submitData(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>6BE15DD6-F225-4D7D-9AC6-471C1E89DEC7-52058-0002A99F5EEA1417</string>
+									<string>3DF6317D-E704-41C1-866B-973DD82E787F-3326-00001152311C4D3D</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -13797,7 +13826,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>24.5px</string>
+									<string>24px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -13853,7 +13882,7 @@ function submitData(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>6BE15DD6-F225-4D7D-9AC6-471C1E89DEC7-52058-0002A99F5EEA1417</string>
+									<string>3DF6317D-E704-41C1-866B-973DD82E787F-3326-00001152311C4D3D</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -13885,7 +13914,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Width</string>
 									<key>objectValue</key>
-									<string>376px</string>
+									<string>378px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Width</string>
@@ -13900,7 +13929,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Width</string>
 									<key>objectValue</key>
-									<string>375px</string>
+									<string>377px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -14038,13 +14067,13 @@ function submitData(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{188, 303}</string>
+												<string>{193, 603}</string>
 												<key>endPoint</key>
-												<string>{188, 303}</string>
+												<string>{193, 603}</string>
 												<key>startControlPoint</key>
-												<string>{188, 303}</string>
+												<string>{193, 603}</string>
 												<key>startPoint</key>
-												<string>{188, 303}</string>
+												<string>{193, 603}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -14057,7 +14086,7 @@ function submitData(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>1A4D3F98-1EB1-4BD6-8B6B-14B9FAC3866C-52058-0002A99F5EEE6136</string>
+									<string>2EB8AE5E-4010-42B1-B0D1-F5687288AAD9-3326-00001152311F8C2C</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -14126,7 +14155,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>785.5px</string>
+									<string>787px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -14242,7 +14271,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>-1149px</string>
+									<string>-1154px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -14272,13 +14301,13 @@ function submitData(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{188, 303}</string>
+												<string>{193, 603}</string>
 												<key>endPoint</key>
-												<string>{188, 303}</string>
+												<string>{193, 603}</string>
 												<key>startControlPoint</key>
-												<string>{188, 303}</string>
+												<string>{193, 603}</string>
 												<key>startPoint</key>
-												<string>{188, 303}</string>
+												<string>{193, 603}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -14291,7 +14320,7 @@ function submitData(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>1A4D3F98-1EB1-4BD6-8B6B-14B9FAC3866C-52058-0002A99F5EEE6136</string>
+									<string>2EB8AE5E-4010-42B1-B0D1-F5687288AAD9-3326-00001152311F8C2C</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -14302,7 +14331,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>0.5px</string>
+									<string>300.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -14332,13 +14361,13 @@ function submitData(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{188, 303}</string>
+												<string>{193, 603}</string>
 												<key>endPoint</key>
-												<string>{188, 303}</string>
+												<string>{193, 603}</string>
 												<key>startControlPoint</key>
-												<string>{188, 303}</string>
+												<string>{193, 603}</string>
 												<key>startPoint</key>
-												<string>{188, 303}</string>
+												<string>{193, 603}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -14351,7 +14380,7 @@ function submitData(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>1A4D3F98-1EB1-4BD6-8B6B-14B9FAC3866C-52058-0002A99F5EEE6136</string>
+									<string>2EB8AE5E-4010-42B1-B0D1-F5687288AAD9-3326-00001152311F8C2C</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -14362,7 +14391,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>0.5px</string>
+									<string>5.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -14499,7 +14528,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>620px</string>
+									<string>920px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Top</string>
@@ -14514,7 +14543,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>622px</string>
+									<string>623px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -14737,7 +14766,7 @@ function submitData(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>9AE6C6A1-25C5-4C23-8BD5-63B3097A26F2-52058-0002A99F5EF3C510</string>
+									<string>B9987B2C-53AC-4635-B5CA-99C4E156572C-3326-0000115231235303</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -14797,7 +14826,7 @@ function submitData(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>9AE6C6A1-25C5-4C23-8BD5-63B3097A26F2-52058-0002A99F5EF3C510</string>
+									<string>B9987B2C-53AC-4635-B5CA-99C4E156572C-3326-0000115231235303</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -14808,7 +14837,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>-1px</string>
+									<string>-2px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -14837,7 +14866,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Height</string>
 									<key>objectValue</key>
-									<string>608px</string>
+									<string>609px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -14847,35 +14876,6 @@ function submitData(hypeDocument, element, event) {
 								<integer>0</integer>
 								<key>uuid</key>
 								<string>73165078-CC24-4ECF-8FA9-325E8BB6A2B8-7316-000078E5A81610C8</string>
-								<key>zIndex</key>
-								<integer>4</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.0</real>
-								<key>identifier</key>
-								<string>Width</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>331</string>
-								<key>startTime</key>
-								<real>0.3333333432674408</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Width</string>
-									<key>objectValue</key>
-									<string>376px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>CA8A10E6-81E6-44A4-A227-19E320393E2E-7316-000078E5A810DB50</string>
 								<key>zIndex</key>
 								<integer>4</integer>
 							</dict>
@@ -14905,6 +14905,35 @@ function submitData(hypeDocument, element, event) {
 								<integer>0</integer>
 								<key>uuid</key>
 								<string>9C8096A3-10E3-4207-9C88-C7308E281EBF-7316-000079718AC6AFF8</string>
+								<key>zIndex</key>
+								<integer>4</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>0.0</real>
+								<key>identifier</key>
+								<string>Width</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>331</string>
+								<key>startTime</key>
+								<real>0.3333333432674408</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Width</string>
+									<key>objectValue</key>
+									<string>378px</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>CA8A10E6-81E6-44A4-A227-19E320393E2E-7316-000078E5A810DB50</string>
 								<key>zIndex</key>
 								<integer>4</integer>
 							</dict>
@@ -14944,35 +14973,6 @@ function submitData(hypeDocument, element, event) {
 								<string>Top</string>
 								<key>isRelative</key>
 								<false/>
-								<key>referenceOid</key>
-								<string>482</string>
-								<key>startTime</key>
-								<real>0.3333333432674408</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Top</string>
-									<key>objectValue</key>
-									<string>620px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>33F948BA-3B70-4C5B-BF3A-50D841D4954A-27474-000199DC152F480C</string>
-								<key>zIndex</key>
-								<integer>5</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.0</real>
-								<key>identifier</key>
-								<string>Top</string>
-								<key>isRelative</key>
-								<false/>
 								<key>motionPath</key>
 								<dict>
 									<key>bezierPath</key>
@@ -15002,7 +15002,7 @@ function submitData(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>9AE6C6A1-25C5-4C23-8BD5-63B3097A26F2-52058-0002A99F5EF3C510</string>
+									<string>B9987B2C-53AC-4635-B5CA-99C4E156572C-3326-0000115231235303</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -15013,7 +15013,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>-1px</string>
+									<string>-1.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -15023,6 +15023,35 @@ function submitData(hypeDocument, element, event) {
 								<integer>0</integer>
 								<key>uuid</key>
 								<string>7FC9D518-B830-4EC0-B446-0AD9A265B39E-7316-000078FDF1EF7506</string>
+								<key>zIndex</key>
+								<integer>5</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>0.0</real>
+								<key>identifier</key>
+								<string>Top</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>482</string>
+								<key>startTime</key>
+								<real>0.3333333432674408</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Top</string>
+									<key>objectValue</key>
+									<string>621px</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>33F948BA-3B70-4C5B-BF3A-50D841D4954A-27474-000199DC152F480C</string>
 								<key>zIndex</key>
 								<integer>6</integer>
 							</dict>
@@ -15123,7 +15152,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>-1px</string>
+									<string>-2px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Left</string>
@@ -15158,7 +15187,7 @@ function submitData(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>53D2DCA1-BD2E-4571-9F6B-A3E68DD816AA-52058-0002A99F5EF8370B</string>
+									<string>1563FC7A-2AE0-45F0-A488-B0E9003422E8-3326-0000115231267BBA</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -15169,7 +15198,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>-9.5px</string>
+									<string>-10.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -15226,7 +15255,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Height</string>
 									<key>objectValue</key>
-									<string>608px</string>
+									<string>609px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Height</string>
@@ -15241,7 +15270,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Height</string>
 									<key>objectValue</key>
-									<string>605px</string>
+									<string>606px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -15334,7 +15363,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>-1px</string>
+									<string>-1.5px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Top</string>
@@ -15369,7 +15398,7 @@ function submitData(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>53D2DCA1-BD2E-4571-9F6B-A3E68DD816AA-52058-0002A99F5EF8370B</string>
+									<string>1563FC7A-2AE0-45F0-A488-B0E9003422E8-3326-0000115231267BBA</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -15380,7 +15409,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>24.5px</string>
+									<string>24px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -15436,7 +15465,7 @@ function submitData(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>53D2DCA1-BD2E-4571-9F6B-A3E68DD816AA-52058-0002A99F5EF8370B</string>
+									<string>1563FC7A-2AE0-45F0-A488-B0E9003422E8-3326-0000115231267BBA</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -15468,7 +15497,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Width</string>
 									<key>objectValue</key>
-									<string>376px</string>
+									<string>378px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Width</string>
@@ -15483,7 +15512,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Width</string>
 									<key>objectValue</key>
-									<string>375px</string>
+									<string>377px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -15698,7 +15727,7 @@ function submitData(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>3B8FE982-1A2E-4DE9-B3E5-5CA832DE145D-52058-0002A99F5EFCEB66</string>
+									<string>3C736CF6-79C2-42C0-AC4B-BB444D1E5819-3326-000011523129D659</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -15874,7 +15903,7 @@ function submitData(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>3B8FE982-1A2E-4DE9-B3E5-5CA832DE145D-52058-0002A99F5EFCEB66</string>
+									<string>3C736CF6-79C2-42C0-AC4B-BB444D1E5819-3326-000011523129D659</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -15885,7 +15914,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>-1px</string>
+									<string>-2px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -15934,7 +15963,7 @@ function submitData(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>3B8FE982-1A2E-4DE9-B3E5-5CA832DE145D-52058-0002A99F5EFCEB66</string>
+									<string>3C736CF6-79C2-42C0-AC4B-BB444D1E5819-3326-000011523129D659</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -15945,7 +15974,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>-1px</string>
+									<string>-1.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -15974,7 +16003,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Height</string>
 									<key>objectValue</key>
-									<string>608px</string>
+									<string>609px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -16003,7 +16032,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Width</string>
 									<key>objectValue</key>
-									<string>376px</string>
+									<string>378px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -16185,7 +16214,7 @@ function submitData(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>632B1A37-B4C0-4BFB-925C-EF6420CEF8BB-52058-0002A99F5F031F2E</string>
+									<string>4B608198-76F7-4091-9FAB-5C5377177B6B-3326-00001152312E7116</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -16196,7 +16225,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>-0.5px</string>
+									<string>-1px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -16245,7 +16274,7 @@ function submitData(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>632B1A37-B4C0-4BFB-925C-EF6420CEF8BB-52058-0002A99F5F031F2E</string>
+									<string>4B608198-76F7-4091-9FAB-5C5377177B6B-3326-00001152312E7116</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -16305,7 +16334,7 @@ function submitData(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>632B1A37-B4C0-4BFB-925C-EF6420CEF8BB-52058-0002A99F5F031F2E</string>
+									<string>4B608198-76F7-4091-9FAB-5C5377177B6B-3326-00001152312E7116</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -16316,7 +16345,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>-0.5px</string>
+									<string>-1.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -16389,13 +16418,13 @@ function submitData(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{296, 142}</string>
+												<string>{301, 442}</string>
 												<key>endPoint</key>
-												<string>{296, 142}</string>
+												<string>{301, 442}</string>
 												<key>startControlPoint</key>
-												<string>{187, 303}</string>
+												<string>{192, 603}</string>
 												<key>startPoint</key>
-												<string>{187, 303}</string>
+												<string>{192, 603}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -16408,7 +16437,7 @@ function submitData(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>6E018902-B5A4-4336-9406-1467D5576E8B-52058-0002A99F5F04A333</string>
+									<string>54BF8AF3-90B9-484D-ABEA-4F1BB7F1D4E9-3326-00001152313039B7</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -16512,7 +16541,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>108.5px</string>
+									<string>113.5px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Left</string>
@@ -16528,13 +16557,13 @@ function submitData(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{296, 142}</string>
+												<string>{301, 442}</string>
 												<key>endPoint</key>
-												<string>{296, 142}</string>
+												<string>{301, 442}</string>
 												<key>startControlPoint</key>
-												<string>{187, 303}</string>
+												<string>{192, 603}</string>
 												<key>startPoint</key>
-												<string>{187, 303}</string>
+												<string>{192, 603}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -16547,7 +16576,7 @@ function submitData(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>6E018902-B5A4-4336-9406-1467D5576E8B-52058-0002A99F5F04A333</string>
+									<string>54BF8AF3-90B9-484D-ABEA-4F1BB7F1D4E9-3326-00001152313039B7</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -16558,7 +16587,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>-0.5px</string>
+									<string>4.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -16579,7 +16608,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>-160.5px</string>
+									<string>139.5px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Top</string>
@@ -16595,13 +16624,13 @@ function submitData(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{296, 142}</string>
+												<string>{301, 442}</string>
 												<key>endPoint</key>
-												<string>{296, 142}</string>
+												<string>{301, 442}</string>
 												<key>startControlPoint</key>
-												<string>{187, 303}</string>
+												<string>{192, 603}</string>
 												<key>startPoint</key>
-												<string>{187, 303}</string>
+												<string>{192, 603}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -16614,7 +16643,7 @@ function submitData(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>6E018902-B5A4-4336-9406-1467D5576E8B-52058-0002A99F5F04A333</string>
+									<string>54BF8AF3-90B9-484D-ABEA-4F1BB7F1D4E9-3326-00001152313039B7</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -16625,7 +16654,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>0.5px</string>
+									<string>300.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -16754,7 +16783,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>54px</string>
+									<string>47px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Left</string>
@@ -16769,7 +16798,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>-1149px</string>
+									<string>-1154px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -16790,7 +16819,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>90px</string>
+									<string>392px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Top</string>
@@ -16805,7 +16834,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>785.5px</string>
+									<string>787px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -17052,13 +17081,13 @@ function submitData(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{295, 142}</string>
+												<string>{300, 442}</string>
 												<key>endPoint</key>
-												<string>{295, 142}</string>
+												<string>{300, 442}</string>
 												<key>startControlPoint</key>
-												<string>{296, 142}</string>
+												<string>{301, 442}</string>
 												<key>startPoint</key>
-												<string>{296, 142}</string>
+												<string>{301, 442}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -17071,7 +17100,7 @@ function submitData(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>C2D6AD5E-9E76-446C-93D8-8DC69767A5EC-52058-0002A99F5F093407</string>
+									<string>2418EA84-D3CC-4D32-BAD8-C15B9FFCB789-3326-000011523136C971</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -17112,13 +17141,13 @@ function submitData(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{295, 142}</string>
+												<string>{300, 442}</string>
 												<key>endPoint</key>
-												<string>{295, 142}</string>
+												<string>{300, 442}</string>
 												<key>startControlPoint</key>
-												<string>{296, 142}</string>
+												<string>{301, 442}</string>
 												<key>startPoint</key>
-												<string>{296, 142}</string>
+												<string>{301, 442}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -17131,7 +17160,7 @@ function submitData(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>C2D6AD5E-9E76-446C-93D8-8DC69767A5EC-52058-0002A99F5F093407</string>
+									<string>2418EA84-D3CC-4D32-BAD8-C15B9FFCB789-3326-000011523136C971</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -17142,7 +17171,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>108.5px</string>
+									<string>113.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -17258,7 +17287,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>54px</string>
+									<string>49px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -17317,13 +17346,13 @@ function submitData(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{295, 142}</string>
+												<string>{300, 442}</string>
 												<key>endPoint</key>
-												<string>{295, 142}</string>
+												<string>{300, 442}</string>
 												<key>startControlPoint</key>
-												<string>{296, 142}</string>
+												<string>{301, 442}</string>
 												<key>startPoint</key>
-												<string>{296, 142}</string>
+												<string>{301, 442}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -17336,7 +17365,7 @@ function submitData(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>C2D6AD5E-9E76-446C-93D8-8DC69767A5EC-52058-0002A99F5F093407</string>
+									<string>2418EA84-D3CC-4D32-BAD8-C15B9FFCB789-3326-000011523136C971</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -17347,7 +17376,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>-160.5px</string>
+									<string>139.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -17376,7 +17405,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>90px</string>
+									<string>92px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -17465,7 +17494,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>54px</string>
+									<string>49px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -17523,7 +17552,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>90px</string>
+									<string>92px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -17601,7 +17630,7 @@ function submitData(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>16CF3A02-FB69-4D1E-9A84-1E24F3BBA1C8-52058-0002A99F5F0E6841</string>
+									<string>F5EF1704-7D07-40C1-9A27-3813DB10B8A1-3326-00001152313E7106</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -17767,13 +17796,13 @@ function submitData(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{295, 143}</string>
+												<string>{300, 443}</string>
 												<key>endPoint</key>
-												<string>{295, 143}</string>
+												<string>{300, 443}</string>
 												<key>startControlPoint</key>
-												<string>{295, 143}</string>
+												<string>{300, 443}</string>
 												<key>startPoint</key>
-												<string>{295, 143}</string>
+												<string>{300, 443}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -17786,7 +17815,7 @@ function submitData(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>8E8C3218-E3F2-4B66-8FE0-D6EDE9BFD6CF-52058-0002A99F5F104B10</string>
+									<string>2C6BF9AC-A93D-47C6-B066-3734CDB812A3-3326-000011523140A3F1</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -17827,13 +17856,13 @@ function submitData(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{295, 143}</string>
+												<string>{300, 443}</string>
 												<key>endPoint</key>
-												<string>{295, 143}</string>
+												<string>{300, 443}</string>
 												<key>startControlPoint</key>
-												<string>{295, 143}</string>
+												<string>{300, 443}</string>
 												<key>startPoint</key>
-												<string>{295, 143}</string>
+												<string>{300, 443}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -17846,7 +17875,7 @@ function submitData(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>8E8C3218-E3F2-4B66-8FE0-D6EDE9BFD6CF-52058-0002A99F5F104B10</string>
+									<string>2C6BF9AC-A93D-47C6-B066-3734CDB812A3-3326-000011523140A3F1</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -17857,7 +17886,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>-159.5px</string>
+									<string>140.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -17945,13 +17974,13 @@ function submitData(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{295, 143}</string>
+												<string>{300, 443}</string>
 												<key>endPoint</key>
-												<string>{295, 143}</string>
+												<string>{300, 443}</string>
 												<key>startControlPoint</key>
-												<string>{295, 143}</string>
+												<string>{300, 443}</string>
 												<key>startPoint</key>
-												<string>{295, 143}</string>
+												<string>{300, 443}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -17964,7 +17993,7 @@ function submitData(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>8E8C3218-E3F2-4B66-8FE0-D6EDE9BFD6CF-52058-0002A99F5F104B10</string>
+									<string>2C6BF9AC-A93D-47C6-B066-3734CDB812A3-3326-000011523140A3F1</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -17975,7 +18004,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>107.5px</string>
+									<string>112.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -18024,7 +18053,7 @@ function submitData(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>16CF3A02-FB69-4D1E-9A84-1E24F3BBA1C8-52058-0002A99F5F0E6841</string>
+									<string>F5EF1704-7D07-40C1-9A27-3813DB10B8A1-3326-00001152313E7106</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -18035,7 +18064,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>0.5px</string>
+									<string>0px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -18142,7 +18171,7 @@ function submitData(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>16CF3A02-FB69-4D1E-9A84-1E24F3BBA1C8-52058-0002A99F5F0E6841</string>
+									<string>F5EF1704-7D07-40C1-9A27-3813DB10B8A1-3326-00001152313E7106</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -18153,7 +18182,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>-1.5px</string>
+									<string>-2.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -19001,7 +19030,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>54px</string>
+									<string>49px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -19051,7 +19080,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>90px</string>
+									<string>392px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Top</string>
@@ -19066,7 +19095,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>90px</string>
+									<string>92px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -19144,7 +19173,7 @@ function submitData(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>6EECC5B9-7122-424F-AF50-9BB07486839A-52058-0002A99F5F1A6F02</string>
+									<string>E32C0C15-A9AE-4640-B0AC-DE7114336844-3326-0000115231499F5A</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -19276,7 +19305,7 @@ function submitData(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>6EECC5B9-7122-424F-AF50-9BB07486839A-52058-0002A99F5F1A6F02</string>
+									<string>E32C0C15-A9AE-4640-B0AC-DE7114336844-3326-0000115231499F5A</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -19287,7 +19316,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>0.5px</string>
+									<string>0px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -19324,13 +19353,13 @@ function submitData(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{295, 143}</string>
+												<string>{300, 443}</string>
 												<key>endPoint</key>
-												<string>{295, 143}</string>
+												<string>{300, 443}</string>
 												<key>startControlPoint</key>
-												<string>{295, 143}</string>
+												<string>{300, 443}</string>
 												<key>startPoint</key>
-												<string>{295, 143}</string>
+												<string>{300, 443}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -19343,7 +19372,7 @@ function submitData(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>CB45554F-51D7-4C70-A983-0F71CC3CA70B-52058-0002A99F5F1C32A4</string>
+									<string>26792A93-C0AC-4DFA-876A-3ACF0589FF9B-3326-00001152314AE64C</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -19461,7 +19490,7 @@ function submitData(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>6EECC5B9-7122-424F-AF50-9BB07486839A-52058-0002A99F5F1A6F02</string>
+									<string>E32C0C15-A9AE-4640-B0AC-DE7114336844-3326-0000115231499F5A</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -19472,7 +19501,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>-1.5px</string>
+									<string>-2.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -19493,7 +19522,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>-159.5px</string>
+									<string>140.5px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Top</string>
@@ -19509,13 +19538,13 @@ function submitData(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{295, 143}</string>
+												<string>{300, 443}</string>
 												<key>endPoint</key>
-												<string>{295, 143}</string>
+												<string>{300, 443}</string>
 												<key>startControlPoint</key>
-												<string>{295, 143}</string>
+												<string>{300, 443}</string>
 												<key>startPoint</key>
-												<string>{295, 143}</string>
+												<string>{300, 443}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -19528,7 +19557,7 @@ function submitData(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>CB45554F-51D7-4C70-A983-0F71CC3CA70B-52058-0002A99F5F1C32A4</string>
+									<string>26792A93-C0AC-4DFA-876A-3ACF0589FF9B-3326-00001152314AE64C</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -19539,7 +19568,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>-159.5px</string>
+									<string>140.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -19618,7 +19647,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>107.5px</string>
+									<string>112.5px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Left</string>
@@ -19634,13 +19663,13 @@ function submitData(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{295, 143}</string>
+												<string>{300, 443}</string>
 												<key>endPoint</key>
-												<string>{295, 143}</string>
+												<string>{300, 443}</string>
 												<key>startControlPoint</key>
-												<string>{295, 143}</string>
+												<string>{300, 443}</string>
 												<key>startPoint</key>
-												<string>{295, 143}</string>
+												<string>{300, 443}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -19653,7 +19682,7 @@ function submitData(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>CB45554F-51D7-4C70-A983-0F71CC3CA70B-52058-0002A99F5F1C32A4</string>
+									<string>26792A93-C0AC-4DFA-876A-3ACF0589FF9B-3326-00001152314AE64C</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -19664,7 +19693,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>107.5px</string>
+									<string>112.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -20600,7 +20629,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>379px</string>
+									<string>679px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Top</string>
@@ -20615,7 +20644,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>320px</string>
+									<string>321px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -20723,7 +20752,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>379px</string>
+									<string>679px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Top</string>
@@ -20738,7 +20767,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>379px</string>
+									<string>380px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -20847,13 +20876,13 @@ function submitData(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{295, -157}</string>
+												<string>{300, 143}</string>
 												<key>endPoint</key>
-												<string>{295, -157}</string>
+												<string>{300, 143}</string>
 												<key>startControlPoint</key>
-												<string>{295, 143}</string>
+												<string>{300, 443}</string>
 												<key>startPoint</key>
-												<string>{295, 143}</string>
+												<string>{300, 443}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -20866,7 +20895,7 @@ function submitData(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>8BE1BBB9-039B-4025-A422-4C78C6A7C3BF-52058-0002A99F5F26DD18</string>
+									<string>11A6E300-E0E7-4BD0-99EF-F42CA281EB23-3326-000011523152CBB8</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -20898,7 +20927,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>-300px</string>
+									<string>2px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Top</string>
@@ -20913,7 +20942,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>90px</string>
+									<string>92px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -20934,7 +20963,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>-459.5px</string>
+									<string>-159.5px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Top</string>
@@ -20950,13 +20979,13 @@ function submitData(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{295, -157}</string>
+												<string>{300, 143}</string>
 												<key>endPoint</key>
-												<string>{295, -157}</string>
+												<string>{300, 143}</string>
 												<key>startControlPoint</key>
-												<string>{295, 143}</string>
+												<string>{300, 443}</string>
 												<key>startPoint</key>
-												<string>{295, 143}</string>
+												<string>{300, 443}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -20969,7 +20998,7 @@ function submitData(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>8BE1BBB9-039B-4025-A422-4C78C6A7C3BF-52058-0002A99F5F26DD18</string>
+									<string>11A6E300-E0E7-4BD0-99EF-F42CA281EB23-3326-000011523152CBB8</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -20980,7 +21009,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>-159.5px</string>
+									<string>140.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -21001,7 +21030,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>94px</string>
+									<string>394px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Top</string>
@@ -21016,7 +21045,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>379px</string>
+									<string>380px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -21037,7 +21066,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>46px</string>
+									<string>39px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Left</string>
@@ -21052,7 +21081,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>113px</string>
+									<string>108px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -21073,7 +21102,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>107.5px</string>
+									<string>112.5px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Left</string>
@@ -21089,13 +21118,13 @@ function submitData(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{295, -157}</string>
+												<string>{300, 143}</string>
 												<key>endPoint</key>
-												<string>{295, -157}</string>
+												<string>{300, 143}</string>
 												<key>startControlPoint</key>
-												<string>{295, 143}</string>
+												<string>{300, 443}</string>
 												<key>startPoint</key>
-												<string>{295, 143}</string>
+												<string>{300, 443}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -21108,7 +21137,7 @@ function submitData(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>8BE1BBB9-039B-4025-A422-4C78C6A7C3BF-52058-0002A99F5F26DD18</string>
+									<string>11A6E300-E0E7-4BD0-99EF-F42CA281EB23-3326-000011523152CBB8</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -21119,7 +21148,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>107.5px</string>
+									<string>112.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -21207,13 +21236,13 @@ function submitData(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{295, 143}</string>
+												<string>{300, 443}</string>
 												<key>endPoint</key>
-												<string>{295, 143}</string>
+												<string>{300, 443}</string>
 												<key>startControlPoint</key>
-												<string>{295, -157}</string>
+												<string>{300, 143}</string>
 												<key>startPoint</key>
-												<string>{295, -157}</string>
+												<string>{300, 143}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -21226,7 +21255,7 @@ function submitData(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>DCEB89F2-0736-4D1D-82AD-27A45FF28BC7-52058-0002A99F5F2A1AE3</string>
+									<string>43BDA61C-01DF-4B4D-8E3C-90FA9C5D3854-3326-000011523154CB4F</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -21266,7 +21295,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>-300px</string>
+									<string>-298px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -21296,13 +21325,13 @@ function submitData(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{295, 143}</string>
+												<string>{300, 443}</string>
 												<key>endPoint</key>
-												<string>{295, 143}</string>
+												<string>{300, 443}</string>
 												<key>startControlPoint</key>
-												<string>{295, -157}</string>
+												<string>{300, 143}</string>
 												<key>startPoint</key>
-												<string>{295, -157}</string>
+												<string>{300, 143}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -21315,7 +21344,7 @@ function submitData(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>DCEB89F2-0736-4D1D-82AD-27A45FF28BC7-52058-0002A99F5F2A1AE3</string>
+									<string>43BDA61C-01DF-4B4D-8E3C-90FA9C5D3854-3326-000011523154CB4F</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -21326,7 +21355,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>-459.5px</string>
+									<string>-159.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -21355,7 +21384,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>94px</string>
+									<string>95px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -21384,7 +21413,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>46px</string>
+									<string>41px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -21414,13 +21443,13 @@ function submitData(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{295, 143}</string>
+												<string>{300, 443}</string>
 												<key>endPoint</key>
-												<string>{295, 143}</string>
+												<string>{300, 443}</string>
 												<key>startControlPoint</key>
-												<string>{295, -157}</string>
+												<string>{300, 143}</string>
 												<key>startPoint</key>
-												<string>{295, -157}</string>
+												<string>{300, 143}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -21433,7 +21462,7 @@ function submitData(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>DCEB89F2-0736-4D1D-82AD-27A45FF28BC7-52058-0002A99F5F2A1AE3</string>
+									<string>43BDA61C-01DF-4B4D-8E3C-90FA9C5D3854-3326-000011523154CB4F</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -21444,7 +21473,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>107.5px</string>
+									<string>112.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -21490,7 +21519,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>54px</string>
+									<string>49px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -21540,7 +21569,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>90px</string>
+									<string>392px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Top</string>
@@ -21555,7 +21584,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>90px</string>
+									<string>92px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -21633,7 +21662,7 @@ function submitData(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>A27C6EB6-F03B-4F08-842C-161B62772FA7-52058-0002A99F5F2ED14B</string>
+									<string>F6C21CFE-6FEA-42A6-B365-F8A594FEE309-3326-00001152315983C9</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -21795,7 +21824,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>-159.5px</string>
+									<string>140.5px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Top</string>
@@ -21811,13 +21840,13 @@ function submitData(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{295, 143}</string>
+												<string>{300, 443}</string>
 												<key>endPoint</key>
-												<string>{295, 143}</string>
+												<string>{300, 443}</string>
 												<key>startControlPoint</key>
-												<string>{295, 143}</string>
+												<string>{300, 443}</string>
 												<key>startPoint</key>
-												<string>{295, 143}</string>
+												<string>{300, 443}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -21830,7 +21859,7 @@ function submitData(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>19D7CD25-74D3-4E4C-B108-E7D0E815AFA2-52058-0002A99F5F3096BF</string>
+									<string>E6BB10BD-8941-489F-85A9-20B4F2D63F1C-3326-00001152315ADA47</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -21841,7 +21870,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>-159.5px</string>
+									<string>140.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -21878,13 +21907,13 @@ function submitData(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{295, 143}</string>
+												<string>{300, 443}</string>
 												<key>endPoint</key>
-												<string>{295, 143}</string>
+												<string>{300, 443}</string>
 												<key>startControlPoint</key>
-												<string>{295, 143}</string>
+												<string>{300, 443}</string>
 												<key>startPoint</key>
-												<string>{295, 143}</string>
+												<string>{300, 443}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -21897,7 +21926,7 @@ function submitData(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>19D7CD25-74D3-4E4C-B108-E7D0E815AFA2-52058-0002A99F5F3096BF</string>
+									<string>E6BB10BD-8941-489F-85A9-20B4F2D63F1C-3326-00001152315ADA47</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -21929,7 +21958,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>107.5px</string>
+									<string>112.5px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Left</string>
@@ -21945,13 +21974,13 @@ function submitData(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{295, 143}</string>
+												<string>{300, 443}</string>
 												<key>endPoint</key>
-												<string>{295, 143}</string>
+												<string>{300, 443}</string>
 												<key>startControlPoint</key>
-												<string>{295, 143}</string>
+												<string>{300, 443}</string>
 												<key>startPoint</key>
-												<string>{295, 143}</string>
+												<string>{300, 443}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -21964,7 +21993,7 @@ function submitData(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>19D7CD25-74D3-4E4C-B108-E7D0E815AFA2-52058-0002A99F5F3096BF</string>
+									<string>E6BB10BD-8941-489F-85A9-20B4F2D63F1C-3326-00001152315ADA47</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -21975,7 +22004,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>107.5px</string>
+									<string>112.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -22118,7 +22147,7 @@ function submitData(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>A27C6EB6-F03B-4F08-842C-161B62772FA7-52058-0002A99F5F2ED14B</string>
+									<string>F6C21CFE-6FEA-42A6-B365-F8A594FEE309-3326-00001152315983C9</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -22129,7 +22158,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>-1.5px</string>
+									<string>-2.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -22236,7 +22265,7 @@ function submitData(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>A27C6EB6-F03B-4F08-842C-161B62772FA7-52058-0002A99F5F2ED14B</string>
+									<string>F6C21CFE-6FEA-42A6-B365-F8A594FEE309-3326-00001152315983C9</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -22247,7 +22276,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>0.5px</string>
+									<string>0px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -22398,7 +22427,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>379px</string>
+									<string>679px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Top</string>
@@ -22413,7 +22442,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>320px</string>
+									<string>321px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -22577,7 +22606,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>379px</string>
+									<string>679px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Top</string>
@@ -22592,7 +22621,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>379px</string>
+									<string>380px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -22701,13 +22730,13 @@ function submitData(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{295, -157}</string>
+												<string>{300, 143}</string>
 												<key>endPoint</key>
-												<string>{295, -157}</string>
+												<string>{300, 143}</string>
 												<key>startControlPoint</key>
-												<string>{295, 143}</string>
+												<string>{300, 443}</string>
 												<key>startPoint</key>
-												<string>{295, 143}</string>
+												<string>{300, 443}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -22720,7 +22749,7 @@ function submitData(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>26922B44-7AA4-4C0C-ACFF-CF6DFABBC0DC-52058-0002A99F5F374A2F</string>
+									<string>573CF07F-2E9C-424E-97BA-FE1C475DAD84-3326-000011523160DD25</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -22752,7 +22781,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>46px</string>
+									<string>39px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Left</string>
@@ -22767,7 +22796,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>113px</string>
+									<string>108px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -22788,7 +22817,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>107.5px</string>
+									<string>112.5px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Left</string>
@@ -22804,13 +22833,13 @@ function submitData(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{295, -157}</string>
+												<string>{300, 143}</string>
 												<key>endPoint</key>
-												<string>{295, -157}</string>
+												<string>{300, 143}</string>
 												<key>startControlPoint</key>
-												<string>{295, 143}</string>
+												<string>{300, 443}</string>
 												<key>startPoint</key>
-												<string>{295, 143}</string>
+												<string>{300, 443}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -22823,7 +22852,7 @@ function submitData(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>26922B44-7AA4-4C0C-ACFF-CF6DFABBC0DC-52058-0002A99F5F374A2F</string>
+									<string>573CF07F-2E9C-424E-97BA-FE1C475DAD84-3326-000011523160DD25</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -22834,7 +22863,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>107.5px</string>
+									<string>112.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -22855,7 +22884,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>310px</string>
+									<string>610px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Top</string>
@@ -22870,7 +22899,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>620px</string>
+									<string>621px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -22891,7 +22920,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>-300px</string>
+									<string>2px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Top</string>
@@ -22906,7 +22935,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>90px</string>
+									<string>92px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -22927,7 +22956,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>-459.5px</string>
+									<string>-159.5px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Top</string>
@@ -22943,13 +22972,13 @@ function submitData(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{295, -157}</string>
+												<string>{300, 143}</string>
 												<key>endPoint</key>
-												<string>{295, -157}</string>
+												<string>{300, 143}</string>
 												<key>startControlPoint</key>
-												<string>{295, 143}</string>
+												<string>{300, 443}</string>
 												<key>startPoint</key>
-												<string>{295, 143}</string>
+												<string>{300, 443}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -22962,7 +22991,7 @@ function submitData(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>26922B44-7AA4-4C0C-ACFF-CF6DFABBC0DC-52058-0002A99F5F374A2F</string>
+									<string>573CF07F-2E9C-424E-97BA-FE1C475DAD84-3326-000011523160DD25</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -22973,7 +23002,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>-159.5px</string>
+									<string>140.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -22994,7 +23023,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>94px</string>
+									<string>394px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Top</string>
@@ -23009,7 +23038,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>379px</string>
+									<string>380px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -23153,13 +23182,13 @@ function submitData(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{295, 143}</string>
+												<string>{300, 443}</string>
 												<key>endPoint</key>
-												<string>{295, 143}</string>
+												<string>{300, 443}</string>
 												<key>startControlPoint</key>
-												<string>{295, -157}</string>
+												<string>{300, 143}</string>
 												<key>startPoint</key>
-												<string>{295, -157}</string>
+												<string>{300, 143}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -23172,7 +23201,7 @@ function submitData(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>B27647E0-83F2-400B-ACD7-DB3DF41A5290-52058-0002A99F5F3A6A08</string>
+									<string>D26577EF-48B1-4441-B2CC-6E4FDD932B52-3326-0000115231637E13</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -23212,7 +23241,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>46px</string>
+									<string>41px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -23242,13 +23271,13 @@ function submitData(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{295, 143}</string>
+												<string>{300, 443}</string>
 												<key>endPoint</key>
-												<string>{295, 143}</string>
+												<string>{300, 443}</string>
 												<key>startControlPoint</key>
-												<string>{295, -157}</string>
+												<string>{300, 143}</string>
 												<key>startPoint</key>
-												<string>{295, -157}</string>
+												<string>{300, 143}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -23261,7 +23290,7 @@ function submitData(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>B27647E0-83F2-400B-ACD7-DB3DF41A5290-52058-0002A99F5F3A6A08</string>
+									<string>D26577EF-48B1-4441-B2CC-6E4FDD932B52-3326-0000115231637E13</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -23272,7 +23301,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>107.5px</string>
+									<string>112.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -23301,7 +23330,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>-300px</string>
+									<string>-298px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -23331,13 +23360,13 @@ function submitData(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{295, 143}</string>
+												<string>{300, 443}</string>
 												<key>endPoint</key>
-												<string>{295, 143}</string>
+												<string>{300, 443}</string>
 												<key>startControlPoint</key>
-												<string>{295, -157}</string>
+												<string>{300, 143}</string>
 												<key>startPoint</key>
-												<string>{295, -157}</string>
+												<string>{300, 143}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -23350,7 +23379,7 @@ function submitData(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>B27647E0-83F2-400B-ACD7-DB3DF41A5290-52058-0002A99F5F3A6A08</string>
+									<string>D26577EF-48B1-4441-B2CC-6E4FDD932B52-3326-0000115231637E13</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -23361,7 +23390,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>-459.5px</string>
+									<string>-159.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -23390,7 +23419,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>94px</string>
+									<string>95px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -23419,7 +23448,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>310px</string>
+									<string>311px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -23582,7 +23611,7 @@ function submitData(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>C4B355D2-B8B7-4DEE-BF47-8AFF6EC7D6BA-52058-0002A99F5F405042</string>
+									<string>B6C1E577-F5A7-469A-9799-ED1CF7EE4265-3326-000011523169E827</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -23593,7 +23622,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>1.5px</string>
+									<string>1px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -23642,7 +23671,7 @@ function submitData(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>C4B355D2-B8B7-4DEE-BF47-8AFF6EC7D6BA-52058-0002A99F5F405042</string>
+									<string>B6C1E577-F5A7-469A-9799-ED1CF7EE4265-3326-000011523169E827</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -23702,7 +23731,7 @@ function submitData(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>C4B355D2-B8B7-4DEE-BF47-8AFF6EC7D6BA-52058-0002A99F5F405042</string>
+									<string>B6C1E577-F5A7-469A-9799-ED1CF7EE4265-3326-000011523169E827</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -23713,7 +23742,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>-0.5px</string>
+									<string>-1.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -23974,7 +24003,7 @@ function submitData(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>BC71D89D-565F-44CA-AC69-E029A1FA5FAD-52058-0002A9E30910E018</string>
+									<string>5ED6238F-43FE-4E4F-8367-B92787AED0EF-3326-00001152316E2F31</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -24063,7 +24092,7 @@ function submitData(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>BC71D89D-565F-44CA-AC69-E029A1FA5FAD-52058-0002A9E30910E018</string>
+									<string>5ED6238F-43FE-4E4F-8367-B92787AED0EF-3326-00001152316E2F31</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -24074,7 +24103,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>-1.5px</string>
+									<string>-2.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -24152,7 +24181,7 @@ function submitData(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>BC71D89D-565F-44CA-AC69-E029A1FA5FAD-52058-0002A9E30910E018</string>
+									<string>5ED6238F-43FE-4E4F-8367-B92787AED0EF-3326-00001152316E2F31</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>331</string>
@@ -24163,7 +24192,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>0.5px</string>
+									<string>0px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -24250,7 +24279,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>46px</string>
+									<string>41px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -24261,7 +24290,7 @@ function submitData(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>17404281-96CD-49C0-A611-49AE71D10FA2-52058-0002AA086EA192E9</string>
 								<key>zIndex</key>
-								<integer>1</integer>
+								<integer>2</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -24279,7 +24308,7 @@ function submitData(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>94px</string>
+									<string>95px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -24290,156 +24319,7 @@ function submitData(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>23CDFA70-460F-429D-8F17-61055EEBFD27-52058-0002AA086EA2268A</string>
 								<key>zIndex</key>
-								<integer>1</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.0</real>
-								<key>identifier</key>
-								<string>Top</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>405</string>
-								<key>startTime</key>
-								<real>0.0</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Top</string>
-									<key>objectValue</key>
-									<string>-300px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>7FF35D5D-310D-48BF-8464-BEAAD05DD452-52058-0002AA1CFB04B07C</string>
-								<key>zIndex</key>
-								<integer>1</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.0</real>
-								<key>identifier</key>
-								<string>Left</string>
-								<key>isRelative</key>
-								<false/>
-								<key>motionPath</key>
-								<dict>
-									<key>bezierPath</key>
-									<dict>
-										<key>allowEndPointModification</key>
-										<true/>
-										<key>bezierCurves</key>
-										<array>
-											<dict>
-												<key>endControlPoint</key>
-												<string>{295, 143}</string>
-												<key>endPoint</key>
-												<string>{295, 143}</string>
-												<key>startControlPoint</key>
-												<string>{295, -157}</string>
-												<key>startPoint</key>
-												<string>{295, -157}</string>
-											</dict>
-										</array>
-										<key>interpolationPointCount</key>
-										<real>100</real>
-										<key>showAllControlPoints</key>
-										<false/>
-										<key>useIntegerValues</key>
-										<true/>
-										<key>useSmallStyle</key>
-										<false/>
-									</dict>
-									<key>oid</key>
-									<string>728EE5BC-52EB-46F3-A32F-EB6211213B6D-52058-0002AA207A5848BB</string>
-								</dict>
-								<key>referenceOid</key>
-								<string>395</string>
-								<key>startTime</key>
-								<real>0.0</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>107.5px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>5491C4EE-7D5F-4588-837E-4F2220683C1E-52058-0002AA207A5AFE66</string>
-								<key>zIndex</key>
-								<integer>1</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.0</real>
-								<key>identifier</key>
-								<string>Top</string>
-								<key>isRelative</key>
-								<false/>
-								<key>motionPath</key>
-								<dict>
-									<key>bezierPath</key>
-									<dict>
-										<key>allowEndPointModification</key>
-										<true/>
-										<key>bezierCurves</key>
-										<array>
-											<dict>
-												<key>endControlPoint</key>
-												<string>{295, 143}</string>
-												<key>endPoint</key>
-												<string>{295, 143}</string>
-												<key>startControlPoint</key>
-												<string>{295, -157}</string>
-												<key>startPoint</key>
-												<string>{295, -157}</string>
-											</dict>
-										</array>
-										<key>interpolationPointCount</key>
-										<real>100</real>
-										<key>showAllControlPoints</key>
-										<false/>
-										<key>useIntegerValues</key>
-										<true/>
-										<key>useSmallStyle</key>
-										<false/>
-									</dict>
-									<key>oid</key>
-									<string>728EE5BC-52EB-46F3-A32F-EB6211213B6D-52058-0002AA207A5848BB</string>
-								</dict>
-								<key>referenceOid</key>
-								<string>395</string>
-								<key>startTime</key>
-								<real>0.0</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Top</string>
-									<key>objectValue</key>
-									<string>-459.5px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>2B526586-A72D-4B69-8FE6-9C978796972B-52058-0002AA207A5C3C28</string>
-								<key>zIndex</key>
-								<integer>1</integer>
+								<integer>2</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -24458,13 +24338,13 @@ function submitData(hypeDocument, element, event) {
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{295, 143}</string>
+												<string>{300, 443}</string>
 												<key>endPoint</key>
-												<string>{295, 143}</string>
+												<string>{300, 443}</string>
 												<key>startControlPoint</key>
-												<string>{295, -157}</string>
+												<string>{300, 143}</string>
 												<key>startPoint</key>
-												<string>{295, -157}</string>
+												<string>{300, 143}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -24477,7 +24357,7 @@ function submitData(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>728EE5BC-52EB-46F3-A32F-EB6211213B6D-52058-0002AA207A5848BB</string>
+									<string>CCAA75E8-53FB-4D70-B48B-0C2A3EA357C1-3326-000011523171AE66</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>395</string>
@@ -24499,7 +24379,156 @@ function submitData(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>3DCEAD78-6340-480B-B890-F955A79DAA21-52058-0002AA207A595E99</string>
 								<key>zIndex</key>
-								<integer>1</integer>
+								<integer>2</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>0.0</real>
+								<key>identifier</key>
+								<string>Top</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>405</string>
+								<key>startTime</key>
+								<real>0.0</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Top</string>
+									<key>objectValue</key>
+									<string>-298px</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>7FF35D5D-310D-48BF-8464-BEAAD05DD452-52058-0002AA1CFB04B07C</string>
+								<key>zIndex</key>
+								<integer>3</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>0.0</real>
+								<key>identifier</key>
+								<string>Left</string>
+								<key>isRelative</key>
+								<false/>
+								<key>motionPath</key>
+								<dict>
+									<key>bezierPath</key>
+									<dict>
+										<key>allowEndPointModification</key>
+										<true/>
+										<key>bezierCurves</key>
+										<array>
+											<dict>
+												<key>endControlPoint</key>
+												<string>{300, 443}</string>
+												<key>endPoint</key>
+												<string>{300, 443}</string>
+												<key>startControlPoint</key>
+												<string>{300, 143}</string>
+												<key>startPoint</key>
+												<string>{300, 143}</string>
+											</dict>
+										</array>
+										<key>interpolationPointCount</key>
+										<real>100</real>
+										<key>showAllControlPoints</key>
+										<false/>
+										<key>useIntegerValues</key>
+										<true/>
+										<key>useSmallStyle</key>
+										<false/>
+									</dict>
+									<key>oid</key>
+									<string>CCAA75E8-53FB-4D70-B48B-0C2A3EA357C1-3326-000011523171AE66</string>
+								</dict>
+								<key>referenceOid</key>
+								<string>395</string>
+								<key>startTime</key>
+								<real>0.0</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Left</string>
+									<key>objectValue</key>
+									<string>112.5px</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>5491C4EE-7D5F-4588-837E-4F2220683C1E-52058-0002AA207A5AFE66</string>
+								<key>zIndex</key>
+								<integer>3</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>0.0</real>
+								<key>identifier</key>
+								<string>Top</string>
+								<key>isRelative</key>
+								<false/>
+								<key>motionPath</key>
+								<dict>
+									<key>bezierPath</key>
+									<dict>
+										<key>allowEndPointModification</key>
+										<true/>
+										<key>bezierCurves</key>
+										<array>
+											<dict>
+												<key>endControlPoint</key>
+												<string>{300, 443}</string>
+												<key>endPoint</key>
+												<string>{300, 443}</string>
+												<key>startControlPoint</key>
+												<string>{300, 143}</string>
+												<key>startPoint</key>
+												<string>{300, 143}</string>
+											</dict>
+										</array>
+										<key>interpolationPointCount</key>
+										<real>100</real>
+										<key>showAllControlPoints</key>
+										<false/>
+										<key>useIntegerValues</key>
+										<true/>
+										<key>useSmallStyle</key>
+										<false/>
+									</dict>
+									<key>oid</key>
+									<string>CCAA75E8-53FB-4D70-B48B-0C2A3EA357C1-3326-000011523171AE66</string>
+								</dict>
+								<key>referenceOid</key>
+								<string>395</string>
+								<key>startTime</key>
+								<real>0.0</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Top</string>
+									<key>objectValue</key>
+									<string>-159.5px</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>2B526586-A72D-4B69-8FE6-9C978796972B-52058-0002AA207A5C3C28</string>
+								<key>zIndex</key>
+								<integer>4</integer>
 							</dict>
 						</array>
 						<key>firstKeyframeIsRelative</key>
@@ -24520,7 +24549,7 @@ function submitData(hypeDocument, element, event) {
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>5C52B1EC-2E41-4A2D-A154-65A303457318-52058-00026832BF4CB5C6</string>
+			<string>789D2A8E-5E00-453F-B28B-5E7781F19602-3326-000011526EA96D78</string>
 			<key>selectedObjects</key>
 			<array/>
 			<key>symbol</key>
