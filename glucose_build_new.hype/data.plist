@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>allowUserScaling</key>
-	<integer>1</integer>
+	<integer>0</integer>
 	<key>animationTimelineInspectorHeight</key>
 	<real>0.0</real>
 	<key>createOfflineApplicationCache</key>
@@ -80,19 +80,43 @@
 		color:#C7D8E0;
 	}
 	&lt;/style&gt;
+	
+	
+	 &lt;link type="text/css" href="http://code.jquery.com/ui/1.9.1/themes/smoothness/jquery-ui.css" rel="stylesheet" /&gt;
+
+    &lt;link href="jQuery-Timepicker-Addon/jquery-ui-timepicker-addon.css" type="text/css" /&gt;
+    &lt;link href="jQuery-Timepicker-Addon/demos.css" rel="stylesheet" type="text/css" /&gt;
+
+    &lt;script src="http://code.jquery.com/jquery-1.8.2.min.js" type="text/javascript"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="http://code.jquery.com/ui/1.9.1/jquery-ui.min.js"&gt;&lt;/script&gt;
+    &lt;script src="jQuery-Timepicker-Addon/jquery-ui-timepicker-addon.js" type="text/javascript"&gt;&lt;/script&gt;
+
+    &lt;!--中文--&gt;
+    &lt;script src="js/jquery.ui.datepicker-zh-CN.js.js" type="text/javascript" charset="gb2312"&gt;&lt;/script&gt;
+    &lt;script src="js/jquery-ui-timepicker-zh-CN.js" type="text/javascript"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript"&gt;
+        jQuery(function () {
+            // 时间设置
+            jQuery('#time').datetimepicker({
+                timeFormat: "HH:mm:ss",
+                dateFormat: "yy-mm-dd"
+            });
+
+        });
+    &lt;/script&gt;
 	</string>
 	<key>lastCheckDate</key>
-	<date>2016-12-23T03:18:21Z</date>
+	<date>2016-12-23T06:49:17Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
-		<integer>3</integer>
+		<integer>5</integer>
 		<key>customizableLayout</key>
 		<dict>
 			<key>frame</key>
-			<string>{{0, 0}, {1920, 958}}</string>
+			<string>{{0, 0}, {1478, 804}}</string>
 			<key>identifier</key>
-			<string>container 68</string>
+			<string>container 112</string>
 			<key>isCustomizableViewContainer</key>
 			<true/>
 			<key>isCustomizableViewWrapper</key>
@@ -103,9 +127,9 @@
 			<array>
 				<dict>
 					<key>frame</key>
-					<string>{{0, 0}, {1649, 958}}</string>
+					<string>{{0, 0}, {1207, 804}}</string>
 					<key>identifier</key>
-					<string>container 132</string>
+					<string>container 53</string>
 					<key>isCustomizableViewContainer</key>
 					<true/>
 					<key>isCustomizableViewWrapper</key>
@@ -116,9 +140,9 @@
 					<array>
 						<dict>
 							<key>frame</key>
-							<string>{{0, 0}, {1378, 958}}</string>
+							<string>{{0, 0}, {936, 804}}</string>
 							<key>identifier</key>
-							<string>container 121</string>
+							<string>container 42</string>
 							<key>isCustomizableViewContainer</key>
 							<true/>
 							<key>isCustomizableViewWrapper</key>
@@ -129,9 +153,9 @@
 							<array>
 								<dict>
 									<key>frame</key>
-									<string>{{0, 0}, {135, 958}}</string>
+									<string>{{0, 0}, {135, 804}}</string>
 									<key>identifier</key>
-									<string>container 111</string>
+									<string>container 32</string>
 									<key>isCustomizableViewContainer</key>
 									<true/>
 									<key>isCustomizableViewWrapper</key>
@@ -142,7 +166,7 @@
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{0, 0}, {135, 958}}</string>
+											<string>{{0, 0}, {135, 804}}</string>
 											<key>identifier</key>
 											<string>sceneSelectorCustomizableContainer</string>
 											<key>isCustomizableViewContainer</key>
@@ -152,9 +176,9 @@
 								</dict>
 								<dict>
 									<key>frame</key>
-									<string>{{136, 0}, {1242, 958}}</string>
+									<string>{{136, 0}, {800, 804}}</string>
 									<key>identifier</key>
-									<string>container 112</string>
+									<string>container 33</string>
 									<key>isCustomizableViewContainer</key>
 									<true/>
 									<key>isCustomizableViewWrapper</key>
@@ -165,7 +189,7 @@
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{136, 0}, {1242, 314}}</string>
+											<string>{{136, 0}, {800, 238}}</string>
 											<key>identifier</key>
 											<string>container 230</string>
 											<key>isCustomizableViewContainer</key>
@@ -178,7 +202,7 @@
 											<array>
 												<dict>
 													<key>frame</key>
-													<string>{{136, 0}, {1242, 314}}</string>
+													<string>{{136, 0}, {800, 238}}</string>
 													<key>identifier</key>
 													<string>timelineCustomizableContainer</string>
 													<key>isCustomizableViewContainer</key>
@@ -188,7 +212,7 @@
 										</dict>
 										<dict>
 											<key>frame</key>
-											<string>{{136, 315}, {1242, 643}}</string>
+											<string>{{136, 239}, {800, 565}}</string>
 											<key>identifier</key>
 											<string>container 229</string>
 											<key>isCustomizableViewContainer</key>
@@ -201,7 +225,7 @@
 											<array>
 												<dict>
 													<key>frame</key>
-													<string>{{136, 315}, {1242, 643}}</string>
+													<string>{{136, 239}, {800, 565}}</string>
 													<key>identifier</key>
 													<string>sceneEditorCustomizableContainer</string>
 													<key>isCustomizableViewContainer</key>
@@ -215,9 +239,9 @@
 						</dict>
 						<dict>
 							<key>frame</key>
-							<string>{{1379, 0}, {270, 958}}</string>
+							<string>{{937, 0}, {270, 804}}</string>
 							<key>identifier</key>
-							<string>container 120</string>
+							<string>container 41</string>
 							<key>isCustomizableViewContainer</key>
 							<true/>
 							<key>isCustomizableViewWrapper</key>
@@ -228,7 +252,7 @@
 							<array>
 								<dict>
 									<key>frame</key>
-									<string>{{1379, 0}, {270, 958}}</string>
+									<string>{{937, 0}, {270, 804}}</string>
 									<key>identifier</key>
 									<string>inspectorCustomizableContainer</string>
 									<key>isCustomizableViewContainer</key>
@@ -240,9 +264,9 @@
 				</dict>
 				<dict>
 					<key>frame</key>
-					<string>{{1650, 0}, {270, 958}}</string>
+					<string>{{1208, 0}, {270, 804}}</string>
 					<key>identifier</key>
-					<string>container 131</string>
+					<string>container 52</string>
 					<key>isCustomizableViewContainer</key>
 					<true/>
 					<key>isCustomizableViewWrapper</key>
@@ -253,7 +277,7 @@
 					<array>
 						<dict>
 							<key>frame</key>
-							<string>{{1650, 0}, {270, 958}}</string>
+							<string>{{1208, 0}, {270, 804}}</string>
 							<key>identifier</key>
 							<string>resourcesCustomizableContainer</string>
 							<key>isCustomizableViewContainer</key>
@@ -264,14 +288,20 @@
 			</array>
 		</dict>
 		<key>keyframeTimelineHeight</key>
-		<real>51</real>
+		<real>50</real>
 		<key>mainWindowFrame</key>
-		<string>910 855 1920 1002 910 800 1920 1057 </string>
+		<string>1008 1009 1478 848 910 800 1920 1057 </string>
 		<key>openTabs</key>
 		<array>
 			<dict>
 				<key>className</key>
 				<string>HeadHTMLEditor</string>
+			</dict>
+			<dict>
+				<key>className</key>
+				<string>HypeJavascript</string>
+				<key>oid</key>
+				<string>243</string>
 			</dict>
 		</array>
 		<key>selectedTabIndex</key>
@@ -315,7 +345,7 @@
 	<key>monotypeProjectID</key>
 	<string>F2F7B755-4E84-4A19-A9C5-2B6EFA73AE95-1469-000007394AA0BB12</string>
 	<key>oidCounter</key>
-	<integer>240</integer>
+	<integer>243</integer>
 	<key>resourcesInfo</key>
 	<dict>
 		<key>groups</key>
@@ -973,60 +1003,6 @@
 			</dict>
 			<dict>
 				<key>fileModificationDate</key>
-				<date>2016-12-09T09:07:40Z</date>
-				<key>fileSize</key>
-				<integer>1003</integer>
-				<key>md5</key>
-				<string>16AE1A6FCE6D840A64D72CCB42429B27</string>
-				<key>notifyOnBookmarkChange</key>
-				<true/>
-				<key>originalPath</key>
-				<string>/Users/shengqiang/Documents/Codes/hype_blood_glucose/glucose_build.hype/Resources/main.js</string>
-				<key>resourceName</key>
-				<string>main.js</string>
-				<key>securityScopedBookmark</key>
-				<data>
-				Ym9va3gDAAAAAAQQMAAAANB2ba1GryE2oywAoRl5rE1Y
-				phRZ3tjaenF5jLPSwAFEdAIAAAQAAAADAwAAAAkAKAUA
-				AAABAQAAVXNlcnMAAAAKAAAAAQEAAHNoZW5ncWlhbmcA
-				AAkAAAABAQAARG9jdW1lbnRzAAAABQAAAAEBAABDb2Rl
-				cwAAABIAAAABAQAAaHlwZV9ibG9vZF9nbHVjb3NlAAAS
-				AAAAAQEAAGdsdWNvc2VfYnVpbGQuaHlwZQAACQAAAAEB
-				AABSZXNvdXJjZXMAAAAHAAAAAQEAAG1haW4uanMAIAAA
-				AAEGAAAQAAAAIAAAADQAAABIAAAAWAAAAHQAAACQAAAA
-				pAAAAAgAAAAEAwAAhnoXAAAAAAAIAAAABAMAAJZ6FwAA
-				AAAACAAAAAQDAADHqBkAAAAAAAgAAAAEAwAAGK0ZAAAA
-				AAAIAAAABAMAAHA2bQEAAAAACAAAAAQDAABPW3wBAAAA
-				AAgAAAAEAwAAU1t8AQAAAAAIAAAABAMAAGRbfAEAAAAA
-				IAAAAAEGAADcAAAA7AAAAPwAAAAMAQAAHAEAACwBAAA8
-				AQAATAEAAAgAAAAABAAAQb36q9wAAAAYAAAAAQIAAAEA
-				AAAAAAAADwAAAAAAAAAAAAAAAAAAAAgAAAAEAwAABgAA
-				AAAAAAAEAAAAAwMAAPUBAAAIAAAAAQkAAGZpbGU6Ly8v
-				DAAAAAEBAABNYWNpbnRvc2ggSEQIAAAABAMAAAAAADJ0
-				AAAACAAAAAAEAABBut2ozAAAACQAAAABAQAAOTdGNTMw
-				QTctOEM2Qy0zMDRDLUFGNUItOEEzRDcyOUFERjg1GAAA
-				AAECAACBAAAAAQAAAO8TAAABAAAAAAAAAAAAAAABAAAA
-				AQEAAC8AAAAAAAAAAQUAAMwAAAD+////AQAAAAAAAAAQ
-				AAAABBAAALQAAAAAAAAABRAAAFwBAAAAAAAAEBAAAJQB
-				AAAAAAAAQBAAAIQBAAAAAAAAAiAAAGACAAAAAAAABSAA
-				ANABAAAAAAAAECAAAOABAAAAAAAAESAAABQCAAAAAAAA
-				EiAAAPQBAAAAAAAAEyAAAAQCAAAAAAAAICAAAEACAAAA
-				AAAAMCAAAGwCAAAAAAAAAcAAALQBAAAAAAAAEcAAACAA
-				AAAAAAAAEsAAAMQBAAAAAAAAENAAAAQAAAAAAAAA
-				</data>
-				<key>shouldAutoResize</key>
-				<true/>
-				<key>shouldIncludeInDocumentHeadHTML</key>
-				<true/>
-				<key>shouldPreload</key>
-				<true/>
-				<key>shouldRemoveWhenNoLongerReferenced</key>
-				<false/>
-				<key>type</key>
-				<string>FileResource</string>
-			</dict>
-			<dict>
-				<key>fileModificationDate</key>
 				<date>2016-12-12T07:12:26Z</date>
 				<key>fileSize</key>
 				<integer>1069</integer>
@@ -1123,61 +1099,6 @@
 				AAAAICAAAEwCAAAAAAAAMCAAAHgCAAAAAAAAAcAAAMAB
 				AAAAAAAAEcAAACAAAAAAAAAAEsAAANABAAAAAAAAENAA
 				AAQAAAAAAAAA
-				</data>
-				<key>shouldAutoResize</key>
-				<true/>
-				<key>shouldIncludeInDocumentHeadHTML</key>
-				<true/>
-				<key>shouldPreload</key>
-				<true/>
-				<key>shouldRemoveWhenNoLongerReferenced</key>
-				<false/>
-				<key>type</key>
-				<string>FileResource</string>
-			</dict>
-			<dict>
-				<key>fileModificationDate</key>
-				<date>2016-12-15T04:30:45Z</date>
-				<key>fileSize</key>
-				<integer>3112</integer>
-				<key>md5</key>
-				<string>A449066E3C24C16BCC835EA0952BEA85</string>
-				<key>notifyOnBookmarkChange</key>
-				<true/>
-				<key>originalPath</key>
-				<string>/Users/shengqiang/Documents/Codes/hype_blood_glucose/glucose_build.hype/Resources/tableviewcellAction.js</string>
-				<key>resourceName</key>
-				<string>tableviewcellAction.js</string>
-				<key>securityScopedBookmark</key>
-				<data>
-				Ym9va4gDAAAAAAQQMAAAACsJgHB5SH42kxjitKdwVGqT
-				8XyVti1MWkbuk2arLY2qhAIAAAQAAAADAwAAAAkAKAUA
-				AAABAQAAVXNlcnMAAAAKAAAAAQEAAHNoZW5ncWlhbmcA
-				AAkAAAABAQAARG9jdW1lbnRzAAAABQAAAAEBAABDb2Rl
-				cwAAABIAAAABAQAAaHlwZV9ibG9vZF9nbHVjb3NlAAAS
-				AAAAAQEAAGdsdWNvc2VfYnVpbGQuaHlwZQAACQAAAAEB
-				AABSZXNvdXJjZXMAAAAWAAAAAQEAAHRhYmxldmlld2Nl
-				bGxBY3Rpb24uanMAACAAAAABBgAAEAAAACAAAAA0AAAA
-				SAAAAFgAAAB0AAAAkAAAAKQAAAAIAAAABAMAAIZ6FwAA
-				AAAACAAAAAQDAACWehcAAAAAAAgAAAAEAwAAx6gZAAAA
-				AAAIAAAABAMAABitGQAAAAAACAAAAAQDAABwNm0BAAAA
-				AAgAAAAEAwAAT1t8AQAAAAAIAAAABAMAAFNbfAEAAAAA
-				CAAAAAQDAABsW3wBAAAAACAAAAABBgAA7AAAAPwAAAAM
-				AQAAHAEAACwBAAA8AQAATAEAAFwBAAAIAAAAAAQAAEG+
-				AlP1AAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAA
-				AAAAAAAIAAAABAMAAAYAAAAAAAAABAAAAAMDAAD1AQAA
-				CAAAAAEJAABmaWxlOi8vLwwAAAABAQAATWFjaW50b3No
-				IEhECAAAAAQDAAAAAAAydAAAAAgAAAAABAAAQbrdqMwA
-				AAAkAAAAAQEAADk3RjUzMEE3LThDNkMtMzA0Qy1BRjVC
-				LThBM0Q3MjlBREY4NRgAAAABAgAAgQAAAAEAAADvEwAA
-				AQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAAAAAAAAEFAADM
-				AAAA/v///wEAAAAAAAAAEAAAAAQQAADEAAAAAAAAAAUQ
-				AABsAQAAAAAAABAQAACkAQAAAAAAAEAQAACUAQAAAAAA
-				AAIgAABwAgAAAAAAAAUgAADgAQAAAAAAABAgAADwAQAA
-				AAAAABEgAAAkAgAAAAAAABIgAAAEAgAAAAAAABMgAAAU
-				AgAAAAAAACAgAABQAgAAAAAAADAgAAB8AgAAAAAAAAHA
-				AADEAQAAAAAAABHAAAAgAAAAAAAAABLAAADUAQAAAAAA
-				ABDQAAAEAAAAAAAAAA==
 				</data>
 				<key>shouldAutoResize</key>
 				<true/>
@@ -2592,6 +2513,112 @@
 				<key>type</key>
 				<string>FileResource</string>
 			</dict>
+			<dict>
+				<key>fileModificationDate</key>
+				<date>2016-12-23T06:48:32Z</date>
+				<key>fileSize</key>
+				<integer>3057</integer>
+				<key>md5</key>
+				<string>7C1F4E229DF4E3C3F9D1CCC5051838BA</string>
+				<key>notifyOnBookmarkChange</key>
+				<true/>
+				<key>originalPath</key>
+				<string>/Users/shengqiang/Documents/Codes/hype_blood_glucose/javascript/tableviewcellAction.js</string>
+				<key>resourceName</key>
+				<string>tableviewcellAction.js</string>
+				<key>securityScopedBookmark</key>
+				<data>
+				Ym9va1QDAAAAAAQQMAAAAOaoPaWGHKWaQ3TyimK9nhwo
+				MIYmenPIMQy/ls6hWKhFUAIAAAQAAAADAwAAAAkAKAUA
+				AAABAQAAVXNlcnMAAAAKAAAAAQEAAHNoZW5ncWlhbmcA
+				AAkAAAABAQAARG9jdW1lbnRzAAAABQAAAAEBAABDb2Rl
+				cwAAABIAAAABAQAAaHlwZV9ibG9vZF9nbHVjb3NlAAAK
+				AAAAAQEAAGphdmFzY3JpcHQAABYAAAABAQAAdGFibGV2
+				aWV3Y2VsbEFjdGlvbi5qcwAAHAAAAAEGAAAQAAAAIAAA
+				ADQAAABIAAAAWAAAAHQAAACIAAAACAAAAAQDAACGehcA
+				AAAAAAgAAAAEAwAAlnoXAAAAAAAIAAAABAMAAMeoGQAA
+				AAAACAAAAAQDAAAYrRkAAAAAAAgAAAAEAwAAcDZtAQAA
+				AAAIAAAABAMAACw4bQEAAAAACAAAAAQDAACgOnABAAAA
+				ABwAAAABBgAAzAAAANwAAADsAAAA/AAAAAwBAAAcAQAA
+				LAEAAAgAAAAABAAAQb3/7d4AAAAYAAAAAQIAAAEAAAAA
+				AAAADwAAAAAAAAAAAAAAAAAAAAgAAAAEAwAABQAAAAAA
+				AAAEAAAAAwMAAPUBAAAIAAAAAQkAAGZpbGU6Ly8vDAAA
+				AAEBAABNYWNpbnRvc2ggSEQIAAAABAMAAAAAADJ0AAAA
+				CAAAAAAEAABBut2ozAAAACQAAAABAQAAOTdGNTMwQTct
+				OEM2Qy0zMDRDLUFGNUItOEEzRDcyOUFERjg1GAAAAAEC
+				AACBAAAAAQAAAO8TAAABAAAAAAAAAAAAAAABAAAAAQEA
+				AC8AAAAAAAAAAQUAAMwAAAD+////AQAAAAAAAAAQAAAA
+				BBAAAKgAAAAAAAAABRAAADwBAAAAAAAAEBAAAHABAAAA
+				AAAAQBAAAGABAAAAAAAAAiAAADwCAAAAAAAABSAAAKwB
+				AAAAAAAAECAAALwBAAAAAAAAESAAAPABAAAAAAAAEiAA
+				ANABAAAAAAAAEyAAAOABAAAAAAAAICAAABwCAAAAAAAA
+				MCAAAEgCAAAAAAAAAcAAAJABAAAAAAAAEcAAACAAAAAA
+				AAAAEsAAAKABAAAAAAAAENAAAAQAAAAAAAAA
+				</data>
+				<key>shouldAutoResize</key>
+				<true/>
+				<key>shouldIncludeInDocumentHeadHTML</key>
+				<true/>
+				<key>shouldPreload</key>
+				<true/>
+				<key>shouldRemoveWhenNoLongerReferenced</key>
+				<false/>
+				<key>type</key>
+				<string>FileResource</string>
+			</dict>
+			<dict>
+				<key>fileModificationDate</key>
+				<date>2016-12-23T06:49:16Z</date>
+				<key>fileSize</key>
+				<integer>1321</integer>
+				<key>md5</key>
+				<string>2ADA706DBEF3240C8A987425FE8DA22D</string>
+				<key>notifyOnBookmarkChange</key>
+				<true/>
+				<key>originalPath</key>
+				<string>/Users/shengqiang/Documents/Codes/hype_blood_glucose/javascript/main.js</string>
+				<key>resourceName</key>
+				<string>main.js</string>
+				<key>securityScopedBookmark</key>
+				<data>
+				Ym9va0QDAAAAAAQQMAAAAAjuPgkijhBb4BmCTaxRjShp
+				TJCFG91tO4IVbyq9VR/6QAIAAAQAAAADAwAAAAkAKAUA
+				AAABAQAAVXNlcnMAAAAKAAAAAQEAAHNoZW5ncWlhbmcA
+				AAkAAAABAQAARG9jdW1lbnRzAAAABQAAAAEBAABDb2Rl
+				cwAAABIAAAABAQAAaHlwZV9ibG9vZF9nbHVjb3NlAAAK
+				AAAAAQEAAGphdmFzY3JpcHQAAAcAAAABAQAAbWFpbi5q
+				cwAcAAAAAQYAABAAAAAgAAAANAAAAEgAAABYAAAAdAAA
+				AIgAAAAIAAAABAMAAIZ6FwAAAAAACAAAAAQDAACWehcA
+				AAAAAAgAAAAEAwAAx6gZAAAAAAAIAAAABAMAABitGQAA
+				AAAACAAAAAQDAABwNm0BAAAAAAgAAAAEAwAALDhtAQAA
+				AAAIAAAABAMAAFLgfAEAAAAAHAAAAAEGAAC8AAAAzAAA
+				ANwAAADsAAAA/AAAAAwBAAAcAQAACAAAAAAEAABBvgv4
+				RwAAABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAA
+				AAAACAAAAAQDAAAFAAAAAAAAAAQAAAADAwAA9QEAAAgA
+				AAABCQAAZmlsZTovLy8MAAAAAQEAAE1hY2ludG9zaCBI
+				RAgAAAAEAwAAAAAAMnQAAAAIAAAAAAQAAEG63ajMAAAA
+				JAAAAAEBAAA5N0Y1MzBBNy04QzZDLTMwNEMtQUY1Qi04
+				QTNENzI5QURGODUYAAAAAQIAAIEAAAABAAAA7xMAAAEA
+				AAAAAAAAAAAAAAEAAAABAQAALwAAAAAAAAABBQAAzAAA
+				AP7///8BAAAAAAAAABAAAAAEEAAAmAAAAAAAAAAFEAAA
+				LAEAAAAAAAAQEAAAYAEAAAAAAABAEAAAUAEAAAAAAAAC
+				IAAALAIAAAAAAAAFIAAAnAEAAAAAAAAQIAAArAEAAAAA
+				AAARIAAA4AEAAAAAAAASIAAAwAEAAAAAAAATIAAA0AEA
+				AAAAAAAgIAAADAIAAAAAAAAwIAAAOAIAAAAAAAABwAAA
+				gAEAAAAAAAARwAAAIAAAAAAAAAASwAAAkAEAAAAAAAAQ
+				0AAABAAAAAAAAAA=
+				</data>
+				<key>shouldAutoResize</key>
+				<true/>
+				<key>shouldIncludeInDocumentHeadHTML</key>
+				<true/>
+				<key>shouldPreload</key>
+				<true/>
+				<key>shouldRemoveWhenNoLongerReferenced</key>
+				<false/>
+				<key>type</key>
+				<string>FileResource</string>
+			</dict>
 		</array>
 	</dict>
 	<key>sceneContainers</key>
@@ -2611,7 +2638,6 @@
 						<key>expandedItems</key>
 						<array>
 							<string>183</string>
-							<string>150</string>
 						</array>
 						<key>timeCursors</key>
 						<dict>
@@ -2644,7 +2670,7 @@
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{3762, 3041}</string>
+					<string>{800, 948}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -2669,7 +2695,7 @@
 					<key>rootSymbolControllerOid</key>
 					<string>141</string>
 					<key>scrollViewOffset</key>
-					<string>{1580, 263}</string>
+					<string>{0, 0}</string>
 					<key>userGuides</key>
 					<array>
 						<dict>
@@ -2876,6 +2902,18 @@ function playVideo(hypeDocument, element, event) {
 }
 </string>
 		</dict>
+		<dict>
+			<key>oid</key>
+			<string>243</string>
+			<key>source</key>
+			<string>// element - DOMHTMLElement that triggered this function being called
+// event - event that triggered this function being called
+function closeGlucosePanel(hypeDocument, element, event) {
+	
+	cancelDocEventListener();
+}
+</string>
+		</dict>
 	</array>
 	<key>shouldApplySizeChangesToAllScenes</key>
 	<true/>
@@ -2893,7 +2931,7 @@ function playVideo(hypeDocument, element, event) {
 	<array>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>EF196420-F729-49BE-97B5-D58B7D34D0CF-3326-00001304F53E9D96</string>
+			<string>E69BED00-384B-4512-B555-2C2A07DC0D9D-6498-00001F43F95A42F2</string>
 			<key>selectedObjects</key>
 			<array/>
 			<key>symbol</key>
@@ -3127,17 +3165,15 @@ function playVideo(hypeDocument, element, event) {
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>EF196420-F729-49BE-97B5-D58B7D34D0CF-3326-00001304F53E9D96</string>
+			<string>E69BED00-384B-4512-B555-2C2A07DC0D9D-6498-00001F43F95A42F2</string>
 			<key>selectedObjects</key>
-			<array>
-				<string>183</string>
-			</array>
+			<array/>
 			<key>symbol</key>
 			<dict>
 				<key>addToNewSceneControllers</key>
 				<false/>
 				<key>currentTimelineIdentifier</key>
-				<string>216</string>
+				<string>kTimelineDefaultIdentifier</string>
 				<key>customBehaviors</key>
 				<array/>
 				<key>elements</key>
@@ -4244,9 +4280,9 @@ function playVideo(hypeDocument, element, event) {
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>DisplayName</string>
+							<string>Locked</string>
 							<key>objectValue</key>
-							<string>罗盘界面</string>
+							<string>0</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4392,9 +4428,9 @@ function playVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Locked</string>
+							<string>DisplayName</string>
 							<key>objectValue</key>
-							<string>0</string>
+							<string>罗盘界面</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7171,15 +7207,15 @@ function playVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ExplicitDimensions</string>
-							<key>objectValue</key>
-							<string>YES</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>RotationAngleZ</string>
 							<key>objectValue</key>
 							<string>0deg</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ExplicitDimensions</string>
+							<key>objectValue</key>
+							<string>YES</string>
 						</dict>
 					</array>
 					<key>172</key>
@@ -10129,6 +10165,12 @@ function playVideo(hypeDocument, element, event) {
 										<key>type</key>
 										<integer>3</integer>
 									</dict>
+									<dict>
+										<key>javascriptOid</key>
+										<string>243</string>
+										<key>type</key>
+										<integer>4</integer>
+									</dict>
 								</array>
 							</dict>
 						</dict>
@@ -10759,15 +10801,15 @@ function playVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>12</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>PaddingLeft</string>
 							<key>objectValue</key>
 							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>12</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -11471,9 +11513,9 @@ function playVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ExplicitDimensions</string>
+							<string>DomID</string>
 							<key>objectValue</key>
-							<string>YES</string>
+							<string>compass_panel</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -11541,9 +11583,9 @@ function playVideo(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>DomID</string>
+							<string>ExplicitDimensions</string>
 							<key>objectValue</key>
-							<string>compass_panel</string>
+							<string>YES</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -12405,6 +12447,159 @@ function playVideo(hypeDocument, element, event) {
 							<string>OriginalWidth</string>
 							<key>objectValue</key>
 							<string>76px</string>
+						</dict>
+					</array>
+					<key>242</key>
+					<array>
+						<dict>
+							<key>identifier</key>
+							<string>BorderWidthBottom</string>
+							<key>objectValue</key>
+							<string>1px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>TagName</string>
+							<key>objectValue</key>
+							<string>div</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorBottom</string>
+							<key>objectValue</key>
+							<string>#D8DDE4</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ExplicitDimensions</string>
+							<key>objectValue</key>
+							<string>YES</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderStyleRight</string>
+							<key>objectValue</key>
+							<string>Solid</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ClassType</string>
+							<key>objectValue</key>
+							<string>Rectangle</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderStyleBottom</string>
+							<key>objectValue</key>
+							<string>Solid</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Top</string>
+							<key>objectValue</key>
+							<string>54px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderWidthRight</string>
+							<key>objectValue</key>
+							<string>1px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderStyleLeft</string>
+							<key>objectValue</key>
+							<string>Solid</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorTop</string>
+							<key>objectValue</key>
+							<string>#D8DDE4</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorLeft</string>
+							<key>objectValue</key>
+							<string>#D8DDE4</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Position</string>
+							<key>objectValue</key>
+							<string>absolute</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Height</string>
+							<key>objectValue</key>
+							<string>100px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Left</string>
+							<key>objectValue</key>
+							<string>94px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorRight</string>
+							<key>objectValue</key>
+							<string>#D8DDE4</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>InnerHTML</string>
+							<key>objectValue</key>
+							<string>&lt;input id="time" type="text"&gt;</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderStyleTop</string>
+							<key>objectValue</key>
+							<string>Solid</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>25</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>210px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderWidthTop</string>
+							<key>objectValue</key>
+							<string>1px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Overflow</string>
+							<key>objectValue</key>
+							<string>visible</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>DisplayName</string>
+							<key>objectValue</key>
+							<string>矩形</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderWidthLeft</string>
+							<key>objectValue</key>
+							<string>1px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BackgroundColor</string>
+							<key>objectValue</key>
+							<string>#E8EBED</string>
 						</dict>
 					</array>
 				</dict>
@@ -13623,7 +13818,7 @@ function playVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>6AE76353-930E-4DD6-ADD3-EAACC48E3BA2-3326-00001304D32A13EE</string>
+									<string>01DAC868-4B73-4145-8321-63B4E367A352-6498-00001F43D2A1410A</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -13834,7 +14029,7 @@ function playVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>6AE76353-930E-4DD6-ADD3-EAACC48E3BA2-3326-00001304D32A13EE</string>
+									<string>01DAC868-4B73-4145-8321-63B4E367A352-6498-00001F43D2A1410A</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -13901,7 +14096,7 @@ function playVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>6AE76353-930E-4DD6-ADD3-EAACC48E3BA2-3326-00001304D32A13EE</string>
+									<string>01DAC868-4B73-4145-8321-63B4E367A352-6498-00001F43D2A1410A</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -14105,7 +14300,7 @@ function playVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>CD7F1186-5F71-4C01-BB28-DF19C97DD13D-3326-00001304D32E2167</string>
+									<string>DAD0033F-91D1-4341-B7EB-A86B2F1B0A79-6498-00001F43D2A51BDB</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -14339,7 +14534,7 @@ function playVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>CD7F1186-5F71-4C01-BB28-DF19C97DD13D-3326-00001304D32E2167</string>
+									<string>DAD0033F-91D1-4341-B7EB-A86B2F1B0A79-6498-00001F43D2A51BDB</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -14399,7 +14594,7 @@ function playVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>CD7F1186-5F71-4C01-BB28-DF19C97DD13D-3326-00001304D32E2167</string>
+									<string>DAD0033F-91D1-4341-B7EB-A86B2F1B0A79-6498-00001F43D2A51BDB</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -14785,7 +14980,7 @@ function playVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>BCA1B02D-930C-4058-A098-C94C0550C311-3326-00001304D3344A3A</string>
+									<string>46AD8847-4375-412F-B3F6-B0B62CBF5444-6498-00001F43D2A90A23</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -14845,7 +15040,7 @@ function playVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>BCA1B02D-930C-4058-A098-C94C0550C311-3326-00001304D3344A3A</string>
+									<string>46AD8847-4375-412F-B3F6-B0B62CBF5444-6498-00001F43D2A90A23</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -15021,7 +15216,7 @@ function playVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>BCA1B02D-930C-4058-A098-C94C0550C311-3326-00001304D3344A3A</string>
+									<string>46AD8847-4375-412F-B3F6-B0B62CBF5444-6498-00001F43D2A90A23</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -15206,7 +15401,7 @@ function playVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>9D33710C-41CE-4F99-B6A4-ADED351A7813-3326-00001304D338B001</string>
+									<string>C9B49311-F1CC-4C69-B730-414F1993722D-6498-00001F43D2AC9646</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -15417,7 +15612,7 @@ function playVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>9D33710C-41CE-4F99-B6A4-ADED351A7813-3326-00001304D338B001</string>
+									<string>C9B49311-F1CC-4C69-B730-414F1993722D-6498-00001F43D2AC9646</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -15484,7 +15679,7 @@ function playVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>9D33710C-41CE-4F99-B6A4-ADED351A7813-3326-00001304D338B001</string>
+									<string>C9B49311-F1CC-4C69-B730-414F1993722D-6498-00001F43D2AC9646</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -15746,7 +15941,7 @@ function playVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>F706E2E9-F1CF-4B84-87FD-08CBADD997D8-3326-00001304D33D16E6</string>
+									<string>65D9AD9F-7E76-4E9B-BFB6-4C2559615C01-6498-00001F43D2AFAC28</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -15922,7 +16117,7 @@ function playVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>F706E2E9-F1CF-4B84-87FD-08CBADD997D8-3326-00001304D33D16E6</string>
+									<string>65D9AD9F-7E76-4E9B-BFB6-4C2559615C01-6498-00001F43D2AFAC28</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -15982,7 +16177,7 @@ function playVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>F706E2E9-F1CF-4B84-87FD-08CBADD997D8-3326-00001304D33D16E6</string>
+									<string>65D9AD9F-7E76-4E9B-BFB6-4C2559615C01-6498-00001F43D2AFAC28</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -16233,7 +16428,7 @@ function playVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>5BA1DA65-B9B9-4076-B4A9-E13BB9066ADE-3326-00001304D34215EA</string>
+									<string>59554856-C21B-48C9-8D15-08E508FBA12C-6498-00001F43D2B35DE1</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -16293,7 +16488,7 @@ function playVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>5BA1DA65-B9B9-4076-B4A9-E13BB9066ADE-3326-00001304D34215EA</string>
+									<string>59554856-C21B-48C9-8D15-08E508FBA12C-6498-00001F43D2B35DE1</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -16353,7 +16548,7 @@ function playVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>5BA1DA65-B9B9-4076-B4A9-E13BB9066ADE-3326-00001304D34215EA</string>
+									<string>59554856-C21B-48C9-8D15-08E508FBA12C-6498-00001F43D2B35DE1</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -16456,7 +16651,7 @@ function playVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>008F3758-306B-40A0-BA3C-E16CE111E260-3326-00001304D343C175</string>
+									<string>17FFC202-F411-419E-9A08-A554FD0A9BE5-6498-00001F43D2B4A884</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -16595,7 +16790,7 @@ function playVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>008F3758-306B-40A0-BA3C-E16CE111E260-3326-00001304D343C175</string>
+									<string>17FFC202-F411-419E-9A08-A554FD0A9BE5-6498-00001F43D2B4A884</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -16662,7 +16857,7 @@ function playVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>008F3758-306B-40A0-BA3C-E16CE111E260-3326-00001304D343C175</string>
+									<string>17FFC202-F411-419E-9A08-A554FD0A9BE5-6498-00001F43D2B4A884</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -17119,7 +17314,7 @@ function playVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>AE928E28-8B1A-4157-BA77-E57EE3AB7C2C-3326-00001304D34971B2</string>
+									<string>72104E75-7D5B-4566-AFCA-ECB8225755B3-6498-00001F43D2B87A58</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -17179,7 +17374,7 @@ function playVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>AE928E28-8B1A-4157-BA77-E57EE3AB7C2C-3326-00001304D34971B2</string>
+									<string>72104E75-7D5B-4566-AFCA-ECB8225755B3-6498-00001F43D2B87A58</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -17384,7 +17579,7 @@ function playVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>AE928E28-8B1A-4157-BA77-E57EE3AB7C2C-3326-00001304D34971B2</string>
+									<string>72104E75-7D5B-4566-AFCA-ECB8225755B3-6498-00001F43D2B87A58</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -17649,7 +17844,7 @@ function playVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>948F99D8-1151-4B61-A8BC-3E4798CED749-3326-00001304D34F202B</string>
+									<string>4E789A61-87F2-42F4-B92A-F0B9F7F72184-6498-00001F43D2BF6744</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -17834,7 +18029,7 @@ function playVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>6C57EF37-A6E9-49FA-91D5-1203503FCF58-3326-00001304D350D8EE</string>
+									<string>09AB274C-5D5E-4C05-9DA9-5192A47A4D49-6498-00001F43D2C0E5F2</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -17894,7 +18089,7 @@ function playVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>6C57EF37-A6E9-49FA-91D5-1203503FCF58-3326-00001304D350D8EE</string>
+									<string>09AB274C-5D5E-4C05-9DA9-5192A47A4D49-6498-00001F43D2C0E5F2</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -18012,7 +18207,7 @@ function playVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>6C57EF37-A6E9-49FA-91D5-1203503FCF58-3326-00001304D350D8EE</string>
+									<string>09AB274C-5D5E-4C05-9DA9-5192A47A4D49-6498-00001F43D2C0E5F2</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -18072,7 +18267,7 @@ function playVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>948F99D8-1151-4B61-A8BC-3E4798CED749-3326-00001304D34F202B</string>
+									<string>4E789A61-87F2-42F4-B92A-F0B9F7F72184-6498-00001F43D2BF6744</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -18190,7 +18385,7 @@ function playVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>948F99D8-1151-4B61-A8BC-3E4798CED749-3326-00001304D34F202B</string>
+									<string>4E789A61-87F2-42F4-B92A-F0B9F7F72184-6498-00001F43D2BF6744</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -19192,7 +19387,7 @@ function playVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>196030EE-8DBA-410F-8A23-8F152E3E7801-3326-00001304D35C3A12</string>
+									<string>08F66E10-E3A6-40BF-AF1A-87B36753B97B-6498-00001F43D2C931E2</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -19324,7 +19519,7 @@ function playVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>196030EE-8DBA-410F-8A23-8F152E3E7801-3326-00001304D35C3A12</string>
+									<string>08F66E10-E3A6-40BF-AF1A-87B36753B97B-6498-00001F43D2C931E2</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -19391,7 +19586,7 @@ function playVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>B253AA0B-D163-4C6E-A16E-39CC0153007B-3326-00001304D35E1435</string>
+									<string>C5E42140-1D17-48E9-A907-A2EBCBF8C74D-6498-00001F43D2CA7E21</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -19509,7 +19704,7 @@ function playVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>196030EE-8DBA-410F-8A23-8F152E3E7801-3326-00001304D35C3A12</string>
+									<string>08F66E10-E3A6-40BF-AF1A-87B36753B97B-6498-00001F43D2C931E2</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -19576,7 +19771,7 @@ function playVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>B253AA0B-D163-4C6E-A16E-39CC0153007B-3326-00001304D35E1435</string>
+									<string>C5E42140-1D17-48E9-A907-A2EBCBF8C74D-6498-00001F43D2CA7E21</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -19701,7 +19896,7 @@ function playVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>B253AA0B-D163-4C6E-A16E-39CC0153007B-3326-00001304D35E1435</string>
+									<string>C5E42140-1D17-48E9-A907-A2EBCBF8C74D-6498-00001F43D2CA7E21</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -20914,7 +21109,7 @@ function playVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>A7307E67-BA64-4CB7-BEC5-8AA917292C20-3326-00001304D369C796</string>
+									<string>BD080761-19CA-475C-A1EB-0FE6449AEBE2-6498-00001F43D2D21F11</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -21017,7 +21212,7 @@ function playVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>A7307E67-BA64-4CB7-BEC5-8AA917292C20-3326-00001304D369C796</string>
+									<string>BD080761-19CA-475C-A1EB-0FE6449AEBE2-6498-00001F43D2D21F11</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -21156,7 +21351,7 @@ function playVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>A7307E67-BA64-4CB7-BEC5-8AA917292C20-3326-00001304D369C796</string>
+									<string>BD080761-19CA-475C-A1EB-0FE6449AEBE2-6498-00001F43D2D21F11</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -21274,7 +21469,7 @@ function playVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>B92AA467-2AA2-4270-B3D9-44CAA36DA717-3326-00001304D36E67BD</string>
+									<string>9A47205D-6B4A-4E99-8D51-7F650AC55649-6498-00001F43D2D42B9D</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -21363,7 +21558,7 @@ function playVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>B92AA467-2AA2-4270-B3D9-44CAA36DA717-3326-00001304D36E67BD</string>
+									<string>9A47205D-6B4A-4E99-8D51-7F650AC55649-6498-00001F43D2D42B9D</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -21481,7 +21676,7 @@ function playVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>B92AA467-2AA2-4270-B3D9-44CAA36DA717-3326-00001304D36E67BD</string>
+									<string>9A47205D-6B4A-4E99-8D51-7F650AC55649-6498-00001F43D2D42B9D</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -21681,7 +21876,7 @@ function playVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>6E540279-EB26-4F13-B521-05F804DAC197-3326-00001304D373D228</string>
+									<string>4367936F-FE8F-4092-A4B8-C3BFBDBA41C0-6498-00001F43D2D7F5CA</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -21878,7 +22073,7 @@ function playVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>51DF8EB8-98F2-46D7-B465-AB700E7ED4D4-3326-00001304D3765023</string>
+									<string>1A899255-2AEA-4D50-B527-C13B02F89EA7-6498-00001F43D2D93F58</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -21945,7 +22140,7 @@ function playVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>51DF8EB8-98F2-46D7-B465-AB700E7ED4D4-3326-00001304D3765023</string>
+									<string>1A899255-2AEA-4D50-B527-C13B02F89EA7-6498-00001F43D2D93F58</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -22012,7 +22207,7 @@ function playVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>51DF8EB8-98F2-46D7-B465-AB700E7ED4D4-3326-00001304D3765023</string>
+									<string>1A899255-2AEA-4D50-B527-C13B02F89EA7-6498-00001F43D2D93F58</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -22166,7 +22361,7 @@ function playVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>6E540279-EB26-4F13-B521-05F804DAC197-3326-00001304D373D228</string>
+									<string>4367936F-FE8F-4092-A4B8-C3BFBDBA41C0-6498-00001F43D2D7F5CA</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -22284,7 +22479,7 @@ function playVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>6E540279-EB26-4F13-B521-05F804DAC197-3326-00001304D373D228</string>
+									<string>4367936F-FE8F-4092-A4B8-C3BFBDBA41C0-6498-00001F43D2D7F5CA</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -22768,7 +22963,7 @@ function playVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>BE25C221-F371-4CB7-93B9-569312692482-3326-00001304D39C9B7E</string>
+									<string>73FE209A-50B4-4611-AEFB-A5A1CEE5793D-6498-00001F43D2DF95DB</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -22871,7 +23066,7 @@ function playVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>BE25C221-F371-4CB7-93B9-569312692482-3326-00001304D39C9B7E</string>
+									<string>73FE209A-50B4-4611-AEFB-A5A1CEE5793D-6498-00001F43D2DF95DB</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -23010,7 +23205,7 @@ function playVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>BE25C221-F371-4CB7-93B9-569312692482-3326-00001304D39C9B7E</string>
+									<string>73FE209A-50B4-4611-AEFB-A5A1CEE5793D-6498-00001F43D2DF95DB</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -23220,7 +23415,7 @@ function playVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>433301A9-A9BE-488C-9DF9-F47CC60EFCBA-3326-00001304D3A0A09E</string>
+									<string>7175B905-EA83-4720-92B6-81A01ECB47D8-6498-00001F43D2E2173D</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -23309,7 +23504,7 @@ function playVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>433301A9-A9BE-488C-9DF9-F47CC60EFCBA-3326-00001304D3A0A09E</string>
+									<string>7175B905-EA83-4720-92B6-81A01ECB47D8-6498-00001F43D2E2173D</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -23398,7 +23593,7 @@ function playVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>433301A9-A9BE-488C-9DF9-F47CC60EFCBA-3326-00001304D3A0A09E</string>
+									<string>7175B905-EA83-4720-92B6-81A01ECB47D8-6498-00001F43D2E2173D</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -23630,7 +23825,7 @@ function playVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>F11A2FBE-35BB-4927-B761-0D126043FEF1-3326-00001304D3A5F4C7</string>
+									<string>F5B34BC5-3ED2-4661-ACC8-667D682CCB61-6498-00001F43D2E5D0EF</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -23690,7 +23885,7 @@ function playVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>F11A2FBE-35BB-4927-B761-0D126043FEF1-3326-00001304D3A5F4C7</string>
+									<string>F5B34BC5-3ED2-4661-ACC8-667D682CCB61-6498-00001F43D2E5D0EF</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -23750,7 +23945,7 @@ function playVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>F11A2FBE-35BB-4927-B761-0D126043FEF1-3326-00001304D3A5F4C7</string>
+									<string>F5B34BC5-3ED2-4661-ACC8-667D682CCB61-6498-00001F43D2E5D0EF</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -24022,7 +24217,7 @@ function playVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>5F2CCA62-5ED2-407E-8BC1-2077685D8BD5-3326-00001304D3A9C889</string>
+									<string>E9D76CDA-FE09-42FE-B93C-92BAEC0D5CAD-6498-00001F43D2E8A1A1</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -24111,7 +24306,7 @@ function playVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>5F2CCA62-5ED2-407E-8BC1-2077685D8BD5-3326-00001304D3A9C889</string>
+									<string>E9D76CDA-FE09-42FE-B93C-92BAEC0D5CAD-6498-00001F43D2E8A1A1</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -24200,7 +24395,7 @@ function playVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>5F2CCA62-5ED2-407E-8BC1-2077685D8BD5-3326-00001304D3A9C889</string>
+									<string>E9D76CDA-FE09-42FE-B93C-92BAEC0D5CAD-6498-00001F43D2E8A1A1</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -24376,7 +24571,7 @@ function playVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>F16A5D04-CD33-4850-A47D-2DA4E5897F96-3326-00001304D3AD5C9F</string>
+									<string>68EFD695-9F16-43B9-903F-80D76ED098C1-6498-00001F43D2EAEF9B</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -24465,7 +24660,7 @@ function playVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>F16A5D04-CD33-4850-A47D-2DA4E5897F96-3326-00001304D3AD5C9F</string>
+									<string>68EFD695-9F16-43B9-903F-80D76ED098C1-6498-00001F43D2EAEF9B</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -24525,7 +24720,7 @@ function playVideo(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>F16A5D04-CD33-4850-A47D-2DA4E5897F96-3326-00001304D3AD5C9F</string>
+									<string>68EFD695-9F16-43B9-903F-80D76ED098C1-6498-00001F43D2EAEF9B</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -26004,6 +26199,6 @@ function playVideo(hypeDocument, element, event) {
 	<key>webAppCapable</key>
 	<integer>0</integer>
 	<key>zoomFactor</key>
-	<real>0.75</real>
+	<real>1</real>
 </dict>
 </plist>
