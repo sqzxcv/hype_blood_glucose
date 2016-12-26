@@ -51,3 +51,19 @@
 		document.removeEventListener('touchmove', preventDefaultAction);
 	}
 
+
+	function showDatepicker(hypeDocument, element, event)  {
+		// body...
+
+		var element = hypeDocument.getElementById("testtt");
+		element.innerHTML='<input id="time" type="text" />';
+		jQuery(function () {
+		    // 时间设置
+		    jQuery('#time').datetimepicker({
+		        timeFormat: "HH:mm:ss",
+		        dateFormat: "yy-mm-dd"
+		    });
+
+		});
+	}
+

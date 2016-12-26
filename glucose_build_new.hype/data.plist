@@ -46,8 +46,8 @@
 	<key>displayedAttributes</key>
 	<array>
 		<string>kPropertiesMenuItemIdentifierOpacity</string>
-		<string>kPropertiesMenuItemIdentifierPosition</string>
 		<string>kPropertiesMenuItemIdentifierAnimated</string>
+		<string>kPropertiesMenuItemIdentifierPosition</string>
 	</array>
 	<key>documentVersion</key>
 	<string>530</string>
@@ -69,6 +69,7 @@
 	<false/>
 	<key>headHtml</key>
 	<string>	
+	&lt;script type="text/javascript" src="https://cdn.staticfile.org/jquery/3.1.1/jquery.min.js"&gt;&lt;/script&gt;
 	&lt;style type="text/css"&gt;
 	body {
 		
@@ -82,41 +83,104 @@
 	&lt;/style&gt;
 	
 	
-	 &lt;link type="text/css" href="http://code.jquery.com/ui/1.9.1/themes/smoothness/jquery-ui.css" rel="stylesheet" /&gt;
-
-    &lt;link href="jQuery-Timepicker-Addon/jquery-ui-timepicker-addon.css" type="text/css" /&gt;
-    &lt;link href="jQuery-Timepicker-Addon/demos.css" rel="stylesheet" type="text/css" /&gt;
-
-    &lt;script src="http://code.jquery.com/jquery-1.8.2.min.js" type="text/javascript"&gt;&lt;/script&gt;
+	
+	&lt;!-- 日历设置开始 --&gt;
+	&lt;link type="text/css" href="http://code.jquery.com/ui/1.9.1/themes/smoothness/jquery-ui.css" rel="stylesheet" /&gt;
+    &lt;link href="http://cdn.staticfile.org/jquery-ui-timepicker-addon/1.6.3/jquery-ui-timepicker-addon.css" type="text/css" /&gt;
     &lt;script type="text/javascript" src="http://code.jquery.com/ui/1.9.1/jquery-ui.min.js"&gt;&lt;/script&gt;
-    &lt;script src="jQuery-Timepicker-Addon/jquery-ui-timepicker-addon.js" type="text/javascript"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="http://cdn.staticfile.org/jquery-ui-timepicker-addon/1.6.3/jquery-ui-timepicker-addon.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="https://cdn.staticfile.org/jquery-ui-timepicker-addon/1.6.3/i18n/jquery-ui-timepicker-zh-CN.js"&gt;&lt;/script&gt;
 
-    &lt;!--中文--&gt;
-    &lt;script src="js/jquery.ui.datepicker-zh-CN.js.js" type="text/javascript" charset="gb2312"&gt;&lt;/script&gt;
-    &lt;script src="js/jquery-ui-timepicker-zh-CN.js" type="text/javascript"&gt;&lt;/script&gt;
-    &lt;script type="text/javascript"&gt;
-        jQuery(function () {
-            // 时间设置
-            jQuery('#time').datetimepicker({
-                timeFormat: "HH:mm:ss",
-                dateFormat: "yy-mm-dd"
-            });
+    
+    &lt;script&gt;
+    
+    /* Chinese initialisation for the jQuery UI date picker plugin. */
+/* Written by Cloudream (cloudream@gmail.com). */
+jQuery(function ($) {
+    $.datepicker.regional['zh-CN'] = {
+        closeText: '关闭',
+        prevText: '&amp;#x3c;上月',
+        nextText: '下月&amp;#x3e;',
+        currentText: '今天',
+        monthNames: ['一月', '二月', '三月', '四月', '五月', '六月',
+                '七月', '八月', '九月', '十月', '十一月', '十二月'],
+        monthNamesShort: ['一', '二', '三', '四', '五', '六',
+                '七', '八', '九', '十', '十一', '十二'],
+        dayNames: ['星期日', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六'],
+        dayNamesShort: ['周日', '周一', '周二', '周三', '周四', '周五', '周六'],
+        dayNamesMin: ['日', '一', '二', '三', '四', '五', '六'],
+        weekHeader: '周',
+        dateFormat: 'yy-mm-dd',
+        firstDay: 1,
+        isRTL: false,
+        showMonthAfterYear: true,
+        yearSuffix: '年'
+    };
+    $.datepicker.setDefaults($.datepicker.regional['zh-CN']);
+});
+    
+	//在场景加载完成后，立刻显示日历空间
+  function hypeDocumentLoadCallback(hypeDocument, element, event) {
+    
+    	var div = hypeDocument.getElementById("testtt");
+		div.innerHTML='&lt;input id="time" type="text" /&gt;';
+		jQuery(function () {
+		    // 时间设置
+		  $("#time").datetimepicker({
+		        timeFormat: "HH:mm tt",
+		        dateFormat: "yy-mm-dd"
+		  });
+	});	
+    return true;
+  }
 
-        });
-    &lt;/script&gt;
+  if("HYPE_eventListeners" in window === false) {
+    window.HYPE_eventListeners = Array();
+  }
+  
+  window.HYPE_eventListeners.push({"type":"HypeSceneLoad", "callback":hypeDocumentLoadCallback});
+  
+  
+
+ &lt;/script&gt;
+ 
+ &lt;style type="text/css"&gt;
+ .demo-description {
+	clear: both;
+	padding: 12px;
+	font-size: 1.3em;
+	line-height: 1.4em;
+}
+
+.ui-draggable, .ui-droppable {
+	background-position: top;
+}
+
+table {
+	font-size: 1em;
+}
+
+body {
+	font-size: 62.5%;
+	font-family: "Trebuchet MS", "Arial", "Helvetica", "Verdana", "sans-serif";
+}
+
+ &lt;/style&gt;
+ 
+ &lt;!-- 日历设置结束 --&gt;
 	</string>
 	<key>lastCheckDate</key>
-	<date>2016-12-23T06:49:17Z</date>
+	<date>2016-12-26T03:24:50Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
-		<integer>5</integer>
+		<integer>4</integer>
 		<key>customizableLayout</key>
 		<dict>
 			<key>frame</key>
-			<string>{{0, 0}, {1478, 804}}</string>
+			<string>{{0, 0}, {1920, 903}}</string>
 			<key>identifier</key>
-			<string>container 112</string>
+			<string>container 33</string>
 			<key>isCustomizableViewContainer</key>
 			<true/>
 			<key>isCustomizableViewWrapper</key>
@@ -127,9 +191,9 @@
 			<array>
 				<dict>
 					<key>frame</key>
-					<string>{{0, 0}, {1207, 804}}</string>
+					<string>{{0, 0}, {1649, 903}}</string>
 					<key>identifier</key>
-					<string>container 53</string>
+					<string>container 97</string>
 					<key>isCustomizableViewContainer</key>
 					<true/>
 					<key>isCustomizableViewWrapper</key>
@@ -140,9 +204,9 @@
 					<array>
 						<dict>
 							<key>frame</key>
-							<string>{{0, 0}, {936, 804}}</string>
+							<string>{{0, 0}, {1378, 903}}</string>
 							<key>identifier</key>
-							<string>container 42</string>
+							<string>container 86</string>
 							<key>isCustomizableViewContainer</key>
 							<true/>
 							<key>isCustomizableViewWrapper</key>
@@ -153,9 +217,9 @@
 							<array>
 								<dict>
 									<key>frame</key>
-									<string>{{0, 0}, {135, 804}}</string>
+									<string>{{0, 0}, {135, 903}}</string>
 									<key>identifier</key>
-									<string>container 32</string>
+									<string>container 76</string>
 									<key>isCustomizableViewContainer</key>
 									<true/>
 									<key>isCustomizableViewWrapper</key>
@@ -166,7 +230,7 @@
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{0, 0}, {135, 804}}</string>
+											<string>{{0, 0}, {135, 903}}</string>
 											<key>identifier</key>
 											<string>sceneSelectorCustomizableContainer</string>
 											<key>isCustomizableViewContainer</key>
@@ -176,9 +240,9 @@
 								</dict>
 								<dict>
 									<key>frame</key>
-									<string>{{136, 0}, {800, 804}}</string>
+									<string>{{136, 0}, {1242, 903}}</string>
 									<key>identifier</key>
-									<string>container 33</string>
+									<string>container 77</string>
 									<key>isCustomizableViewContainer</key>
 									<true/>
 									<key>isCustomizableViewWrapper</key>
@@ -189,7 +253,7 @@
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{136, 0}, {800, 238}}</string>
+											<string>{{136, 0}, {1242, 265}}</string>
 											<key>identifier</key>
 											<string>container 230</string>
 											<key>isCustomizableViewContainer</key>
@@ -202,7 +266,7 @@
 											<array>
 												<dict>
 													<key>frame</key>
-													<string>{{136, 0}, {800, 238}}</string>
+													<string>{{136, 0}, {1242, 265}}</string>
 													<key>identifier</key>
 													<string>timelineCustomizableContainer</string>
 													<key>isCustomizableViewContainer</key>
@@ -212,7 +276,7 @@
 										</dict>
 										<dict>
 											<key>frame</key>
-											<string>{{136, 239}, {800, 565}}</string>
+											<string>{{136, 266}, {1242, 637}}</string>
 											<key>identifier</key>
 											<string>container 229</string>
 											<key>isCustomizableViewContainer</key>
@@ -225,7 +289,7 @@
 											<array>
 												<dict>
 													<key>frame</key>
-													<string>{{136, 239}, {800, 565}}</string>
+													<string>{{136, 266}, {1242, 637}}</string>
 													<key>identifier</key>
 													<string>sceneEditorCustomizableContainer</string>
 													<key>isCustomizableViewContainer</key>
@@ -239,9 +303,9 @@
 						</dict>
 						<dict>
 							<key>frame</key>
-							<string>{{937, 0}, {270, 804}}</string>
+							<string>{{1379, 0}, {270, 903}}</string>
 							<key>identifier</key>
-							<string>container 41</string>
+							<string>container 85</string>
 							<key>isCustomizableViewContainer</key>
 							<true/>
 							<key>isCustomizableViewWrapper</key>
@@ -252,7 +316,7 @@
 							<array>
 								<dict>
 									<key>frame</key>
-									<string>{{937, 0}, {270, 804}}</string>
+									<string>{{1379, 0}, {270, 903}}</string>
 									<key>identifier</key>
 									<string>inspectorCustomizableContainer</string>
 									<key>isCustomizableViewContainer</key>
@@ -264,9 +328,9 @@
 				</dict>
 				<dict>
 					<key>frame</key>
-					<string>{{1208, 0}, {270, 804}}</string>
+					<string>{{1650, 0}, {270, 903}}</string>
 					<key>identifier</key>
-					<string>container 52</string>
+					<string>container 96</string>
 					<key>isCustomizableViewContainer</key>
 					<true/>
 					<key>isCustomizableViewWrapper</key>
@@ -277,7 +341,7 @@
 					<array>
 						<dict>
 							<key>frame</key>
-							<string>{{1208, 0}, {270, 804}}</string>
+							<string>{{1650, 0}, {270, 903}}</string>
 							<key>identifier</key>
 							<string>resourcesCustomizableContainer</string>
 							<key>isCustomizableViewContainer</key>
@@ -290,18 +354,12 @@
 		<key>keyframeTimelineHeight</key>
 		<real>50</real>
 		<key>mainWindowFrame</key>
-		<string>1008 1009 1478 848 910 800 1920 1057 </string>
+		<string>909 910 1920 947 910 800 1920 1057 </string>
 		<key>openTabs</key>
 		<array>
 			<dict>
 				<key>className</key>
 				<string>HeadHTMLEditor</string>
-			</dict>
-			<dict>
-				<key>className</key>
-				<string>HypeJavascript</string>
-				<key>oid</key>
-				<string>243</string>
 			</dict>
 		</array>
 		<key>selectedTabIndex</key>
@@ -345,7 +403,7 @@
 	<key>monotypeProjectID</key>
 	<string>F2F7B755-4E84-4A19-A9C5-2B6EFA73AE95-1469-000007394AA0BB12</string>
 	<key>oidCounter</key>
-	<integer>243</integer>
+	<integer>245</integer>
 	<key>resourcesInfo</key>
 	<dict>
 		<key>groups</key>
@@ -687,6 +745,18 @@
 					<string>night@2x.png</string>
 				</array>
 			</dict>
+			<dict>
+				<key>expanded</key>
+				<true/>
+				<key>name</key>
+				<string>plantVideo</string>
+				<key>oid</key>
+				<string>245</string>
+				<key>resources</key>
+				<array>
+					<string>plantVideo.mp4</string>
+				</array>
+			</dict>
 		</array>
 		<key>resources</key>
 		<array>
@@ -934,61 +1004,6 @@
 				AgAAAAAAACAgAABQAgAAAAAAADAgAAB8AgAAAAAAAAHA
 				AADEAQAAAAAAABHAAAAgAAAAAAAAABLAAADUAQAAAAAA
 				ABDQAAAEAAAAAAAAAA==
-				</data>
-				<key>shouldAutoResize</key>
-				<true/>
-				<key>shouldIncludeInDocumentHeadHTML</key>
-				<true/>
-				<key>shouldPreload</key>
-				<true/>
-				<key>shouldRemoveWhenNoLongerReferenced</key>
-				<false/>
-				<key>type</key>
-				<string>FileResource</string>
-			</dict>
-			<dict>
-				<key>fileModificationDate</key>
-				<date>2016-12-09T11:17:45Z</date>
-				<key>fileSize</key>
-				<integer>86709</integer>
-				<key>md5</key>
-				<string>E071ABDA8FE61194711CFC2AB99FE104</string>
-				<key>notifyOnBookmarkChange</key>
-				<true/>
-				<key>originalPath</key>
-				<string>/Users/shengqiang/Documents/Codes/hype_blood_glucose/glucose_build.hype/Resources/jquery-3.1.1.min.js</string>
-				<key>resourceName</key>
-				<string>jquery-3.1.1.min.js</string>
-				<key>securityScopedBookmark</key>
-				<data>
-				Ym9va4QDAAAAAAQQMAAAAAWkCcrVUZTZguwxwJuHOKUS
-				aADkmWh03hGH3ApoCANDgAIAAAQAAAADAwAAAAkAKAUA
-				AAABAQAAVXNlcnMAAAAKAAAAAQEAAHNoZW5ncWlhbmcA
-				AAkAAAABAQAARG9jdW1lbnRzAAAABQAAAAEBAABDb2Rl
-				cwAAABIAAAABAQAAaHlwZV9ibG9vZF9nbHVjb3NlAAAS
-				AAAAAQEAAGdsdWNvc2VfYnVpbGQuaHlwZQAACQAAAAEB
-				AABSZXNvdXJjZXMAAAATAAAAAQEAAGpxdWVyeS0zLjEu
-				MS5taW4uanMAIAAAAAEGAAAQAAAAIAAAADQAAABIAAAA
-				WAAAAHQAAACQAAAApAAAAAgAAAAEAwAAhnoXAAAAAAAI
-				AAAABAMAAJZ6FwAAAAAACAAAAAQDAADHqBkAAAAAAAgA
-				AAAEAwAAGK0ZAAAAAAAIAAAABAMAAHA2bQEAAAAACAAA
-				AAQDAABPW3wBAAAAAAgAAAAEAwAAU1t8AQAAAAAIAAAA
-				BAMAAGVbfAEAAAAAIAAAAAEGAADoAAAA+AAAAAgBAAAY
-				AQAAKAEAADgBAABIAQAAWAEAAAgAAAAABAAAQb36ylkA
-				AAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAA
-				AAgAAAAEAwAABgAAAAAAAAAEAAAAAwMAAPUBAAAIAAAA
-				AQkAAGZpbGU6Ly8vDAAAAAEBAABNYWNpbnRvc2ggSEQI
-				AAAABAMAAAAAADJ0AAAACAAAAAAEAABBut2ozAAAACQA
-				AAABAQAAOTdGNTMwQTctOEM2Qy0zMDRDLUFGNUItOEEz
-				RDcyOUFERjg1GAAAAAECAACBAAAAAQAAAO8TAAABAAAA
-				AAAAAAAAAAABAAAAAQEAAC8AAAAAAAAAAQUAAMwAAAD+
-				////AQAAAAAAAAAQAAAABBAAAMAAAAAAAAAABRAAAGgB
-				AAAAAAAAEBAAAKABAAAAAAAAQBAAAJABAAAAAAAAAiAA
-				AGwCAAAAAAAABSAAANwBAAAAAAAAECAAAOwBAAAAAAAA
-				ESAAACACAAAAAAAAEiAAAAACAAAAAAAAEyAAABACAAAA
-				AAAAICAAAEwCAAAAAAAAMCAAAHgCAAAAAAAAAcAAAMAB
-				AAAAAAAAEcAAACAAAAAAAAAAEsAAANABAAAAAAAAENAA
-				AAQAAAAAAAAA
 				</data>
 				<key>shouldAutoResize</key>
 				<true/>
@@ -2515,7 +2530,60 @@
 			</dict>
 			<dict>
 				<key>fileModificationDate</key>
-				<date>2016-12-23T06:48:32Z</date>
+				<date>2016-12-23T07:42:36Z</date>
+				<key>fileSize</key>
+				<integer>1676</integer>
+				<key>md5</key>
+				<string>2F45A5B71F950C3CC285364B13643496</string>
+				<key>notifyOnBookmarkChange</key>
+				<true/>
+				<key>originalPath</key>
+				<string>/Users/shengqiang/Documents/Codes/hype_blood_glucose/javascript/main.js</string>
+				<key>resourceName</key>
+				<string>main.js</string>
+				<key>securityScopedBookmark</key>
+				<data>
+				Ym9va0QDAAAAAAQQMAAAAAjuPgkijhBb4BmCTaxRjShp
+				TJCFG91tO4IVbyq9VR/6QAIAAAQAAAADAwAAAAkAKAUA
+				AAABAQAAVXNlcnMAAAAKAAAAAQEAAHNoZW5ncWlhbmcA
+				AAkAAAABAQAARG9jdW1lbnRzAAAABQAAAAEBAABDb2Rl
+				cwAAABIAAAABAQAAaHlwZV9ibG9vZF9nbHVjb3NlAAAK
+				AAAAAQEAAGphdmFzY3JpcHQAAAcAAAABAQAAbWFpbi5q
+				cwAcAAAAAQYAABAAAAAgAAAANAAAAEgAAABYAAAAdAAA
+				AIgAAAAIAAAABAMAAIZ6FwAAAAAACAAAAAQDAACWehcA
+				AAAAAAgAAAAEAwAAx6gZAAAAAAAIAAAABAMAABitGQAA
+				AAAACAAAAAQDAABwNm0BAAAAAAgAAAAEAwAALDhtAQAA
+				AAAIAAAABAMAAFLgfAEAAAAAHAAAAAEGAAC8AAAAzAAA
+				ANwAAADsAAAA/AAAAAwBAAAcAQAACAAAAAAEAABBvgv4
+				RwAAABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAA
+				AAAACAAAAAQDAAAFAAAAAAAAAAQAAAADAwAA9QEAAAgA
+				AAABCQAAZmlsZTovLy8MAAAAAQEAAE1hY2ludG9zaCBI
+				RAgAAAAEAwAAAAAAMnQAAAAIAAAAAAQAAEG63ajMAAAA
+				JAAAAAEBAAA5N0Y1MzBBNy04QzZDLTMwNEMtQUY1Qi04
+				QTNENzI5QURGODUYAAAAAQIAAIEAAAABAAAA7xMAAAEA
+				AAAAAAAAAAAAAAEAAAABAQAALwAAAAAAAAABBQAAzAAA
+				AP7///8BAAAAAAAAABAAAAAEEAAAmAAAAAAAAAAFEAAA
+				LAEAAAAAAAAQEAAAYAEAAAAAAABAEAAAUAEAAAAAAAAC
+				IAAALAIAAAAAAAAFIAAAnAEAAAAAAAAQIAAArAEAAAAA
+				AAARIAAA4AEAAAAAAAASIAAAwAEAAAAAAAATIAAA0AEA
+				AAAAAAAgIAAADAIAAAAAAAAwIAAAOAIAAAAAAAABwAAA
+				gAEAAAAAAAARwAAAIAAAAAAAAAASwAAAkAEAAAAAAAAQ
+				0AAABAAAAAAAAAA=
+				</data>
+				<key>shouldAutoResize</key>
+				<true/>
+				<key>shouldIncludeInDocumentHeadHTML</key>
+				<true/>
+				<key>shouldPreload</key>
+				<true/>
+				<key>shouldRemoveWhenNoLongerReferenced</key>
+				<false/>
+				<key>type</key>
+				<string>FileResource</string>
+			</dict>
+			<dict>
+				<key>fileModificationDate</key>
+				<date>2016-12-23T08:38:12Z</date>
 				<key>fileSize</key>
 				<integer>3057</integer>
 				<key>md5</key>
@@ -2568,50 +2636,46 @@
 			</dict>
 			<dict>
 				<key>fileModificationDate</key>
-				<date>2016-12-23T06:49:16Z</date>
+				<date>2016-12-06T02:21:38Z</date>
 				<key>fileSize</key>
-				<integer>1321</integer>
+				<integer>11158</integer>
 				<key>md5</key>
-				<string>2ADA706DBEF3240C8A987425FE8DA22D</string>
+				<string>D05E9476466E7749E3011E8F2D61447D</string>
 				<key>notifyOnBookmarkChange</key>
 				<true/>
 				<key>originalPath</key>
-				<string>/Users/shengqiang/Documents/Codes/hype_blood_glucose/javascript/main.js</string>
+				<string>/Users/shengqiang/Downloads/plantVideo.mp4</string>
 				<key>resourceName</key>
-				<string>main.js</string>
+				<string>plantVideo.mp4</string>
 				<key>securityScopedBookmark</key>
 				<data>
-				Ym9va0QDAAAAAAQQMAAAAAjuPgkijhBb4BmCTaxRjShp
-				TJCFG91tO4IVbyq9VR/6QAIAAAQAAAADAwAAAAkAKAUA
+				Ym9va8QCAAAAAAQQMAAAAA3XcEBJCqb8UdvQFqBWsYjT
+				Ke6ZAcX1g2wx0s04XaN0wAEAAAQAAAADAwAAAAkAKAUA
 				AAABAQAAVXNlcnMAAAAKAAAAAQEAAHNoZW5ncWlhbmcA
-				AAkAAAABAQAARG9jdW1lbnRzAAAABQAAAAEBAABDb2Rl
-				cwAAABIAAAABAQAAaHlwZV9ibG9vZF9nbHVjb3NlAAAK
-				AAAAAQEAAGphdmFzY3JpcHQAAAcAAAABAQAAbWFpbi5q
-				cwAcAAAAAQYAABAAAAAgAAAANAAAAEgAAABYAAAAdAAA
-				AIgAAAAIAAAABAMAAIZ6FwAAAAAACAAAAAQDAACWehcA
-				AAAAAAgAAAAEAwAAx6gZAAAAAAAIAAAABAMAABitGQAA
-				AAAACAAAAAQDAABwNm0BAAAAAAgAAAAEAwAALDhtAQAA
-				AAAIAAAABAMAAFLgfAEAAAAAHAAAAAEGAAC8AAAAzAAA
-				ANwAAADsAAAA/AAAAAwBAAAcAQAACAAAAAAEAABBvgv4
-				RwAAABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAA
-				AAAACAAAAAQDAAAFAAAAAAAAAAQAAAADAwAA9QEAAAgA
-				AAABCQAAZmlsZTovLy8MAAAAAQEAAE1hY2ludG9zaCBI
-				RAgAAAAEAwAAAAAAMnQAAAAIAAAAAAQAAEG63ajMAAAA
-				JAAAAAEBAAA5N0Y1MzBBNy04QzZDLTMwNEMtQUY1Qi04
-				QTNENzI5QURGODUYAAAAAQIAAIEAAAABAAAA7xMAAAEA
-				AAAAAAAAAAAAAAEAAAABAQAALwAAAAAAAAABBQAAzAAA
-				AP7///8BAAAAAAAAABAAAAAEEAAAmAAAAAAAAAAFEAAA
-				LAEAAAAAAAAQEAAAYAEAAAAAAABAEAAAUAEAAAAAAAAC
-				IAAALAIAAAAAAAAFIAAAnAEAAAAAAAAQIAAArAEAAAAA
-				AAARIAAA4AEAAAAAAAASIAAAwAEAAAAAAAATIAAA0AEA
-				AAAAAAAgIAAADAIAAAAAAAAwIAAAOAIAAAAAAAABwAAA
-				gAEAAAAAAAARwAAAIAAAAAAAAAASwAAAkAEAAAAAAAAQ
-				0AAABAAAAAAAAAA=
+				AAkAAAABAQAARG93bmxvYWRzAAAADgAAAAEBAABwbGFu
+				dFZpZGVvLm1wNAAAEAAAAAEGAAAQAAAAIAAAADQAAABI
+				AAAACAAAAAQDAACGehcAAAAAAAgAAAAEAwAAlnoXAAAA
+				AAAIAAAABAMAAKXzHAAAAAAACAAAAAQDAACeYGgBAAAA
+				ABAAAAABBgAAeAAAAIgAAACYAAAAqAAAAAgAAAAABAAA
+				Qb32WC8AAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAA
+				AAAAAAAAAAgAAAAEAwAAAgAAAAAAAAAEAAAAAwMAAPUB
+				AAAIAAAAAQkAAGZpbGU6Ly8vDAAAAAEBAABNYWNpbnRv
+				c2ggSEQIAAAABAMAAAAAADJ0AAAACAAAAAAEAABBut2o
+				zAAAACQAAAABAQAAOTdGNTMwQTctOEM2Qy0zMDRDLUFG
+				NUItOEEzRDcyOUFERjg1GAAAAAECAACBAAAAAQAAAO8T
+				AAABAAAAAAAAAAAAAAABAAAAAQEAAC8AAAAAAAAAAQUA
+				AMwAAAD+////AQAAAAAAAAAQAAAABBAAAGAAAAAAAAAA
+				BRAAALgAAAAAAAAAEBAAAOAAAAAAAAAAQBAAANAAAAAA
+				AAAAAiAAAKwBAAAAAAAABSAAABwBAAAAAAAAECAAACwB
+				AAAAAAAAESAAAGABAAAAAAAAEiAAAEABAAAAAAAAEyAA
+				AFABAAAAAAAAICAAAIwBAAAAAAAAMCAAALgBAAAAAAAA
+				AcAAAAABAAAAAAAAEcAAACAAAAAAAAAAEsAAABABAAAA
+				AAAAENAAAAQAAAAAAAAA
 				</data>
 				<key>shouldAutoResize</key>
 				<true/>
 				<key>shouldIncludeInDocumentHeadHTML</key>
-				<true/>
+				<false/>
 				<key>shouldPreload</key>
 				<true/>
 				<key>shouldRemoveWhenNoLongerReferenced</key>
@@ -2637,6 +2701,8 @@
 					<dict>
 						<key>expandedItems</key>
 						<array>
+							<string>199</string>
+							<string>159</string>
 							<string>183</string>
 						</array>
 						<key>timeCursors</key>
@@ -2670,7 +2736,7 @@
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{800, 948}</string>
+					<string>{1242, 948}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -2695,7 +2761,7 @@
 					<key>rootSymbolControllerOid</key>
 					<string>141</string>
 					<key>scrollViewOffset</key>
-					<string>{0, 0}</string>
+					<string>{0, 44}</string>
 					<key>userGuides</key>
 					<array>
 						<dict>
@@ -2914,6 +2980,18 @@ function closeGlucosePanel(hypeDocument, element, event) {
 }
 </string>
 		</dict>
+		<dict>
+			<key>oid</key>
+			<string>244</string>
+			<key>source</key>
+			<string>// element - DOMHTMLElement that triggered this function being called
+// event - event that triggered this function being called
+function showDatepicker(hypeDocument, element, event) {
+	
+	showDatepicker(hypeDocument, element, event);
+}
+</string>
+		</dict>
 	</array>
 	<key>shouldApplySizeChangesToAllScenes</key>
 	<true/>
@@ -2931,7 +3009,7 @@ function closeGlucosePanel(hypeDocument, element, event) {
 	<array>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>E69BED00-384B-4512-B555-2C2A07DC0D9D-6498-00001F43F95A42F2</string>
+			<string>6E98CC04-7E0E-4213-B700-CB37B7B7120B-7494-000026F1D4611924</string>
 			<key>selectedObjects</key>
 			<array/>
 			<key>symbol</key>
@@ -3165,7 +3243,7 @@ function closeGlucosePanel(hypeDocument, element, event) {
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>E69BED00-384B-4512-B555-2C2A07DC0D9D-6498-00001F43F95A42F2</string>
+			<string>6E98CC04-7E0E-4213-B700-CB37B7B7120B-7494-000026F1D4611924</string>
 			<key>selectedObjects</key>
 			<array/>
 			<key>symbol</key>
@@ -3431,9 +3509,9 @@ function closeGlucosePanel(hypeDocument, element, event) {
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>256px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -3569,9 +3647,9 @@ function closeGlucosePanel(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>256px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>144</key>
@@ -3584,9 +3662,9 @@ function closeGlucosePanel(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#082A39</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -3668,9 +3746,9 @@ function closeGlucosePanel(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>4</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -3680,9 +3758,9 @@ function closeGlucosePanel(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>4</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -3704,9 +3782,9 @@ function closeGlucosePanel(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#082A39</string>
 						</dict>
 					</array>
 					<key>145</key>
@@ -3935,9 +4013,9 @@ function closeGlucosePanel(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#082A39</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4019,9 +4097,9 @@ function closeGlucosePanel(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>5</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4031,9 +4109,9 @@ function closeGlucosePanel(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>5</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4055,9 +4133,9 @@ function closeGlucosePanel(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#082A39</string>
 						</dict>
 					</array>
 					<key>148</key>
@@ -4280,15 +4358,15 @@ function closeGlucosePanel(hypeDocument, element, event) {
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>Locked</string>
+							<string>OriginalHeight</string>
 							<key>objectValue</key>
-							<string>0</string>
+							<string>106px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>122px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4412,13 +4490,13 @@ function closeGlucosePanel(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BackgroundSize</string>
+							<string>Locked</string>
+							<key>objectValue</key>
+							<string>0</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Overflow</string>
-							<key>objectValue</key>
-							<string>visible</string>
+							<string>BackgroundSize</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4434,24 +4512,24 @@ function closeGlucosePanel(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalHeight</string>
+							<string>Overflow</string>
 							<key>objectValue</key>
-							<string>106px</string>
+							<string>visible</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>122px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>151</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>570px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4609,9 +4687,9 @@ function closeGlucosePanel(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>570px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>152</key>
@@ -4711,9 +4789,9 @@ function closeGlucosePanel(hypeDocument, element, event) {
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>122px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4857,9 +4935,9 @@ function closeGlucosePanel(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>122px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>154</key>
@@ -5441,7 +5519,7 @@ function closeGlucosePanel(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>Locked</string>
 							<key>objectValue</key>
-							<string>1</string>
+							<string>0</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5932,190 +6010,13 @@ function closeGlucosePanel(hypeDocument, element, event) {
 							<string>Group</string>
 						</dict>
 					</array>
-					<key>164</key>
+					<key>165</key>
 					<array>
-						<dict>
-							<key>identifier</key>
-							<string>DisplayName</string>
-							<key>objectValue</key>
-							<string>圆角矩形</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderWidthBottom</string>
-							<key>objectValue</key>
-							<string>1px</string>
-						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>TagName</string>
 							<key>objectValue</key>
 							<string>div</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorBottom</string>
-							<key>objectValue</key>
-							<string>#D8DDE4</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ExplicitDimensions</string>
-							<key>objectValue</key>
-							<string>YES</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderStyleRight</string>
-							<key>objectValue</key>
-							<string>Solid</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ClassType</string>
-							<key>objectValue</key>
-							<string>Rounded Rectangle</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderStyleBottom</string>
-							<key>objectValue</key>
-							<string>Solid</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Parent</string>
-							<key>objectValue</key>
-							<string>178</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderWidthRight</string>
-							<key>objectValue</key>
-							<string>1px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Top</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorTop</string>
-							<key>objectValue</key>
-							<string>#D8DDE4</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderStyleLeft</string>
-							<key>objectValue</key>
-							<string>Solid</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorLeft</string>
-							<key>objectValue</key>
-							<string>#D8DDE4</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Position</string>
-							<key>objectValue</key>
-							<string>absolute</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Height</string>
-							<key>objectValue</key>
-							<string>227px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Left</string>
-							<key>objectValue</key>
-							<string>2px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorRight</string>
-							<key>objectValue</key>
-							<string>#D8DDE4</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderStyleTop</string>
-							<key>objectValue</key>
-							<string>Solid</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>372px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderRadiusTopLeft</string>
-							<key>objectValue</key>
-							<string>10px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>1</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderWidthTop</string>
-							<key>objectValue</key>
-							<string>1px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderRadiusBottomLeft</string>
-							<key>objectValue</key>
-							<string>10px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Overflow</string>
-							<key>objectValue</key>
-							<string>visible</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderRadiusTopRight</string>
-							<key>objectValue</key>
-							<string>10px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderRadiusBottomRight</string>
-							<key>objectValue</key>
-							<string>10px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderWidthLeft</string>
-							<key>objectValue</key>
-							<string>1px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BackgroundColor</string>
-							<key>objectValue</key>
-							<string>#E8EBED</string>
-						</dict>
-					</array>
-					<key>165</key>
-					<array>
-						<dict>
-							<key>identifier</key>
-							<string>OriginalWidth</string>
-							<key>objectValue</key>
-							<string>448px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6263,30 +6164,30 @@ function closeGlucosePanel(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>448px</string>
 						</dict>
 					</array>
 					<key>166</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>DisplayName</string>
+							<string>BorderRadiusBottomRight</string>
 							<key>objectValue</key>
-							<string>background</string>
+							<string>3px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthLeft</string>
+							<string>BorderWidthBottom</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BackgroundColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#E8EBED</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6440,21 +6341,21 @@ function closeGlucosePanel(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderRadiusBottomRight</string>
+							<string>DisplayName</string>
 							<key>objectValue</key>
-							<string>3px</string>
+							<string>background</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthBottom</string>
+							<string>BorderWidthLeft</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>BackgroundColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#E8EBED</string>
 						</dict>
 					</array>
 					<key>167</key>
@@ -6671,27 +6572,27 @@ function closeGlucosePanel(hypeDocument, element, event) {
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthBottom</string>
+							<string>BorderWidthLeft</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>BackgroundColor</string>
 							<key>objectValue</key>
-							<string>div</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorBottom</string>
-							<key>objectValue</key>
-							<string>#D8DDE4</string>
+							<string>rgba(232, 235, 237, 0.000)</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>ExplicitDimensions</string>
 							<key>objectValue</key>
 							<string>YES</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorBottom</string>
+							<key>objectValue</key>
+							<string>#D8DDE4</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6833,302 +6734,15 @@ function closeGlucosePanel(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthLeft</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BackgroundColor</string>
-							<key>objectValue</key>
-							<string>rgba(232, 235, 237, 0.000)</string>
-						</dict>
-					</array>
-					<key>170</key>
-					<array>
-						<dict>
-							<key>identifier</key>
-							<string>AutoresizingMask</string>
-							<key>objectValue</key>
-							<string>13</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderStyleRight</string>
-							<key>objectValue</key>
-							<string>Solid</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderStyleTop</string>
-							<key>objectValue</key>
-							<string>Solid</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Display</string>
-							<key>objectValue</key>
-							<string>inline</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ShowButtonEditor</string>
-							<key>objectValue</key>
-							<string>1</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>WordWrap</string>
-							<key>objectValue</key>
-							<string>break-word</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Parent</string>
-							<key>objectValue</key>
-							<string>178</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>BorderWidthBottom</string>
 							<key>objectValue</key>
-							<string>1px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BackgroundColor</string>
-							<key>objectValue</key>
-							<string>#F0F0F0</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderWidthRight</string>
-							<key>objectValue</key>
-							<string>1px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderWidthTop</string>
-							<key>objectValue</key>
-							<string>1px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorBottom</string>
-							<key>objectValue</key>
-							<string>#A0A0A0</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderStyleLeft</string>
-							<key>objectValue</key>
-							<string>Solid</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>FontSize</string>
-							<key>objectValue</key>
-							<string>13px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderRadiusTopRight</string>
-							<key>objectValue</key>
-							<string>4px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>DisplayName</string>
-							<key>objectValue</key>
-							<string>Button</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>TextColor</string>
-							<key>objectValue</key>
-							<string>#000000</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>InnerHTML</string>
-							<key>objectValue</key>
-							<string>确定</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Height</string>
-							<key>objectValue</key>
-							<string>15px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorTop</string>
-							<key>objectValue</key>
-							<string>#A0A0A0</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ExplicitDimensions</string>
-							<key>objectValue</key>
-							<string>YES</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>TextAlign</string>
-							<key>objectValue</key>
-							<string>center</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Top</string>
-							<key>objectValue</key>
-							<string>188px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>PaddingLeft</string>
-							<key>objectValue</key>
-							<string>6px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>UserSelect</string>
-							<key>objectValue</key>
-							<string>none</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>WhiteSpaceCollapsing</string>
-							<key>objectValue</key>
-							<string>preserve</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>2</string>
+							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>TagName</string>
 							<key>objectValue</key>
 							<string>div</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>PaddingTop</string>
-							<key>objectValue</key>
-							<string>6px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderStyleBottom</string>
-							<key>objectValue</key>
-							<string>Solid</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>PaddingBottom</string>
-							<key>objectValue</key>
-							<string>6px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Position</string>
-							<key>objectValue</key>
-							<string>absolute</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>PaddingRight</string>
-							<key>objectValue</key>
-							<string>6px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorLeft</string>
-							<key>objectValue</key>
-							<string>#A0A0A0</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>90px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ClassType</string>
-							<key>objectValue</key>
-							<string>Button</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ActionHandlerOnMouseClick</string>
-							<key>objectValue</key>
-							<dict>
-								<key>actions</key>
-								<array>
-									<dict>
-										<key>playInReverse</key>
-										<true/>
-										<key>symbolOid</key>
-										<string>91</string>
-										<key>timelineIdentifier</key>
-										<string>213</string>
-										<key>type</key>
-										<integer>3</integer>
-									</dict>
-								</array>
-							</dict>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Left</string>
-							<key>objectValue</key>
-							<string>230px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderRadiusBottomRight</string>
-							<key>objectValue</key>
-							<string>4px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorRight</string>
-							<key>objectValue</key>
-							<string>#A0A0A0</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderRadiusBottomLeft</string>
-							<key>objectValue</key>
-							<string>4px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderRadiusTopLeft</string>
-							<key>objectValue</key>
-							<string>4px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderWidthLeft</string>
-							<key>objectValue</key>
-							<string>1px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Overflow</string>
-							<key>objectValue</key>
-							<string>visible</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Cursor</string>
-							<key>objectValue</key>
-							<string>pointer</string>
 						</dict>
 					</array>
 					<key>171</key>
@@ -7153,9 +6767,9 @@ function closeGlucosePanel(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ClassType</string>
+							<string>RotationAngleZ</string>
 							<key>objectValue</key>
-							<string>Group</string>
+							<string>0deg</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7207,302 +6821,15 @@ function closeGlucosePanel(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>RotationAngleZ</string>
-							<key>objectValue</key>
-							<string>0deg</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>ExplicitDimensions</string>
 							<key>objectValue</key>
 							<string>YES</string>
-						</dict>
-					</array>
-					<key>172</key>
-					<array>
-						<dict>
-							<key>identifier</key>
-							<string>AutoresizingMask</string>
-							<key>objectValue</key>
-							<string>12</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderStyleRight</string>
-							<key>objectValue</key>
-							<string>Solid</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderStyleTop</string>
-							<key>objectValue</key>
-							<string>Solid</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Display</string>
-							<key>objectValue</key>
-							<string>inline</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ShowButtonEditor</string>
-							<key>objectValue</key>
-							<string>1</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>WordWrap</string>
-							<key>objectValue</key>
-							<string>break-word</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Parent</string>
-							<key>objectValue</key>
-							<string>178</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderWidthBottom</string>
-							<key>objectValue</key>
-							<string>1px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BackgroundColor</string>
-							<key>objectValue</key>
-							<string>#F0F0F0</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderWidthRight</string>
-							<key>objectValue</key>
-							<string>1px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderWidthTop</string>
-							<key>objectValue</key>
-							<string>1px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorBottom</string>
-							<key>objectValue</key>
-							<string>#A0A0A0</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderStyleLeft</string>
-							<key>objectValue</key>
-							<string>Solid</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>FontSize</string>
-							<key>objectValue</key>
-							<string>13px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderRadiusTopRight</string>
-							<key>objectValue</key>
-							<string>4px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>DisplayName</string>
-							<key>objectValue</key>
-							<string>Button</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>TextColor</string>
-							<key>objectValue</key>
-							<string>#000000</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>InnerHTML</string>
-							<key>objectValue</key>
-							<string>取消</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Height</string>
-							<key>objectValue</key>
-							<string>15px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorTop</string>
-							<key>objectValue</key>
-							<string>#A0A0A0</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ExplicitDimensions</string>
-							<key>objectValue</key>
-							<string>YES</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>TextAlign</string>
-							<key>objectValue</key>
-							<string>center</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Top</string>
-							<key>objectValue</key>
-							<string>188px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>PaddingLeft</string>
-							<key>objectValue</key>
-							<string>6px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>UserSelect</string>
-							<key>objectValue</key>
-							<string>none</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>WhiteSpaceCollapsing</string>
-							<key>objectValue</key>
-							<string>preserve</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>3</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>TagName</string>
-							<key>objectValue</key>
-							<string>div</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>PaddingTop</string>
-							<key>objectValue</key>
-							<string>6px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderStyleBottom</string>
-							<key>objectValue</key>
-							<string>Solid</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>PaddingBottom</string>
-							<key>objectValue</key>
-							<string>6px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Position</string>
-							<key>objectValue</key>
-							<string>absolute</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>PaddingRight</string>
-							<key>objectValue</key>
-							<string>6px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorLeft</string>
-							<key>objectValue</key>
-							<string>#A0A0A0</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>90px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>ClassType</string>
 							<key>objectValue</key>
-							<string>Button</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ActionHandlerOnMouseClick</string>
-							<key>objectValue</key>
-							<dict>
-								<key>actions</key>
-								<array>
-									<dict>
-										<key>playInReverse</key>
-										<true/>
-										<key>symbolOid</key>
-										<string>91</string>
-										<key>timelineIdentifier</key>
-										<string>213</string>
-										<key>type</key>
-										<integer>3</integer>
-									</dict>
-								</array>
-							</dict>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Left</string>
-							<key>objectValue</key>
-							<string>40px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderRadiusBottomRight</string>
-							<key>objectValue</key>
-							<string>4px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorRight</string>
-							<key>objectValue</key>
-							<string>#A0A0A0</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderRadiusBottomLeft</string>
-							<key>objectValue</key>
-							<string>4px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderRadiusTopLeft</string>
-							<key>objectValue</key>
-							<string>4px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderWidthLeft</string>
-							<key>objectValue</key>
-							<string>1px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Overflow</string>
-							<key>objectValue</key>
-							<string>visible</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Cursor</string>
-							<key>objectValue</key>
-							<string>pointer</string>
+							<string>Group</string>
 						</dict>
 					</array>
 					<key>173</key>
@@ -7515,9 +6842,9 @@ function closeGlucosePanel(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#082A39</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7599,9 +6926,9 @@ function closeGlucosePanel(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>3</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7611,9 +6938,9 @@ function closeGlucosePanel(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>3</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7635,9 +6962,9 @@ function closeGlucosePanel(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#082A39</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>174</key>
@@ -7650,9 +6977,9 @@ function closeGlucosePanel(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#082A39</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7734,9 +7061,9 @@ function closeGlucosePanel(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>7</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7746,9 +7073,9 @@ function closeGlucosePanel(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>7</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7770,9 +7097,9 @@ function closeGlucosePanel(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#082A39</string>
 						</dict>
 					</array>
 					<key>175</key>
@@ -7872,9 +7199,9 @@ function closeGlucosePanel(hypeDocument, element, event) {
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>12px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8004,9 +7331,9 @@ function closeGlucosePanel(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>12px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>177</key>
@@ -8102,117 +7429,6 @@ function closeGlucosePanel(hypeDocument, element, event) {
 							<string>Symbol</string>
 						</dict>
 					</array>
-					<key>178</key>
-					<array>
-						<dict>
-							<key>identifier</key>
-							<string>DisplayName</string>
-							<key>objectValue</key>
-							<string>日历面板</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Position</string>
-							<key>objectValue</key>
-							<string>absolute</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Parent</string>
-							<key>objectValue</key>
-							<string>199</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>DisplayHiddenOverride</string>
-							<key>objectValue</key>
-							<string>1</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Left</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Display</string>
-							<key>objectValue</key>
-							<string>inline</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>AutoresizingMask</string>
-							<key>objectValue</key>
-							<string>0</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Height</string>
-							<key>objectValue</key>
-							<string>228px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Overflow</string>
-							<key>objectValue</key>
-							<string>visible</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>374px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>4</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ScaleX</string>
-							<key>objectValue</key>
-							<string>1</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Top</string>
-							<key>objectValue</key>
-							<string>55px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ScaleY</string>
-							<key>objectValue</key>
-							<string>1</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>TagName</string>
-							<key>objectValue</key>
-							<string>div</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Opacity</string>
-							<key>objectValue</key>
-							<string>1</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ExplicitDimensions</string>
-							<key>objectValue</key>
-							<string>YES</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ClassType</string>
-							<key>objectValue</key>
-							<string>Group</string>
-						</dict>
-					</array>
 					<key>179</key>
 					<array>
 						<dict>
@@ -8223,9 +7439,9 @@ function closeGlucosePanel(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#082A39</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8307,9 +7523,9 @@ function closeGlucosePanel(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>4</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8319,9 +7535,9 @@ function closeGlucosePanel(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>4</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8343,9 +7559,9 @@ function closeGlucosePanel(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#082A39</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>180</key>
@@ -8465,9 +7681,9 @@ function closeGlucosePanel(hypeDocument, element, event) {
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>50px</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8597,18 +7813,18 @@ function closeGlucosePanel(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>50px</string>
 						</dict>
 					</array>
 					<key>182</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>640px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8732,9 +7948,9 @@ function closeGlucosePanel(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>640px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>183</key>
@@ -8946,9 +8162,9 @@ function closeGlucosePanel(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -9030,9 +8246,9 @@ function closeGlucosePanel(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>2</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -9042,9 +8258,9 @@ function closeGlucosePanel(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>2</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -9066,9 +8282,9 @@ function closeGlucosePanel(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>185</key>
@@ -9198,15 +8414,15 @@ function closeGlucosePanel(hypeDocument, element, event) {
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthLeft</string>
+							<string>BorderWidthBottom</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BackgroundColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>rgba(233, 236, 238, 0.000)</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -9240,9 +8456,9 @@ function closeGlucosePanel(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ClassType</string>
+							<string>Opacity</string>
 							<key>objectValue</key>
-							<string>Rectangle</string>
+							<string>1</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -9261,12 +8477,6 @@ function closeGlucosePanel(hypeDocument, element, event) {
 							<string>BorderWidthRight</string>
 							<key>objectValue</key>
 							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Opacity</string>
-							<key>objectValue</key>
-							<string>1</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -9291,6 +8501,12 @@ function closeGlucosePanel(hypeDocument, element, event) {
 							<string>BorderColorLeft</string>
 							<key>objectValue</key>
 							<string>rgba(240, 247, 255, 0.000)</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ClassType</string>
+							<key>objectValue</key>
+							<string>Rectangle</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -9348,14 +8564,10 @@ function closeGlucosePanel(hypeDocument, element, event) {
 								<key>actions</key>
 								<array>
 									<dict>
-										<key>playInReverse</key>
-										<false/>
-										<key>symbolOid</key>
-										<string>91</string>
-										<key>timelineIdentifier</key>
-										<string>213</string>
+										<key>javascriptOid</key>
+										<string>244</string>
 										<key>type</key>
-										<integer>3</integer>
+										<integer>4</integer>
 									</dict>
 								</array>
 							</dict>
@@ -9380,15 +8592,15 @@ function closeGlucosePanel(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthBottom</string>
+							<string>BorderWidthLeft</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>BackgroundColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>rgba(233, 236, 238, 0.000)</string>
 						</dict>
 					</array>
 					<key>187</key>
@@ -9514,9 +8726,9 @@ function closeGlucosePanel(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#082A39</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -9598,9 +8810,9 @@ function closeGlucosePanel(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>7</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -9610,9 +8822,9 @@ function closeGlucosePanel(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>7</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -9634,9 +8846,9 @@ function closeGlucosePanel(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#082A39</string>
 						</dict>
 					</array>
 					<key>189</key>
@@ -10054,9 +9266,9 @@ function closeGlucosePanel(hypeDocument, element, event) {
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>112px</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10206,9 +9418,9 @@ function closeGlucosePanel(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>112px</string>
 						</dict>
 					</array>
 					<key>193</key>
@@ -10439,9 +9651,9 @@ function closeGlucosePanel(hypeDocument, element, event) {
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>512px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10561,9 +9773,9 @@ function closeGlucosePanel(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>512px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>196</key>
@@ -10699,9 +9911,9 @@ function closeGlucosePanel(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#082939</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10843,9 +10055,9 @@ function closeGlucosePanel(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#082939</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>198</key>
@@ -10858,9 +10070,9 @@ function closeGlucosePanel(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#082A39</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10942,9 +10154,9 @@ function closeGlucosePanel(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>3</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10954,9 +10166,9 @@ function closeGlucosePanel(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>3</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10978,9 +10190,9 @@ function closeGlucosePanel(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#082A39</string>
 						</dict>
 					</array>
 					<key>199</key>
@@ -11062,9 +10274,9 @@ function closeGlucosePanel(hypeDocument, element, event) {
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>298px</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -11206,9 +10418,9 @@ function closeGlucosePanel(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>298px</string>
 						</dict>
 					</array>
 					<key>201</key>
@@ -11338,9 +10550,9 @@ function closeGlucosePanel(hypeDocument, element, event) {
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>62px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -11470,9 +10682,9 @@ function closeGlucosePanel(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>62px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>203</key>
@@ -11513,9 +10725,9 @@ function closeGlucosePanel(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>DomID</string>
+							<string>ClassType</string>
 							<key>objectValue</key>
-							<string>compass_panel</string>
+							<string>Group</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -11589,9 +10801,9 @@ function closeGlucosePanel(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ClassType</string>
+							<string>DomID</string>
 							<key>objectValue</key>
-							<string>Group</string>
+							<string>compass_panel</string>
 						</dict>
 					</array>
 					<key>204</key>
@@ -11604,9 +10816,9 @@ function closeGlucosePanel(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#082A39</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -11688,9 +10900,9 @@ function closeGlucosePanel(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>3</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -11700,9 +10912,9 @@ function closeGlucosePanel(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>3</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -11724,9 +10936,9 @@ function closeGlucosePanel(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#082A39</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>205</key>
@@ -11739,9 +10951,9 @@ function closeGlucosePanel(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#082A39</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -11823,9 +11035,9 @@ function closeGlucosePanel(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>5</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -11835,9 +11047,9 @@ function closeGlucosePanel(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>5</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -11859,9 +11071,9 @@ function closeGlucosePanel(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#082A39</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>206</key>
@@ -12453,15 +11665,21 @@ function closeGlucosePanel(hypeDocument, element, event) {
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthBottom</string>
+							<string>BorderWidthLeft</string>
 							<key>objectValue</key>
 							<string>1px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>BackgroundColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#E8EBED</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ExplicitDimensions</string>
+							<key>objectValue</key>
+							<string>YES</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -12471,9 +11689,9 @@ function closeGlucosePanel(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ExplicitDimensions</string>
+							<string>DomID</string>
 							<key>objectValue</key>
-							<string>YES</string>
+							<string>caluderClass</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -12537,6 +11755,12 @@ function closeGlucosePanel(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
+							<string>ClassName</string>
+							<key>objectValue</key>
+							<string>caluderClass</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
 							<string>Left</string>
 							<key>objectValue</key>
 							<string>94px</string>
@@ -12551,7 +11775,8 @@ function closeGlucosePanel(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>InnerHTML</string>
 							<key>objectValue</key>
-							<string>&lt;input id="time" type="text"&gt;</string>
+							<string>&lt;div id="testtt"&gt;&lt;/div&gt;
+</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -12591,15 +11816,15 @@ function closeGlucosePanel(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthLeft</string>
+							<string>BorderWidthBottom</string>
 							<key>objectValue</key>
 							<string>1px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BackgroundColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#E8EBED</string>
+							<string>div</string>
 						</dict>
 					</array>
 				</dict>
@@ -13295,398 +12520,7 @@ function closeGlucosePanel(hypeDocument, element, event) {
 					</dict>
 					<dict>
 						<key>animations</key>
-						<array>
-							<dict>
-								<key>duration</key>
-								<real>0.30000001192092896</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Top</string>
-									<key>objectValue</key>
-									<string>55px</string>
-								</dict>
-								<key>identifier</key>
-								<string>Top</string>
-								<key>isRelative</key>
-								<true/>
-								<key>referenceOid</key>
-								<string>178</string>
-								<key>startTime</key>
-								<real>0.0</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Top</string>
-									<key>objectValue</key>
-									<string>-50px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>411CA451-53E0-48F0-B6FA-4081EFFA8C7B-6022-000070EB119ED8A5</string>
-								<key>zIndex</key>
-								<integer>1</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.30000001192092896</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Opacity</string>
-									<key>objectValue</key>
-									<string>1</string>
-								</dict>
-								<key>identifier</key>
-								<string>Opacity</string>
-								<key>isRelative</key>
-								<true/>
-								<key>referenceOid</key>
-								<string>178</string>
-								<key>startTime</key>
-								<real>0.0</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Opacity</string>
-									<key>objectValue</key>
-									<string>0</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>599678AF-7D8A-4A19-8BA5-FCFC4ABB0A76-6022-000070EB11A004A3</string>
-								<key>zIndex</key>
-								<integer>1</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.30000001192092896</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>0px</string>
-								</dict>
-								<key>identifier</key>
-								<string>Left</string>
-								<key>isRelative</key>
-								<true/>
-								<key>referenceOid</key>
-								<string>178</string>
-								<key>startTime</key>
-								<real>0.0</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>160px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>028CA8BF-3322-47AB-B62A-1AA01C10A479-6022-000070EB11A0BDB9</string>
-								<key>zIndex</key>
-								<integer>1</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.30000001192092896</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>ScaleX</string>
-									<key>objectValue</key>
-									<string>1</string>
-								</dict>
-								<key>identifier</key>
-								<string>ScaleX</string>
-								<key>isRelative</key>
-								<true/>
-								<key>referenceOid</key>
-								<string>178</string>
-								<key>startTime</key>
-								<real>0.0</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>ScaleX</string>
-									<key>objectValue</key>
-									<string>0.1</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>5086F184-DF98-4608-BCC1-E0D4DE466D3C-6022-000070EB11A19897</string>
-								<key>zIndex</key>
-								<integer>1</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.30000001192092896</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>ScaleY</string>
-									<key>objectValue</key>
-									<string>1</string>
-								</dict>
-								<key>identifier</key>
-								<string>ScaleY</string>
-								<key>isRelative</key>
-								<true/>
-								<key>referenceOid</key>
-								<string>178</string>
-								<key>startTime</key>
-								<real>0.0</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>ScaleY</string>
-									<key>objectValue</key>
-									<string>0.1</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>8768E3CA-8D58-46DF-A88B-4774DF8A6850-6022-000070EB11A2650A</string>
-								<key>zIndex</key>
-								<integer>1</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.30000001192092896</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>DisplayHiddenOverride</string>
-									<key>objectValue</key>
-									<string>0</string>
-								</dict>
-								<key>identifier</key>
-								<string>DisplayHiddenOverride</string>
-								<key>isRelative</key>
-								<true/>
-								<key>referenceOid</key>
-								<string>178</string>
-								<key>startTime</key>
-								<real>0.0</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>DisplayHiddenOverride</string>
-									<key>objectValue</key>
-									<string>0</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>622F7757-EACB-47D9-A0A2-940DA3E3DE05-6022-00007142E7E53C95</string>
-								<key>zIndex</key>
-								<integer>1</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.0</real>
-								<key>identifier</key>
-								<string>Opacity</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>178</string>
-								<key>startTime</key>
-								<real>0.30000001192092896</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Opacity</string>
-									<key>objectValue</key>
-									<string>1</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>265</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>9F2FB190-0F96-478A-A2AE-08E66142B6AE-6022-000070EB11A38E67</string>
-								<key>zIndex</key>
-								<integer>2</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.0</real>
-								<key>identifier</key>
-								<string>ScaleX</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>178</string>
-								<key>startTime</key>
-								<real>0.30000001192092896</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>ScaleX</string>
-									<key>objectValue</key>
-									<string>1</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>265</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>E4B27AB3-01D6-45FE-BA97-D5A79CCBB84A-6022-000070EB11A4318C</string>
-								<key>zIndex</key>
-								<integer>2</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.0</real>
-								<key>identifier</key>
-								<string>Left</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>178</string>
-								<key>startTime</key>
-								<real>0.30000001192092896</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>0px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>265</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>2F6163B4-FD22-4044-93BA-B3EFE8772EFB-6022-000070EB11A2F614</string>
-								<key>zIndex</key>
-								<integer>2</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.0</real>
-								<key>identifier</key>
-								<string>ScaleY</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>178</string>
-								<key>startTime</key>
-								<real>0.30000001192092896</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>ScaleY</string>
-									<key>objectValue</key>
-									<string>1</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>265</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>E37CF870-461C-400F-B33D-0E595F00594D-6022-000070EB11A4CDEC</string>
-								<key>zIndex</key>
-								<integer>2</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.0</real>
-								<key>identifier</key>
-								<string>Top</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>178</string>
-								<key>startTime</key>
-								<real>0.30000001192092896</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Top</string>
-									<key>objectValue</key>
-									<string>55px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>265</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>27F7E5CA-06F0-4DBC-8356-99B4F695E495-6022-000070EB11A55823</string>
-								<key>zIndex</key>
-								<integer>2</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.0</real>
-								<key>identifier</key>
-								<string>DisplayHiddenOverride</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>178</string>
-								<key>startTime</key>
-								<real>0.30000001192092896</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>DisplayHiddenOverride</string>
-									<key>objectValue</key>
-									<string>0</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>265</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>55239BC6-C354-42BC-919A-2C668314B936-6022-00007142E7FAB77E</string>
-								<key>zIndex</key>
-								<integer>2</integer>
-							</dict>
-						</array>
+						<array/>
 						<key>firstKeyframeIsRelative</key>
 						<true/>
 						<key>framesPerSecond</key>
@@ -13818,7 +12652,7 @@ function closeGlucosePanel(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>01DAC868-4B73-4145-8321-63B4E367A352-6498-00001F43D2A1410A</string>
+									<string>28FCFA9A-3DEE-4DB2-BEEF-1A84E22C7C82-7494-00002A2BFFD80D13</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -14029,7 +12863,7 @@ function closeGlucosePanel(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>01DAC868-4B73-4145-8321-63B4E367A352-6498-00001F43D2A1410A</string>
+									<string>28FCFA9A-3DEE-4DB2-BEEF-1A84E22C7C82-7494-00002A2BFFD80D13</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -14096,7 +12930,7 @@ function closeGlucosePanel(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>01DAC868-4B73-4145-8321-63B4E367A352-6498-00001F43D2A1410A</string>
+									<string>28FCFA9A-3DEE-4DB2-BEEF-1A84E22C7C82-7494-00002A2BFFD80D13</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -14300,7 +13134,7 @@ function closeGlucosePanel(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>DAD0033F-91D1-4341-B7EB-A86B2F1B0A79-6498-00001F43D2A51BDB</string>
+									<string>9DF1A0B5-D59F-4780-A05B-67BDF22EED69-7494-00002A2BFFDC134E</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -14534,7 +13368,7 @@ function closeGlucosePanel(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>DAD0033F-91D1-4341-B7EB-A86B2F1B0A79-6498-00001F43D2A51BDB</string>
+									<string>9DF1A0B5-D59F-4780-A05B-67BDF22EED69-7494-00002A2BFFDC134E</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -14594,7 +13428,7 @@ function closeGlucosePanel(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>DAD0033F-91D1-4341-B7EB-A86B2F1B0A79-6498-00001F43D2A51BDB</string>
+									<string>9DF1A0B5-D59F-4780-A05B-67BDF22EED69-7494-00002A2BFFDC134E</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -14980,7 +13814,7 @@ function closeGlucosePanel(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>46AD8847-4375-412F-B3F6-B0B62CBF5444-6498-00001F43D2A90A23</string>
+									<string>9E13FFE0-C41C-46F3-85E4-4341DCF184B0-7494-00002A2BFFE10B1E</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -15040,7 +13874,7 @@ function closeGlucosePanel(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>46AD8847-4375-412F-B3F6-B0B62CBF5444-6498-00001F43D2A90A23</string>
+									<string>9E13FFE0-C41C-46F3-85E4-4341DCF184B0-7494-00002A2BFFE10B1E</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -15216,7 +14050,7 @@ function closeGlucosePanel(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>46AD8847-4375-412F-B3F6-B0B62CBF5444-6498-00001F43D2A90A23</string>
+									<string>9E13FFE0-C41C-46F3-85E4-4341DCF184B0-7494-00002A2BFFE10B1E</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -15401,7 +14235,7 @@ function closeGlucosePanel(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>C9B49311-F1CC-4C69-B730-414F1993722D-6498-00001F43D2AC9646</string>
+									<string>D818AE91-963D-41A9-A1D5-1AF8B580A5DE-7494-00002A2BFFE50C12</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -15612,7 +14446,7 @@ function closeGlucosePanel(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>C9B49311-F1CC-4C69-B730-414F1993722D-6498-00001F43D2AC9646</string>
+									<string>D818AE91-963D-41A9-A1D5-1AF8B580A5DE-7494-00002A2BFFE50C12</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -15679,7 +14513,7 @@ function closeGlucosePanel(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>C9B49311-F1CC-4C69-B730-414F1993722D-6498-00001F43D2AC9646</string>
+									<string>D818AE91-963D-41A9-A1D5-1AF8B580A5DE-7494-00002A2BFFE50C12</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -15941,7 +14775,7 @@ function closeGlucosePanel(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>65D9AD9F-7E76-4E9B-BFB6-4C2559615C01-6498-00001F43D2AFAC28</string>
+									<string>071439A9-70DD-47FB-87C5-B705ACA95FD0-7494-00002A2BFFE8FC2C</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -16117,7 +14951,7 @@ function closeGlucosePanel(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>65D9AD9F-7E76-4E9B-BFB6-4C2559615C01-6498-00001F43D2AFAC28</string>
+									<string>071439A9-70DD-47FB-87C5-B705ACA95FD0-7494-00002A2BFFE8FC2C</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -16177,7 +15011,7 @@ function closeGlucosePanel(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>65D9AD9F-7E76-4E9B-BFB6-4C2559615C01-6498-00001F43D2AFAC28</string>
+									<string>071439A9-70DD-47FB-87C5-B705ACA95FD0-7494-00002A2BFFE8FC2C</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -16428,7 +15262,7 @@ function closeGlucosePanel(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>59554856-C21B-48C9-8D15-08E508FBA12C-6498-00001F43D2B35DE1</string>
+									<string>264846F7-1917-4E8D-B0A7-A028146D6275-7494-00002A2BFFEFD609</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -16488,7 +15322,7 @@ function closeGlucosePanel(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>59554856-C21B-48C9-8D15-08E508FBA12C-6498-00001F43D2B35DE1</string>
+									<string>264846F7-1917-4E8D-B0A7-A028146D6275-7494-00002A2BFFEFD609</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -16548,7 +15382,7 @@ function closeGlucosePanel(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>59554856-C21B-48C9-8D15-08E508FBA12C-6498-00001F43D2B35DE1</string>
+									<string>264846F7-1917-4E8D-B0A7-A028146D6275-7494-00002A2BFFEFD609</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -16651,7 +15485,7 @@ function closeGlucosePanel(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>17FFC202-F411-419E-9A08-A554FD0A9BE5-6498-00001F43D2B4A884</string>
+									<string>39FF2DD0-69AF-4809-8F71-C5F0F4C344EA-7494-00002A2BFFF19D54</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -16790,7 +15624,7 @@ function closeGlucosePanel(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>17FFC202-F411-419E-9A08-A554FD0A9BE5-6498-00001F43D2B4A884</string>
+									<string>39FF2DD0-69AF-4809-8F71-C5F0F4C344EA-7494-00002A2BFFF19D54</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -16857,7 +15691,7 @@ function closeGlucosePanel(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>17FFC202-F411-419E-9A08-A554FD0A9BE5-6498-00001F43D2B4A884</string>
+									<string>39FF2DD0-69AF-4809-8F71-C5F0F4C344EA-7494-00002A2BFFF19D54</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -17314,7 +16148,7 @@ function closeGlucosePanel(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>72104E75-7D5B-4566-AFCA-ECB8225755B3-6498-00001F43D2B87A58</string>
+									<string>9BE270C0-1366-41F0-BCC0-2A3B8DDA7C04-7494-00002A2BFFF68A44</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -17374,7 +16208,7 @@ function closeGlucosePanel(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>72104E75-7D5B-4566-AFCA-ECB8225755B3-6498-00001F43D2B87A58</string>
+									<string>9BE270C0-1366-41F0-BCC0-2A3B8DDA7C04-7494-00002A2BFFF68A44</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -17579,7 +16413,7 @@ function closeGlucosePanel(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>72104E75-7D5B-4566-AFCA-ECB8225755B3-6498-00001F43D2B87A58</string>
+									<string>9BE270C0-1366-41F0-BCC0-2A3B8DDA7C04-7494-00002A2BFFF68A44</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -17844,7 +16678,7 @@ function closeGlucosePanel(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>4E789A61-87F2-42F4-B92A-F0B9F7F72184-6498-00001F43D2BF6744</string>
+									<string>EFDB2A84-7D57-4756-987A-36EFA50757F7-7494-00002A2BFFFB89AF</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -18029,7 +16863,7 @@ function closeGlucosePanel(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>09AB274C-5D5E-4C05-9DA9-5192A47A4D49-6498-00001F43D2C0E5F2</string>
+									<string>47D4135D-88B6-4F2B-AA97-6675F6D84688-7494-00002A2BFFFD07EA</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -18089,7 +16923,7 @@ function closeGlucosePanel(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>09AB274C-5D5E-4C05-9DA9-5192A47A4D49-6498-00001F43D2C0E5F2</string>
+									<string>47D4135D-88B6-4F2B-AA97-6675F6D84688-7494-00002A2BFFFD07EA</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -18207,7 +17041,7 @@ function closeGlucosePanel(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>09AB274C-5D5E-4C05-9DA9-5192A47A4D49-6498-00001F43D2C0E5F2</string>
+									<string>47D4135D-88B6-4F2B-AA97-6675F6D84688-7494-00002A2BFFFD07EA</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -18267,7 +17101,7 @@ function closeGlucosePanel(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>4E789A61-87F2-42F4-B92A-F0B9F7F72184-6498-00001F43D2BF6744</string>
+									<string>EFDB2A84-7D57-4756-987A-36EFA50757F7-7494-00002A2BFFFB89AF</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -18385,7 +17219,7 @@ function closeGlucosePanel(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>4E789A61-87F2-42F4-B92A-F0B9F7F72184-6498-00001F43D2BF6744</string>
+									<string>EFDB2A84-7D57-4756-987A-36EFA50757F7-7494-00002A2BFFFB89AF</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -19387,7 +18221,7 @@ function closeGlucosePanel(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>08F66E10-E3A6-40BF-AF1A-87B36753B97B-6498-00001F43D2C931E2</string>
+									<string>DCD711F0-AB83-4FEB-AD15-46C2C9B6D40D-7494-00002A2C0006EFC6</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -19519,7 +18353,7 @@ function closeGlucosePanel(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>08F66E10-E3A6-40BF-AF1A-87B36753B97B-6498-00001F43D2C931E2</string>
+									<string>DCD711F0-AB83-4FEB-AD15-46C2C9B6D40D-7494-00002A2C0006EFC6</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -19586,7 +18420,7 @@ function closeGlucosePanel(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>C5E42140-1D17-48E9-A907-A2EBCBF8C74D-6498-00001F43D2CA7E21</string>
+									<string>65A47441-D52B-402A-9BF3-C81334F19B01-7494-00002A2C000888BA</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -19704,7 +18538,7 @@ function closeGlucosePanel(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>08F66E10-E3A6-40BF-AF1A-87B36753B97B-6498-00001F43D2C931E2</string>
+									<string>DCD711F0-AB83-4FEB-AD15-46C2C9B6D40D-7494-00002A2C0006EFC6</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -19771,7 +18605,7 @@ function closeGlucosePanel(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>C5E42140-1D17-48E9-A907-A2EBCBF8C74D-6498-00001F43D2CA7E21</string>
+									<string>65A47441-D52B-402A-9BF3-C81334F19B01-7494-00002A2C000888BA</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -19896,7 +18730,7 @@ function closeGlucosePanel(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>C5E42140-1D17-48E9-A907-A2EBCBF8C74D-6498-00001F43D2CA7E21</string>
+									<string>65A47441-D52B-402A-9BF3-C81334F19B01-7494-00002A2C000888BA</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -21109,7 +19943,7 @@ function closeGlucosePanel(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>BD080761-19CA-475C-A1EB-0FE6449AEBE2-6498-00001F43D2D21F11</string>
+									<string>7691A8FC-EB23-4442-9BB2-655E47EBB405-7494-00002A2C00127354</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -21212,7 +20046,7 @@ function closeGlucosePanel(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>BD080761-19CA-475C-A1EB-0FE6449AEBE2-6498-00001F43D2D21F11</string>
+									<string>7691A8FC-EB23-4442-9BB2-655E47EBB405-7494-00002A2C00127354</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -21351,7 +20185,7 @@ function closeGlucosePanel(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>BD080761-19CA-475C-A1EB-0FE6449AEBE2-6498-00001F43D2D21F11</string>
+									<string>7691A8FC-EB23-4442-9BB2-655E47EBB405-7494-00002A2C00127354</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -21469,7 +20303,7 @@ function closeGlucosePanel(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>9A47205D-6B4A-4E99-8D51-7F650AC55649-6498-00001F43D2D42B9D</string>
+									<string>24988EEE-A237-4F99-BF4A-150E671DC6AC-7494-00002A2C00152898</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -21558,7 +20392,7 @@ function closeGlucosePanel(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>9A47205D-6B4A-4E99-8D51-7F650AC55649-6498-00001F43D2D42B9D</string>
+									<string>24988EEE-A237-4F99-BF4A-150E671DC6AC-7494-00002A2C00152898</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -21676,7 +20510,7 @@ function closeGlucosePanel(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>9A47205D-6B4A-4E99-8D51-7F650AC55649-6498-00001F43D2D42B9D</string>
+									<string>24988EEE-A237-4F99-BF4A-150E671DC6AC-7494-00002A2C00152898</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -21876,7 +20710,7 @@ function closeGlucosePanel(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>4367936F-FE8F-4092-A4B8-C3BFBDBA41C0-6498-00001F43D2D7F5CA</string>
+									<string>6B9E60A9-AE5D-4CE5-965D-6B37E57C1F75-7494-00002A2C001A1EFF</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -22073,7 +20907,7 @@ function closeGlucosePanel(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>1A899255-2AEA-4D50-B527-C13B02F89EA7-6498-00001F43D2D93F58</string>
+									<string>E49F460A-1A60-4DE7-BD35-9DF127224F07-7494-00002A2C001BBF2E</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -22140,7 +20974,7 @@ function closeGlucosePanel(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>1A899255-2AEA-4D50-B527-C13B02F89EA7-6498-00001F43D2D93F58</string>
+									<string>E49F460A-1A60-4DE7-BD35-9DF127224F07-7494-00002A2C001BBF2E</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -22207,7 +21041,7 @@ function closeGlucosePanel(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>1A899255-2AEA-4D50-B527-C13B02F89EA7-6498-00001F43D2D93F58</string>
+									<string>E49F460A-1A60-4DE7-BD35-9DF127224F07-7494-00002A2C001BBF2E</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -22361,7 +21195,7 @@ function closeGlucosePanel(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>4367936F-FE8F-4092-A4B8-C3BFBDBA41C0-6498-00001F43D2D7F5CA</string>
+									<string>6B9E60A9-AE5D-4CE5-965D-6B37E57C1F75-7494-00002A2C001A1EFF</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -22479,7 +21313,7 @@ function closeGlucosePanel(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>4367936F-FE8F-4092-A4B8-C3BFBDBA41C0-6498-00001F43D2D7F5CA</string>
+									<string>6B9E60A9-AE5D-4CE5-965D-6B37E57C1F75-7494-00002A2C001A1EFF</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -22963,7 +21797,7 @@ function closeGlucosePanel(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>73FE209A-50B4-4611-AEFB-A5A1CEE5793D-6498-00001F43D2DF95DB</string>
+									<string>A821405A-760F-4477-A942-34FCDE4EC184-7494-00002A2C0024CDFF</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -23066,7 +21900,7 @@ function closeGlucosePanel(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>73FE209A-50B4-4611-AEFB-A5A1CEE5793D-6498-00001F43D2DF95DB</string>
+									<string>A821405A-760F-4477-A942-34FCDE4EC184-7494-00002A2C0024CDFF</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -23205,7 +22039,7 @@ function closeGlucosePanel(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>73FE209A-50B4-4611-AEFB-A5A1CEE5793D-6498-00001F43D2DF95DB</string>
+									<string>A821405A-760F-4477-A942-34FCDE4EC184-7494-00002A2C0024CDFF</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -23415,7 +22249,7 @@ function closeGlucosePanel(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>7175B905-EA83-4720-92B6-81A01ECB47D8-6498-00001F43D2E2173D</string>
+									<string>8582D911-3E84-4D99-9DE5-84F1E1FD506A-7494-00002A2C0029D1D7</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -23504,7 +22338,7 @@ function closeGlucosePanel(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>7175B905-EA83-4720-92B6-81A01ECB47D8-6498-00001F43D2E2173D</string>
+									<string>8582D911-3E84-4D99-9DE5-84F1E1FD506A-7494-00002A2C0029D1D7</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -23593,7 +22427,7 @@ function closeGlucosePanel(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>7175B905-EA83-4720-92B6-81A01ECB47D8-6498-00001F43D2E2173D</string>
+									<string>8582D911-3E84-4D99-9DE5-84F1E1FD506A-7494-00002A2C0029D1D7</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -23825,7 +22659,7 @@ function closeGlucosePanel(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>F5B34BC5-3ED2-4661-ACC8-667D682CCB61-6498-00001F43D2E5D0EF</string>
+									<string>222BDA2E-8C9F-4724-960D-3538F7237646-7494-00002A2C0030FB5F</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -23885,7 +22719,7 @@ function closeGlucosePanel(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>F5B34BC5-3ED2-4661-ACC8-667D682CCB61-6498-00001F43D2E5D0EF</string>
+									<string>222BDA2E-8C9F-4724-960D-3538F7237646-7494-00002A2C0030FB5F</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -23945,7 +22779,7 @@ function closeGlucosePanel(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>F5B34BC5-3ED2-4661-ACC8-667D682CCB61-6498-00001F43D2E5D0EF</string>
+									<string>222BDA2E-8C9F-4724-960D-3538F7237646-7494-00002A2C0030FB5F</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -24217,7 +23051,7 @@ function closeGlucosePanel(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>E9D76CDA-FE09-42FE-B93C-92BAEC0D5CAD-6498-00001F43D2E8A1A1</string>
+									<string>89E6B2DC-B7E1-48AB-9C41-5699AE0EEBAE-7494-00002A2C00358CD3</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -24306,7 +23140,7 @@ function closeGlucosePanel(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>E9D76CDA-FE09-42FE-B93C-92BAEC0D5CAD-6498-00001F43D2E8A1A1</string>
+									<string>89E6B2DC-B7E1-48AB-9C41-5699AE0EEBAE-7494-00002A2C00358CD3</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -24395,7 +23229,7 @@ function closeGlucosePanel(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>E9D76CDA-FE09-42FE-B93C-92BAEC0D5CAD-6498-00001F43D2E8A1A1</string>
+									<string>89E6B2DC-B7E1-48AB-9C41-5699AE0EEBAE-7494-00002A2C00358CD3</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -24571,7 +23405,7 @@ function closeGlucosePanel(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>68EFD695-9F16-43B9-903F-80D76ED098C1-6498-00001F43D2EAEF9B</string>
+									<string>27C5F6E9-B730-42D2-B6DA-CDB1F07E6F8F-7494-00002A2C0038CBB0</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -24660,7 +23494,7 @@ function closeGlucosePanel(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>68EFD695-9F16-43B9-903F-80D76ED098C1-6498-00001F43D2EAEF9B</string>
+									<string>27C5F6E9-B730-42D2-B6DA-CDB1F07E6F8F-7494-00002A2C0038CBB0</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -24720,7 +23554,7 @@ function closeGlucosePanel(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>68EFD695-9F16-43B9-903F-80D76ED098C1-6498-00001F43D2EAEF9B</string>
+									<string>27C5F6E9-B730-42D2-B6DA-CDB1F07E6F8F-7494-00002A2C0038CBB0</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
