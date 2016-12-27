@@ -51,6 +51,7 @@ function cancelDocEventListener () {
 function showCalendar (hypeDocument, element, event){
 	// body...
 	//$(".homeCalendar").trigger("focus");
+	console.log("showCalendar");
 	$("#EDITBOOKENDTIME").mobiscroll('show');
 }
 
