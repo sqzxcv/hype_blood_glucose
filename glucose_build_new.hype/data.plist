@@ -189,11 +189,10 @@ $(function() {
   }
   window.HYPE_eventListeners.push({"type":"HypeSceneLoad", "callback":myCallback});
 
-registerDocEventListener();
  &lt;/script&gt;
 	</string>
 	<key>lastCheckDate</key>
-	<date>2016-12-27T11:22:22Z</date>
+	<date>2016-12-27T12:00:58Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
@@ -392,7 +391,7 @@ registerDocEventListener();
 			</dict>
 		</array>
 		<key>selectedTabIndex</key>
-		<integer>0</integer>
+		<integer>2</integer>
 		<key>showInspectorView</key>
 		<true/>
 		<key>showResourcesView</key>
@@ -3155,11 +3154,11 @@ registerDocEventListener();
 			</dict>
 			<dict>
 				<key>fileModificationDate</key>
-				<date>2016-12-27T11:20:46Z</date>
+				<date>2016-12-27T12:00:57Z</date>
 				<key>fileSize</key>
-				<integer>1314</integer>
+				<integer>1359</integer>
 				<key>md5</key>
-				<string>5141D74D7E2DAD9914F8777472882E52</string>
+				<string>18F25FA6919BEA8BBBED5314F7DD8193</string>
 				<key>notifyOnBookmarkChange</key>
 				<true/>
 				<key>originalPath</key>
@@ -3224,8 +3223,8 @@ registerDocEventListener();
 					<dict>
 						<key>expandedItems</key>
 						<array>
-							<string>250</string>
-							<string>249</string>
+							<string>199</string>
+							<string>159</string>
 						</array>
 						<key>timeCursors</key>
 						<dict>
@@ -3283,7 +3282,7 @@ registerDocEventListener();
 					<key>rootSymbolControllerOid</key>
 					<string>141</string>
 					<key>scrollViewOffset</key>
-					<string>{0, 29}</string>
+					<string>{0, 0}</string>
 					<key>userGuides</key>
 					<array>
 						<dict>
@@ -3306,7 +3305,7 @@ registerDocEventListener();
 						</dict>
 						<dict>
 							<key>offset</key>
-							<real>88</real>
+							<real>23</real>
 							<key>orientation</key>
 							<string>horizontal</string>
 						</dict>
@@ -3777,12 +3776,12 @@ function showCalendar(hypeDocument, element, event) {
 		</dict>
 		<dict>
 			<key>currentGroupElement</key>
-			<string>250</string>
+			<string>159</string>
 			<key>documentIdentifier</key>
 			<string>585D5FFA-81C4-47D6-A0D0-E2B685D1CD9D-16756-00006E5FBCF1006F</string>
 			<key>selectedObjects</key>
 			<array>
-				<string>248</string>
+				<string>199</string>
 			</array>
 			<key>symbol</key>
 			<dict>
@@ -8404,7 +8403,7 @@ function showCalendar(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>Parent</string>
 							<key>objectValue</key>
-							<string>249</string>
+							<string>159</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8434,7 +8433,7 @@ function showCalendar(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>Left</string>
 							<key>objectValue</key>
-							<string>3px</string>
+							<string>1px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8452,7 +8451,7 @@ function showCalendar(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>3</string>
+							<string>4</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8585,7 +8584,7 @@ function showCalendar(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>30</string>
+							<string>25</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -9879,45 +9878,9 @@ function showCalendar(hypeDocument, element, event) {
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>DisplayName</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>dateIcon@2x</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Position</string>
-							<key>objectValue</key>
-							<string>absolute</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>OriginalWidth</string>
-							<key>objectValue</key>
-							<string>34px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>SizeRatio</string>
-							<key>objectValue</key>
-							<string>0.894737</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Left</string>
-							<key>objectValue</key>
-							<string>327px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>OriginalHeight</string>
-							<key>objectValue</key>
-							<string>38px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Display</string>
-							<key>objectValue</key>
-							<string>inline</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -9927,45 +9890,27 @@ function showCalendar(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PointerEvents</string>
+							<string>Display</string>
 							<key>objectValue</key>
-							<string>none</string>
+							<string>inline</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Height</string>
+							<string>ClassType</string>
 							<key>objectValue</key>
-							<string>38px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Overflow</string>
-							<key>objectValue</key>
-							<string>visible</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>34px</string>
+							<string>Image</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>Top</string>
 							<key>objectValue</key>
-							<string>181px</string>
+							<string>15px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BackgroundImageResourceGroupOid</string>
+							<string>Parent</string>
 							<key>objectValue</key>
-							<string>132</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BackgroundSize</string>
-							<key>objectValue</key>
-							<string>100% 100%</string>
+							<string>199</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -9975,21 +9920,79 @@ function showCalendar(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>Position</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>absolute</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>PointerEvents</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Height</string>
+							<key>objectValue</key>
+							<string>38px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Left</string>
+							<key>objectValue</key>
+							<string>329px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>SizeRatio</string>
+							<key>objectValue</key>
+							<string>0.894737</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BackgroundImageResourceGroupOid</string>
+							<key>objectValue</key>
+							<string>132</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>7</string>
+							<string>4</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ClassType</string>
+							<string>Width</string>
 							<key>objectValue</key>
-							<string>Image</string>
+							<string>34px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BackgroundSize</string>
+							<key>objectValue</key>
+							<string>100% 100%</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Overflow</string>
+							<key>objectValue</key>
+							<string>visible</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>DisplayName</string>
+							<key>objectValue</key>
+							<string>dateIcon@2x</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>OriginalHeight</string>
+							<key>objectValue</key>
+							<string>38px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>OriginalWidth</string>
+							<key>objectValue</key>
+							<string>34px</string>
 						</dict>
 					</array>
 					<key>195</key>
@@ -10558,13 +10561,13 @@ function showCalendar(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>Parent</string>
 							<key>objectValue</key>
-							<string>249</string>
+							<string>159</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>Left</string>
 							<key>objectValue</key>
-							<string>0px</string>
+							<string>-2px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10594,7 +10597,7 @@ function showCalendar(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>1</string>
+							<string>2</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -12076,7 +12079,7 @@ function showCalendar(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>Top</string>
 							<key>objectValue</key>
-							<string>0px</string>
+							<string>21px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -12106,7 +12109,7 @@ function showCalendar(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>Parent</string>
 							<key>objectValue</key>
-							<string>250</string>
+							<string>199</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -12124,13 +12127,19 @@ function showCalendar(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>Left</string>
 							<key>objectValue</key>
-							<string>0px</string>
+							<string>141px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>BorderColorRight</string>
 							<key>objectValue</key>
 							<string>#D8DDE4</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>TextAlign</string>
+							<key>objectValue</key>
+							<string>left</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -12161,13 +12170,13 @@ function showCalendar(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>1</string>
+							<string>3</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>Width</string>
 							<key>objectValue</key>
-							<string>170px</string>
+							<string>227px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -12185,7 +12194,7 @@ function showCalendar(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>DisplayName</string>
 							<key>objectValue</key>
-							<string> datetime</string>
+							<string>矩形</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -12198,138 +12207,6 @@ function showCalendar(hypeDocument, element, event) {
 							<string>BackgroundColor</string>
 							<key>objectValue</key>
 							<string>#E8EBED</string>
-						</dict>
-					</array>
-					<key>249</key>
-					<array>
-						<dict>
-							<key>identifier</key>
-							<string>Height</string>
-							<key>objectValue</key>
-							<string>226.938px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>3</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>DisplayName</string>
-							<key>objectValue</key>
-							<string>title</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Overflow</string>
-							<key>objectValue</key>
-							<string>visible</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Top</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Left</string>
-							<key>objectValue</key>
-							<string>-2px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ClassType</string>
-							<key>objectValue</key>
-							<string>Group</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Position</string>
-							<key>objectValue</key>
-							<string>absolute</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>375px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>TagName</string>
-							<key>objectValue</key>
-							<string>div</string>
-						</dict>
-					</array>
-					<key>250</key>
-					<array>
-						<dict>
-							<key>identifier</key>
-							<string>Height</string>
-							<key>objectValue</key>
-							<string>26px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>4</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>DisplayName</string>
-							<key>objectValue</key>
-							<string>成组</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>PointerEvents</string>
-							<key>objectValue</key>
-							<string>none</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Overflow</string>
-							<key>objectValue</key>
-							<string>visible</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Top</string>
-							<key>objectValue</key>
-							<string>185px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Left</string>
-							<key>objectValue</key>
-							<string>134px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ClassType</string>
-							<key>objectValue</key>
-							<string>Group</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Position</string>
-							<key>objectValue</key>
-							<string>absolute</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>170px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>TagName</string>
-							<key>objectValue</key>
-							<string>div</string>
 						</dict>
 					</array>
 				</dict>

@@ -50,7 +50,8 @@ function cancelDocEventListener () {
 //暂时没有使用
 function showCalendar (hypeDocument, element, event){
 	// body...
-	$(".homeCalendar").trigger("focus");
+	//$(".homeCalendar").trigger("focus");
+	$("#EDITBOOKENDTIME").mobiscroll('show');
 }
 
 
