@@ -36,12 +36,8 @@ function preventDefaultAction (even) {
 
 function registerDocEventListener () {
 	// body...
-
-	document.addEventListener('touchstart', preventDefaultAction, false);
 	
-	document.addEventListener('touchmove', function(e) {
-		e.preventDefault();
-	}, false);
+	document.addEventListener('touchmove', preventDefaultAction, false);
 }
 
 function cancelDocEventListener () {
