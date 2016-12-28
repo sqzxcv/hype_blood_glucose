@@ -6,6 +6,25 @@ function touchEnd (hypeDocument, element, event) {
 	console.log("结束播放");
 }
 
+function initCompassValue (hypeDocument, glucose) {
+	// body...
+	angle = convertFromGlucoseToAngle(glucose, g_3);
+	var time = 6*angle/360;
+	hypeDocument.pauseTimelineNamed('analysisGlucosePanel');
+	hypeDocument.goToTimeInTimelineNamed(time, 'RuleTimeline');
+	var textElement = hypeDocument.getElementById('glucose_value');
+	textElement.innerHTML = '<font  style="font-family:PingFangSC-Thin, sans-serif">' + Number(glucose).toFixed(1) + '</font>';
+	hypeDocument.continueTimelineNamed('analysisGlucosePanel',hypeDocument.kDirectionForward, false);
+	
+	var red = caculateColorChannel(angle,'r');
+	var green = caculateColorChannel(angle,'g');
+	var blue = caculateColorChannel(angle,'b');
+	$(".CompassValuePanel").css('box-shadow', '0px 3px 5px 1px rgba('+red+','+green+','+blue+',1)');
+	//$(".CompassValuePanel").css('background', 'rgba('+red+','+green+','+blue+',1)');
+	$(".compass_pointerBK").css('background','rgba('+red+','+green+','+blue+',1)');
+
+}
+
 function touchMove (hypeDocument, element, event) {
 	// body...
 
@@ -48,7 +67,7 @@ function touchMove (hypeDocument, element, event) {
 	hypeDocument.goToTimeInTimelineNamed(time, 'RuleTimeline');
 
 	var textElement = hypeDocument.getElementById('glucose_value');
-	measure_glucose_value = convertGluose_moring(angle, g_3);
+	measure_glucose_value = convertFromAngleToGluose(angle, g_3);
 	textElement.innerHTML = '<font  style="font-family:PingFangSC-Thin, sans-serif">' + measure_glucose_value + '</font>';
 
 	var red = caculateColorChannel(angle,'r');
@@ -73,7 +92,35 @@ function playAudio () {
 	 }
 }
 
-function convertGluose_moring (angle, g_3) {
+function convertFromGlucoseToAngle (glucose, g_3) {
+	// body...
+
+	var angle = 0;
+	var g_0= 0.0;
+	var g_1 = 3.9;
+	var g_2 = 4.4;
+	var g_4 = 16.7;
+	var g_5 = 36.0;
+
+	if (glucose <= g_1) {
+		angle = 45* glucose/g_1;
+	}
+	else if (glucose <= g_2 && glucose > g_1) {
+		angle = 45 * (glucose - g_1) /(g_2 - g_1) + 45;
+	}
+	else if (glucose <= g_3 && glucose > g_2) {
+		angle = (glucose - g_2) * 90 /(g_3 - g_2) + 90;
+	}
+	else if (glucose <= g_4 && glucose > g_3) {
+		angle = (glucose - g_3) * 90/(g_4 - g_3) + 180;
+	}
+	else {
+		angle = (glucose - g_4) * 90/(g_5 - g_4) + 270;
+	}
+	return angle;
+}
+
+function convertFromAngleToGluose (angle, g_3) {
 	// body...
 	var glucoseValue = 0.0;
 	//控制目标
