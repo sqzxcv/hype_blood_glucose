@@ -49,7 +49,7 @@ function touchMove (hypeDocument, element, event) {
 
 	var textElement = hypeDocument.getElementById('glucose_value');
 
-	textElement.innerHTML = '<font  style="font-family:PingFangSC-Thin, sans-serif">' + convertGluose_moring(angle) + '</font>';
+	textElement.innerHTML = '<font  style="font-family:PingFangSC-Thin, sans-serif">' + convertGluose_moring(angle, g_3) + '</font>';
 
 	var red = caculateColorChannel(angle,'r');
 	var green = caculateColorChannel(angle,'g');
@@ -73,22 +73,28 @@ function playAudio () {
 	 }
 }
 
-function convertGluose_moring (angle) {
+function convertGluose_moring (angle, g_3) {
 	// body...
 	var glucoseValue = 0.0;
+	//控制目标
+	var g_0= 0.0;
+	var g_1 = 3.9;
+	var g_2 = 4.4;
+	var g_4 = 16.7;
+	var g_5 = 36.0;
 	if (angle <= 45 && angle>= 0) {
 
-		glucoseValue = 3.9 *angle/45;
+		glucoseValue = g_1 *angle/45;
 	} else if (angle > 45 && angle <= 90) {
 
-		glucoseValue = 0.5 * (angle - 45)/45 + 3.9;
+		glucoseValue = (g_2 - g_1) * (angle - 45)/45 + g_1;
 	} else if (angle > 90 && angle <= 180) {
-		glucoseValue = 2.6 * (angle - 90) /90 + 4.4;
+		glucoseValue = (g_3 - g_2) * (angle - 90) /90 + g_2;
 	} else if (angle > 180 && angle <=270) {
-		glucoseValue = 9.7 * (angle - 180)/90 + 7;
+		glucoseValue = (g_4 - g_3) * (angle - 180)/90 + g_3;
 	} else {
 		//angle >315 && angle <=360;
-		glucoseValue = 19.3 * (angle - 270) /90 + 16.7
+		glucoseValue = (g_5 - g_4) * (angle - 270) /90 + g_4;
 		
 	};
 	return Number(glucoseValue).toFixed(1);

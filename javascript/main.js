@@ -27,6 +27,8 @@ var rolate = 5.53;
 var rox = 0;
 
 var ro = 0;
+//血糖控制目标，正常人空腹控制目标的几个点：0、3.9、4.4、7、16.7、36，这里g_3可能代表空腹的7，非空腹的10；
+var g_3 = 7;
 
 
 function preventDefaultAction (even) {

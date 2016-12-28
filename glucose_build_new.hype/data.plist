@@ -146,15 +146,15 @@ input：focus{outline:none;}
  &lt;/script&gt;
 	</string>
 	<key>lastCheckDate</key>
-	<date>2016-12-28T04:07:18Z</date>
+	<date>2016-12-28T05:15:25Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
-		<integer>0</integer>
+		<integer>5</integer>
 		<key>customizableLayout</key>
 		<dict>
 			<key>frame</key>
-			<string>{{0, 0}, {1170, 758}}</string>
+			<string>{{0, 0}, {1920, 958}}</string>
 			<key>identifier</key>
 			<string>container 24</string>
 			<key>isCustomizableViewContainer</key>
@@ -167,7 +167,7 @@ input：focus{outline:none;}
 			<array>
 				<dict>
 					<key>frame</key>
-					<string>{{0, 0}, {947, 758}}</string>
+					<string>{{0, 0}, {1649, 958}}</string>
 					<key>identifier</key>
 					<string>container 53</string>
 					<key>isCustomizableViewContainer</key>
@@ -180,7 +180,7 @@ input：focus{outline:none;}
 					<array>
 						<dict>
 							<key>frame</key>
-							<string>{{0, 0}, {676, 758}}</string>
+							<string>{{0, 0}, {1378, 958}}</string>
 							<key>identifier</key>
 							<string>container 42</string>
 							<key>isCustomizableViewContainer</key>
@@ -193,7 +193,7 @@ input：focus{outline:none;}
 							<array>
 								<dict>
 									<key>frame</key>
-									<string>{{0, 0}, {135, 758}}</string>
+									<string>{{0, 0}, {135, 958}}</string>
 									<key>identifier</key>
 									<string>container 32</string>
 									<key>isCustomizableViewContainer</key>
@@ -206,7 +206,7 @@ input：focus{outline:none;}
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{0, 0}, {135, 758}}</string>
+											<string>{{0, 0}, {135, 958}}</string>
 											<key>identifier</key>
 											<string>sceneSelectorCustomizableContainer</string>
 											<key>isCustomizableViewContainer</key>
@@ -216,7 +216,7 @@ input：focus{outline:none;}
 								</dict>
 								<dict>
 									<key>frame</key>
-									<string>{{136, 0}, {540, 758}}</string>
+									<string>{{136, 0}, {1242, 958}}</string>
 									<key>identifier</key>
 									<string>container 33</string>
 									<key>isCustomizableViewContainer</key>
@@ -229,7 +229,7 @@ input：focus{outline:none;}
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{136, 0}, {540, 240}}</string>
+											<string>{{136, 0}, {1242, 559}}</string>
 											<key>identifier</key>
 											<string>container 45</string>
 											<key>isCustomizableViewContainer</key>
@@ -242,7 +242,7 @@ input：focus{outline:none;}
 											<array>
 												<dict>
 													<key>frame</key>
-													<string>{{136, 0}, {540, 240}}</string>
+													<string>{{136, 0}, {1242, 559}}</string>
 													<key>identifier</key>
 													<string>timelineCustomizableContainer</string>
 													<key>isCustomizableViewContainer</key>
@@ -252,7 +252,7 @@ input：focus{outline:none;}
 										</dict>
 										<dict>
 											<key>frame</key>
-											<string>{{136, 241}, {540, 517}}</string>
+											<string>{{136, 560}, {1242, 398}}</string>
 											<key>identifier</key>
 											<string>container 229</string>
 											<key>isCustomizableViewContainer</key>
@@ -265,7 +265,7 @@ input：focus{outline:none;}
 											<array>
 												<dict>
 													<key>frame</key>
-													<string>{{136, 241}, {540, 517}}</string>
+													<string>{{136, 560}, {1242, 398}}</string>
 													<key>identifier</key>
 													<string>sceneEditorCustomizableContainer</string>
 													<key>isCustomizableViewContainer</key>
@@ -279,7 +279,7 @@ input：focus{outline:none;}
 						</dict>
 						<dict>
 							<key>frame</key>
-							<string>{{677, 0}, {270, 758}}</string>
+							<string>{{1379, 0}, {270, 958}}</string>
 							<key>identifier</key>
 							<string>container 41</string>
 							<key>isCustomizableViewContainer</key>
@@ -292,7 +292,7 @@ input：focus{outline:none;}
 							<array>
 								<dict>
 									<key>frame</key>
-									<string>{{677, 0}, {270, 758}}</string>
+									<string>{{1379, 0}, {270, 958}}</string>
 									<key>identifier</key>
 									<string>inspectorCustomizableContainer</string>
 									<key>isCustomizableViewContainer</key>
@@ -304,7 +304,7 @@ input：focus{outline:none;}
 				</dict>
 				<dict>
 					<key>frame</key>
-					<string>{{948, 0}, {270, 758}}</string>
+					<string>{{1650, 0}, {270, 958}}</string>
 					<key>identifier</key>
 					<string>container 52</string>
 					<key>isCustomizableViewContainer</key>
@@ -317,7 +317,7 @@ input：focus{outline:none;}
 					<array>
 						<dict>
 							<key>frame</key>
-							<string>{{948, 0}, {270, 758}}</string>
+							<string>{{1650, 0}, {270, 958}}</string>
 							<key>identifier</key>
 							<string>resourcesCustomizableContainer</string>
 							<key>isCustomizableViewContainer</key>
@@ -345,7 +345,7 @@ input：focus{outline:none;}
 			</dict>
 		</array>
 		<key>selectedTabIndex</key>
-		<integer>2</integer>
+		<integer>0</integer>
 		<key>showInspectorView</key>
 		<true/>
 		<key>showResourcesView</key>
@@ -1096,61 +1096,6 @@ input：focus{outline:none;}
 				AAAAICAAAEwCAAAAAAAAMCAAAHgCAAAAAAAAAcAAAMAB
 				AAAAAAAAEcAAACAAAAAAAAAAEsAAANABAAAAAAAAENAA
 				AAQAAAAAAAAA
-				</data>
-				<key>shouldAutoResize</key>
-				<true/>
-				<key>shouldIncludeInDocumentHeadHTML</key>
-				<true/>
-				<key>shouldPreload</key>
-				<true/>
-				<key>shouldRemoveWhenNoLongerReferenced</key>
-				<false/>
-				<key>type</key>
-				<string>FileResource</string>
-			</dict>
-			<dict>
-				<key>fileModificationDate</key>
-				<date>2016-12-15T07:28:44Z</date>
-				<key>fileSize</key>
-				<integer>6458</integer>
-				<key>md5</key>
-				<string>79F6E2D1FEFDB52C7C9B8AB50929850F</string>
-				<key>notifyOnBookmarkChange</key>
-				<true/>
-				<key>originalPath</key>
-				<string>/Users/shengqiang/Documents/Codes/hype_blood_glucose/glucose_build.hype/Resources/touchMove.js</string>
-				<key>resourceName</key>
-				<string>touchMove.js</string>
-				<key>securityScopedBookmark</key>
-				<data>
-				Ym9va3wDAAAAAAQQMAAAALq611//ZPNzoPw+0N2xoz9F
-				y8K1JmfVK/Gy9nAgqaJheAIAAAQAAAADAwAAAAkAKAUA
-				AAABAQAAVXNlcnMAAAAKAAAAAQEAAHNoZW5ncWlhbmcA
-				AAkAAAABAQAARG9jdW1lbnRzAAAABQAAAAEBAABDb2Rl
-				cwAAABIAAAABAQAAaHlwZV9ibG9vZF9nbHVjb3NlAAAS
-				AAAAAQEAAGdsdWNvc2VfYnVpbGQuaHlwZQAACQAAAAEB
-				AABSZXNvdXJjZXMAAAAMAAAAAQEAAHRvdWNoTW92ZS5q
-				cyAAAAABBgAAEAAAACAAAAA0AAAASAAAAFgAAAB0AAAA
-				kAAAAKQAAAAIAAAABAMAAIZ6FwAAAAAACAAAAAQDAACW
-				ehcAAAAAAAgAAAAEAwAAx6gZAAAAAAAIAAAABAMAABit
-				GQAAAAAACAAAAAQDAABwNm0BAAAAAAgAAAAEAwAAT1t8
-				AQAAAAAIAAAABAMAAFNbfAEAAAAACAAAAAQDAAB2W3wB
-				AAAAACAAAAABBgAA4AAAAPAAAAAAAQAAEAEAACABAAAw
-				AQAAQAEAAFABAAAIAAAAAAQAAEG+An2sAAAAGAAAAAEC
-				AAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAIAAAABAMA
-				AAYAAAAAAAAABAAAAAMDAAD1AQAACAAAAAEJAABmaWxl
-				Oi8vLwwAAAABAQAATWFjaW50b3NoIEhECAAAAAQDAAAA
-				AAAydAAAAAgAAAAABAAAQbrdqMwAAAAkAAAAAQEAADk3
-				RjUzMEE3LThDNkMtMzA0Qy1BRjVCLThBM0Q3MjlBREY4
-				NRgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAA
-				AQAAAAEBAAAvAAAAAAAAAAEFAADMAAAA/v///wEAAAAA
-				AAAAEAAAAAQQAAC4AAAAAAAAAAUQAABgAQAAAAAAABAQ
-				AACYAQAAAAAAAEAQAACIAQAAAAAAAAIgAABkAgAAAAAA
-				AAUgAADUAQAAAAAAABAgAADkAQAAAAAAABEgAAAYAgAA
-				AAAAABIgAAD4AQAAAAAAABMgAAAIAgAAAAAAACAgAABE
-				AgAAAAAAADAgAABwAgAAAAAAAAHAAAC4AQAAAAAAABHA
-				AAAgAAAAAAAAABLAAADIAQAAAAAAABDQAAAEAAAAAAAA
-				AA==
 				</data>
 				<key>shouldAutoResize</key>
 				<true/>
@@ -2561,59 +2506,6 @@ input：focus{outline:none;}
 			</dict>
 			<dict>
 				<key>fileModificationDate</key>
-				<date>2016-12-26T03:49:51Z</date>
-				<key>fileSize</key>
-				<integer>3057</integer>
-				<key>md5</key>
-				<string>7C1F4E229DF4E3C3F9D1CCC5051838BA</string>
-				<key>notifyOnBookmarkChange</key>
-				<true/>
-				<key>originalPath</key>
-				<string>/Users/shengqiang/Documents/Codes/hype_blood_glucose/javascript/tableviewcellAction.js</string>
-				<key>resourceName</key>
-				<string>tableviewcellAction.js</string>
-				<key>securityScopedBookmark</key>
-				<data>
-				Ym9va1QDAAAAAAQQMAAAAI8hRdcKhDR8qPqPOnGWflBj
-				vlle38GowbVv1B6Me0Z9UAIAAAQAAAADAwAAAAkAKAUA
-				AAABAQAAVXNlcnMAAAAKAAAAAQEAAHNoZW5ncWlhbmcA
-				AAkAAAABAQAARG9jdW1lbnRzAAAABQAAAAEBAABDb2Rl
-				cwAAABIAAAABAQAAaHlwZV9ibG9vZF9nbHVjb3NlAAAK
-				AAAAAQEAAGphdmFzY3JpcHQAABYAAAABAQAAdGFibGV2
-				aWV3Y2VsbEFjdGlvbi5qcwAAHAAAAAEGAAAQAAAAIAAA
-				ADQAAABIAAAAWAAAAHQAAACIAAAACAAAAAQDAACGehcA
-				AAAAAAgAAAAEAwAAlnoXAAAAAAAIAAAABAMAAMeoGQAA
-				AAAACAAAAAQDAAAYrRkAAAAAAAgAAAAEAwAAeLd9AQAA
-				AAAIAAAABAMAANS4fQEAAAAACAAAAAQDAADbuH0BAAAA
-				ABwAAAABBgAAzAAAANwAAADsAAAA/AAAAAwBAAAcAQAA
-				LAEAAAgAAAAABAAAQb4Qyt8AAAAYAAAAAQIAAAEAAAAA
-				AAAADwAAAAAAAAAAAAAAAAAAAAgAAAAEAwAABQAAAAAA
-				AAAEAAAAAwMAAPUBAAAIAAAAAQkAAGZpbGU6Ly8vDAAA
-				AAEBAABNYWNpbnRvc2ggSEQIAAAABAMAAAAAADJ0AAAA
-				CAAAAAAEAABBut2ozAAAACQAAAABAQAAOTdGNTMwQTct
-				OEM2Qy0zMDRDLUFGNUItOEEzRDcyOUFERjg1GAAAAAEC
-				AACBAAAAAQAAAO8TAAABAAAAAAAAAAAAAAABAAAAAQEA
-				AC8AAAAAAAAAAQUAAMwAAAD+////AQAAAAAAAAAQAAAA
-				BBAAAKgAAAAAAAAABRAAADwBAAAAAAAAEBAAAHABAAAA
-				AAAAQBAAAGABAAAAAAAAAiAAADwCAAAAAAAABSAAAKwB
-				AAAAAAAAECAAALwBAAAAAAAAESAAAPABAAAAAAAAEiAA
-				ANABAAAAAAAAEyAAAOABAAAAAAAAICAAABwCAAAAAAAA
-				MCAAAEgCAAAAAAAAAcAAAJABAAAAAAAAEcAAACAAAAAA
-				AAAAEsAAAKABAAAAAAAAENAAAAQAAAAAAAAA
-				</data>
-				<key>shouldAutoResize</key>
-				<true/>
-				<key>shouldIncludeInDocumentHeadHTML</key>
-				<true/>
-				<key>shouldPreload</key>
-				<true/>
-				<key>shouldRemoveWhenNoLongerReferenced</key>
-				<false/>
-				<key>type</key>
-				<string>FileResource</string>
-			</dict>
-			<dict>
-				<key>fileModificationDate</key>
 				<date>2016-12-27T07:24:32Z</date>
 				<key>fileSize</key>
 				<integer>83095</integer>
@@ -2998,59 +2890,6 @@ input：focus{outline:none;}
 			</dict>
 			<dict>
 				<key>fileModificationDate</key>
-				<date>2016-12-27T12:07:30Z</date>
-				<key>fileSize</key>
-				<integer>1389</integer>
-				<key>md5</key>
-				<string>5C2F658528316D1227852D96356D11FE</string>
-				<key>notifyOnBookmarkChange</key>
-				<true/>
-				<key>originalPath</key>
-				<string>/Users/shengqiang/Documents/Codes/hype_blood_glucose/javascript/main.js</string>
-				<key>resourceName</key>
-				<string>main.js</string>
-				<key>securityScopedBookmark</key>
-				<data>
-				Ym9va0QDAAAAAAQQMAAAAEi9qu9lgE9XXS+9n1CXDg0E
-				jLDzsjBM0JFf4zhRtgj7QAIAAAQAAAADAwAAAAkAKAUA
-				AAABAQAAVXNlcnMAAAAKAAAAAQEAAHNoZW5ncWlhbmcA
-				AAkAAAABAQAARG9jdW1lbnRzAAAABQAAAAEBAABDb2Rl
-				cwAAABIAAAABAQAAaHlwZV9ibG9vZF9nbHVjb3NlAAAK
-				AAAAAQEAAGphdmFzY3JpcHQAAAcAAAABAQAAbWFpbi5q
-				cwAcAAAAAQYAABAAAAAgAAAANAAAAEgAAABYAAAAdAAA
-				AIgAAAAIAAAABAMAAIZ6FwAAAAAACAAAAAQDAACWehcA
-				AAAAAAgAAAAEAwAAx6gZAAAAAAAIAAAABAMAABitGQAA
-				AAAACAAAAAQDAAB4t30BAAAAAAgAAAAEAwAA1Lh9AQAA
-				AAAIAAAABAMAANi4fQEAAAAAHAAAAAEGAAC8AAAAzAAA
-				ANwAAADsAAAA/AAAAAwBAAAcAQAACAAAAAAEAABBvhDK
-				3wAAABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAA
-				AAAACAAAAAQDAAAFAAAAAAAAAAQAAAADAwAA9QEAAAgA
-				AAABCQAAZmlsZTovLy8MAAAAAQEAAE1hY2ludG9zaCBI
-				RAgAAAAEAwAAAAAAMnQAAAAIAAAAAAQAAEG63ajMAAAA
-				JAAAAAEBAAA5N0Y1MzBBNy04QzZDLTMwNEMtQUY1Qi04
-				QTNENzI5QURGODUYAAAAAQIAAIEAAAABAAAA7xMAAAEA
-				AAAAAAAAAAAAAAEAAAABAQAALwAAAAAAAAABBQAAzAAA
-				AP7///8BAAAAAAAAABAAAAAEEAAAmAAAAAAAAAAFEAAA
-				LAEAAAAAAAAQEAAAYAEAAAAAAABAEAAAUAEAAAAAAAAC
-				IAAALAIAAAAAAAAFIAAAnAEAAAAAAAAQIAAArAEAAAAA
-				AAARIAAA4AEAAAAAAAASIAAAwAEAAAAAAAATIAAA0AEA
-				AAAAAAAgIAAADAIAAAAAAAAwIAAAOAIAAAAAAAABwAAA
-				gAEAAAAAAAARwAAAIAAAAAAAAAASwAAAkAEAAAAAAAAQ
-				0AAABAAAAAAAAAA=
-				</data>
-				<key>shouldAutoResize</key>
-				<true/>
-				<key>shouldIncludeInDocumentHeadHTML</key>
-				<true/>
-				<key>shouldPreload</key>
-				<true/>
-				<key>shouldRemoveWhenNoLongerReferenced</key>
-				<false/>
-				<key>type</key>
-				<string>FileResource</string>
-			</dict>
-			<dict>
-				<key>fileModificationDate</key>
 				<date>2016-12-27T12:09:06Z</date>
 				<key>fileSize</key>
 				<integer>395</integer>
@@ -3159,6 +2998,165 @@ input：focus{outline:none;}
 				<key>type</key>
 				<string>FileResource</string>
 			</dict>
+			<dict>
+				<key>fileModificationDate</key>
+				<date>2016-12-28T05:05:04Z</date>
+				<key>fileSize</key>
+				<integer>3541</integer>
+				<key>md5</key>
+				<string>52EE96439E9F070398EC40009C752773</string>
+				<key>notifyOnBookmarkChange</key>
+				<true/>
+				<key>originalPath</key>
+				<string>/Users/shengqiang/Documents/Codes/hype_blood_glucose/javascript/tableviewcellAction.js</string>
+				<key>resourceName</key>
+				<string>tableviewcellAction.js</string>
+				<key>securityScopedBookmark</key>
+				<data>
+				Ym9va1QDAAAAAAQQMAAAAI8hRdcKhDR8qPqPOnGWflBj
+				vlle38GowbVv1B6Me0Z9UAIAAAQAAAADAwAAAAkAKAUA
+				AAABAQAAVXNlcnMAAAAKAAAAAQEAAHNoZW5ncWlhbmcA
+				AAkAAAABAQAARG9jdW1lbnRzAAAABQAAAAEBAABDb2Rl
+				cwAAABIAAAABAQAAaHlwZV9ibG9vZF9nbHVjb3NlAAAK
+				AAAAAQEAAGphdmFzY3JpcHQAABYAAAABAQAAdGFibGV2
+				aWV3Y2VsbEFjdGlvbi5qcwAAHAAAAAEGAAAQAAAAIAAA
+				ADQAAABIAAAAWAAAAHQAAACIAAAACAAAAAQDAACGehcA
+				AAAAAAgAAAAEAwAAlnoXAAAAAAAIAAAABAMAAMeoGQAA
+				AAAACAAAAAQDAAAYrRkAAAAAAAgAAAAEAwAAeLd9AQAA
+				AAAIAAAABAMAANS4fQEAAAAACAAAAAQDAADbuH0BAAAA
+				ABwAAAABBgAAzAAAANwAAADsAAAA/AAAAAwBAAAcAQAA
+				LAEAAAgAAAAABAAAQb4Qyt8AAAAYAAAAAQIAAAEAAAAA
+				AAAADwAAAAAAAAAAAAAAAAAAAAgAAAAEAwAABQAAAAAA
+				AAAEAAAAAwMAAPUBAAAIAAAAAQkAAGZpbGU6Ly8vDAAA
+				AAEBAABNYWNpbnRvc2ggSEQIAAAABAMAAAAAADJ0AAAA
+				CAAAAAAEAABBut2ozAAAACQAAAABAQAAOTdGNTMwQTct
+				OEM2Qy0zMDRDLUFGNUItOEEzRDcyOUFERjg1GAAAAAEC
+				AACBAAAAAQAAAO8TAAABAAAAAAAAAAAAAAABAAAAAQEA
+				AC8AAAAAAAAAAQUAAMwAAAD+////AQAAAAAAAAAQAAAA
+				BBAAAKgAAAAAAAAABRAAADwBAAAAAAAAEBAAAHABAAAA
+				AAAAQBAAAGABAAAAAAAAAiAAADwCAAAAAAAABSAAAKwB
+				AAAAAAAAECAAALwBAAAAAAAAESAAAPABAAAAAAAAEiAA
+				ANABAAAAAAAAEyAAAOABAAAAAAAAICAAABwCAAAAAAAA
+				MCAAAEgCAAAAAAAAAcAAAJABAAAAAAAAEcAAACAAAAAA
+				AAAAEsAAAKABAAAAAAAAENAAAAQAAAAAAAAA
+				</data>
+				<key>shouldAutoResize</key>
+				<true/>
+				<key>shouldIncludeInDocumentHeadHTML</key>
+				<true/>
+				<key>shouldPreload</key>
+				<true/>
+				<key>shouldRemoveWhenNoLongerReferenced</key>
+				<false/>
+				<key>type</key>
+				<string>FileResource</string>
+			</dict>
+			<dict>
+				<key>fileModificationDate</key>
+				<date>2016-12-28T05:04:08Z</date>
+				<key>fileSize</key>
+				<integer>1551</integer>
+				<key>md5</key>
+				<string>D704F06BA7B2FA3B1FE3A24291590FF7</string>
+				<key>notifyOnBookmarkChange</key>
+				<true/>
+				<key>originalPath</key>
+				<string>/Users/shengqiang/Documents/Codes/hype_blood_glucose/javascript/main.js</string>
+				<key>resourceName</key>
+				<string>main.js</string>
+				<key>securityScopedBookmark</key>
+				<data>
+				Ym9va0QDAAAAAAQQMAAAAEi9qu9lgE9XXS+9n1CXDg0E
+				jLDzsjBM0JFf4zhRtgj7QAIAAAQAAAADAwAAAAkAKAUA
+				AAABAQAAVXNlcnMAAAAKAAAAAQEAAHNoZW5ncWlhbmcA
+				AAkAAAABAQAARG9jdW1lbnRzAAAABQAAAAEBAABDb2Rl
+				cwAAABIAAAABAQAAaHlwZV9ibG9vZF9nbHVjb3NlAAAK
+				AAAAAQEAAGphdmFzY3JpcHQAAAcAAAABAQAAbWFpbi5q
+				cwAcAAAAAQYAABAAAAAgAAAANAAAAEgAAABYAAAAdAAA
+				AIgAAAAIAAAABAMAAIZ6FwAAAAAACAAAAAQDAACWehcA
+				AAAAAAgAAAAEAwAAx6gZAAAAAAAIAAAABAMAABitGQAA
+				AAAACAAAAAQDAAB4t30BAAAAAAgAAAAEAwAA1Lh9AQAA
+				AAAIAAAABAMAANi4fQEAAAAAHAAAAAEGAAC8AAAAzAAA
+				ANwAAADsAAAA/AAAAAwBAAAcAQAACAAAAAAEAABBvhDK
+				3wAAABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAA
+				AAAACAAAAAQDAAAFAAAAAAAAAAQAAAADAwAA9QEAAAgA
+				AAABCQAAZmlsZTovLy8MAAAAAQEAAE1hY2ludG9zaCBI
+				RAgAAAAEAwAAAAAAMnQAAAAIAAAAAAQAAEG63ajMAAAA
+				JAAAAAEBAAA5N0Y1MzBBNy04QzZDLTMwNEMtQUY1Qi04
+				QTNENzI5QURGODUYAAAAAQIAAIEAAAABAAAA7xMAAAEA
+				AAAAAAAAAAAAAAEAAAABAQAALwAAAAAAAAABBQAAzAAA
+				AP7///8BAAAAAAAAABAAAAAEEAAAmAAAAAAAAAAFEAAA
+				LAEAAAAAAAAQEAAAYAEAAAAAAABAEAAAUAEAAAAAAAAC
+				IAAALAIAAAAAAAAFIAAAnAEAAAAAAAAQIAAArAEAAAAA
+				AAARIAAA4AEAAAAAAAASIAAAwAEAAAAAAAATIAAA0AEA
+				AAAAAAAgIAAADAIAAAAAAAAwIAAAOAIAAAAAAAABwAAA
+				gAEAAAAAAAARwAAAIAAAAAAAAAASwAAAkAEAAAAAAAAQ
+				0AAABAAAAAAAAAA=
+				</data>
+				<key>shouldAutoResize</key>
+				<true/>
+				<key>shouldIncludeInDocumentHeadHTML</key>
+				<true/>
+				<key>shouldPreload</key>
+				<true/>
+				<key>shouldRemoveWhenNoLongerReferenced</key>
+				<false/>
+				<key>type</key>
+				<string>FileResource</string>
+			</dict>
+			<dict>
+				<key>fileModificationDate</key>
+				<date>2016-12-28T05:13:23Z</date>
+				<key>fileSize</key>
+				<integer>6598</integer>
+				<key>md5</key>
+				<string>12AA1F4ACEBAD1923645C02BBC9252CD</string>
+				<key>notifyOnBookmarkChange</key>
+				<true/>
+				<key>originalPath</key>
+				<string>/Users/shengqiang/Documents/Codes/hype_blood_glucose/javascript/touchMove.js</string>
+				<key>resourceName</key>
+				<string>touchMove.js</string>
+				<key>securityScopedBookmark</key>
+				<data>
+				Ym9va0gDAAAAAAQQMAAAAHqsgMo0kMBOSW7nRTbVdpXd
+				YpYvB/fNfWRPFNwVXKM+RAIAAAQAAAADAwAAAAkAKAUA
+				AAABAQAAVXNlcnMAAAAKAAAAAQEAAHNoZW5ncWlhbmcA
+				AAkAAAABAQAARG9jdW1lbnRzAAAABQAAAAEBAABDb2Rl
+				cwAAABIAAAABAQAAaHlwZV9ibG9vZF9nbHVjb3NlAAAK
+				AAAAAQEAAGphdmFzY3JpcHQAAAwAAAABAQAAdG91Y2hN
+				b3ZlLmpzHAAAAAEGAAAQAAAAIAAAADQAAABIAAAAWAAA
+				AHQAAACIAAAACAAAAAQDAACGehcAAAAAAAgAAAAEAwAA
+				lnoXAAAAAAAIAAAABAMAAMeoGQAAAAAACAAAAAQDAAAY
+				rRkAAAAAAAgAAAAEAwAAeLd9AQAAAAAIAAAABAMAANS4
+				fQEAAAAACAAAAAQDAADcuH0BAAAAABwAAAABBgAAwAAA
+				ANAAAADgAAAA8AAAAAABAAAQAQAAIAEAAAgAAAAABAAA
+				Qb4Qyt8AAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAA
+				AAAAAAAAAAgAAAAEAwAABQAAAAAAAAAEAAAAAwMAAPUB
+				AAAIAAAAAQkAAGZpbGU6Ly8vDAAAAAEBAABNYWNpbnRv
+				c2ggSEQIAAAABAMAAAAAADJ0AAAACAAAAAAEAABBut2o
+				zAAAACQAAAABAQAAOTdGNTMwQTctOEM2Qy0zMDRDLUFG
+				NUItOEEzRDcyOUFERjg1GAAAAAECAACBAAAAAQAAAO8T
+				AAABAAAAAAAAAAAAAAABAAAAAQEAAC8AAAAAAAAAAQUA
+				AMwAAAD+////AQAAAAAAAAAQAAAABBAAAJwAAAAAAAAA
+				BRAAADABAAAAAAAAEBAAAGQBAAAAAAAAQBAAAFQBAAAA
+				AAAAAiAAADACAAAAAAAABSAAAKABAAAAAAAAECAAALAB
+				AAAAAAAAESAAAOQBAAAAAAAAEiAAAMQBAAAAAAAAEyAA
+				ANQBAAAAAAAAICAAABACAAAAAAAAMCAAADwCAAAAAAAA
+				AcAAAIQBAAAAAAAAEcAAACAAAAAAAAAAEsAAAJQBAAAA
+				AAAAENAAAAQAAAAAAAAA
+				</data>
+				<key>shouldAutoResize</key>
+				<true/>
+				<key>shouldIncludeInDocumentHeadHTML</key>
+				<true/>
+				<key>shouldPreload</key>
+				<true/>
+				<key>shouldRemoveWhenNoLongerReferenced</key>
+				<false/>
+				<key>type</key>
+				<string>FileResource</string>
+			</dict>
 		</array>
 	</dict>
 	<key>sceneContainers</key>
@@ -3177,15 +3175,19 @@ input：focus{outline:none;}
 					<dict>
 						<key>expandedItems</key>
 						<array>
-							<string>199</string>
 							<string>159</string>
+							<string>203</string>
+							<string>183</string>
+							<string>191</string>
+							<string>150</string>
+							<string>208</string>
 						</array>
 						<key>timeCursors</key>
 						<dict>
 							<key>211</key>
 							<real>0.0</real>
 							<key>212</key>
-							<real>0.0</real>
+							<real>2.0999999046325684</real>
 							<key>213</key>
 							<real>0.0</real>
 							<key>214</key>
@@ -3211,7 +3213,7 @@ input：focus{outline:none;}
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{432, 948}</string>
+					<string>{3477, 3041}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -3236,7 +3238,7 @@ input：focus{outline:none;}
 					<key>rootSymbolControllerOid</key>
 					<string>141</string>
 					<key>scrollViewOffset</key>
-					<string>{0, 0}</string>
+					<string>{3045, 695}</string>
 					<key>userGuides</key>
 					<array>
 						<dict>
@@ -3738,13 +3740,15 @@ function showCalendar(hypeDocument, element, event) {
 			<key>documentIdentifier</key>
 			<string>DA6C173D-068C-422B-AB63-86653DC5F009-20552-000083496AB13DB9</string>
 			<key>selectedObjects</key>
-			<array/>
+			<array>
+				<string>183</string>
+			</array>
 			<key>symbol</key>
 			<dict>
 				<key>addToNewSceneControllers</key>
 				<false/>
 				<key>currentTimelineIdentifier</key>
-				<string>kTimelineDefaultIdentifier</string>
+				<string>216</string>
 				<key>customBehaviors</key>
 				<array/>
 				<key>elements</key>
@@ -6992,7 +6996,7 @@ function showCalendar(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>Display</string>
 							<key>objectValue</key>
-							<string>inline</string>
+							<string>none</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
