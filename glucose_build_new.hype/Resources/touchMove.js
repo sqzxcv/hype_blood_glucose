@@ -48,8 +48,8 @@ function touchMove (hypeDocument, element, event) {
 	hypeDocument.goToTimeInTimelineNamed(time, 'RuleTimeline');
 
 	var textElement = hypeDocument.getElementById('glucose_value');
-
-	textElement.innerHTML = '<font  style="font-family:PingFangSC-Thin, sans-serif">' + convertGluose_moring(angle, g_3) + '</font>';
+	measure_glucose_value = convertGluose_moring(angle, g_3);
+	textElement.innerHTML = '<font  style="font-family:PingFangSC-Thin, sans-serif">' + measure_glucose_value + '</font>';
 
 	var red = caculateColorChannel(angle,'r');
 	var green = caculateColorChannel(angle,'g');
