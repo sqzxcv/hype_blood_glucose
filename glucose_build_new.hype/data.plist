@@ -46,8 +46,8 @@
 	<key>displayedAttributes</key>
 	<array>
 		<string>kPropertiesMenuItemIdentifierOpacity</string>
-		<string>kPropertiesMenuItemIdentifierPosition</string>
 		<string>kPropertiesMenuItemIdentifierAnimated</string>
+		<string>kPropertiesMenuItemIdentifierPosition</string>
 	</array>
 	<key>documentVersion</key>
 	<string>530</string>
@@ -153,7 +153,7 @@ input：focus{outline:none;}
  &lt;/script&gt;
 	</string>
 	<key>lastCheckDate</key>
-	<date>2016-12-28T12:36:28Z</date>
+	<date>2016-12-29T04:11:51Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
@@ -161,9 +161,9 @@ input：focus{outline:none;}
 		<key>customizableLayout</key>
 		<dict>
 			<key>frame</key>
-			<string>{{0, 0}, {1920, 958}}</string>
+			<string>{{0, 0}, {1280, 623}}</string>
 			<key>identifier</key>
-			<string>container 33</string>
+			<string>container 95</string>
 			<key>isCustomizableViewContainer</key>
 			<true/>
 			<key>isCustomizableViewWrapper</key>
@@ -174,9 +174,9 @@ input：focus{outline:none;}
 			<array>
 				<dict>
 					<key>frame</key>
-					<string>{{0, 0}, {1649, 958}}</string>
+					<string>{{0, 0}, {1009, 623}}</string>
 					<key>identifier</key>
-					<string>container 115</string>
+					<string>container 208</string>
 					<key>isCustomizableViewContainer</key>
 					<true/>
 					<key>isCustomizableViewWrapper</key>
@@ -187,9 +187,9 @@ input：focus{outline:none;}
 					<array>
 						<dict>
 							<key>frame</key>
-							<string>{{0, 0}, {1378, 958}}</string>
+							<string>{{0, 0}, {738, 623}}</string>
 							<key>identifier</key>
-							<string>container 104</string>
+							<string>container 197</string>
 							<key>isCustomizableViewContainer</key>
 							<true/>
 							<key>isCustomizableViewWrapper</key>
@@ -200,9 +200,9 @@ input：focus{outline:none;}
 							<array>
 								<dict>
 									<key>frame</key>
-									<string>{{0, 0}, {135, 958}}</string>
+									<string>{{0, 0}, {135, 623}}</string>
 									<key>identifier</key>
-									<string>container 94</string>
+									<string>container 187</string>
 									<key>isCustomizableViewContainer</key>
 									<true/>
 									<key>isCustomizableViewWrapper</key>
@@ -213,7 +213,7 @@ input：focus{outline:none;}
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{0, 0}, {135, 958}}</string>
+											<string>{{0, 0}, {135, 623}}</string>
 											<key>identifier</key>
 											<string>sceneSelectorCustomizableContainer</string>
 											<key>isCustomizableViewContainer</key>
@@ -223,9 +223,9 @@ input：focus{outline:none;}
 								</dict>
 								<dict>
 									<key>frame</key>
-									<string>{{136, 0}, {1242, 958}}</string>
+									<string>{{136, 0}, {602, 623}}</string>
 									<key>identifier</key>
-									<string>container 95</string>
+									<string>container 188</string>
 									<key>isCustomizableViewContainer</key>
 									<true/>
 									<key>isCustomizableViewWrapper</key>
@@ -236,7 +236,7 @@ input：focus{outline:none;}
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{136, 0}, {1242, 370}}</string>
+											<string>{{136, 0}, {602, 135}}</string>
 											<key>identifier</key>
 											<string>container 45</string>
 											<key>isCustomizableViewContainer</key>
@@ -249,7 +249,7 @@ input：focus{outline:none;}
 											<array>
 												<dict>
 													<key>frame</key>
-													<string>{{136, 0}, {1242, 370}}</string>
+													<string>{{136, 0}, {602, 135}}</string>
 													<key>identifier</key>
 													<string>timelineCustomizableContainer</string>
 													<key>isCustomizableViewContainer</key>
@@ -259,7 +259,7 @@ input：focus{outline:none;}
 										</dict>
 										<dict>
 											<key>frame</key>
-											<string>{{136, 371}, {1242, 587}}</string>
+											<string>{{136, 136}, {602, 487}}</string>
 											<key>identifier</key>
 											<string>container 229</string>
 											<key>isCustomizableViewContainer</key>
@@ -272,7 +272,7 @@ input：focus{outline:none;}
 											<array>
 												<dict>
 													<key>frame</key>
-													<string>{{136, 371}, {1242, 587}}</string>
+													<string>{{136, 136}, {602, 487}}</string>
 													<key>identifier</key>
 													<string>sceneEditorCustomizableContainer</string>
 													<key>isCustomizableViewContainer</key>
@@ -286,9 +286,9 @@ input：focus{outline:none;}
 						</dict>
 						<dict>
 							<key>frame</key>
-							<string>{{1379, 0}, {270, 958}}</string>
+							<string>{{739, 0}, {270, 623}}</string>
 							<key>identifier</key>
-							<string>container 103</string>
+							<string>container 196</string>
 							<key>isCustomizableViewContainer</key>
 							<true/>
 							<key>isCustomizableViewWrapper</key>
@@ -299,7 +299,7 @@ input：focus{outline:none;}
 							<array>
 								<dict>
 									<key>frame</key>
-									<string>{{1379, 0}, {270, 958}}</string>
+									<string>{{739, 0}, {270, 623}}</string>
 									<key>identifier</key>
 									<string>inspectorCustomizableContainer</string>
 									<key>isCustomizableViewContainer</key>
@@ -311,9 +311,9 @@ input：focus{outline:none;}
 				</dict>
 				<dict>
 					<key>frame</key>
-					<string>{{1650, 0}, {270, 958}}</string>
+					<string>{{1010, 0}, {270, 623}}</string>
 					<key>identifier</key>
-					<string>container 114</string>
+					<string>container 207</string>
 					<key>isCustomizableViewContainer</key>
 					<true/>
 					<key>isCustomizableViewWrapper</key>
@@ -324,7 +324,7 @@ input：focus{outline:none;}
 					<array>
 						<dict>
 							<key>frame</key>
-							<string>{{1650, 0}, {270, 958}}</string>
+							<string>{{1010, 0}, {270, 623}}</string>
 							<key>identifier</key>
 							<string>resourcesCustomizableContainer</string>
 							<key>isCustomizableViewContainer</key>
@@ -337,7 +337,7 @@ input：focus{outline:none;}
 		<key>keyframeTimelineHeight</key>
 		<real>166</real>
 		<key>mainWindowFrame</key>
-		<string>910 855 1920 1002 910 800 1920 1057 </string>
+		<string>1296 1190 1280 667 910 800 1920 1057 </string>
 		<key>openTabs</key>
 		<array>
 			<dict>
@@ -1009,61 +1009,6 @@ input：focus{outline:none;}
 				AE9bfAEAAAAACAAAAAQDAABTW3wBAAAAAAgAAAAEAwAA
 				VFt8AQAAAAAgAAAAAQYAAOQAAAD0AAAABAEAABQBAAAk
 				AQAANAEAAEQBAABUAQAACAAAAAAEAABBvf6FWgAAABgA
-				AAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAACAAA
-				AAQDAAAGAAAAAAAAAAQAAAADAwAA9QEAAAgAAAABCQAA
-				ZmlsZTovLy8MAAAAAQEAAE1hY2ludG9zaCBIRAgAAAAE
-				AwAAAAAAMnQAAAAIAAAAAAQAAEG63ajMAAAAJAAAAAEB
-				AAA5N0Y1MzBBNy04QzZDLTMwNEMtQUY1Qi04QTNENzI5
-				QURGODUYAAAAAQIAAIEAAAABAAAA7xMAAAEAAAAAAAAA
-				AAAAAAEAAAABAQAALwAAAAAAAAABBQAAzAAAAP7///8B
-				AAAAAAAAABAAAAAEEAAAvAAAAAAAAAAFEAAAZAEAAAAA
-				AAAQEAAAnAEAAAAAAABAEAAAjAEAAAAAAAACIAAAaAIA
-				AAAAAAAFIAAA2AEAAAAAAAAQIAAA6AEAAAAAAAARIAAA
-				HAIAAAAAAAASIAAA/AEAAAAAAAATIAAADAIAAAAAAAAg
-				IAAASAIAAAAAAAAwIAAAdAIAAAAAAAABwAAAvAEAAAAA
-				AAARwAAAIAAAAAAAAAASwAAAzAEAAAAAAAAQ0AAABAAA
-				AAAAAAA=
-				</data>
-				<key>shouldAutoResize</key>
-				<true/>
-				<key>shouldIncludeInDocumentHeadHTML</key>
-				<true/>
-				<key>shouldPreload</key>
-				<true/>
-				<key>shouldRemoveWhenNoLongerReferenced</key>
-				<false/>
-				<key>type</key>
-				<string>FileResource</string>
-			</dict>
-			<dict>
-				<key>fileModificationDate</key>
-				<date>2016-12-09T09:11:58Z</date>
-				<key>fileSize</key>
-				<integer>702</integer>
-				<key>md5</key>
-				<string>3F6DD32240B04F201929F3578EC1DDC7</string>
-				<key>notifyOnBookmarkChange</key>
-				<true/>
-				<key>originalPath</key>
-				<string>/Users/shengqiang/Documents/Codes/hype_blood_glucose/glucose_build.hype/Resources/touchStart.js</string>
-				<key>resourceName</key>
-				<string>touchStart.js</string>
-				<key>securityScopedBookmark</key>
-				<data>
-				Ym9va4ADAAAAAAQQMAAAAN3Z3DG6GsKunlGFQQL98Lkm
-				owAFkACPpnLMIwZyk7XGfAIAAAQAAAADAwAAAAkAKAUA
-				AAABAQAAVXNlcnMAAAAKAAAAAQEAAHNoZW5ncWlhbmcA
-				AAkAAAABAQAARG9jdW1lbnRzAAAABQAAAAEBAABDb2Rl
-				cwAAABIAAAABAQAAaHlwZV9ibG9vZF9nbHVjb3NlAAAS
-				AAAAAQEAAGdsdWNvc2VfYnVpbGQuaHlwZQAACQAAAAEB
-				AABSZXNvdXJjZXMAAAANAAAAAQEAAHRvdWNoU3RhcnQu
-				anMAAAAgAAAAAQYAABAAAAAgAAAANAAAAEgAAABYAAAA
-				dAAAAJAAAACkAAAACAAAAAQDAACGehcAAAAAAAgAAAAE
-				AwAAlnoXAAAAAAAIAAAABAMAAMeoGQAAAAAACAAAAAQD
-				AAAYrRkAAAAAAAgAAAAEAwAAcDZtAQAAAAAIAAAABAMA
-				AE9bfAEAAAAACAAAAAQDAABTW3wBAAAAAAgAAAAEAwAA
-				WFt8AQAAAAAgAAAAAQYAAOQAAAD0AAAABAEAABQBAAAk
-				AQAANAEAAEQBAABUAQAACAAAAAAEAABBvfqs3gAAABgA
 				AAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAACAAA
 				AAQDAAAGAAAAAAAAAAQAAAADAwAA9QEAAAgAAAABCQAA
 				ZmlsZTovLy8MAAAAAQEAAE1hY2ludG9zaCBIRAgAAAAE
@@ -2979,218 +2924,6 @@ input：focus{outline:none;}
 			</dict>
 			<dict>
 				<key>fileModificationDate</key>
-				<date>2016-12-28T09:14:56Z</date>
-				<key>fileSize</key>
-				<integer>1619</integer>
-				<key>md5</key>
-				<string>438BF0EAD78031AC13085E329D7B4693</string>
-				<key>notifyOnBookmarkChange</key>
-				<true/>
-				<key>originalPath</key>
-				<string>/Users/shengqiang/Documents/Codes/hype_blood_glucose/javascript/main.js</string>
-				<key>resourceName</key>
-				<string>main.js</string>
-				<key>securityScopedBookmark</key>
-				<data>
-				Ym9va0QDAAAAAAQQMAAAAEi9qu9lgE9XXS+9n1CXDg0E
-				jLDzsjBM0JFf4zhRtgj7QAIAAAQAAAADAwAAAAkAKAUA
-				AAABAQAAVXNlcnMAAAAKAAAAAQEAAHNoZW5ncWlhbmcA
-				AAkAAAABAQAARG9jdW1lbnRzAAAABQAAAAEBAABDb2Rl
-				cwAAABIAAAABAQAAaHlwZV9ibG9vZF9nbHVjb3NlAAAK
-				AAAAAQEAAGphdmFzY3JpcHQAAAcAAAABAQAAbWFpbi5q
-				cwAcAAAAAQYAABAAAAAgAAAANAAAAEgAAABYAAAAdAAA
-				AIgAAAAIAAAABAMAAIZ6FwAAAAAACAAAAAQDAACWehcA
-				AAAAAAgAAAAEAwAAx6gZAAAAAAAIAAAABAMAABitGQAA
-				AAAACAAAAAQDAAB4t30BAAAAAAgAAAAEAwAA1Lh9AQAA
-				AAAIAAAABAMAANi4fQEAAAAAHAAAAAEGAAC8AAAAzAAA
-				ANwAAADsAAAA/AAAAAwBAAAcAQAACAAAAAAEAABBvhDK
-				3wAAABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAA
-				AAAACAAAAAQDAAAFAAAAAAAAAAQAAAADAwAA9QEAAAgA
-				AAABCQAAZmlsZTovLy8MAAAAAQEAAE1hY2ludG9zaCBI
-				RAgAAAAEAwAAAAAAMnQAAAAIAAAAAAQAAEG63ajMAAAA
-				JAAAAAEBAAA5N0Y1MzBBNy04QzZDLTMwNEMtQUY1Qi04
-				QTNENzI5QURGODUYAAAAAQIAAIEAAAABAAAA7xMAAAEA
-				AAAAAAAAAAAAAAEAAAABAQAALwAAAAAAAAABBQAAzAAA
-				AP7///8BAAAAAAAAABAAAAAEEAAAmAAAAAAAAAAFEAAA
-				LAEAAAAAAAAQEAAAYAEAAAAAAABAEAAAUAEAAAAAAAAC
-				IAAALAIAAAAAAAAFIAAAnAEAAAAAAAAQIAAArAEAAAAA
-				AAARIAAA4AEAAAAAAAASIAAAwAEAAAAAAAATIAAA0AEA
-				AAAAAAAgIAAADAIAAAAAAAAwIAAAOAIAAAAAAAABwAAA
-				gAEAAAAAAAARwAAAIAAAAAAAAAASwAAAkAEAAAAAAAAQ
-				0AAABAAAAAAAAAA=
-				</data>
-				<key>shouldAutoResize</key>
-				<true/>
-				<key>shouldIncludeInDocumentHeadHTML</key>
-				<true/>
-				<key>shouldPreload</key>
-				<true/>
-				<key>shouldRemoveWhenNoLongerReferenced</key>
-				<false/>
-				<key>type</key>
-				<string>FileResource</string>
-			</dict>
-			<dict>
-				<key>fileModificationDate</key>
-				<date>2016-12-28T10:48:54Z</date>
-				<key>fileSize</key>
-				<integer>1274</integer>
-				<key>md5</key>
-				<string>EDA297D93308E2DAD7CA3AFDB7851169</string>
-				<key>notifyOnBookmarkChange</key>
-				<true/>
-				<key>originalPath</key>
-				<string>/Users/shengqiang/Documents/Codes/hype_blood_glucose/javascript/submit_glucose.js</string>
-				<key>resourceName</key>
-				<string>submit_glucose.js</string>
-				<key>securityScopedBookmark</key>
-				<data>
-				Ym9va1ADAAAAAAQQMAAAAOJGWcvJW0/76mu/GIPOR0iR
-				GVPT6M1OkVQD9/PbeYUYTAIAAAQAAAADAwAAAAkAKAUA
-				AAABAQAAVXNlcnMAAAAKAAAAAQEAAHNoZW5ncWlhbmcA
-				AAkAAAABAQAARG9jdW1lbnRzAAAABQAAAAEBAABDb2Rl
-				cwAAABIAAAABAQAAaHlwZV9ibG9vZF9nbHVjb3NlAAAK
-				AAAAAQEAAGphdmFzY3JpcHQAABEAAAABAQAAc3VibWl0
-				X2dsdWNvc2UuanMAAAAcAAAAAQYAABAAAAAgAAAANAAA
-				AEgAAABYAAAAdAAAAIgAAAAIAAAABAMAAIZ6FwAAAAAA
-				CAAAAAQDAACWehcAAAAAAAgAAAAEAwAAx6gZAAAAAAAI
-				AAAABAMAABitGQAAAAAACAAAAAQDAAB4t30BAAAAAAgA
-				AAAEAwAA1Lh9AQAAAAAIAAAABAMAANq4fQEAAAAAHAAA
-				AAEGAADIAAAA2AAAAOgAAAD4AAAACAEAABgBAAAoAQAA
-				CAAAAAAEAABBvhDK3wAAABgAAAABAgAAAQAAAAAAAAAP
-				AAAAAAAAAAAAAAAAAAAACAAAAAQDAAAFAAAAAAAAAAQA
-				AAADAwAA9QEAAAgAAAABCQAAZmlsZTovLy8MAAAAAQEA
-				AE1hY2ludG9zaCBIRAgAAAAEAwAAAAAAMnQAAAAIAAAA
-				AAQAAEG63ajMAAAAJAAAAAEBAAA5N0Y1MzBBNy04QzZD
-				LTMwNEMtQUY1Qi04QTNENzI5QURGODUYAAAAAQIAAIEA
-				AAABAAAA7xMAAAEAAAAAAAAAAAAAAAEAAAABAQAALwAA
-				AAAAAAABBQAAzAAAAP7///8BAAAAAAAAABAAAAAEEAAA
-				pAAAAAAAAAAFEAAAOAEAAAAAAAAQEAAAbAEAAAAAAABA
-				EAAAXAEAAAAAAAACIAAAOAIAAAAAAAAFIAAAqAEAAAAA
-				AAAQIAAAuAEAAAAAAAARIAAA7AEAAAAAAAASIAAAzAEA
-				AAAAAAATIAAA3AEAAAAAAAAgIAAAGAIAAAAAAAAwIAAA
-				RAIAAAAAAAABwAAAjAEAAAAAAAARwAAAIAAAAAAAAAAS
-				wAAAnAEAAAAAAAAQ0AAABAAAAAAAAAA=
-				</data>
-				<key>shouldAutoResize</key>
-				<true/>
-				<key>shouldIncludeInDocumentHeadHTML</key>
-				<true/>
-				<key>shouldPreload</key>
-				<true/>
-				<key>shouldRemoveWhenNoLongerReferenced</key>
-				<false/>
-				<key>type</key>
-				<string>FileResource</string>
-			</dict>
-			<dict>
-				<key>fileModificationDate</key>
-				<date>2016-12-28T11:48:23Z</date>
-				<key>fileSize</key>
-				<integer>8193</integer>
-				<key>md5</key>
-				<string>B2F31624CC8C91C9A3FE88340CAC83A0</string>
-				<key>notifyOnBookmarkChange</key>
-				<true/>
-				<key>originalPath</key>
-				<string>/Users/shengqiang/Documents/Codes/hype_blood_glucose/javascript/touchMove.js</string>
-				<key>resourceName</key>
-				<string>touchMove.js</string>
-				<key>securityScopedBookmark</key>
-				<data>
-				Ym9va0gDAAAAAAQQMAAAAHqsgMo0kMBOSW7nRTbVdpXd
-				YpYvB/fNfWRPFNwVXKM+RAIAAAQAAAADAwAAAAkAKAUA
-				AAABAQAAVXNlcnMAAAAKAAAAAQEAAHNoZW5ncWlhbmcA
-				AAkAAAABAQAARG9jdW1lbnRzAAAABQAAAAEBAABDb2Rl
-				cwAAABIAAAABAQAAaHlwZV9ibG9vZF9nbHVjb3NlAAAK
-				AAAAAQEAAGphdmFzY3JpcHQAAAwAAAABAQAAdG91Y2hN
-				b3ZlLmpzHAAAAAEGAAAQAAAAIAAAADQAAABIAAAAWAAA
-				AHQAAACIAAAACAAAAAQDAACGehcAAAAAAAgAAAAEAwAA
-				lnoXAAAAAAAIAAAABAMAAMeoGQAAAAAACAAAAAQDAAAY
-				rRkAAAAAAAgAAAAEAwAAeLd9AQAAAAAIAAAABAMAANS4
-				fQEAAAAACAAAAAQDAADcuH0BAAAAABwAAAABBgAAwAAA
-				ANAAAADgAAAA8AAAAAABAAAQAQAAIAEAAAgAAAAABAAA
-				Qb4Qyt8AAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAA
-				AAAAAAAAAAgAAAAEAwAABQAAAAAAAAAEAAAAAwMAAPUB
-				AAAIAAAAAQkAAGZpbGU6Ly8vDAAAAAEBAABNYWNpbnRv
-				c2ggSEQIAAAABAMAAAAAADJ0AAAACAAAAAAEAABBut2o
-				zAAAACQAAAABAQAAOTdGNTMwQTctOEM2Qy0zMDRDLUFG
-				NUItOEEzRDcyOUFERjg1GAAAAAECAACBAAAAAQAAAO8T
-				AAABAAAAAAAAAAAAAAABAAAAAQEAAC8AAAAAAAAAAQUA
-				AMwAAAD+////AQAAAAAAAAAQAAAABBAAAJwAAAAAAAAA
-				BRAAADABAAAAAAAAEBAAAGQBAAAAAAAAQBAAAFQBAAAA
-				AAAAAiAAADACAAAAAAAABSAAAKABAAAAAAAAECAAALAB
-				AAAAAAAAESAAAOQBAAAAAAAAEiAAAMQBAAAAAAAAEyAA
-				ANQBAAAAAAAAICAAABACAAAAAAAAMCAAADwCAAAAAAAA
-				AcAAAIQBAAAAAAAAEcAAACAAAAAAAAAAEsAAAJQBAAAA
-				AAAAENAAAAQAAAAAAAAA
-				</data>
-				<key>shouldAutoResize</key>
-				<true/>
-				<key>shouldIncludeInDocumentHeadHTML</key>
-				<true/>
-				<key>shouldPreload</key>
-				<true/>
-				<key>shouldRemoveWhenNoLongerReferenced</key>
-				<false/>
-				<key>type</key>
-				<string>FileResource</string>
-			</dict>
-			<dict>
-				<key>fileModificationDate</key>
-				<date>2016-12-28T11:50:34Z</date>
-				<key>fileSize</key>
-				<integer>3694</integer>
-				<key>md5</key>
-				<string>E88C0230AF866D1641681A125B1FE623</string>
-				<key>notifyOnBookmarkChange</key>
-				<true/>
-				<key>originalPath</key>
-				<string>/Users/shengqiang/Documents/Codes/hype_blood_glucose/javascript/tableviewcellAction.js</string>
-				<key>resourceName</key>
-				<string>tableviewcellAction.js</string>
-				<key>securityScopedBookmark</key>
-				<data>
-				Ym9va1QDAAAAAAQQMAAAAI8hRdcKhDR8qPqPOnGWflBj
-				vlle38GowbVv1B6Me0Z9UAIAAAQAAAADAwAAAAkAKAUA
-				AAABAQAAVXNlcnMAAAAKAAAAAQEAAHNoZW5ncWlhbmcA
-				AAkAAAABAQAARG9jdW1lbnRzAAAABQAAAAEBAABDb2Rl
-				cwAAABIAAAABAQAAaHlwZV9ibG9vZF9nbHVjb3NlAAAK
-				AAAAAQEAAGphdmFzY3JpcHQAABYAAAABAQAAdGFibGV2
-				aWV3Y2VsbEFjdGlvbi5qcwAAHAAAAAEGAAAQAAAAIAAA
-				ADQAAABIAAAAWAAAAHQAAACIAAAACAAAAAQDAACGehcA
-				AAAAAAgAAAAEAwAAlnoXAAAAAAAIAAAABAMAAMeoGQAA
-				AAAACAAAAAQDAAAYrRkAAAAAAAgAAAAEAwAAeLd9AQAA
-				AAAIAAAABAMAANS4fQEAAAAACAAAAAQDAADbuH0BAAAA
-				ABwAAAABBgAAzAAAANwAAADsAAAA/AAAAAwBAAAcAQAA
-				LAEAAAgAAAAABAAAQb4Qyt8AAAAYAAAAAQIAAAEAAAAA
-				AAAADwAAAAAAAAAAAAAAAAAAAAgAAAAEAwAABQAAAAAA
-				AAAEAAAAAwMAAPUBAAAIAAAAAQkAAGZpbGU6Ly8vDAAA
-				AAEBAABNYWNpbnRvc2ggSEQIAAAABAMAAAAAADJ0AAAA
-				CAAAAAAEAABBut2ozAAAACQAAAABAQAAOTdGNTMwQTct
-				OEM2Qy0zMDRDLUFGNUItOEEzRDcyOUFERjg1GAAAAAEC
-				AACBAAAAAQAAAO8TAAABAAAAAAAAAAAAAAABAAAAAQEA
-				AC8AAAAAAAAAAQUAAMwAAAD+////AQAAAAAAAAAQAAAA
-				BBAAAKgAAAAAAAAABRAAADwBAAAAAAAAEBAAAHABAAAA
-				AAAAQBAAAGABAAAAAAAAAiAAADwCAAAAAAAABSAAAKwB
-				AAAAAAAAECAAALwBAAAAAAAAESAAAPABAAAAAAAAEiAA
-				ANABAAAAAAAAEyAAAOABAAAAAAAAICAAABwCAAAAAAAA
-				MCAAAEgCAAAAAAAAAcAAAJABAAAAAAAAEcAAACAAAAAA
-				AAAAEsAAAKABAAAAAAAAENAAAAQAAAAAAAAA
-				</data>
-				<key>shouldAutoResize</key>
-				<true/>
-				<key>shouldIncludeInDocumentHeadHTML</key>
-				<true/>
-				<key>shouldPreload</key>
-				<true/>
-				<key>shouldRemoveWhenNoLongerReferenced</key>
-				<false/>
-				<key>type</key>
-				<string>FileResource</string>
-			</dict>
-			<dict>
-				<key>fileModificationDate</key>
 				<date>2016-12-02T10:29:05Z</date>
 				<key>fileSize</key>
 				<integer>131704</integer>
@@ -3238,6 +2971,59 @@ input：focus{outline:none;}
 				<key>type</key>
 				<string>FileResource</string>
 			</dict>
+			<dict>
+				<key>fileModificationDate</key>
+				<date>2016-12-29T04:11:46Z</date>
+				<key>fileSize</key>
+				<integer>15229</integer>
+				<key>md5</key>
+				<string>27C594F123476896F8CC39050760C545</string>
+				<key>notifyOnBookmarkChange</key>
+				<true/>
+				<key>originalPath</key>
+				<string>/Users/shengqiang/Documents/Codes/hype_blood_glucose/javascript/main.js</string>
+				<key>resourceName</key>
+				<string>main.js</string>
+				<key>securityScopedBookmark</key>
+				<data>
+				Ym9va0QDAAAAAAQQMAAAAEi9qu9lgE9XXS+9n1CXDg0E
+				jLDzsjBM0JFf4zhRtgj7QAIAAAQAAAADAwAAAAkAKAUA
+				AAABAQAAVXNlcnMAAAAKAAAAAQEAAHNoZW5ncWlhbmcA
+				AAkAAAABAQAARG9jdW1lbnRzAAAABQAAAAEBAABDb2Rl
+				cwAAABIAAAABAQAAaHlwZV9ibG9vZF9nbHVjb3NlAAAK
+				AAAAAQEAAGphdmFzY3JpcHQAAAcAAAABAQAAbWFpbi5q
+				cwAcAAAAAQYAABAAAAAgAAAANAAAAEgAAABYAAAAdAAA
+				AIgAAAAIAAAABAMAAIZ6FwAAAAAACAAAAAQDAACWehcA
+				AAAAAAgAAAAEAwAAx6gZAAAAAAAIAAAABAMAABitGQAA
+				AAAACAAAAAQDAAB4t30BAAAAAAgAAAAEAwAA1Lh9AQAA
+				AAAIAAAABAMAANi4fQEAAAAAHAAAAAEGAAC8AAAAzAAA
+				ANwAAADsAAAA/AAAAAwBAAAcAQAACAAAAAAEAABBvhDK
+				3wAAABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAA
+				AAAACAAAAAQDAAAFAAAAAAAAAAQAAAADAwAA9QEAAAgA
+				AAABCQAAZmlsZTovLy8MAAAAAQEAAE1hY2ludG9zaCBI
+				RAgAAAAEAwAAAAAAMnQAAAAIAAAAAAQAAEG63ajMAAAA
+				JAAAAAEBAAA5N0Y1MzBBNy04QzZDLTMwNEMtQUY1Qi04
+				QTNENzI5QURGODUYAAAAAQIAAIEAAAABAAAA7xMAAAEA
+				AAAAAAAAAAAAAAEAAAABAQAALwAAAAAAAAABBQAAzAAA
+				AP7///8BAAAAAAAAABAAAAAEEAAAmAAAAAAAAAAFEAAA
+				LAEAAAAAAAAQEAAAYAEAAAAAAABAEAAAUAEAAAAAAAAC
+				IAAALAIAAAAAAAAFIAAAnAEAAAAAAAAQIAAArAEAAAAA
+				AAARIAAA4AEAAAAAAAASIAAAwAEAAAAAAAATIAAA0AEA
+				AAAAAAAgIAAADAIAAAAAAAAwIAAAOAIAAAAAAAABwAAA
+				gAEAAAAAAAARwAAAIAAAAAAAAAASwAAAkAEAAAAAAAAQ
+				0AAABAAAAAAAAAA=
+				</data>
+				<key>shouldAutoResize</key>
+				<true/>
+				<key>shouldIncludeInDocumentHeadHTML</key>
+				<true/>
+				<key>shouldPreload</key>
+				<true/>
+				<key>shouldRemoveWhenNoLongerReferenced</key>
+				<false/>
+				<key>type</key>
+				<string>FileResource</string>
+			</dict>
 		</array>
 	</dict>
 	<key>sceneContainers</key>
@@ -3275,7 +3061,7 @@ input：focus{outline:none;}
 							<key>220</key>
 							<real>0.26666668057441711</real>
 							<key>221</key>
-							<real>0.13333334028720856</real>
+							<real>0.0</real>
 							<key>kTimelineDefaultIdentifier</key>
 							<real>0.0</real>
 						</dict>
@@ -3283,7 +3069,7 @@ input：focus{outline:none;}
 						<integer>180</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{3556, 3041}</string>
+					<string>{3477, 3041}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -3308,7 +3094,7 @@ input：focus{outline:none;}
 					<key>rootSymbolControllerOid</key>
 					<string>141</string>
 					<key>scrollViewOffset</key>
-					<string>{2314, 1169}</string>
+					<string>{0, 7}</string>
 					<key>userGuides</key>
 					<array>
 						<dict>
@@ -3586,7 +3372,7 @@ function initCompassValue(hypeDocument, element, event) {
 	<array>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>32C8F333-E41B-4E67-B8D5-6FC8FEF7A612-24406-00009C16F6B4BA8E</string>
+			<string>1FD7BA72-6DDE-409F-BC9B-1BE3F8E96041-24406-0000A98F61CB5F90</string>
 			<key>selectedObjects</key>
 			<array/>
 			<key>symbol</key>
@@ -3820,7 +3606,7 @@ function initCompassValue(hypeDocument, element, event) {
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>32C8F333-E41B-4E67-B8D5-6FC8FEF7A612-24406-00009C16F6B4BA8E</string>
+			<string>1FD7BA72-6DDE-409F-BC9B-1BE3F8E96041-24406-0000A98F61CB5F90</string>
 			<key>selectedObjects</key>
 			<array>
 				<string>183</string>
@@ -4088,9 +3874,9 @@ function initCompassValue(hypeDocument, element, event) {
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>256px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4226,9 +4012,9 @@ function initCompassValue(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>256px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>144</key>
@@ -4241,9 +4027,9 @@ function initCompassValue(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#082A39</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4325,9 +4111,9 @@ function initCompassValue(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>4</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4337,9 +4123,9 @@ function initCompassValue(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>4</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4361,9 +4147,9 @@ function initCompassValue(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#082A39</string>
 						</dict>
 					</array>
 					<key>145</key>
@@ -4592,9 +4378,9 @@ function initCompassValue(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#082A39</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4676,9 +4462,9 @@ function initCompassValue(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>5</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4688,9 +4474,9 @@ function initCompassValue(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>5</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4712,9 +4498,9 @@ function initCompassValue(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#082A39</string>
 						</dict>
 					</array>
 					<key>148</key>
@@ -4937,15 +4723,15 @@ function initCompassValue(hypeDocument, element, event) {
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>DisplayName</string>
+							<string>OriginalHeight</string>
 							<key>objectValue</key>
-							<string>罗盘界面</string>
+							<string>106px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>122px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5085,30 +4871,30 @@ function initCompassValue(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
+							<string>DisplayName</string>
+							<key>objectValue</key>
+							<string>罗盘界面</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
 							<string>Overflow</string>
 							<key>objectValue</key>
 							<string>visible</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalHeight</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>106px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>OriginalWidth</string>
-							<key>objectValue</key>
-							<string>122px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>151</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>570px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5266,9 +5052,9 @@ function initCompassValue(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>570px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>152</key>
@@ -5368,9 +5154,9 @@ function initCompassValue(hypeDocument, element, event) {
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>122px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5514,9 +5300,9 @@ function initCompassValue(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>122px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>154</key>
@@ -6593,9 +6379,9 @@ function initCompassValue(hypeDocument, element, event) {
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>448px</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6743,30 +6529,30 @@ function initCompassValue(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>448px</string>
 						</dict>
 					</array>
 					<key>166</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>DisplayName</string>
+							<string>BorderRadiusBottomRight</string>
 							<key>objectValue</key>
-							<string>background</string>
+							<string>3px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthLeft</string>
+							<string>BorderWidthBottom</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BackgroundColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#E8EBED</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6920,21 +6706,21 @@ function initCompassValue(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderRadiusBottomRight</string>
+							<string>DisplayName</string>
 							<key>objectValue</key>
-							<string>3px</string>
+							<string>background</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthBottom</string>
+							<string>BorderWidthLeft</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>BackgroundColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#E8EBED</string>
 						</dict>
 					</array>
 					<key>167</key>
@@ -7151,27 +6937,27 @@ function initCompassValue(hypeDocument, element, event) {
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthBottom</string>
+							<string>BorderWidthLeft</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>BackgroundColor</string>
 							<key>objectValue</key>
-							<string>div</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorBottom</string>
-							<key>objectValue</key>
-							<string>#D8DDE4</string>
+							<string>rgba(232, 235, 237, 0.000)</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>ExplicitDimensions</string>
 							<key>objectValue</key>
 							<string>YES</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorBottom</string>
+							<key>objectValue</key>
+							<string>#D8DDE4</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7313,15 +7099,15 @@ function initCompassValue(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthLeft</string>
+							<string>BorderWidthBottom</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BackgroundColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>rgba(232, 235, 237, 0.000)</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>171</key>
@@ -7346,9 +7132,9 @@ function initCompassValue(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ClassType</string>
+							<string>RotationAngleZ</string>
 							<key>objectValue</key>
-							<string>Group</string>
+							<string>0deg</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7406,9 +7192,9 @@ function initCompassValue(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>RotationAngleZ</string>
+							<string>ClassType</string>
 							<key>objectValue</key>
-							<string>0deg</string>
+							<string>Group</string>
 						</dict>
 					</array>
 					<key>173</key>
@@ -7421,9 +7207,9 @@ function initCompassValue(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#082A39</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7505,9 +7291,9 @@ function initCompassValue(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>3</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7517,9 +7303,9 @@ function initCompassValue(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>3</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7541,9 +7327,9 @@ function initCompassValue(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#082A39</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>174</key>
@@ -7556,9 +7342,9 @@ function initCompassValue(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#082A39</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7640,9 +7426,9 @@ function initCompassValue(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>7</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7652,9 +7438,9 @@ function initCompassValue(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>7</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7676,9 +7462,9 @@ function initCompassValue(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#082A39</string>
 						</dict>
 					</array>
 					<key>175</key>
@@ -7778,9 +7564,9 @@ function initCompassValue(hypeDocument, element, event) {
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>12px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7910,9 +7696,9 @@ function initCompassValue(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>12px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>177</key>
@@ -8018,9 +7804,9 @@ function initCompassValue(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#082A39</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8102,9 +7888,9 @@ function initCompassValue(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>4</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8114,9 +7900,9 @@ function initCompassValue(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>4</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8138,9 +7924,9 @@ function initCompassValue(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#082A39</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>180</key>
@@ -8260,9 +8046,9 @@ function initCompassValue(hypeDocument, element, event) {
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>50px</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8392,18 +8178,18 @@ function initCompassValue(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>50px</string>
 						</dict>
 					</array>
 					<key>182</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>640px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8527,9 +8313,9 @@ function initCompassValue(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>640px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>183</key>
@@ -8741,9 +8527,9 @@ function initCompassValue(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8825,9 +8611,9 @@ function initCompassValue(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>2</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8837,9 +8623,9 @@ function initCompassValue(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>2</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8861,9 +8647,9 @@ function initCompassValue(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>185</key>
@@ -9112,9 +8898,9 @@ function initCompassValue(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#082A39</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -9196,9 +8982,9 @@ function initCompassValue(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>7</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -9208,9 +8994,9 @@ function initCompassValue(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>7</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -9232,9 +9018,9 @@ function initCompassValue(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#082A39</string>
 						</dict>
 					</array>
 					<key>189</key>
@@ -9652,9 +9438,9 @@ function initCompassValue(hypeDocument, element, event) {
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>112px</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -9804,9 +9590,9 @@ function initCompassValue(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>112px</string>
 						</dict>
 					</array>
 					<key>193</key>
@@ -9920,9 +9706,9 @@ function initCompassValue(hypeDocument, element, event) {
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>34px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10044,18 +9830,18 @@ function initCompassValue(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>34px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>195</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>512px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10181,9 +9967,9 @@ function initCompassValue(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>512px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>196</key>
@@ -10319,9 +10105,9 @@ function initCompassValue(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#082939</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10421,15 +10207,15 @@ function initCompassValue(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>13</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>PaddingLeft</string>
 							<key>objectValue</key>
 							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>13</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10463,9 +10249,9 @@ function initCompassValue(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#082939</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>198</key>
@@ -10478,9 +10264,9 @@ function initCompassValue(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#082A39</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10562,9 +10348,9 @@ function initCompassValue(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>3</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10574,9 +10360,9 @@ function initCompassValue(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>3</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10598,9 +10384,9 @@ function initCompassValue(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#082A39</string>
 						</dict>
 					</array>
 					<key>199</key>
@@ -10704,9 +10490,9 @@ function initCompassValue(hypeDocument, element, event) {
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>298px</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10848,9 +10634,9 @@ function initCompassValue(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>298px</string>
 						</dict>
 					</array>
 					<key>201</key>
@@ -10980,9 +10766,9 @@ function initCompassValue(hypeDocument, element, event) {
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>62px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -11112,9 +10898,9 @@ function initCompassValue(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>62px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>203</key>
@@ -11155,9 +10941,9 @@ function initCompassValue(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ExplicitDimensions</string>
+							<string>ClassType</string>
 							<key>objectValue</key>
-							<string>YES</string>
+							<string>Group</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -11225,15 +11011,15 @@ function initCompassValue(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>DomID</string>
+							<string>ExplicitDimensions</string>
 							<key>objectValue</key>
-							<string>compass_panel</string>
+							<string>YES</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ClassType</string>
+							<string>DomID</string>
 							<key>objectValue</key>
-							<string>Group</string>
+							<string>compass_panel</string>
 						</dict>
 					</array>
 					<key>204</key>
@@ -11246,9 +11032,9 @@ function initCompassValue(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#082A39</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -11330,9 +11116,9 @@ function initCompassValue(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>3</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -11342,9 +11128,9 @@ function initCompassValue(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>3</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -11366,9 +11152,9 @@ function initCompassValue(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#082A39</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>205</key>
@@ -11381,9 +11167,9 @@ function initCompassValue(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#082A39</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -11465,9 +11251,9 @@ function initCompassValue(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>5</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -11477,9 +11263,9 @@ function initCompassValue(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>5</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -11501,9 +11287,9 @@ function initCompassValue(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#082A39</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>206</key>
@@ -12095,27 +11881,27 @@ function initCompassValue(hypeDocument, element, event) {
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthBottom</string>
+							<string>BorderWidthLeft</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>BackgroundColor</string>
 							<key>objectValue</key>
-							<string>div</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorBottom</string>
-							<key>objectValue</key>
-							<string>rgba(216, 221, 228, 0.000)</string>
+							<string>rgba(232, 235, 237, 0.000)</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>ExplicitDimensions</string>
 							<key>objectValue</key>
 							<string>YES</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorBottom</string>
+							<key>objectValue</key>
+							<string>rgba(216, 221, 228, 0.000)</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -12263,24 +12049,24 @@ function initCompassValue(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthLeft</string>
+							<string>BorderWidthBottom</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BackgroundColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>rgba(232, 235, 237, 0.000)</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>252</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>512px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -12398,9 +12184,9 @@ function initCompassValue(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>512px</string>
+							<string>div</string>
 						</dict>
 					</array>
 				</dict>
@@ -13196,7 +12982,7 @@ function initCompassValue(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>134AF305-6DC6-4C81-B3AB-36293A5CCEB6-24406-00009C16BD447CC6</string>
+									<string>61D8A0C7-B5D0-4F5C-8533-70864ABACA70-24406-0000A98F30714A3B</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -13407,7 +13193,7 @@ function initCompassValue(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>134AF305-6DC6-4C81-B3AB-36293A5CCEB6-24406-00009C16BD447CC6</string>
+									<string>61D8A0C7-B5D0-4F5C-8533-70864ABACA70-24406-0000A98F30714A3B</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -13474,7 +13260,7 @@ function initCompassValue(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>134AF305-6DC6-4C81-B3AB-36293A5CCEB6-24406-00009C16BD447CC6</string>
+									<string>61D8A0C7-B5D0-4F5C-8533-70864ABACA70-24406-0000A98F30714A3B</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -13669,7 +13455,7 @@ function initCompassValue(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>9726F030-2CD1-484F-BE9B-17D4A129B423-3788-0000702A9178E765</string>
 								<key>zIndex</key>
-								<integer>1</integer>
+								<integer>2</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -13698,7 +13484,7 @@ function initCompassValue(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>8A9FAF87-78FF-4370-B1AC-6EDA85E44E00-3788-0000702A6195E424</string>
 								<key>zIndex</key>
-								<integer>1</integer>
+								<integer>2</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -13727,7 +13513,7 @@ function initCompassValue(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>8D13337A-24E3-4041-812F-5EDCFD4094CB-3788-000070210B706534</string>
 								<key>zIndex</key>
-								<integer>1</integer>
+								<integer>2</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -13756,7 +13542,7 @@ function initCompassValue(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>CCDEA1E7-4BC8-4695-9E3B-98B62CEB524C-3788-000070202A9C7D33</string>
 								<key>zIndex</key>
-								<integer>1</integer>
+								<integer>2</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -13785,7 +13571,7 @@ function initCompassValue(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>A9A5423E-BF66-4C2E-BDA7-64DE2594E4F2-3788-0000701FA79D2F35</string>
 								<key>zIndex</key>
-								<integer>1</integer>
+								<integer>2</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -13823,7 +13609,7 @@ function initCompassValue(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>DAC7CB2A-5D8B-4299-9EF4-52974286D32A-24406-00009C16BD4864BA</string>
+									<string>BF3842DA-FE5E-482D-9A73-137AF0F5FFE4-24406-0000A98F3076E417</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -13845,7 +13631,7 @@ function initCompassValue(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>101BB339-5F22-4E43-B02B-DC6F1CFA1041-3788-0000701EF863A926</string>
 								<key>zIndex</key>
-								<integer>1</integer>
+								<integer>3</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -13883,7 +13669,7 @@ function initCompassValue(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>DAC7CB2A-5D8B-4299-9EF4-52974286D32A-24406-00009C16BD4864BA</string>
+									<string>BF3842DA-FE5E-482D-9A73-137AF0F5FFE4-24406-0000A98F3076E417</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -13905,7 +13691,7 @@ function initCompassValue(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>D8B502D1-2020-4451-AD52-C1B214D24602-3788-00007128DDF1E8C7</string>
 								<key>zIndex</key>
-								<integer>1</integer>
+								<integer>2</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -13943,7 +13729,7 @@ function initCompassValue(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>DAC7CB2A-5D8B-4299-9EF4-52974286D32A-24406-00009C16BD4864BA</string>
+									<string>BF3842DA-FE5E-482D-9A73-137AF0F5FFE4-24406-0000A98F3076E417</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -13965,7 +13751,7 @@ function initCompassValue(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>82AEBDE1-EA73-4E0D-BC70-C01B5FCF3C09-3788-0000701F43B7879E</string>
 								<key>zIndex</key>
-								<integer>1</integer>
+								<integer>3</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -13994,7 +13780,7 @@ function initCompassValue(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>A6DC58F4-A1F9-40F3-A530-FDF8E680643B-3788-00007020D4C827D2</string>
 								<key>zIndex</key>
-								<integer>1</integer>
+								<integer>2</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -14023,7 +13809,7 @@ function initCompassValue(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>7F1B4A1D-EA01-494B-B1D6-A72157AD23A1-24406-00009E1EF37505C8</string>
 								<key>zIndex</key>
-								<integer>1</integer>
+								<integer>4</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -14052,7 +13838,7 @@ function initCompassValue(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>0010F349-6DA2-4D24-9B13-39698BB3EC68-24406-00009E1EF3B6AF88</string>
 								<key>zIndex</key>
-								<integer>1</integer>
+								<integer>4</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -14081,7 +13867,7 @@ function initCompassValue(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>6D31B84F-F772-4CFD-B1AD-6F312AB5276A-3788-0000702B1167A227</string>
 								<key>zIndex</key>
-								<integer>1</integer>
+								<integer>3</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -14110,7 +13896,7 @@ function initCompassValue(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>E31F0255-415C-4188-B026-53D8122E6F4F-3788-0000702B369EC183</string>
 								<key>zIndex</key>
-								<integer>1</integer>
+								<integer>3</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -14139,7 +13925,7 @@ function initCompassValue(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>7C57D02B-6540-40D5-B169-768173682026-3788-0000702B588A96A5</string>
 								<key>zIndex</key>
-								<integer>1</integer>
+								<integer>3</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -14168,7 +13954,7 @@ function initCompassValue(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>5D321613-C2AE-4CC2-942C-689BB9F47816-3788-0000702AC2B63AD7</string>
 								<key>zIndex</key>
-								<integer>1</integer>
+								<integer>3</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -14197,7 +13983,7 @@ function initCompassValue(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>12D3E540-21EB-46BF-ACFA-70F97EA9BAE1-24406-00009E1EF23C581A</string>
 								<key>zIndex</key>
-								<integer>1</integer>
+								<integer>5</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -14226,7 +14012,7 @@ function initCompassValue(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>98409EF1-C3E0-4A2E-91D4-D11BBAF6E945-24406-00009E1F968F6A4C</string>
 								<key>zIndex</key>
-								<integer>1</integer>
+								<integer>5</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -14294,7 +14080,7 @@ function initCompassValue(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>B47C9790-3BD2-4790-90BA-E4CE4E64488E-27474-000199E4D1EA93D9</string>
 								<key>zIndex</key>
-								<integer>1</integer>
+								<integer>6</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -14506,7 +14292,7 @@ function initCompassValue(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>D736A495-66C8-43AE-9C29-21402C49EDCD-24406-00009C16BD4CEBA6</string>
+									<string>46B341F3-5989-447F-9B18-D2F4E39ACF97-24406-0000A98F307CD6AD</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -14566,7 +14352,7 @@ function initCompassValue(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>D736A495-66C8-43AE-9C29-21402C49EDCD-24406-00009C16BD4CEBA6</string>
+									<string>46B341F3-5989-447F-9B18-D2F4E39ACF97-24406-0000A98F307CD6AD</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -14588,7 +14374,7 @@ function initCompassValue(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>0A40CAD4-9AD4-4D19-A556-64780D1B2179-7316-000078FDF1ED4449</string>
 								<key>zIndex</key>
-								<integer>4</integer>
+								<integer>6</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -14742,7 +14528,7 @@ function initCompassValue(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>D736A495-66C8-43AE-9C29-21402C49EDCD-24406-00009C16BD4CEBA6</string>
+									<string>46B341F3-5989-447F-9B18-D2F4E39ACF97-24406-0000A98F307CD6AD</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -14764,7 +14550,7 @@ function initCompassValue(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>7FC9D518-B830-4EC0-B446-0AD9A265B39E-7316-000078FDF1EF7506</string>
 								<key>zIndex</key>
-								<integer>5</integer>
+								<integer>7</integer>
 							</dict>
 						</array>
 						<key>firstKeyframeIsRelative</key>
@@ -14898,7 +14684,7 @@ function initCompassValue(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>21128573-19D6-4E8F-BEA4-65389C031EAC-24406-00009C16BD50C358</string>
+									<string>D2E756D6-82C3-4679-99D2-1E7454E2E8D8-24406-0000A98F30813D00</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -15109,7 +14895,7 @@ function initCompassValue(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>21128573-19D6-4E8F-BEA4-65389C031EAC-24406-00009C16BD50C358</string>
+									<string>D2E756D6-82C3-4679-99D2-1E7454E2E8D8-24406-0000A98F30813D00</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -15176,7 +14962,7 @@ function initCompassValue(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>21128573-19D6-4E8F-BEA4-65389C031EAC-24406-00009C16BD50C358</string>
+									<string>D2E756D6-82C3-4679-99D2-1E7454E2E8D8-24406-0000A98F30813D00</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -15612,7 +15398,7 @@ function initCompassValue(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>7FA2D6CE-6CC3-47DB-B808-D865FCDD2707-24406-00009C16BD570098</string>
+									<string>F9BAC0E6-A3D7-4B65-9415-AE7BFEB17E99-24406-0000A98F30874355</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -15672,7 +15458,7 @@ function initCompassValue(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>7FA2D6CE-6CC3-47DB-B808-D865FCDD2707-24406-00009C16BD570098</string>
+									<string>F9BAC0E6-A3D7-4B65-9415-AE7BFEB17E99-24406-0000A98F30874355</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -15732,7 +15518,7 @@ function initCompassValue(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>7FA2D6CE-6CC3-47DB-B808-D865FCDD2707-24406-00009C16BD570098</string>
+									<string>F9BAC0E6-A3D7-4B65-9415-AE7BFEB17E99-24406-0000A98F30874355</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -15925,7 +15711,7 @@ function initCompassValue(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>2188A550-4DFF-4FD5-940A-F7D13774618C-24406-00009C16BD5E7374</string>
+									<string>DC081691-8EF8-4FC3-84F3-2FD8D43CD347-24406-0000A98F308ABEAE</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -15985,7 +15771,7 @@ function initCompassValue(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>2188A550-4DFF-4FD5-940A-F7D13774618C-24406-00009C16BD5E7374</string>
+									<string>DC081691-8EF8-4FC3-84F3-2FD8D43CD347-24406-0000A98F308ABEAE</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -16045,7 +15831,7 @@ function initCompassValue(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>2188A550-4DFF-4FD5-940A-F7D13774618C-24406-00009C16BD5E7374</string>
+									<string>DC081691-8EF8-4FC3-84F3-2FD8D43CD347-24406-0000A98F308ABEAE</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -16148,7 +15934,7 @@ function initCompassValue(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>60FFFCB2-2217-4169-A46A-583700604A97-24406-00009C16BD5FE086</string>
+									<string>01CBFBFD-55F2-461C-BFC3-CAE734826C37-24406-0000A98F308C6F25</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -16287,7 +16073,7 @@ function initCompassValue(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>60FFFCB2-2217-4169-A46A-583700604A97-24406-00009C16BD5FE086</string>
+									<string>01CBFBFD-55F2-461C-BFC3-CAE734826C37-24406-0000A98F308C6F25</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -16354,7 +16140,7 @@ function initCompassValue(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>60FFFCB2-2217-4169-A46A-583700604A97-24406-00009C16BD5FE086</string>
+									<string>01CBFBFD-55F2-461C-BFC3-CAE734826C37-24406-0000A98F308C6F25</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -16811,7 +16597,7 @@ function initCompassValue(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>97123471-28BC-4A1A-8E14-3F376F61EF1C-24406-00009C16BD641816</string>
+									<string>02906DB2-438C-40A9-8B47-FED5678C5332-24406-0000A98F3091DD2F</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -16871,7 +16657,7 @@ function initCompassValue(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>97123471-28BC-4A1A-8E14-3F376F61EF1C-24406-00009C16BD641816</string>
+									<string>02906DB2-438C-40A9-8B47-FED5678C5332-24406-0000A98F3091DD2F</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -17076,7 +16862,7 @@ function initCompassValue(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>97123471-28BC-4A1A-8E14-3F376F61EF1C-24406-00009C16BD641816</string>
+									<string>02906DB2-438C-40A9-8B47-FED5678C5332-24406-0000A98F3091DD2F</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -17537,7 +17323,7 @@ function initCompassValue(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>22B69127-733F-470C-8F99-521EEF8EC793-24406-00009E9D5AE92EE9</string>
 								<key>zIndex</key>
-								<integer>1</integer>
+								<integer>2</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -17604,7 +17390,7 @@ function initCompassValue(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>6B6DD8B3-2B33-4588-A4CD-6C849393305E-24406-00009E9D5AE9F484</string>
+									<string>B6FF2132-EA02-4F6B-B91F-E6D1201E01A7-24406-0000A98F309974D8</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -17713,7 +17499,7 @@ function initCompassValue(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>D65DB60B-77E6-4591-AC8D-29F8ED0BC464-24406-00009E9D5AED50D3</string>
 								<key>zIndex</key>
-								<integer>1</integer>
+								<integer>2</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -17751,7 +17537,7 @@ function initCompassValue(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>6B6DD8B3-2B33-4588-A4CD-6C849393305E-24406-00009E9D5AE9F484</string>
+									<string>B6FF2132-EA02-4F6B-B91F-E6D1201E01A7-24406-0000A98F309974D8</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -17773,7 +17559,7 @@ function initCompassValue(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>C0C79553-47DD-4B14-A8C9-7FBB95270DC6-24406-00009E9D5AEF0168</string>
 								<key>zIndex</key>
-								<integer>1</integer>
+								<integer>2</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -17802,7 +17588,7 @@ function initCompassValue(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>08B40789-3A69-4513-A185-497BB77EC26E-24406-00009E9D5AEFE8DF</string>
 								<key>zIndex</key>
-								<integer>1</integer>
+								<integer>2</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -17840,7 +17626,7 @@ function initCompassValue(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>6B6DD8B3-2B33-4588-A4CD-6C849393305E-24406-00009E9D5AE9F484</string>
+									<string>B6FF2132-EA02-4F6B-B91F-E6D1201E01A7-24406-0000A98F309974D8</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -17862,7 +17648,7 @@ function initCompassValue(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>C4E326AF-EF9E-491F-9E07-E77A86D31FDD-24406-00009E9D5AF0EAFF</string>
 								<key>zIndex</key>
-								<integer>1</integer>
+								<integer>2</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -17898,7 +17684,7 @@ function initCompassValue(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>6FD55F87-2C0C-45C9-A5F8-2AD97DE0AE85-3788-00007186286F58B7</string>
 								<key>zIndex</key>
-								<integer>2</integer>
+								<integer>3</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -17936,7 +17722,7 @@ function initCompassValue(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>3E78EC38-BCDD-46BB-8DFA-80D81220A7AE-24406-00009C16BD6B3C65</string>
+									<string>DB5F81B7-3B59-4A6F-B2AF-3ABE8433D06E-24406-0000A98F309C0ACA</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -17996,7 +17782,7 @@ function initCompassValue(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>3E78EC38-BCDD-46BB-8DFA-80D81220A7AE-24406-00009C16BD6B3C65</string>
+									<string>DB5F81B7-3B59-4A6F-B2AF-3ABE8433D06E-24406-0000A98F309C0ACA</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -18018,7 +17804,7 @@ function initCompassValue(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>4E12422E-831F-48C6-9DD7-B419078F8383-3788-000071634C59821C</string>
 								<key>zIndex</key>
-								<integer>2</integer>
+								<integer>3</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -18047,7 +17833,7 @@ function initCompassValue(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>792A7649-4A4A-4B93-A3E5-7675BEF86A61-3788-00007166893E55F0</string>
 								<key>zIndex</key>
-								<integer>2</integer>
+								<integer>3</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -18076,7 +17862,7 @@ function initCompassValue(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>4DC0AEB5-C33C-4FD4-A2DF-090C1666F93B-3788-0000716689157819</string>
 								<key>zIndex</key>
-								<integer>2</integer>
+								<integer>3</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -18114,7 +17900,7 @@ function initCompassValue(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>3E78EC38-BCDD-46BB-8DFA-80D81220A7AE-24406-00009C16BD6B3C65</string>
+									<string>DB5F81B7-3B59-4A6F-B2AF-3ABE8433D06E-24406-0000A98F309C0ACA</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -18136,7 +17922,7 @@ function initCompassValue(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>D8DECBD8-E643-45C1-AF74-9A44A4330825-3788-000071634C583689</string>
 								<key>zIndex</key>
-								<integer>3</integer>
+								<integer>4</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -19362,7 +19148,7 @@ function initCompassValue(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>7161B58B-CE25-4833-8E91-5630DDD2C6D0-24406-00009EBA7F25574E</string>
 								<key>zIndex</key>
-								<integer>1</integer>
+								<integer>2</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -19429,7 +19215,7 @@ function initCompassValue(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>546304B0-0BC2-4FA2-A6FD-65B4424DA3C5-24406-00009EBA7F261051</string>
+									<string>867CAE83-C24D-4E34-BDB0-5BC34C3EF961-24406-0000A98F30A88B2D</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -19538,7 +19324,7 @@ function initCompassValue(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>3CA9883D-5440-44D8-9AC0-5D72A8A56A30-24406-00009EBA7F29080C</string>
 								<key>zIndex</key>
-								<integer>1</integer>
+								<integer>2</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -19576,7 +19362,7 @@ function initCompassValue(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>546304B0-0BC2-4FA2-A6FD-65B4424DA3C5-24406-00009EBA7F261051</string>
+									<string>867CAE83-C24D-4E34-BDB0-5BC34C3EF961-24406-0000A98F30A88B2D</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -19598,7 +19384,7 @@ function initCompassValue(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>6EFC1896-F118-4B89-8081-DBAF78FEFF02-24406-00009EBA7F2A89AD</string>
 								<key>zIndex</key>
-								<integer>1</integer>
+								<integer>2</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -19627,7 +19413,7 @@ function initCompassValue(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>73856668-B8B5-4F18-A293-3C72EC97CDC2-24406-00009EBA7F2B6708</string>
 								<key>zIndex</key>
-								<integer>1</integer>
+								<integer>2</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -19665,7 +19451,7 @@ function initCompassValue(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>546304B0-0BC2-4FA2-A6FD-65B4424DA3C5-24406-00009EBA7F261051</string>
+									<string>867CAE83-C24D-4E34-BDB0-5BC34C3EF961-24406-0000A98F30A88B2D</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -19687,7 +19473,7 @@ function initCompassValue(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>4DDC7F24-8E0F-437D-8B9D-9C045DD9C0BA-24406-00009EBA7F2C5A8F</string>
 								<key>zIndex</key>
-								<integer>1</integer>
+								<integer>2</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -19732,7 +19518,7 @@ function initCompassValue(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>3467F2AE-09E7-415A-B53E-38ED2E59FAE0-24406-00009C16BD86056B</string>
+									<string>5753EECA-8042-4464-8309-60B97743A98D-24406-0000A98F30AAD7A9</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -19754,7 +19540,7 @@ function initCompassValue(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>4E12422E-831F-48C6-9DD7-B419078F8383-3788-000071634C59821C</string>
 								<key>zIndex</key>
-								<integer>2</integer>
+								<integer>3</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -19799,7 +19585,7 @@ function initCompassValue(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>3467F2AE-09E7-415A-B53E-38ED2E59FAE0-24406-00009C16BD86056B</string>
+									<string>5753EECA-8042-4464-8309-60B97743A98D-24406-0000A98F30AAD7A9</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -19866,7 +19652,7 @@ function initCompassValue(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>3467F2AE-09E7-415A-B53E-38ED2E59FAE0-24406-00009C16BD86056B</string>
+									<string>5753EECA-8042-4464-8309-60B97743A98D-24406-0000A98F30AAD7A9</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -19888,7 +19674,7 @@ function initCompassValue(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>D8DECBD8-E643-45C1-AF74-9A44A4330825-3788-000071634C583689</string>
 								<key>zIndex</key>
-								<integer>2</integer>
+								<integer>3</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -19917,7 +19703,7 @@ function initCompassValue(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>792A7649-4A4A-4B93-A3E5-7675BEF86A61-3788-00007166893E55F0</string>
 								<key>zIndex</key>
-								<integer>2</integer>
+								<integer>3</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -19946,7 +19732,7 @@ function initCompassValue(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>4DC0AEB5-C33C-4FD4-A2DF-090C1666F93B-3788-0000716689157819</string>
 								<key>zIndex</key>
-								<integer>2</integer>
+								<integer>3</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -19982,7 +19768,7 @@ function initCompassValue(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>4FF8D918-13AE-479E-A3F3-F181D5720AFB-5131-0000799DADEA3716</string>
 								<key>zIndex</key>
-								<integer>3</integer>
+								<integer>4</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -20018,7 +19804,7 @@ function initCompassValue(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>0FF41A70-0D98-48AC-B025-76F13F170928-5131-00007A96DC2DE8A8</string>
 								<key>zIndex</key>
-								<integer>2</integer>
+								<integer>3</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -20112,7 +19898,7 @@ function initCompassValue(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>317501D0-73D3-4EA6-8995-D004B3C049A8-5454-00007FB34BE81254</string>
 								<key>zIndex</key>
-								<integer>3</integer>
+								<integer>4</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -20177,7 +19963,7 @@ function initCompassValue(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>4A60CDEA-EE56-46D2-A58B-51F879EE28E1-5131-00007A99648230A2</string>
 								<key>zIndex</key>
-								<integer>4</integer>
+								<integer>5</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -20363,7 +20149,7 @@ function initCompassValue(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>9ADEC5FE-DD69-400A-89CB-7802453E1785-5454-00007FE7D24EFCEA</string>
 								<key>zIndex</key>
-								<integer>1</integer>
+								<integer>2</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -20399,7 +20185,7 @@ function initCompassValue(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>4DD14A6A-2445-4F39-A224-AFBBE29D2B10-5454-00007FE7D24FF580</string>
 								<key>zIndex</key>
-								<integer>1</integer>
+								<integer>2</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -20444,7 +20230,7 @@ function initCompassValue(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>0AA5B81B-16C3-44EA-9D27-3ED3D0DFF906-24406-00009C16BD8B46CE</string>
+									<string>51D20D71-6305-4BE7-9595-3FDF1B6463F1-24406-0000A98F30B05961</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -20547,7 +20333,7 @@ function initCompassValue(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>0AA5B81B-16C3-44EA-9D27-3ED3D0DFF906-24406-00009C16BD8B46CE</string>
+									<string>51D20D71-6305-4BE7-9595-3FDF1B6463F1-24406-0000A98F30B05961</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -20686,7 +20472,7 @@ function initCompassValue(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>0AA5B81B-16C3-44EA-9D27-3ED3D0DFF906-24406-00009C16BD8B46CE</string>
+									<string>51D20D71-6305-4BE7-9595-3FDF1B6463F1-24406-0000A98F30B05961</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -20829,7 +20615,7 @@ function initCompassValue(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>8503A5F6-5870-49A8-99EE-AA6F1B5C14CC-5454-00007FE7D251D7D6</string>
 								<key>zIndex</key>
-								<integer>2</integer>
+								<integer>3</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -20858,7 +20644,7 @@ function initCompassValue(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>31FBD265-1248-46F2-9B33-CB229FDA31F8-5454-00007FE7D2526177</string>
 								<key>zIndex</key>
-								<integer>2</integer>
+								<integer>3</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -20896,7 +20682,7 @@ function initCompassValue(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>36095D9A-1A69-4A66-86C4-47E746706A9E-24406-00009C16BD8DEE87</string>
+									<string>F5DE2FAA-9B8C-488D-AF48-C21653DBC808-24406-0000A98F30B4526F</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -20985,7 +20771,7 @@ function initCompassValue(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>36095D9A-1A69-4A66-86C4-47E746706A9E-24406-00009C16BD8DEE87</string>
+									<string>F5DE2FAA-9B8C-488D-AF48-C21653DBC808-24406-0000A98F30B4526F</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -21074,7 +20860,7 @@ function initCompassValue(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>36095D9A-1A69-4A66-86C4-47E746706A9E-24406-00009C16BD8DEE87</string>
+									<string>F5DE2FAA-9B8C-488D-AF48-C21653DBC808-24406-0000A98F30B4526F</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -21458,7 +21244,7 @@ function initCompassValue(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>5CB971A9-393B-4AB4-BA58-A66E68684D6A-24406-00009F14D241F330</string>
+									<string>D6F29B52-6B48-4044-B09E-35EC73F6E474-24406-0000A98F30BC869F</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -21605,7 +21391,7 @@ function initCompassValue(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>5CB971A9-393B-4AB4-BA58-A66E68684D6A-24406-00009F14D241F330</string>
+									<string>D6F29B52-6B48-4044-B09E-35EC73F6E474-24406-0000A98F30BC869F</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -21694,7 +21480,7 @@ function initCompassValue(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>5CB971A9-393B-4AB4-BA58-A66E68684D6A-24406-00009F14D241F330</string>
+									<string>D6F29B52-6B48-4044-B09E-35EC73F6E474-24406-0000A98F30BC869F</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -21930,7 +21716,7 @@ function initCompassValue(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>D87B4643-F807-4852-81BA-CCCF97CA79A4-24406-00009C16BD94F437</string>
+									<string>D9A66F7C-53D9-4621-A49D-106E3E24D44F-24406-0000A98F30C2F16D</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -22019,7 +21805,7 @@ function initCompassValue(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>D87B4643-F807-4852-81BA-CCCF97CA79A4-24406-00009C16BD94F437</string>
+									<string>D9A66F7C-53D9-4621-A49D-106E3E24D44F-24406-0000A98F30C2F16D</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -22108,7 +21894,7 @@ function initCompassValue(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>D87B4643-F807-4852-81BA-CCCF97CA79A4-24406-00009C16BD94F437</string>
+									<string>D9A66F7C-53D9-4621-A49D-106E3E24D44F-24406-0000A98F30C2F16D</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -22284,7 +22070,7 @@ function initCompassValue(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>745D5E82-95A4-447A-99B7-B235ACFFA613-24406-00009C16BD976BA3</string>
+									<string>160586AB-BE18-4184-8121-05288BDDF76B-24406-0000A98F30C631BC</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -22373,7 +22159,7 @@ function initCompassValue(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>745D5E82-95A4-447A-99B7-B235ACFFA613-24406-00009C16BD976BA3</string>
+									<string>160586AB-BE18-4184-8121-05288BDDF76B-24406-0000A98F30C631BC</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -22433,7 +22219,7 @@ function initCompassValue(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>745D5E82-95A4-447A-99B7-B235ACFFA613-24406-00009C16BD976BA3</string>
+									<string>160586AB-BE18-4184-8121-05288BDDF76B-24406-0000A98F30C631BC</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
