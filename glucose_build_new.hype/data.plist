@@ -5,7 +5,7 @@
 	<key>allowUserScaling</key>
 	<integer>0</integer>
 	<key>animationTimelineInspectorHeight</key>
-	<real>0.0</real>
+	<real>362.42578125</real>
 	<key>createOfflineApplicationCache</key>
 	<false/>
 	<key>currentSceneContainer</key>
@@ -153,7 +153,7 @@ input：focus{outline:none;}
  &lt;/script&gt;
 	</string>
 	<key>lastCheckDate</key>
-	<date>2016-12-29T04:11:51Z</date>
+	<date>2016-12-29T09:22:08Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
@@ -161,7 +161,7 @@ input：focus{outline:none;}
 		<key>customizableLayout</key>
 		<dict>
 			<key>frame</key>
-			<string>{{0, 0}, {1280, 623}}</string>
+			<string>{{0, 0}, {1920, 958}}</string>
 			<key>identifier</key>
 			<string>container 95</string>
 			<key>isCustomizableViewContainer</key>
@@ -174,7 +174,7 @@ input：focus{outline:none;}
 			<array>
 				<dict>
 					<key>frame</key>
-					<string>{{0, 0}, {1009, 623}}</string>
+					<string>{{0, 0}, {1649, 958}}</string>
 					<key>identifier</key>
 					<string>container 208</string>
 					<key>isCustomizableViewContainer</key>
@@ -187,7 +187,7 @@ input：focus{outline:none;}
 					<array>
 						<dict>
 							<key>frame</key>
-							<string>{{0, 0}, {738, 623}}</string>
+							<string>{{0, 0}, {1378, 958}}</string>
 							<key>identifier</key>
 							<string>container 197</string>
 							<key>isCustomizableViewContainer</key>
@@ -200,7 +200,7 @@ input：focus{outline:none;}
 							<array>
 								<dict>
 									<key>frame</key>
-									<string>{{0, 0}, {135, 623}}</string>
+									<string>{{0, 0}, {135, 958}}</string>
 									<key>identifier</key>
 									<string>container 187</string>
 									<key>isCustomizableViewContainer</key>
@@ -213,7 +213,7 @@ input：focus{outline:none;}
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{0, 0}, {135, 623}}</string>
+											<string>{{0, 0}, {135, 958}}</string>
 											<key>identifier</key>
 											<string>sceneSelectorCustomizableContainer</string>
 											<key>isCustomizableViewContainer</key>
@@ -223,7 +223,7 @@ input：focus{outline:none;}
 								</dict>
 								<dict>
 									<key>frame</key>
-									<string>{{136, 0}, {602, 623}}</string>
+									<string>{{136, 0}, {1242, 958}}</string>
 									<key>identifier</key>
 									<string>container 188</string>
 									<key>isCustomizableViewContainer</key>
@@ -236,7 +236,7 @@ input：focus{outline:none;}
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{136, 0}, {602, 135}}</string>
+											<string>{{136, 0}, {1242, 314}}</string>
 											<key>identifier</key>
 											<string>container 45</string>
 											<key>isCustomizableViewContainer</key>
@@ -249,7 +249,7 @@ input：focus{outline:none;}
 											<array>
 												<dict>
 													<key>frame</key>
-													<string>{{136, 0}, {602, 135}}</string>
+													<string>{{136, 0}, {1242, 314}}</string>
 													<key>identifier</key>
 													<string>timelineCustomizableContainer</string>
 													<key>isCustomizableViewContainer</key>
@@ -259,7 +259,7 @@ input：focus{outline:none;}
 										</dict>
 										<dict>
 											<key>frame</key>
-											<string>{{136, 136}, {602, 487}}</string>
+											<string>{{136, 315}, {1242, 643}}</string>
 											<key>identifier</key>
 											<string>container 229</string>
 											<key>isCustomizableViewContainer</key>
@@ -272,7 +272,7 @@ input：focus{outline:none;}
 											<array>
 												<dict>
 													<key>frame</key>
-													<string>{{136, 136}, {602, 487}}</string>
+													<string>{{136, 315}, {1242, 643}}</string>
 													<key>identifier</key>
 													<string>sceneEditorCustomizableContainer</string>
 													<key>isCustomizableViewContainer</key>
@@ -286,7 +286,7 @@ input：focus{outline:none;}
 						</dict>
 						<dict>
 							<key>frame</key>
-							<string>{{739, 0}, {270, 623}}</string>
+							<string>{{1379, 0}, {270, 958}}</string>
 							<key>identifier</key>
 							<string>container 196</string>
 							<key>isCustomizableViewContainer</key>
@@ -299,7 +299,7 @@ input：focus{outline:none;}
 							<array>
 								<dict>
 									<key>frame</key>
-									<string>{{739, 0}, {270, 623}}</string>
+									<string>{{1379, 0}, {270, 958}}</string>
 									<key>identifier</key>
 									<string>inspectorCustomizableContainer</string>
 									<key>isCustomizableViewContainer</key>
@@ -311,7 +311,7 @@ input：focus{outline:none;}
 				</dict>
 				<dict>
 					<key>frame</key>
-					<string>{{1010, 0}, {270, 623}}</string>
+					<string>{{1650, 0}, {270, 958}}</string>
 					<key>identifier</key>
 					<string>container 207</string>
 					<key>isCustomizableViewContainer</key>
@@ -324,7 +324,7 @@ input：focus{outline:none;}
 					<array>
 						<dict>
 							<key>frame</key>
-							<string>{{1010, 0}, {270, 623}}</string>
+							<string>{{1650, 0}, {270, 958}}</string>
 							<key>identifier</key>
 							<string>resourcesCustomizableContainer</string>
 							<key>isCustomizableViewContainer</key>
@@ -337,7 +337,7 @@ input：focus{outline:none;}
 		<key>keyframeTimelineHeight</key>
 		<real>166</real>
 		<key>mainWindowFrame</key>
-		<string>1296 1190 1280 667 910 800 1920 1057 </string>
+		<string>910 855 1920 1002 910 800 1920 1057 </string>
 		<key>openTabs</key>
 		<array>
 			<dict>
@@ -361,6 +361,12 @@ input：focus{outline:none;}
 				<string>HypeJavascript</string>
 				<key>oid</key>
 				<string>253</string>
+			</dict>
+			<dict>
+				<key>className</key>
+				<string>HypeJavascript</string>
+				<key>oid</key>
+				<string>259</string>
 			</dict>
 		</array>
 		<key>selectedTabIndex</key>
@@ -404,7 +410,7 @@ input：focus{outline:none;}
 	<key>monotypeProjectID</key>
 	<string>F2F7B755-4E84-4A19-A9C5-2B6EFA73AE95-1469-000007394AA0BB12</string>
 	<key>oidCounter</key>
-	<integer>257</integer>
+	<integer>259</integer>
 	<key>resourcesInfo</key>
 	<dict>
 		<key>groups</key>
@@ -2973,11 +2979,11 @@ input：focus{outline:none;}
 			</dict>
 			<dict>
 				<key>fileModificationDate</key>
-				<date>2016-12-29T04:11:46Z</date>
+				<date>2016-12-29T09:14:26Z</date>
 				<key>fileSize</key>
-				<integer>15229</integer>
+				<integer>15906</integer>
 				<key>md5</key>
-				<string>27C594F123476896F8CC39050760C545</string>
+				<string>E71DF4C8BBE633319DFF20D89605FACC</string>
 				<key>notifyOnBookmarkChange</key>
 				<true/>
 				<key>originalPath</key>
@@ -3055,13 +3061,15 @@ input：focus{outline:none;}
 							<key>216</key>
 							<real>1</real>
 							<key>217</key>
-							<real>0.0</real>
+							<real>2.6666667461395264</real>
 							<key>219</key>
 							<real>0.0</real>
 							<key>220</key>
 							<real>0.26666668057441711</real>
 							<key>221</key>
 							<real>0.0</real>
+							<key>258</key>
+							<real>1.5</real>
 							<key>kTimelineDefaultIdentifier</key>
 							<real>0.0</real>
 						</dict>
@@ -3069,7 +3077,7 @@ input：focus{outline:none;}
 						<integer>180</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{3477, 3041}</string>
+					<string>{1242, 948}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -3094,7 +3102,7 @@ input：focus{outline:none;}
 					<key>rootSymbolControllerOid</key>
 					<string>141</string>
 					<key>scrollViewOffset</key>
-					<string>{0, 7}</string>
+					<string>{0, 11}</string>
 					<key>userGuides</key>
 					<array>
 						<dict>
@@ -3355,6 +3363,18 @@ function initCompassValue(hypeDocument, element, event) {
 }
 </string>
 		</dict>
+		<dict>
+			<key>oid</key>
+			<string>259</string>
+			<key>source</key>
+			<string>// element - DOMHTMLElement that triggered this function being called
+// event - event that triggered this function being called
+function monitorDidGetSuggestion(hypeDocument, element, event) {
+	
+	monitorDidGetSuggestion(hypeDocument, element, event);
+}
+</string>
+		</dict>
 	</array>
 	<key>shouldApplySizeChangesToAllScenes</key>
 	<true/>
@@ -3609,14 +3629,14 @@ function initCompassValue(hypeDocument, element, event) {
 			<string>1FD7BA72-6DDE-409F-BC9B-1BE3F8E96041-24406-0000A98F61CB5F90</string>
 			<key>selectedObjects</key>
 			<array>
-				<string>183</string>
+				<string>159</string>
 			</array>
 			<key>symbol</key>
 			<dict>
 				<key>addToNewSceneControllers</key>
 				<false/>
 				<key>currentTimelineIdentifier</key>
-				<string>221</string>
+				<string>219</string>
 				<key>customBehaviors</key>
 				<array/>
 				<key>elements</key>
@@ -18715,9 +18735,9 @@ function initCompassValue(hypeDocument, element, event) {
 												<key>playInReverse</key>
 												<false/>
 												<key>symbolOid</key>
-												<string>91</string>
+												<string>141</string>
 												<key>timelineIdentifier</key>
-												<string>219</string>
+												<string>258</string>
 												<key>type</key>
 												<integer>3</integer>
 											</dict>
@@ -20991,7 +21011,7 @@ function initCompassValue(hypeDocument, element, event) {
 						<key>identifier</key>
 						<string>219</string>
 						<key>name</key>
-						<string>出报告</string>
+						<string>genReportTimeline</string>
 						<key>userDefinedDuration</key>
 						<real>1.1666666269302368</real>
 					</dict>
@@ -22256,6 +22276,126 @@ function initCompassValue(hypeDocument, element, event) {
 						<string>报告消失</string>
 						<key>userDefinedDuration</key>
 						<real>0.0</real>
+					</dict>
+					<dict>
+						<key>animations</key>
+						<array>
+							<dict>
+								<key>duration</key>
+								<real>1.0333333313465118</real>
+								<key>endValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>ActionHandler</string>
+									<key>objectValue</key>
+									<dict>
+										<key>actions</key>
+										<array>
+											<dict>
+												<key>goToTime</key>
+												<real>0.0</real>
+												<key>symbolOid</key>
+												<string>141</string>
+												<key>timelineIdentifier</key>
+												<string>258</string>
+												<key>type</key>
+												<integer>9</integer>
+											</dict>
+										</array>
+									</dict>
+								</dict>
+								<key>identifier</key>
+								<string>ActionHandler</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>258</string>
+								<key>startTime</key>
+								<real>0.46666666865348816</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>ActionHandler</string>
+									<key>objectValue</key>
+									<dict>
+										<key>actions</key>
+										<array>
+											<dict>
+												<key>javascriptOid</key>
+												<string>259</string>
+												<key>type</key>
+												<integer>4</integer>
+											</dict>
+										</array>
+									</dict>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>2</integer>
+								<key>uuid</key>
+								<string>DE110047-3EDD-45C3-ACA2-D95F3FBFAD18-24406-0000B7BDB09B3EFC</string>
+								<key>zIndex</key>
+								<integer>1</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>0.0</real>
+								<key>identifier</key>
+								<string>ActionHandler</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>258</string>
+								<key>startTime</key>
+								<real>1.5</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>ActionHandler</string>
+									<key>objectValue</key>
+									<dict>
+										<key>actions</key>
+										<array>
+											<dict>
+												<key>goToTime</key>
+												<real>0.0</real>
+												<key>symbolOid</key>
+												<string>141</string>
+												<key>timelineIdentifier</key>
+												<string>258</string>
+												<key>type</key>
+												<integer>9</integer>
+											</dict>
+										</array>
+									</dict>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>2</integer>
+								<key>uuid</key>
+								<string>E285CCE5-06E6-4D4A-91B0-51C8FAA3E6A5-24406-0000B904464F640F</string>
+								<key>zIndex</key>
+								<integer>2</integer>
+							</dict>
+						</array>
+						<key>firstKeyframeIsRelative</key>
+						<false/>
+						<key>framesPerSecond</key>
+						<integer>30</integer>
+						<key>hidden</key>
+						<false/>
+						<key>identifier</key>
+						<string>258</string>
+						<key>name</key>
+						<string>monitorDidGetSugesstion</string>
+						<key>userDefinedDuration</key>
+						<real>0.5</real>
 					</dict>
 				</array>
 			</dict>
