@@ -53,11 +53,15 @@ function registerDocEventListener () {
 	document.addEventListener('touchmove', preventDefaultAction, false);
 }
 
-function cancelDocEventListener () {
+function cancelDocEventListener (hypeDocument, element, event) {
 	// body...
 
 	document.removeEventListener('touchstart', preventDefaultAction);
 	document.removeEventListener('touchmove', preventDefaultAction);
+	
+	if (hypeDocument.currentTimeInTimelineNamed('submitAnimation') != 0) {
+		history.back(); 
+	}
 }
 
 //暂时没有使用
