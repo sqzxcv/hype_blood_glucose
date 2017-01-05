@@ -475,7 +475,7 @@ function submit_glucose (value, time, type) {
 	payload = {record: {value: value, reported_time: time, acktype: type}};
 	url = '';
 	params = headers = {};
-	if(window.navigator.userAgent.toLowerCase().match(/micromessenger/){
+	if(window.navigator.userAgent.toLowerCase().match(/micromessenger/)){
 		url = "/wx/myself/api"
 		params = {api: 'records', method: 'post', payload: payload}
 	}else{
@@ -502,15 +502,16 @@ function submit_glucose (value, time, type) {
 function monitorDidGetSuggestion(hypeDocument, element, event) {
 	// body...
 	console.log("begin monitor suggestion");
-	glucose_suggestion = "例如，如果已使用资源库将 jquery-1.8.2.min.js 添加至您的文稿，该行会将 jQuery 1.8.2 导入您的 Hype 文稿，让您在预览 Hype 文稿时可以使用 jQuery：";
+	//alert(glucose_suggestion);
+	//glucose_suggestion = "例如，如果已使用资源库将 jquery-1.8.2.min.js 添加至您的文稿，该行会将 jQuery 1.8.2 导入您的 Hype 文稿，让您在预览 Hype 文稿时可以使用 jQuery：例如，如果已使用资源库将 jquery-1.8.2.min.js 添加至您的文稿，该行会将 jQuery 1.8.2 导入您的 Hype 文稿，让您在预览 Hype 文稿时可以使用 jQuery：例如，如果已使用资源库将 jquery-1.8.2.min.js 添加至您的文稿，该行会将 jQuery 1.8.2 导入您的 Hype 文稿，让您在预览 Hype 文稿时可以使用 jQuery：例如，如果已使用资源库将 jquery-1.8.2.min.js 添加至您的文稿，该行会将 jQuery 1.8.2 导入您的 Hype 文稿，让您在预览 Hype 文稿时可以使用 jQuery：例如，如果已使用资源库将 jquery-1.8.2.min.js 添加至您的文稿，该行会将 jQuery 1.8.2 导入您的 Hype 文稿，让您在预览 Hype 文稿时可以使用 jQuery：例如，如果已使用资源库将 jquery-1.8.2.min.js 添加至您的文稿，该行会将 jQuery 1.8.2 导入您的 Hype 文稿，让您在预览 Hype 文稿时可以使用 jQuery：";
 	if (glucose_suggestion == 'error') {
 
 		//显示“分析失败，点击重试”
 		hypeDocument.pauseTimelineNamed('monitorDidGetSuggestion');
 	} else if (glucose_suggestion != 'error' && glucose_suggestion != "") {
 		//显示分析结果
-		$("#glucose_report").html(glucose_suggestion);
+		$("#glucose_report").html("<p>" +glucose_suggestion + "</p>");
+		hypeDocument.pauseTimelineNamed('monitorDidGetSugestion');
 		hypeDocument.startTimelineNamed('genReportTimeline', hypeDocument.kDirectionForward);
-		hypeDocument.pauseTimelineNamed('monitorDidGetSuggestion');
 	}
 }
