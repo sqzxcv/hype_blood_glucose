@@ -472,35 +472,29 @@ function submit_glucose (value, time, type) {
 	// body...
 
 	glucose_suggestion = "";
-	payload = {record: {value: value, reported_time: time, acktype: type}}
-
-	//开始显示“正在分析血糖”
-	$.post('/wx/myself/api', {api: 'records', method: 'post', payload: payload}, function(msg){
-		window.console.log(msg)
-		// var json = {
-		// "success":0,
-		// "message":"ok",
-		// "data":{
-		// 		"id":23138,
-		// 		"value":5.7,
-		// 		"level":2,
-		// 		"title":"血糖偏低",
-		// 		"suggestion":"尚未达到低血糖的范畴，但也要引起注意。您可以根据情况，在必要时适当进食一些食物。",
-		// 		"comment":"",
-		// 		"timestamp":1482722934,
-		// 		"point":2,
-		// 		"type":1,
-		// 		"confirmed":1,
-		// 		"source":1,
-		// 		"recommend_writings":[],
-		// 		"introduction":"单次口服降糖药物或胰岛素用量过大、饮食摄入热量不足、运动强度过大、长期酗酒等均会引起血糖偏低。您的血糖偏低，饮食或者用药是否存在问题？填写您今天的饮食和用药让我们更好的帮您分析问题。"
-		// 	}
-		// }
-		
-		if(msg['success'] == 0){
-			glucose_suggestion = msg['data']['suggestion'];
-		} else {
-			glucose_suggestion = 'error';
+	payload = {record: {value: value, reported_time: time, acktype: type}};
+	url = '';
+	params = headers = {};
+	if(window.navigator.userAgent.toLowerCase().match(/micromessenger/){
+		url = "/wx/myself/api"
+		params = {api: 'records', method: 'post', payload: payload}
+	}else{
+		url = "http://work.ttdys.com/api/v4/records"
+		params = payload
+		headers = {'Content-Type': 'application/x-www-form-urlencoded', 'X-Patient-Id': '13241', 'X-Patient-Token': 'rq5xeeZ11uxXRQE6gAQi'}
+	}
+	$.ajax({
+		url: url,
+		type: 'post',
+		data: params,
+		headers: headers,
+		success: function(msg) {
+	  		// do your self
+	  		if(msg['success'] == 0){
+				glucose_suggestion = msg['data']['suggestion'];
+			} else {
+				glucose_suggestion = 'error';
+			}
 		}
 	});
 }
@@ -508,12 +502,14 @@ function submit_glucose (value, time, type) {
 function monitorDidGetSuggestion(hypeDocument, element, event) {
 	// body...
 	console.log("begin monitor suggestion");
+	glucose_suggestion = "例如，如果已使用资源库将 jquery-1.8.2.min.js 添加至您的文稿，该行会将 jQuery 1.8.2 导入您的 Hype 文稿，让您在预览 Hype 文稿时可以使用 jQuery：";
 	if (glucose_suggestion == 'error') {
 
 		//显示“分析失败，点击重试”
 		hypeDocument.pauseTimelineNamed('monitorDidGetSuggestion');
 	} else if (glucose_suggestion != 'error' && glucose_suggestion != "") {
 		//显示分析结果
+		$("#glucose_report").html(glucose_suggestion);
 		hypeDocument.startTimelineNamed('genReportTimeline', hypeDocument.kDirectionForward);
 		hypeDocument.pauseTimelineNamed('monitorDidGetSuggestion');
 	}

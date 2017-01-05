@@ -46,8 +46,8 @@
 	<key>displayedAttributes</key>
 	<array>
 		<string>kPropertiesMenuItemIdentifierOpacity</string>
-		<string>kPropertiesMenuItemIdentifierPosition</string>
 		<string>kPropertiesMenuItemIdentifierAnimated</string>
+		<string>kPropertiesMenuItemIdentifierPosition</string>
 	</array>
 	<key>documentVersion</key>
 	<string>530</string>
@@ -75,7 +75,7 @@
 		
 		font-family: PingFangSC-Light, sans-serif;
 	}
-	.compassViewTitleDiv {
+	.compassViewTitleDiv #glucose_report {
 		
 		font-family: PingFangSC-Light, sans-serif;
 		color:#C7D8E0;
@@ -154,17 +154,17 @@ input：focus{outline:none;}
  &lt;/script&gt;
 	</string>
 	<key>lastCheckDate</key>
-	<date>2017-01-03T13:03:48Z</date>
+	<date>2017-01-05T08:29:51Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
-		<integer>3</integer>
+		<integer>2</integer>
 		<key>customizableLayout</key>
 		<dict>
 			<key>frame</key>
 			<string>{{0, 0}, {1920, 958}}</string>
 			<key>identifier</key>
-			<string>container 24</string>
+			<string>container 97</string>
 			<key>isCustomizableViewContainer</key>
 			<true/>
 			<key>isCustomizableViewWrapper</key>
@@ -177,7 +177,7 @@ input：focus{outline:none;}
 					<key>frame</key>
 					<string>{{0, 0}, {1649, 958}}</string>
 					<key>identifier</key>
-					<string>container 117</string>
+					<string>container 53</string>
 					<key>isCustomizableViewContainer</key>
 					<true/>
 					<key>isCustomizableViewWrapper</key>
@@ -190,7 +190,7 @@ input：focus{outline:none;}
 							<key>frame</key>
 							<string>{{0, 0}, {1378, 958}}</string>
 							<key>identifier</key>
-							<string>container 106</string>
+							<string>container 42</string>
 							<key>isCustomizableViewContainer</key>
 							<true/>
 							<key>isCustomizableViewWrapper</key>
@@ -203,7 +203,7 @@ input：focus{outline:none;}
 									<key>frame</key>
 									<string>{{0, 0}, {135, 958}}</string>
 									<key>identifier</key>
-									<string>container 96</string>
+									<string>container 32</string>
 									<key>isCustomizableViewContainer</key>
 									<true/>
 									<key>isCustomizableViewWrapper</key>
@@ -226,41 +226,18 @@ input：focus{outline:none;}
 									<key>frame</key>
 									<string>{{136, 0}, {1242, 958}}</string>
 									<key>identifier</key>
-									<string>container 97</string>
+									<string>container 75</string>
 									<key>isCustomizableViewContainer</key>
 									<true/>
 									<key>isCustomizableViewWrapper</key>
 									<false/>
 									<key>isVertical</key>
-									<false/>
+									<true/>
 									<key>subviews</key>
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{136, 0}, {1242, 314}}</string>
-											<key>identifier</key>
-											<string>container 45</string>
-											<key>isCustomizableViewContainer</key>
-											<true/>
-											<key>isCustomizableViewWrapper</key>
-											<true/>
-											<key>isVertical</key>
-											<true/>
-											<key>subviews</key>
-											<array>
-												<dict>
-													<key>frame</key>
-													<string>{{136, 0}, {1242, 314}}</string>
-													<key>identifier</key>
-													<string>timelineCustomizableContainer</string>
-													<key>isCustomizableViewContainer</key>
-													<false/>
-												</dict>
-											</array>
-										</dict>
-										<dict>
-											<key>frame</key>
-											<string>{{136, 315}, {1242, 643}}</string>
+											<string>{{136, 0}, {602, 958}}</string>
 											<key>identifier</key>
 											<string>container 229</string>
 											<key>isCustomizableViewContainer</key>
@@ -273,9 +250,32 @@ input：focus{outline:none;}
 											<array>
 												<dict>
 													<key>frame</key>
-													<string>{{136, 315}, {1242, 643}}</string>
+													<string>{{136, 0}, {602, 958}}</string>
 													<key>identifier</key>
 													<string>sceneEditorCustomizableContainer</string>
+													<key>isCustomizableViewContainer</key>
+													<false/>
+												</dict>
+											</array>
+										</dict>
+										<dict>
+											<key>frame</key>
+											<string>{{739, 0}, {639, 958}}</string>
+											<key>identifier</key>
+											<string>container 74</string>
+											<key>isCustomizableViewContainer</key>
+											<true/>
+											<key>isCustomizableViewWrapper</key>
+											<true/>
+											<key>isVertical</key>
+											<true/>
+											<key>subviews</key>
+											<array>
+												<dict>
+													<key>frame</key>
+													<string>{{739, 0}, {639, 958}}</string>
+													<key>identifier</key>
+													<string>timelineCustomizableContainer</string>
 													<key>isCustomizableViewContainer</key>
 													<false/>
 												</dict>
@@ -289,7 +289,7 @@ input：focus{outline:none;}
 							<key>frame</key>
 							<string>{{1379, 0}, {270, 958}}</string>
 							<key>identifier</key>
-							<string>container 105</string>
+							<string>container 41</string>
 							<key>isCustomizableViewContainer</key>
 							<true/>
 							<key>isCustomizableViewWrapper</key>
@@ -314,7 +314,7 @@ input：focus{outline:none;}
 					<key>frame</key>
 					<string>{{1650, 0}, {270, 958}}</string>
 					<key>identifier</key>
-					<string>container 116</string>
+					<string>container 52</string>
 					<key>isCustomizableViewContainer</key>
 					<true/>
 					<key>isCustomizableViewWrapper</key>
@@ -336,7 +336,7 @@ input：focus{outline:none;}
 			</array>
 		</dict>
 		<key>keyframeTimelineHeight</key>
-		<real>166</real>
+		<real>164</real>
 		<key>mainWindowFrame</key>
 		<string>910 855 1920 1002 910 800 1920 1057 </string>
 		<key>openTabs</key>
@@ -377,7 +377,7 @@ input：focus{outline:none;}
 			</dict>
 		</array>
 		<key>selectedTabIndex</key>
-		<integer>0</integer>
+		<integer>2</integer>
 		<key>showInspectorView</key>
 		<true/>
 		<key>showResourcesView</key>
@@ -417,7 +417,7 @@ input：focus{outline:none;}
 	<key>monotypeProjectID</key>
 	<string>F2F7B755-4E84-4A19-A9C5-2B6EFA73AE95-1469-000007394AA0BB12</string>
 	<key>oidCounter</key>
-	<integer>274</integer>
+	<integer>278</integer>
 	<key>resourcesInfo</key>
 	<dict>
 		<key>groups</key>
@@ -2998,59 +2998,6 @@ input：focus{outline:none;}
 			</dict>
 			<dict>
 				<key>fileModificationDate</key>
-				<date>2017-01-03T11:04:41Z</date>
-				<key>fileSize</key>
-				<integer>16030</integer>
-				<key>md5</key>
-				<string>E1736CDE9E6A0E4F1D3E528F16E58414</string>
-				<key>notifyOnBookmarkChange</key>
-				<true/>
-				<key>originalPath</key>
-				<string>/Users/shengqiang/Documents/Codes/hype_blood_glucose/javascript/main.js</string>
-				<key>resourceName</key>
-				<string>main.js</string>
-				<key>securityScopedBookmark</key>
-				<data>
-				Ym9va0QDAAAAAAQQMAAAAEi9qu9lgE9XXS+9n1CXDg0E
-				jLDzsjBM0JFf4zhRtgj7QAIAAAQAAAADAwAAAAkAKAUA
-				AAABAQAAVXNlcnMAAAAKAAAAAQEAAHNoZW5ncWlhbmcA
-				AAkAAAABAQAARG9jdW1lbnRzAAAABQAAAAEBAABDb2Rl
-				cwAAABIAAAABAQAAaHlwZV9ibG9vZF9nbHVjb3NlAAAK
-				AAAAAQEAAGphdmFzY3JpcHQAAAcAAAABAQAAbWFpbi5q
-				cwAcAAAAAQYAABAAAAAgAAAANAAAAEgAAABYAAAAdAAA
-				AIgAAAAIAAAABAMAAIZ6FwAAAAAACAAAAAQDAACWehcA
-				AAAAAAgAAAAEAwAAx6gZAAAAAAAIAAAABAMAABitGQAA
-				AAAACAAAAAQDAAB4t30BAAAAAAgAAAAEAwAA1Lh9AQAA
-				AAAIAAAABAMAANi4fQEAAAAAHAAAAAEGAAC8AAAAzAAA
-				ANwAAADsAAAA/AAAAAwBAAAcAQAACAAAAAAEAABBvhDK
-				3wAAABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAA
-				AAAACAAAAAQDAAAFAAAAAAAAAAQAAAADAwAA9QEAAAgA
-				AAABCQAAZmlsZTovLy8MAAAAAQEAAE1hY2ludG9zaCBI
-				RAgAAAAEAwAAAAAAMnQAAAAIAAAAAAQAAEG63ajMAAAA
-				JAAAAAEBAAA5N0Y1MzBBNy04QzZDLTMwNEMtQUY1Qi04
-				QTNENzI5QURGODUYAAAAAQIAAIEAAAABAAAA7xMAAAEA
-				AAAAAAAAAAAAAAEAAAABAQAALwAAAAAAAAABBQAAzAAA
-				AP7///8BAAAAAAAAABAAAAAEEAAAmAAAAAAAAAAFEAAA
-				LAEAAAAAAAAQEAAAYAEAAAAAAABAEAAAUAEAAAAAAAAC
-				IAAALAIAAAAAAAAFIAAAnAEAAAAAAAAQIAAArAEAAAAA
-				AAARIAAA4AEAAAAAAAASIAAAwAEAAAAAAAATIAAA0AEA
-				AAAAAAAgIAAADAIAAAAAAAAwIAAAOAIAAAAAAAABwAAA
-				gAEAAAAAAAARwAAAIAAAAAAAAAASwAAAkAEAAAAAAAAQ
-				0AAABAAAAAAAAAA=
-				</data>
-				<key>shouldAutoResize</key>
-				<true/>
-				<key>shouldIncludeInDocumentHeadHTML</key>
-				<true/>
-				<key>shouldPreload</key>
-				<true/>
-				<key>shouldRemoveWhenNoLongerReferenced</key>
-				<false/>
-				<key>type</key>
-				<string>FileResource</string>
-			</dict>
-			<dict>
-				<key>fileModificationDate</key>
 				<date>2017-01-03T11:21:07Z</date>
 				<key>fileSize</key>
 				<integer>570080</integer>
@@ -3098,6 +3045,59 @@ input：focus{outline:none;}
 				<key>type</key>
 				<string>FileResource</string>
 			</dict>
+			<dict>
+				<key>fileModificationDate</key>
+				<date>2017-01-05T08:29:50Z</date>
+				<key>fileSize</key>
+				<integer>15889</integer>
+				<key>md5</key>
+				<string>19C83C5B1395F95A1254456D12981D1E</string>
+				<key>notifyOnBookmarkChange</key>
+				<true/>
+				<key>originalPath</key>
+				<string>/Users/shengqiang/Documents/Codes/hype_blood_glucose/javascript/main.js</string>
+				<key>resourceName</key>
+				<string>main.js</string>
+				<key>securityScopedBookmark</key>
+				<data>
+				Ym9va0QDAAAAAAQQMAAAAEi9qu9lgE9XXS+9n1CXDg0E
+				jLDzsjBM0JFf4zhRtgj7QAIAAAQAAAADAwAAAAkAKAUA
+				AAABAQAAVXNlcnMAAAAKAAAAAQEAAHNoZW5ncWlhbmcA
+				AAkAAAABAQAARG9jdW1lbnRzAAAABQAAAAEBAABDb2Rl
+				cwAAABIAAAABAQAAaHlwZV9ibG9vZF9nbHVjb3NlAAAK
+				AAAAAQEAAGphdmFzY3JpcHQAAAcAAAABAQAAbWFpbi5q
+				cwAcAAAAAQYAABAAAAAgAAAANAAAAEgAAABYAAAAdAAA
+				AIgAAAAIAAAABAMAAIZ6FwAAAAAACAAAAAQDAACWehcA
+				AAAAAAgAAAAEAwAAx6gZAAAAAAAIAAAABAMAABitGQAA
+				AAAACAAAAAQDAAB4t30BAAAAAAgAAAAEAwAA1Lh9AQAA
+				AAAIAAAABAMAANi4fQEAAAAAHAAAAAEGAAC8AAAAzAAA
+				ANwAAADsAAAA/AAAAAwBAAAcAQAACAAAAAAEAABBvhDK
+				3wAAABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAA
+				AAAACAAAAAQDAAAFAAAAAAAAAAQAAAADAwAA9QEAAAgA
+				AAABCQAAZmlsZTovLy8MAAAAAQEAAE1hY2ludG9zaCBI
+				RAgAAAAEAwAAAAAAMnQAAAAIAAAAAAQAAEG63ajMAAAA
+				JAAAAAEBAAA5N0Y1MzBBNy04QzZDLTMwNEMtQUY1Qi04
+				QTNENzI5QURGODUYAAAAAQIAAIEAAAABAAAA7xMAAAEA
+				AAAAAAAAAAAAAAEAAAABAQAALwAAAAAAAAABBQAAzAAA
+				AP7///8BAAAAAAAAABAAAAAEEAAAmAAAAAAAAAAFEAAA
+				LAEAAAAAAAAQEAAAYAEAAAAAAABAEAAAUAEAAAAAAAAC
+				IAAALAIAAAAAAAAFIAAAnAEAAAAAAAAQIAAArAEAAAAA
+				AAARIAAA4AEAAAAAAAASIAAAwAEAAAAAAAATIAAA0AEA
+				AAAAAAAgIAAADAIAAAAAAAAwIAAAOAIAAAAAAAABwAAA
+				gAEAAAAAAAARwAAAIAAAAAAAAAASwAAAkAEAAAAAAAAQ
+				0AAABAAAAAAAAAA=
+				</data>
+				<key>shouldAutoResize</key>
+				<true/>
+				<key>shouldIncludeInDocumentHeadHTML</key>
+				<true/>
+				<key>shouldPreload</key>
+				<true/>
+				<key>shouldRemoveWhenNoLongerReferenced</key>
+				<false/>
+				<key>type</key>
+				<string>FileResource</string>
+			</dict>
 		</array>
 	</dict>
 	<key>sceneContainers</key>
@@ -3116,8 +3116,11 @@ input：focus{outline:none;}
 					<dict>
 						<key>expandedItems</key>
 						<array>
+							<string>276</string>
 							<string>159</string>
-							<string>271</string>
+							<string>183</string>
+							<string>150</string>
+							<string>208</string>
 						</array>
 						<key>timeCursors</key>
 						<dict>
@@ -3130,9 +3133,9 @@ input：focus{outline:none;}
 							<key>216</key>
 							<real>0.0</real>
 							<key>217</key>
-							<real>2.6666667461395264</real>
+							<real>0.60000002384185791</real>
 							<key>219</key>
-							<real>0.0</real>
+							<real>0.93333333730697632</real>
 							<key>220</key>
 							<real>0.26666668057441711</real>
 							<key>221</key>
@@ -3146,7 +3149,7 @@ input：focus{outline:none;}
 						<integer>180</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{621, 948}</string>
+					<string>{481, 1253}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -3171,7 +3174,7 @@ input：focus{outline:none;}
 					<key>rootSymbolControllerOid</key>
 					<string>141</string>
 					<key>scrollViewOffset</key>
-					<string>{0, 0}</string>
+					<string>{0, 310}</string>
 					<key>userGuides</key>
 					<array>
 						<dict>
@@ -3461,7 +3464,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 	<array>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>32311DFC-3F74-42F4-B3B7-50B00BECE45C-32470-0000FE807CAB3E13</string>
+			<string>FFC09859-0C98-485A-A620-EB00B907BAB0-34623-000112B5A06FC9F8</string>
 			<key>selectedObjects</key>
 			<array/>
 			<key>symbol</key>
@@ -3695,7 +3698,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>32311DFC-3F74-42F4-B3B7-50B00BECE45C-32470-0000FE807CAB3E13</string>
+			<string>FFC09859-0C98-485A-A620-EB00B907BAB0-34623-000112B5A06FC9F8</string>
 			<key>selectedObjects</key>
 			<array/>
 			<key>symbol</key>
@@ -3703,7 +3706,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 				<key>addToNewSceneControllers</key>
 				<false/>
 				<key>currentTimelineIdentifier</key>
-				<string>kTimelineDefaultIdentifier</string>
+				<string>219</string>
 				<key>customBehaviors</key>
 				<array/>
 				<key>elements</key>
@@ -3961,9 +3964,9 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>256px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4099,9 +4102,9 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>256px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>144</key>
@@ -4114,9 +4117,9 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#082A39</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4198,9 +4201,9 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>4</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4210,9 +4213,9 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>4</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4234,9 +4237,9 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#082A39</string>
 						</dict>
 					</array>
 					<key>145</key>
@@ -4465,9 +4468,9 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#082A39</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4549,9 +4552,9 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>5</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4561,9 +4564,9 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>5</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4585,9 +4588,9 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#082A39</string>
 						</dict>
 					</array>
 					<key>148</key>
@@ -4810,15 +4813,15 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>DisplayName</string>
+							<string>OriginalHeight</string>
 							<key>objectValue</key>
-							<string>罗盘界面</string>
+							<string>106px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>122px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4932,7 +4935,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>9</string>
+							<string>11</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4958,30 +4961,30 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
+							<string>DisplayName</string>
+							<key>objectValue</key>
+							<string>罗盘界面</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
 							<string>TransformOriginXOffset</string>
 							<key>objectValue</key>
 							<string>50%</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalHeight</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>106px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>OriginalWidth</string>
-							<key>objectValue</key>
-							<string>122px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>151</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>570px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5017,13 +5020,13 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>Top</string>
 							<key>objectValue</key>
-							<string>320px</string>
+							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>Parent</string>
 							<key>objectValue</key>
-							<string>183</string>
+							<string>276</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5053,7 +5056,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>Left</string>
 							<key>objectValue</key>
-							<string>113px</string>
+							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5069,9 +5072,15 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
+							<string>AutoresizingMask</string>
+							<key>objectValue</key>
+							<string>319</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>7</string>
+							<string>1</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5139,9 +5148,9 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>570px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>152</key>
@@ -5241,9 +5250,9 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>122px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5387,9 +5396,9 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>122px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>154</key>
@@ -6466,9 +6475,9 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>448px</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6616,30 +6625,30 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>448px</string>
 						</dict>
 					</array>
 					<key>166</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>DisplayName</string>
+							<string>BorderRadiusBottomRight</string>
 							<key>objectValue</key>
-							<string>background</string>
+							<string>3px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthLeft</string>
+							<string>BorderWidthBottom</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BackgroundColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#E8EBED</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6793,21 +6802,21 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderRadiusBottomRight</string>
+							<string>DisplayName</string>
 							<key>objectValue</key>
-							<string>3px</string>
+							<string>background</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthBottom</string>
+							<string>BorderWidthLeft</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>BackgroundColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#E8EBED</string>
 						</dict>
 					</array>
 					<key>167</key>
@@ -7024,27 +7033,27 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthBottom</string>
+							<string>BorderWidthLeft</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>BackgroundColor</string>
 							<key>objectValue</key>
-							<string>div</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorBottom</string>
-							<key>objectValue</key>
-							<string>#D8DDE4</string>
+							<string>rgba(232, 235, 237, 0.000)</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>ExplicitDimensions</string>
 							<key>objectValue</key>
 							<string>YES</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorBottom</string>
+							<key>objectValue</key>
+							<string>#D8DDE4</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7186,15 +7195,15 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthLeft</string>
+							<string>BorderWidthBottom</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BackgroundColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>rgba(232, 235, 237, 0.000)</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>171</key>
@@ -7219,9 +7228,9 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ClassType</string>
+							<string>RotationAngleZ</string>
 							<key>objectValue</key>
-							<string>Group</string>
+							<string>0deg</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7279,9 +7288,9 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>RotationAngleZ</string>
+							<string>ClassType</string>
 							<key>objectValue</key>
-							<string>0deg</string>
+							<string>Group</string>
 						</dict>
 					</array>
 					<key>173</key>
@@ -7294,9 +7303,9 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#082A39</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7378,9 +7387,9 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>3</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7390,9 +7399,9 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>3</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7414,9 +7423,9 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#082A39</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>174</key>
@@ -7429,9 +7438,9 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#082A39</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7513,9 +7522,9 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>7</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7525,9 +7534,9 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>7</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7549,9 +7558,9 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#082A39</string>
 						</dict>
 					</array>
 					<key>175</key>
@@ -7651,9 +7660,9 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>12px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7783,9 +7792,9 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>12px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>177</key>
@@ -7891,9 +7900,9 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#082A39</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7975,9 +7984,9 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>4</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7987,9 +7996,9 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>4</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8011,9 +8020,9 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#082A39</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>180</key>
@@ -8133,9 +8142,9 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>50px</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8265,18 +8274,18 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>50px</string>
 						</dict>
 					</array>
 					<key>182</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>640px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8400,9 +8409,9 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>640px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>183</key>
@@ -8614,9 +8623,9 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8698,9 +8707,9 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>2</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8710,9 +8719,9 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>2</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8734,9 +8743,9 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>185</key>
@@ -8985,9 +8994,9 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#082A39</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -9069,9 +9078,9 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>7</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -9081,9 +9090,9 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>7</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -9105,9 +9114,9 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#082A39</string>
 						</dict>
 					</array>
 					<key>189</key>
@@ -9525,9 +9534,9 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>112px</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -9617,7 +9626,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>11</string>
+							<string>13</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -9683,9 +9692,9 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>112px</string>
 						</dict>
 					</array>
 					<key>193</key>
@@ -9799,9 +9808,9 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>34px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -9923,18 +9932,18 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>34px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>195</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>512px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10060,9 +10069,9 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>512px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>196</key>
@@ -10198,9 +10207,9 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#082939</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10300,15 +10309,15 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>13</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>PaddingLeft</string>
 							<key>objectValue</key>
 							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>13</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10342,9 +10351,9 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#082939</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>198</key>
@@ -10357,9 +10366,9 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#082A39</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10441,9 +10450,9 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>3</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10453,9 +10462,9 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>3</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10477,9 +10486,9 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#082A39</string>
 						</dict>
 					</array>
 					<key>199</key>
@@ -10583,9 +10592,9 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>298px</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10727,9 +10736,9 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>298px</string>
 						</dict>
 					</array>
 					<key>201</key>
@@ -10859,9 +10868,9 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>62px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10991,9 +11000,9 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>62px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>203</key>
@@ -11034,9 +11043,9 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ExplicitDimensions</string>
+							<string>ClassType</string>
 							<key>objectValue</key>
-							<string>YES</string>
+							<string>Group</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -11104,15 +11113,15 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>DomID</string>
+							<string>ExplicitDimensions</string>
 							<key>objectValue</key>
-							<string>compass_panel</string>
+							<string>YES</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ClassType</string>
+							<string>DomID</string>
 							<key>objectValue</key>
-							<string>Group</string>
+							<string>compass_panel</string>
 						</dict>
 					</array>
 					<key>204</key>
@@ -11125,9 +11134,9 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#082A39</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -11209,9 +11218,9 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>3</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -11221,9 +11230,9 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>3</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -11245,9 +11254,9 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#082A39</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>205</key>
@@ -11260,9 +11269,9 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#082A39</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -11344,9 +11353,9 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>5</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -11356,9 +11365,9 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>5</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -11380,9 +11389,9 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#082A39</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>206</key>
@@ -11697,7 +11706,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8</string>
+							<string>10</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -11974,27 +11983,27 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthBottom</string>
+							<string>BorderWidthLeft</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>BackgroundColor</string>
 							<key>objectValue</key>
-							<string>div</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorBottom</string>
-							<key>objectValue</key>
-							<string>rgba(216, 221, 228, 0.000)</string>
+							<string>rgba(232, 235, 237, 0.000)</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>ExplicitDimensions</string>
 							<key>objectValue</key>
 							<string>YES</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorBottom</string>
+							<key>objectValue</key>
+							<string>rgba(216, 221, 228, 0.000)</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -12142,24 +12151,24 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthLeft</string>
+							<string>BorderWidthBottom</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BackgroundColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>rgba(232, 235, 237, 0.000)</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>252</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>512px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -12277,9 +12286,9 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>512px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>267</key>
@@ -12373,6 +12382,12 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 							<string>DisplayName</string>
 							<key>objectValue</key>
 							<string>glucose_anglisys</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>InnerHTML</string>
+							<key>objectValue</key>
+							<string></string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -12505,27 +12520,27 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
-							<key>objectValue</key>
-							<string>div</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderWidthBottom</string>
+							<string>BorderWidthLeft</string>
 							<key>objectValue</key>
 							<string>1px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderColorBottom</string>
+							<string>BackgroundColor</string>
 							<key>objectValue</key>
-							<string>#D8DDE4</string>
+							<string>#E8EBED</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>ExplicitDimensions</string>
 							<key>objectValue</key>
 							<string>YES</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorBottom</string>
+							<key>objectValue</key>
+							<string>#D8DDE4</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -12547,15 +12562,27 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Top</string>
+							<string>Parent</string>
 							<key>objectValue</key>
-							<string>1px</string>
+							<string>271</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>BorderWidthRight</string>
 							<key>objectValue</key>
 							<string>1px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Top</string>
+							<key>objectValue</key>
+							<string>1px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorTop</string>
+							<key>objectValue</key>
+							<string>#D8DDE4</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -12568,18 +12595,6 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 							<string>BorderColorLeft</string>
 							<key>objectValue</key>
 							<string>#D8DDE4</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorTop</string>
-							<key>objectValue</key>
-							<string>#D8DDE4</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Parent</string>
-							<key>objectValue</key>
-							<string>271</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -12613,15 +12628,15 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>225px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
 							<string>1</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>225px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -12643,15 +12658,15 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthLeft</string>
+							<string>BorderWidthBottom</string>
 							<key>objectValue</key>
 							<string>1px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BackgroundColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#E8EBED</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>269</key>
@@ -12903,6 +12918,264 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 							<string>div</string>
 						</dict>
 					</array>
+					<key>275</key>
+					<array>
+						<dict>
+							<key>identifier</key>
+							<string>TagName</string>
+							<key>objectValue</key>
+							<string>div</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderWidthBottom</string>
+							<key>objectValue</key>
+							<string>0px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorBottom</string>
+							<key>objectValue</key>
+							<string>#D8DDE4</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ExplicitDimensions</string>
+							<key>objectValue</key>
+							<string>YES</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderStyleRight</string>
+							<key>objectValue</key>
+							<string>None</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Display</string>
+							<key>objectValue</key>
+							<string>inline</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ClassType</string>
+							<key>objectValue</key>
+							<string>Rectangle</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderStyleBottom</string>
+							<key>objectValue</key>
+							<string>None</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Top</string>
+							<key>objectValue</key>
+							<string>22px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderWidthRight</string>
+							<key>objectValue</key>
+							<string>0px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderStyleLeft</string>
+							<key>objectValue</key>
+							<string>None</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorLeft</string>
+							<key>objectValue</key>
+							<string>#D8DDE4</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorTop</string>
+							<key>objectValue</key>
+							<string>#D8DDE4</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Parent</string>
+							<key>objectValue</key>
+							<string>276</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Position</string>
+							<key>objectValue</key>
+							<string>absolute</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Height</string>
+							<key>objectValue</key>
+							<string>90px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>AutoresizingMask</string>
+							<key>objectValue</key>
+							<string>319</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Left</string>
+							<key>objectValue</key>
+							<string>0px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorRight</string>
+							<key>objectValue</key>
+							<string>#D8DDE4</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>InnerHTML</string>
+							<key>objectValue</key>
+							<string>&lt;div id="glucose_report"&gt; &lt;/div&gt;</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderStyleTop</string>
+							<key>objectValue</key>
+							<string>None</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>162px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>2</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderWidthTop</string>
+							<key>objectValue</key>
+							<string>0px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Overflow</string>
+							<key>objectValue</key>
+							<string>visible</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>DisplayName</string>
+							<key>objectValue</key>
+							<string>reportDiv</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderWidthLeft</string>
+							<key>objectValue</key>
+							<string>0px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BackgroundColor</string>
+							<key>objectValue</key>
+							<string>#FFFFFF</string>
+						</dict>
+					</array>
+					<key>276</key>
+					<array>
+						<dict>
+							<key>identifier</key>
+							<string>DisplayName</string>
+							<key>objectValue</key>
+							<string>glucose_reportPanel</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Position</string>
+							<key>objectValue</key>
+							<string>absolute</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Parent</string>
+							<key>objectValue</key>
+							<string>183</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>RotationAngleX</string>
+							<key>objectValue</key>
+							<string>97deg</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>DisplayHiddenOverride</string>
+							<key>objectValue</key>
+							<string>1</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Left</string>
+							<key>objectValue</key>
+							<string>113px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>AutoresizingMask</string>
+							<key>objectValue</key>
+							<string>274</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Height</string>
+							<key>objectValue</key>
+							<string>113px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Overflow</string>
+							<key>objectValue</key>
+							<string>visible</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>163px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>7</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Top</string>
+							<key>objectValue</key>
+							<string>379px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>TagName</string>
+							<key>objectValue</key>
+							<string>div</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ClassType</string>
+							<key>objectValue</key>
+							<string>Group</string>
+						</dict>
+					</array>
 				</dict>
 				<key>isPersistentSymbol</key>
 				<false/>
@@ -13095,7 +13368,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>098DB4A9-B478-4CD4-BE23-BC29CD297189-32470-0000FE9577DC3F48</string>
 								<key>zIndex</key>
-								<integer>1</integer>
+								<integer>2</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -13150,7 +13423,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>D67818DA-119B-4530-B6EC-FFB1F282BE97-32470-0000FE99128527B3</string>
 								<key>zIndex</key>
-								<integer>1</integer>
+								<integer>3</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -13205,7 +13478,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>A54E6BAB-21E7-45D5-89A8-CFFE09CB6B31-50084-0004E7D6F1EE6360</string>
 								<key>zIndex</key>
-								<integer>2</integer>
+								<integer>4</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -13260,7 +13533,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>C4CC4E2D-CE0A-4096-AF09-080E108A0E17-50084-0004E7D904A30A3B</string>
 								<key>zIndex</key>
-								<integer>3</integer>
+								<integer>5</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -13315,7 +13588,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>3CF361ED-1899-4062-8DDD-424F267F7350-50084-0004E7D9246C9339</string>
 								<key>zIndex</key>
-								<integer>4</integer>
+								<integer>6</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -13370,7 +13643,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>AE82F896-42AB-44CF-9CB6-4FF3551A5A36-50084-0004E7D937F8231B</string>
 								<key>zIndex</key>
-								<integer>5</integer>
+								<integer>7</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -13425,7 +13698,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>C062BE7D-C178-46FF-8CB2-6F7E4AEBBB46-50084-0004E7D951BE04C9</string>
 								<key>zIndex</key>
-								<integer>6</integer>
+								<integer>8</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -13480,7 +13753,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>3EF62CE6-447B-4B35-824F-0CBC7BAAD984-50084-0004E7D9647C7215</string>
 								<key>zIndex</key>
-								<integer>7</integer>
+								<integer>9</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -13535,7 +13808,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>DB1E2582-6C55-4FDF-9388-53C5E56EAFB1-50084-0004E7EEC7BD5620</string>
 								<key>zIndex</key>
-								<integer>8</integer>
+								<integer>10</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -13590,7 +13863,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>DE3B86AF-19F9-4E5C-8F01-D755010ABD19-50084-0004E7F12F0879EA</string>
 								<key>zIndex</key>
-								<integer>9</integer>
+								<integer>11</integer>
 							</dict>
 						</array>
 						<key>firstKeyframeIsRelative</key>
@@ -13806,7 +14079,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>5E7A0490-BB38-45C3-BAA8-FAA1EB0B9833-32470-0000FE80468C5AF0</string>
+									<string>54B6F02F-8830-40A5-9230-C260679741DA-34623-000112B570A62D8F</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -14017,7 +14290,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>5E7A0490-BB38-45C3-BAA8-FAA1EB0B9833-32470-0000FE80468C5AF0</string>
+									<string>54B6F02F-8830-40A5-9230-C260679741DA-34623-000112B570A62D8F</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -14084,7 +14357,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>5E7A0490-BB38-45C3-BAA8-FAA1EB0B9833-32470-0000FE80468C5AF0</string>
+									<string>54B6F02F-8830-40A5-9230-C260679741DA-34623-000112B570A62D8F</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -14433,7 +14706,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>89F91496-0FD2-4886-8665-FA2CD45A7FE9-32470-0000FE804694398A</string>
+									<string>0249AD37-A3F7-42A0-BA11-9CB72086FD54-34623-000112B570AA6B62</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -14522,7 +14795,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>89F91496-0FD2-4886-8665-FA2CD45A7FE9-32470-0000FE804694398A</string>
+									<string>0249AD37-A3F7-42A0-BA11-9CB72086FD54-34623-000112B570AA6B62</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -14582,7 +14855,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>89F91496-0FD2-4886-8665-FA2CD45A7FE9-32470-0000FE804694398A</string>
+									<string>0249AD37-A3F7-42A0-BA11-9CB72086FD54-34623-000112B570AA6B62</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -14796,7 +15069,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>118px</string>
+									<string>5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -14825,7 +15098,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>324px</string>
+									<string>4px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -15116,7 +15389,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>028F8282-B06A-4823-AED0-53783BD13FA1-32470-0000FE80469CE43D</string>
+									<string>D9CF07E0-A765-4D45-8A25-9AE5D45DCF79-34623-000112B570AE191B</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -15292,7 +15565,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>028F8282-B06A-4823-AED0-53783BD13FA1-32470-0000FE80469CE43D</string>
+									<string>D9CF07E0-A765-4D45-8A25-9AE5D45DCF79-34623-000112B570AE191B</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -15352,7 +15625,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>028F8282-B06A-4823-AED0-53783BD13FA1-32470-0000FE80469CE43D</string>
+									<string>D9CF07E0-A765-4D45-8A25-9AE5D45DCF79-34623-000112B570AE191B</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -15508,7 +15781,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>1C1E44BC-F6E3-4BC9-B690-67815A7CF86F-32470-0000FE8046A2E0E0</string>
+									<string>02943244-EB8F-4955-894D-7F3F5B2F94EF-34623-000112B570B166EC</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -15719,7 +15992,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>1C1E44BC-F6E3-4BC9-B690-67815A7CF86F-32470-0000FE8046A2E0E0</string>
+									<string>02943244-EB8F-4955-894D-7F3F5B2F94EF-34623-000112B570B166EC</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -15786,7 +16059,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>1C1E44BC-F6E3-4BC9-B690-67815A7CF86F-32470-0000FE8046A2E0E0</string>
+									<string>02943244-EB8F-4955-894D-7F3F5B2F94EF-34623-000112B570B166EC</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -16222,7 +16495,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>FD2FEAA2-CD43-4D38-92A7-94C568539672-32470-0000FE8046AA63D3</string>
+									<string>2E02AAEB-2F49-4FC9-A941-8ED4D4C2198A-34623-000112B570B54FE9</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -16282,7 +16555,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>FD2FEAA2-CD43-4D38-92A7-94C568539672-32470-0000FE8046AA63D3</string>
+									<string>2E02AAEB-2F49-4FC9-A941-8ED4D4C2198A-34623-000112B570B54FE9</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -16342,7 +16615,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>FD2FEAA2-CD43-4D38-92A7-94C568539672-32470-0000FE8046AA63D3</string>
+									<string>2E02AAEB-2F49-4FC9-A941-8ED4D4C2198A-34623-000112B570B54FE9</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -16535,7 +16808,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>DC7C6A49-8ED1-4D67-BD87-134197990229-32470-0000FE8046B68638</string>
+									<string>00C710B7-690C-461D-8BF7-1B1DC7C309B9-34623-000112B570B7F773</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -16595,7 +16868,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>DC7C6A49-8ED1-4D67-BD87-134197990229-32470-0000FE8046B68638</string>
+									<string>00C710B7-690C-461D-8BF7-1B1DC7C309B9-34623-000112B570B7F773</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -16655,7 +16928,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>DC7C6A49-8ED1-4D67-BD87-134197990229-32470-0000FE8046B68638</string>
+									<string>00C710B7-690C-461D-8BF7-1B1DC7C309B9-34623-000112B570B7F773</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -16758,7 +17031,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>A534D1BA-266B-414B-B120-D3CEB94E8590-32470-0000FE8046B8E1C1</string>
+									<string>5D5ADFC4-567A-489A-BAAF-7D83D7BF9118-34623-000112B570B92F24</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -16897,7 +17170,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>A534D1BA-266B-414B-B120-D3CEB94E8590-32470-0000FE8046B8E1C1</string>
+									<string>5D5ADFC4-567A-489A-BAAF-7D83D7BF9118-34623-000112B570B92F24</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -16964,7 +17237,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>A534D1BA-266B-414B-B120-D3CEB94E8590-32470-0000FE8046B8E1C1</string>
+									<string>5D5ADFC4-567A-489A-BAAF-7D83D7BF9118-34623-000112B570B92F24</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -17421,7 +17694,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>98A51125-5FF1-4D74-BF7A-72814115D658-32470-0000FE8046C0757D</string>
+									<string>42A2E1EC-80FD-4D07-A8BC-3D0699A592B0-34623-000112B570BCFFCA</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -17481,7 +17754,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>98A51125-5FF1-4D74-BF7A-72814115D658-32470-0000FE8046C0757D</string>
+									<string>42A2E1EC-80FD-4D07-A8BC-3D0699A592B0-34623-000112B570BCFFCA</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -17686,7 +17959,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>98A51125-5FF1-4D74-BF7A-72814115D658-32470-0000FE8046C0757D</string>
+									<string>42A2E1EC-80FD-4D07-A8BC-3D0699A592B0-34623-000112B570BCFFCA</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -18185,7 +18458,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>0F5E133D-781A-46E0-AF4E-D06295D04FFD-32470-0000FE8046CE9AD1</string>
+									<string>80E68CD3-9B3F-4500-9FAB-42932EB19BBF-34623-000112B570C287AE</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -18361,7 +18634,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>0F5E133D-781A-46E0-AF4E-D06295D04FFD-32470-0000FE8046CE9AD1</string>
+									<string>80E68CD3-9B3F-4500-9FAB-42932EB19BBF-34623-000112B570C287AE</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -18450,7 +18723,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>0F5E133D-781A-46E0-AF4E-D06295D04FFD-32470-0000FE8046CE9AD1</string>
+									<string>80E68CD3-9B3F-4500-9FAB-42932EB19BBF-34623-000112B570C287AE</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -18510,7 +18783,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>82CFC4B3-F926-4438-A186-295D43239B8A-32470-0000FE8046D36B6C</string>
+									<string>932D3D14-D695-4ED9-936C-280F2E79E882-34623-000112B570C46B94</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -18606,7 +18879,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>82CFC4B3-F926-4438-A186-295D43239B8A-32470-0000FE8046D36B6C</string>
+									<string>932D3D14-D695-4ED9-936C-280F2E79E882-34623-000112B570C46B94</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -18724,7 +18997,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>82CFC4B3-F926-4438-A186-295D43239B8A-32470-0000FE8046D36B6C</string>
+									<string>932D3D14-D695-4ED9-936C-280F2E79E882-34623-000112B570C46B94</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -19737,42 +20010,6 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 							</dict>
 							<dict>
 								<key>duration</key>
-								<real>0.20000000298023224</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>DisplayHiddenOverride</string>
-									<key>objectValue</key>
-									<string>0</string>
-								</dict>
-								<key>identifier</key>
-								<string>DisplayHiddenOverride</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>151</string>
-								<key>startTime</key>
-								<real>0.0</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>DisplayHiddenOverride</string>
-									<key>objectValue</key>
-									<string>1</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>A7CBA1E0-4ADD-4202-B453-00FA8E3E5EAD-5454-00007FB34BE65008</string>
-								<key>zIndex</key>
-								<integer>1</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
 								<real>0.26666668057441711</real>
 								<key>endValue</key>
 								<dict>
@@ -20010,7 +20247,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>82556B1E-1E94-47F0-B357-D3D334E879B4-32470-0000FE8046EB17A7</string>
+									<string>CBDF2323-D41A-44DF-B01D-85E016D702A5-34623-000112B570CDAA37</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -20089,6 +20326,78 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 								<integer>0</integer>
 								<key>uuid</key>
 								<string>11BA9371-F832-41F0-AA87-6B88ED8A10F4-24406-00009EBA7F28655A</string>
+								<key>zIndex</key>
+								<integer>1</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>0.20000000298023224</real>
+								<key>endValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>DisplayHiddenOverride</string>
+									<key>objectValue</key>
+									<string>0</string>
+								</dict>
+								<key>identifier</key>
+								<string>DisplayHiddenOverride</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>276</string>
+								<key>startTime</key>
+								<real>0.0</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>DisplayHiddenOverride</string>
+									<key>objectValue</key>
+									<string>1</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>B3DDF8D8-16B9-4F41-B3D2-7FE348F5758F-34623-000125B527A008FD</string>
+								<key>zIndex</key>
+								<integer>1</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>0.53333336114883423</real>
+								<key>endValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Left</string>
+									<key>objectValue</key>
+									<string>0px</string>
+								</dict>
+								<key>identifier</key>
+								<string>Left</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>275</string>
+								<key>startTime</key>
+								<real>0.0</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Left</string>
+									<key>objectValue</key>
+									<string>0px</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>0ED971AD-FC1A-47E4-A6D2-E6D107E907C0-34623-0001271B4D7A27AD</string>
 								<key>zIndex</key>
 								<integer>1</integer>
 							</dict>
@@ -20186,7 +20495,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>82556B1E-1E94-47F0-B357-D3D334E879B4-32470-0000FE8046EB17A7</string>
+									<string>CBDF2323-D41A-44DF-B01D-85E016D702A5-34623-000112B570CDAA37</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -20275,7 +20584,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>82556B1E-1E94-47F0-B357-D3D334E879B4-32470-0000FE8046EB17A7</string>
+									<string>CBDF2323-D41A-44DF-B01D-85E016D702A5-34623-000112B570CDAA37</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -20342,7 +20651,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>1E022810-3107-4700-9243-B38FE7F73360-32470-0000FE8046F04A9A</string>
+									<string>3B80F29F-E16C-475F-9D14-31A59BDEA602-34623-000112B570CF8DB4</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -20409,7 +20718,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>1E022810-3107-4700-9243-B38FE7F73360-32470-0000FE8046F04A9A</string>
+									<string>3B80F29F-E16C-475F-9D14-31A59BDEA602-34623-000112B570CF8DB4</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -20476,7 +20785,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>1E022810-3107-4700-9243-B38FE7F73360-32470-0000FE8046F04A9A</string>
+									<string>3B80F29F-E16C-475F-9D14-31A59BDEA602-34623-000112B570CF8DB4</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -20609,7 +20918,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 								<key>isRelative</key>
 								<false/>
 								<key>referenceOid</key>
-								<string>151</string>
+								<string>276</string>
 								<key>startTime</key>
 								<real>0.20000000298023224</real>
 								<key>startValue</key>
@@ -20626,7 +20935,72 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 								<key>type</key>
 								<integer>0</integer>
 								<key>uuid</key>
-								<string>5A00C75B-3B42-468D-B380-00D1411A80CE-5454-00007FB34BE7869B</string>
+								<string>A78F4F9E-0AAE-4C01-83E6-EBD49289ADCE-34623-000125B527A13A14</string>
+								<key>zIndex</key>
+								<integer>1</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>0.20000000298023224</real>
+								<key>endValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Top</string>
+									<key>objectValue</key>
+									<string>379px</string>
+								</dict>
+								<key>identifier</key>
+								<string>Top</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>276</string>
+								<key>startTime</key>
+								<real>0.20000000298023224</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Top</string>
+									<key>objectValue</key>
+									<string>320px</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>41034240-F724-49B2-ADBB-16E654B41B80-34623-000125B527A2AA41</string>
+								<key>zIndex</key>
+								<integer>1</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>0.0</real>
+								<key>identifier</key>
+								<string>DisplayHiddenOverride</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>276</string>
+								<key>startTime</key>
+								<real>0.20000000298023224</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>DisplayHiddenOverride</string>
+									<key>objectValue</key>
+									<string>0</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>A8667CB1-211B-42B7-B927-6E3FF453F3CF-34623-000125B527A1C9F5</string>
 								<key>zIndex</key>
 								<integer>2</integer>
 							</dict>
@@ -20694,71 +21068,6 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 								<string>FE6F832B-E1ED-4DF8-B2A1-FC5837A41330-5131-000079A599C829A5</string>
 								<key>zIndex</key>
 								<integer>3</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.0</real>
-								<key>identifier</key>
-								<string>DisplayHiddenOverride</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>151</string>
-								<key>startTime</key>
-								<real>0.20000000298023224</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>DisplayHiddenOverride</string>
-									<key>objectValue</key>
-									<string>0</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>317501D0-73D3-4EA6-8995-D004B3C049A8-5454-00007FB34BE81254</string>
-								<key>zIndex</key>
-								<integer>4</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.20000000298023224</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Top</string>
-									<key>objectValue</key>
-									<string>379px</string>
-								</dict>
-								<key>identifier</key>
-								<string>Top</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>151</string>
-								<key>startTime</key>
-								<real>0.20000000298023224</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Top</string>
-									<key>objectValue</key>
-									<string>320px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>10725A2F-83E4-4359-A232-6EAF16E6243C-5454-00007FB34BE8D0F4</string>
-								<key>zIndex</key>
-								<integer>5</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -20853,7 +21162,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 								<key>isRelative</key>
 								<false/>
 								<key>referenceOid</key>
-								<string>151</string>
+								<string>276</string>
 								<key>startTime</key>
 								<real>0.40000000596046448</real>
 								<key>startValue</key>
@@ -20870,9 +21179,45 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 								<key>type</key>
 								<integer>0</integer>
 								<key>uuid</key>
-								<string>C42A0D02-803D-455F-A958-AE011BDD61C6-5454-00007FB34BE9684D</string>
+								<string>0509EB36-AB37-4637-B4EB-8C126BE7D447-34623-000125B527A34F2A</string>
 								<key>zIndex</key>
-								<integer>4</integer>
+								<integer>2</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>0.13333335518836975</real>
+								<key>endValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Top</string>
+									<key>objectValue</key>
+									<string>379px</string>
+								</dict>
+								<key>identifier</key>
+								<string>Top</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>276</string>
+								<key>startTime</key>
+								<real>0.40000000596046448</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Top</string>
+									<key>objectValue</key>
+									<string>379px</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>63C3DC37-73BB-40AC-B490-7AAFDD37BE8F-34623-000125B527A4125E</string>
+								<key>zIndex</key>
+								<integer>2</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -20905,42 +21250,6 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 							</dict>
 							<dict>
 								<key>duration</key>
-								<real>0.13333335518836975</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Top</string>
-									<key>objectValue</key>
-									<string>379px</string>
-								</dict>
-								<key>identifier</key>
-								<string>Top</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>151</string>
-								<key>startTime</key>
-								<real>0.40000000596046448</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Top</string>
-									<key>objectValue</key>
-									<string>379px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>CCE026C4-433D-40D8-B896-5E8E2407AC59-5454-00007FB34BEA1604</string>
-								<key>zIndex</key>
-								<integer>7</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
 								<real>0.39999997615814209</real>
 								<key>endValue</key>
 								<dict>
@@ -20954,7 +21263,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 								<key>isRelative</key>
 								<false/>
 								<key>referenceOid</key>
-								<string>151</string>
+								<string>276</string>
 								<key>startTime</key>
 								<real>0.53333336114883423</real>
 								<key>startValue</key>
@@ -20971,9 +21280,81 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 								<key>type</key>
 								<integer>0</integer>
 								<key>uuid</key>
-								<string>9ADEC5FE-DD69-400A-89CB-7802453E1785-5454-00007FE7D24EFCEA</string>
+								<string>24E96580-68B0-4C74-8AD8-960EE66D57B6-34623-000125B527A4CF68</string>
 								<key>zIndex</key>
-								<integer>2</integer>
+								<integer>1</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>0.39999997615814209</real>
+								<key>endValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Width</string>
+									<key>objectValue</key>
+									<string>300px</string>
+								</dict>
+								<key>identifier</key>
+								<string>Width</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>276</string>
+								<key>startTime</key>
+								<real>0.53333336114883423</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Width</string>
+									<key>objectValue</key>
+									<string>163px</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>7A318C2D-8D08-4643-96A1-9416139A268F-34623-000125B527A588FF</string>
+								<key>zIndex</key>
+								<integer>1</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>0.39999997615814209</real>
+								<key>endValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Left</string>
+									<key>objectValue</key>
+									<string>46px</string>
+								</dict>
+								<key>identifier</key>
+								<string>Left</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>276</string>
+								<key>startTime</key>
+								<real>0.53333336114883423</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Left</string>
+									<key>objectValue</key>
+									<string>113px</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>2C92CB25-FE5F-4F7C-8408-39449473638B-34623-000125B527A6405C</string>
+								<key>zIndex</key>
+								<integer>1</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -21007,7 +21388,187 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 								<key>type</key>
 								<integer>0</integer>
 								<key>uuid</key>
-								<string>4DD14A6A-2445-4F39-A224-AFBBE29D2B10-5454-00007FE7D24FF580</string>
+								<string>261A23CA-6A3F-41D2-B69E-96C94527EA9E-34623-000126CDAC62CA6F</string>
+								<key>zIndex</key>
+								<integer>1</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>0.39999997615814209</real>
+								<key>endValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Height</string>
+									<key>objectValue</key>
+									<string>208px</string>
+								</dict>
+								<key>identifier</key>
+								<string>Height</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>151</string>
+								<key>startTime</key>
+								<real>0.53333336114883423</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Height</string>
+									<key>objectValue</key>
+									<string>113px</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>64B17233-D557-4196-8779-0A3456B2413C-34623-000126CDAC61B00B</string>
+								<key>zIndex</key>
+								<integer>1</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>0.39999997615814209</real>
+								<key>endValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Height</string>
+									<key>objectValue</key>
+									<string>159px</string>
+								</dict>
+								<key>identifier</key>
+								<string>Height</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>275</string>
+								<key>startTime</key>
+								<real>0.53333336114883423</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Height</string>
+									<key>objectValue</key>
+									<string>91px</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>FA5F09B3-AA5C-489E-AFFB-259FC29B5171-34623-000126D375378E0B</string>
+								<key>zIndex</key>
+								<integer>1</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>0.39999997615814209</real>
+								<key>endValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Width</string>
+									<key>objectValue</key>
+									<string>299px</string>
+								</dict>
+								<key>identifier</key>
+								<string>Width</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>275</string>
+								<key>startTime</key>
+								<real>0.53333336114883423</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Width</string>
+									<key>objectValue</key>
+									<string>163px</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>B32A73AD-94C2-406B-8839-0BB2B0C589E8-34623-000126D375394751</string>
+								<key>zIndex</key>
+								<integer>1</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>0.39999997615814209</real>
+								<key>endValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Top</string>
+									<key>objectValue</key>
+									<string>42px</string>
+								</dict>
+								<key>identifier</key>
+								<string>Top</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>275</string>
+								<key>startTime</key>
+								<real>0.53333336114883423</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Top</string>
+									<key>objectValue</key>
+									<string>21px</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>7C09C1B6-BB6F-4E52-B5E5-63D837B19AAD-34623-000127239C041FED</string>
+								<key>zIndex</key>
+								<integer>1</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>0.39999997615814209</real>
+								<key>endValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Left</string>
+									<key>objectValue</key>
+									<string>0.5px</string>
+								</dict>
+								<key>identifier</key>
+								<string>Left</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>275</string>
+								<key>startTime</key>
+								<real>0.53333336114883423</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Left</string>
+									<key>objectValue</key>
+									<string>0px</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>9360A602-3CC3-48ED-A05D-EB2E8CB950DB-34623-000127239B2C8674</string>
 								<key>zIndex</key>
 								<integer>2</integer>
 							</dict>
@@ -21054,7 +21615,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>F68FA228-6C6F-4210-A5C5-DE59B5F8CEE3-32470-0000FE8046F9DAB2</string>
+									<string>ABB53964-74BE-4054-BBB5-88B7FE3803BA-34623-000112B570D37549</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -21084,24 +21645,24 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 								<key>endValue</key>
 								<dict>
 									<key>identifier</key>
-									<string>Left</string>
+									<string>Top</string>
 									<key>objectValue</key>
-									<string>46px</string>
+									<string>94px</string>
 								</dict>
 								<key>identifier</key>
-								<string>Left</string>
+								<string>Top</string>
 								<key>isRelative</key>
 								<false/>
 								<key>referenceOid</key>
-								<string>151</string>
+								<string>276</string>
 								<key>startTime</key>
 								<real>0.53333336114883423</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
-									<string>Left</string>
+									<string>Top</string>
 									<key>objectValue</key>
-									<string>113px</string>
+									<string>379px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -21110,9 +21671,9 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 								<key>type</key>
 								<integer>0</integer>
 								<key>uuid</key>
-								<string>80957F64-0A9F-4E7E-B657-47FBF15FE131-5454-00007FE7D2514AA9</string>
+								<string>4E6C432D-A27B-4E19-BC21-726C499F2C83-34623-000125B527A6F7D5</string>
 								<key>zIndex</key>
-								<integer>4</integer>
+								<integer>3</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -21157,7 +21718,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>F68FA228-6C6F-4210-A5C5-DE59B5F8CEE3-32470-0000FE8046F9DAB2</string>
+									<string>ABB53964-74BE-4054-BBB5-88B7FE3803BA-34623-000112B570D37549</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -21296,7 +21857,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>F68FA228-6C6F-4210-A5C5-DE59B5F8CEE3-32470-0000FE8046F9DAB2</string>
+									<string>ABB53964-74BE-4054-BBB5-88B7FE3803BA-34623-000112B570D37549</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -21319,42 +21880,6 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 								<string>66CB9972-6E54-4AE6-8483-ADBE8123B33E-4866-000076FC3A7A6F88</string>
 								<key>zIndex</key>
 								<integer>10</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.39999997615814209</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Top</string>
-									<key>objectValue</key>
-									<string>94px</string>
-								</dict>
-								<key>identifier</key>
-								<string>Top</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>151</string>
-								<key>startTime</key>
-								<real>0.53333336114883423</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Top</string>
-									<key>objectValue</key>
-									<string>379px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>CB824A10-3833-4A23-BF64-7224C763D95D-5454-00007FE7D250A426</string>
-								<key>zIndex</key>
-								<integer>11</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -21420,6 +21945,93 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 								<key>isRelative</key>
 								<false/>
 								<key>referenceOid</key>
+								<string>275</string>
+								<key>startTime</key>
+								<real>0.93333333730697632</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Height</string>
+									<key>objectValue</key>
+									<string>159px</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>B8FAF454-7DC4-4218-98BE-6A24A671E82A-34623-000126D3753A077A</string>
+								<key>zIndex</key>
+								<integer>2</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>0.0</real>
+								<key>identifier</key>
+								<string>Top</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>275</string>
+								<key>startTime</key>
+								<real>0.93333333730697632</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Top</string>
+									<key>objectValue</key>
+									<string>42px</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>C5265D57-5242-480A-B3E9-C2673DE818F8-34623-0001271B5612454E</string>
+								<key>zIndex</key>
+								<integer>2</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>0.0</real>
+								<key>identifier</key>
+								<string>Width</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>275</string>
+								<key>startTime</key>
+								<real>0.93333333730697632</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Width</string>
+									<key>objectValue</key>
+									<string>299px</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>859CEF32-5279-47FC-99F9-A30B319AD06A-34623-000126D3753AE801</string>
+								<key>zIndex</key>
+								<integer>2</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>0.0</real>
+								<key>identifier</key>
+								<string>Height</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
 								<string>151</string>
 								<key>startTime</key>
 								<real>0.93333333730697632</real>
@@ -21437,9 +22049,96 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 								<key>type</key>
 								<integer>0</integer>
 								<key>uuid</key>
-								<string>8503A5F6-5870-49A8-99EE-AA6F1B5C14CC-5454-00007FE7D251D7D6</string>
+								<string>8EF37DA8-0E16-4FE6-9D4F-9E65B4A08C24-34623-000126CDAC658D4A</string>
 								<key>zIndex</key>
-								<integer>3</integer>
+								<integer>2</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>0.0</real>
+								<key>identifier</key>
+								<string>Height</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>276</string>
+								<key>startTime</key>
+								<real>0.93333333730697632</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Height</string>
+									<key>objectValue</key>
+									<string>208px</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>1439BC54-22B8-46CA-B197-90EECE536702-34623-000125B527A7943D</string>
+								<key>zIndex</key>
+								<integer>2</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>0.0</real>
+								<key>identifier</key>
+								<string>Width</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>276</string>
+								<key>startTime</key>
+								<real>0.93333333730697632</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Width</string>
+									<key>objectValue</key>
+									<string>300px</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>92C8E216-39E0-4E65-8F39-D6EA480FC3F1-34623-000125B527A82B86</string>
+								<key>zIndex</key>
+								<integer>2</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>0.0</real>
+								<key>identifier</key>
+								<string>Left</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>276</string>
+								<key>startTime</key>
+								<real>0.93333333730697632</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Left</string>
+									<key>objectValue</key>
+									<string>46px</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>468B00BB-4106-4394-8AB2-06A90002E88E-34623-000125B527A8C285</string>
+								<key>zIndex</key>
+								<integer>2</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -21466,7 +22165,36 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 								<key>type</key>
 								<integer>0</integer>
 								<key>uuid</key>
-								<string>31FBD265-1248-46F2-9B33-CB229FDA31F8-5454-00007FE7D2526177</string>
+								<string>94385507-FCD4-48DC-A4D4-DBFD0942E79C-34623-000126CDAC64F4F5</string>
+								<key>zIndex</key>
+								<integer>2</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>0.0</real>
+								<key>identifier</key>
+								<string>Left</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>275</string>
+								<key>startTime</key>
+								<real>0.93333333730697632</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Left</string>
+									<key>objectValue</key>
+									<string>0.5px</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>7E84E47A-A592-4AEB-9654-4A8E5E9AE4BF-34623-0001271B4D86365F</string>
 								<key>zIndex</key>
 								<integer>3</integer>
 							</dict>
@@ -21506,7 +22234,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>99674175-EFDE-4D06-9C76-E945C161FDF6-32470-0000FE8046FFF9A4</string>
+									<string>0F797403-0334-49FB-9828-92885604FFF0-34623-000112B570D5E861</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -21534,19 +22262,19 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 								<key>duration</key>
 								<real>0.0</real>
 								<key>identifier</key>
-								<string>Left</string>
+								<string>Top</string>
 								<key>isRelative</key>
 								<false/>
 								<key>referenceOid</key>
-								<string>151</string>
+								<string>276</string>
 								<key>startTime</key>
 								<real>0.93333333730697632</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
-									<string>Left</string>
+									<string>Top</string>
 									<key>objectValue</key>
-									<string>46px</string>
+									<string>94px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -21555,9 +22283,9 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 								<key>type</key>
 								<integer>0</integer>
 								<key>uuid</key>
-								<string>D6D700A2-FC44-4929-B4AD-FE567993C452-5454-00007FE7D25366A2</string>
+								<string>8D781D65-43C5-4BCE-9A32-92DC1CBB6420-34623-000125B527A95979</string>
 								<key>zIndex</key>
-								<integer>6</integer>
+								<integer>4</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -21595,7 +22323,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>99674175-EFDE-4D06-9C76-E945C161FDF6-32470-0000FE8046FFF9A4</string>
+									<string>0F797403-0334-49FB-9828-92885604FFF0-34623-000112B570D5E861</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -21684,7 +22412,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>99674175-EFDE-4D06-9C76-E945C161FDF6-32470-0000FE8046FFF9A4</string>
+									<string>0F797403-0334-49FB-9828-92885604FFF0-34623-000112B570D5E861</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -21707,35 +22435,6 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 								<string>A0B5E13D-ACCB-45A9-A6CF-1362F21B823E-4866-000076FF809DCA57</string>
 								<key>zIndex</key>
 								<integer>13</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.0</real>
-								<key>identifier</key>
-								<string>Top</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>151</string>
-								<key>startTime</key>
-								<real>0.93333333730697632</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Top</string>
-									<key>objectValue</key>
-									<string>94px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>2343C121-F3D7-4839-908E-6A7A40C03D3C-5454-00007FE7D252E4F3</string>
-								<key>zIndex</key>
-								<integer>14</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -22068,7 +22767,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>9FC16DCE-28C6-4E05-A4E3-CDC4EA1C131D-32470-0000FE80470B6134</string>
+									<string>C25DBFE2-C2C5-43E1-9A35-7F709A620F71-34623-000112B570DA85AA</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -22215,7 +22914,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>9FC16DCE-28C6-4E05-A4E3-CDC4EA1C131D-32470-0000FE80470B6134</string>
+									<string>C25DBFE2-C2C5-43E1-9A35-7F709A620F71-34623-000112B570DA85AA</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -22304,7 +23003,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>9FC16DCE-28C6-4E05-A4E3-CDC4EA1C131D-32470-0000FE80470B6134</string>
+									<string>C25DBFE2-C2C5-43E1-9A35-7F709A620F71-34623-000112B570DA85AA</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -22540,7 +23239,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>2095F43F-B590-4474-AC30-2777A1E165C2-32470-0000FE8047137D9C</string>
+									<string>C5BC8164-6D21-4B66-9196-01B3503386AA-34623-000112B570DE532A</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -22629,7 +23328,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>2095F43F-B590-4474-AC30-2777A1E165C2-32470-0000FE8047137D9C</string>
+									<string>C5BC8164-6D21-4B66-9196-01B3503386AA-34623-000112B570DE532A</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -22718,7 +23417,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>2095F43F-B590-4474-AC30-2777A1E165C2-32470-0000FE8047137D9C</string>
+									<string>C5BC8164-6D21-4B66-9196-01B3503386AA-34623-000112B570DE532A</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>183</string>
@@ -22816,7 +23515,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>46px</string>
+									<string>-67px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -22845,7 +23544,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>94px</string>
+									<string>-226px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -22894,7 +23593,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>A029A1BA-13A4-4F50-8D6B-2C4A1389B52F-32470-0000FE804718FB63</string>
+									<string>EA8FA59B-722F-4A62-A22E-F693015974A5-34623-000112B570E0A7A2</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -22983,7 +23682,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>A029A1BA-13A4-4F50-8D6B-2C4A1389B52F-32470-0000FE804718FB63</string>
+									<string>EA8FA59B-722F-4A62-A22E-F693015974A5-34623-000112B570E0A7A2</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -23043,7 +23742,7 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>A029A1BA-13A4-4F50-8D6B-2C4A1389B52F-32470-0000FE804718FB63</string>
+									<string>EA8FA59B-722F-4A62-A22E-F693015974A5-34623-000112B570E0A7A2</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>150</string>
@@ -24642,6 +25341,6 @@ function monitorDidGetSuggestion(hypeDocument, element, event) {
 	<key>webAppCapable</key>
 	<integer>0</integer>
 	<key>zoomFactor</key>
-	<real>2</real>
+	<real>1.25</real>
 </dict>
 </plist>
